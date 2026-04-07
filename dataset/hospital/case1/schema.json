@@ -1,0 +1,711 @@
+[
+  {
+    "id": "1",
+    "name": "Physician",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "EmployeeID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Name",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "Position",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "SSN",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Department",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "DepartmentID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Name",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "Head",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Physician",
+            "column": "EmployeeID"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Affiliated_With",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "Physician",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Physician",
+            "column": "EmployeeID"
+          }
+        }
+      },
+      {
+        "name": "Department",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Department",
+            "column": "DepartmentID"
+          }
+        }
+      },
+      {
+        "name": "PrimaryAffiliation",
+        "type": "BOOLEAN",
+        "constraints": {
+          "nullable": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Procedures",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "Code",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Name",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "Cost",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Trained_In",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "Physician",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Physician",
+            "column": "EmployeeID"
+          }
+        }
+      },
+      {
+        "name": "Treatment",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Procedures",
+            "column": "Code"
+          }
+        }
+      },
+      {
+        "name": "CertificationDate",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "CertificationExpires",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Patient",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "SSN",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Name",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "Address",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "Phone",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "InsuranceID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "PCP",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Physician",
+            "column": "EmployeeID"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Nurse",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "EmployeeID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Name",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "Position",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "Registered",
+        "type": "BOOLEAN",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "SSN",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Appointment",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "AppointmentID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Patient",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Patient",
+            "column": "SSN"
+          }
+        }
+      },
+      {
+        "name": "PrepNurse",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Nurse",
+            "column": "EmployeeID"
+          }
+        }
+      },
+      {
+        "name": "Physician",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Physician",
+            "column": "EmployeeID"
+          }
+        }
+      },
+      {
+        "name": "Start",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "End",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "ExaminationRoom",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Medication",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "Code",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Name",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "Brand",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "Description",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Prescribes",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "Physician",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Physician",
+            "column": "EmployeeID"
+          }
+        }
+      },
+      {
+        "name": "Patient",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Patient",
+            "column": "SSN"
+          }
+        }
+      },
+      {
+        "name": "Medication",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Medication",
+            "column": "Code"
+          }
+        }
+      },
+      {
+        "name": "Date",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Appointment",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Appointment",
+            "column": "AppointmentID"
+          }
+        }
+      },
+      {
+        "name": "Dose",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Block",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "BlockFloor",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "BlockCode",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Room",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "RoomNumber",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "RoomType",
+        "type": "VARCHAR(30)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "BlockFloor",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Block",
+            "column": "BlockFloor"
+          }
+        }
+      },
+      {
+        "name": "BlockCode",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Block",
+            "column": "BlockCode"
+          }
+        }
+      },
+      {
+        "name": "Unavailable",
+        "type": "BOOLEAN",
+        "constraints": {
+          "nullable": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "On_Call",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "Nurse",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Nurse",
+            "column": "EmployeeID"
+          }
+        }
+      },
+      {
+        "name": "BlockFloor",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Block",
+            "column": "BlockFloor"
+          }
+        }
+      },
+      {
+        "name": "BlockCode",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Block",
+            "column": "BlockCode"
+          }
+        }
+      },
+      {
+        "name": "OnCallStart",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "OnCallEnd",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Stay",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "StayID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Patient",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Patient",
+            "column": "SSN"
+          }
+        }
+      },
+      {
+        "name": "Room",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Room",
+            "column": "RoomNumber"
+          }
+        }
+      },
+      {
+        "name": "StayStart",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "StayEnd",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Undergoes",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "Patient",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Patient",
+            "column": "SSN"
+          }
+        }
+      },
+      {
+        "name": "Procedures",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Procedures",
+            "column": "Code"
+          }
+        }
+      },
+      {
+        "name": "Stay",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Stay",
+            "column": "StayID"
+          }
+        }
+      },
+      {
+        "name": "DateUndergoes",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Physician",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Physician",
+            "column": "EmployeeID"
+          }
+        }
+      },
+      {
+        "name": "AssistingNurse",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Nurse",
+            "column": "EmployeeID"
+          }
+        }
+      }
+    ]
+  }
+]

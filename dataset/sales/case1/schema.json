@@ -1,0 +1,174 @@
+[
+  {
+    "id": "1",
+    "name": "Customers",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "CustomerID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique id of the customer"
+      },
+      {
+        "name": "FirstName",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "the customer's first name"
+      },
+      {
+        "name": "MiddleInitial",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the customer's middle initial"
+      },
+      {
+        "name": "LastName",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "the customer's last name"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Employees",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "EmployeeID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique id of the employee"
+      },
+      {
+        "name": "FirstName",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "the employee's first name"
+      },
+      {
+        "name": "MiddleInitial",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the employee's middle initial"
+      },
+      {
+        "name": "LastName",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "the employee's last name"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Products",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "ProductID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique id of the product"
+      },
+      {
+        "name": "Name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "the product name"
+      },
+      {
+        "name": "Price",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the price of the product"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Sales",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "SalesID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique id of the sales"
+      },
+      {
+        "name": "SalesPersonID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Employees",
+            "column": "EmployeeID"
+          }
+        },
+        "description": "the unique id of the sale person"
+      },
+      {
+        "name": "CustomerID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Customers",
+            "column": "CustomerID"
+          }
+        },
+        "description": "the unique id of the customer"
+      },
+      {
+        "name": "ProductID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Products",
+            "column": "ProductID"
+          }
+        },
+        "description": "the unique id of the product"
+      },
+      {
+        "name": "Quantity",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "trading quantity"
+      }
+    ]
+  }
+]

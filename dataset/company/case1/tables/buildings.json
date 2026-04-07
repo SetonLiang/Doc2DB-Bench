@@ -1,0 +1,213 @@
+{
+  "rows": [
+    {
+      "id": 1,
+      "name": "Torre KOI",
+      "City": "Monterrey",
+      "Height": 220,
+      "Stories": 67,
+      "Status": "under construction"
+    },
+    {
+      "id": 2,
+      "name": "Torre Mitikah",
+      "City": "Mexico City",
+      "Height": 210,
+      "Stories": 60,
+      "Status": "under construction"
+    },
+    {
+      "id": 3,
+      "name": "Punto Chapultepec",
+      "City": "Mexico City",
+      "Height": 210,
+      "Stories": 59,
+      "Status": "proposed"
+    },
+    {
+      "id": 4,
+      "name": "Torre Reforma",
+      "City": "Mexico City",
+      "Height": 330,
+      "Stories": 57,
+      "Status": "under construction"
+    },
+    {
+      "id": 5,
+      "name": "Corporativo BBVA Bancomer",
+      "City": "Mexico City",
+      "Height": 220,
+      "Stories": 50,
+      "Status": "under construction"
+    },
+    {
+      "id": 6,
+      "name": "Reforma 432",
+      "City": "Mexico City",
+      "Height": 300,
+      "Stories": 100,
+      "Status": "under construction"
+    },
+    {
+      "id": 7,
+      "name": "Torre New York Life",
+      "City": "Mexico City",
+      "Height": 50,
+      "Stories": 6,
+      "Status": "under construction"
+    },
+    {
+      "id": 8,
+      "name": "LIU East",
+      "City": "Monterrey",
+      "Height": 73,
+      "Stories": 20,
+      "Status": "under construction"
+    },
+    {
+      "id": 9,
+      "name": "Residencial Vidalta Torre Altaire 2",
+      "City": "Mexico City",
+      "Height": 150,
+      "Stories": 44,
+      "Status": "on-hold"
+    },
+    {
+      "id": 10,
+      "name": "Residencial Vidalta Torre Altaire 3",
+      "City": "Mexico City",
+      "Height": 200,
+      "Stories": 44,
+      "Status": "on-hold"
+    },
+    {
+      "id": 11,
+      "name": "Reforma 90",
+      "City": "Mexico City",
+      "Height": 200,
+      "Stories": 42,
+      "Status": "on-hold"
+    },
+    {
+      "id": 12,
+      "name": "Ritz-Carlton Mexico City",
+      "City": "Mexico City",
+      "Height": 100,
+      "Stories": 34,
+      "Status": "on-hold"
+    }
+  ],
+  "capability_assignments": {
+    "1": {
+      "City": [],
+      "Height": [
+        "TA_US"
+      ],
+      "Stories": [],
+      "Status": []
+    },
+    "2": {
+      "City": [],
+      "Height": [
+        "RI_MI"
+      ],
+      "Stories": [],
+      "Status": [
+        "TA_EM"
+      ]
+    },
+    "3": {
+      "City": [],
+      "Height": [],
+      "Stories": [],
+      "Status": [
+        "TA_EM"
+      ]
+    },
+    "4": {
+      "City": [],
+      "Height": [
+        "TA_US"
+      ],
+      "Stories": [
+        "RI_LD"
+      ],
+      "Status": []
+    },
+    "5": {
+      "City": [],
+      "Height": [
+        "TA_FC"
+      ],
+      "Stories": [],
+      "Status": []
+    },
+    "6": {
+      "City": [],
+      "Height": [
+        "RI_AC"
+      ],
+      "Stories": [],
+      "Status": [
+        "TA_EM"
+      ]
+    },
+    "7": {
+      "City": [],
+      "Height": [
+        "TA_US"
+      ],
+      "Stories": [
+        "EF_ND"
+      ],
+      "Status": []
+    },
+    "8": {
+      "City": [],
+      "Height": [
+        "RI_AC",
+        "TA_US"
+      ],
+      "Stories": [],
+      "Status": []
+    },
+    "9": {
+      "City": [],
+      "Height": [],
+      "Stories": [],
+      "Status": [
+        "TA_EM"
+      ]
+    },
+    "10": {
+      "City": [],
+      "Height": [
+        "RI_MI"
+      ],
+      "Stories": [],
+      "Status": [
+        "TA_EM"
+      ]
+    },
+    "11": {
+      "City": [],
+      "Height": [
+        "TA_US"
+      ],
+      "Stories": [],
+      "Status": []
+    },
+    "12": {
+      "City": [],
+      "Height": [
+        "TA_FC"
+      ],
+      "Stories": [
+        "RI_LD"
+      ],
+      "Status": [
+        "TA_EM"
+      ]
+    }
+  }
+}

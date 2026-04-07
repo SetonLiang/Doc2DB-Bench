@@ -1,0 +1,56 @@
+{
+  "rows": [
+    {
+      "EmployeeID": 101,
+      "Name": "Carla Espinosa",
+      "Position": "Head Nurse",
+      "Registered": 1,
+      "SSN": 111111110
+    },
+    {
+      "EmployeeID": 102,
+      "Name": "Laverne Roberts",
+      "Position": "Nurse",
+      "Registered": 1,
+      "SSN": 222222220
+    },
+    {
+      "EmployeeID": 103,
+      "Name": "Paul Flowers",
+      "Position": "Nurse",
+      "Registered": 0,
+      "SSN": 333333330
+    }
+  ],
+  "capability_assignments": {
+    "101": {
+      "Position": [
+        "TA_EM"
+      ],
+      "Registered": [
+        "RI_LD"
+      ],
+      "SSN": [
+        "TD_DF"
+      ]
+    },
+    "102": {
+      "Position": [],
+      "Registered": [
+        "RI_LD"
+      ],
+      "SSN": [
+        "TA_FC"
+      ]
+    },
+    "103": {
+      "Position": [],
+      "Registered": [
+        "RI_LD"
+      ],
+      "SSN": [
+        "TD_CA"
+      ]
+    }
+  }
+}

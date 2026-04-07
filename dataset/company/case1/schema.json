@@ -1,0 +1,154 @@
+[
+  {
+    "id": "1",
+    "name": "buildings",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "id",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "name",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "City",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Height",
+        "type": "int",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Stories",
+        "type": "int",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Status",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Companies",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "id",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "name",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Headquarters",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Industry",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Sales_billion",
+        "type": "real",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Profits_billion",
+        "type": "real",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Assets_billion",
+        "type": "real",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Market_Value_billion",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Office_locations",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "building_id",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "buildings",
+            "column": "id"
+          }
+        }
+      },
+      {
+        "name": "company_id",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Companies",
+            "column": "id"
+          }
+        }
+      },
+      {
+        "name": "move_in_year",
+        "type": "int",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  }
+]
