@@ -1,0 +1,642 @@
+[
+    {
+      "p_id": 67,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_6"
+    },
+    {
+      "p_id": 141,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_6"
+    },
+    {
+      "p_id": 428,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 200,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_4"
+    },
+    {
+      "p_id": 131,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 375,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty_eme",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 309,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_3"
+    },
+    {
+      "p_id": 218,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_12"
+    },
+    {
+      "p_id": 181,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 267,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 51,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_2"
+    },
+    {
+      "p_id": 187,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_1"
+    },
+    {
+      "p_id": 29,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty_adj",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 261,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 322,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 217,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 62,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_2"
+    },
+    {
+      "p_id": 176,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_2"
+    },
+    {
+      "p_id": 403,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_12"
+    },
+    {
+      "p_id": 319,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 373,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 116,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_3"
+    },
+    {
+      "p_id": 213,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 113,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_4"
+    },
+    {
+      "p_id": 201,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 431,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_2"
+    },
+    {
+      "p_id": 212,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_7"
+    },
+    {
+      "p_id": 349,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty_adj",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 321,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 293,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty_aff",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 111,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty_adj",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 410,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 400,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 80,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_6"
+    },
+    {
+      "p_id": 41,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 90,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 124,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 129,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_6"
+    },
+    {
+      "p_id": 343,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_1"
+    },
+    {
+      "p_id": 61,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 312,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_4"
+    },
+    {
+      "p_id": 310,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 378,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 424,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 204,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_6"
+    },
+    {
+      "p_id": 9,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 94,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_1"
+    },
+    {
+      "p_id": 429,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 214,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 277,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_1"
+    },
+    {
+      "p_id": 92,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 239,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_4"
+    },
+    {
+      "p_id": 352,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 126,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 368,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_4"
+    },
+    {
+      "p_id": 4,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 404,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_4"
+    },
+    {
+      "p_id": 148,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 408,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_2"
+    },
+    {
+      "p_id": 88,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 241,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_3"
+    },
+    {
+      "p_id": 165,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 300,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_8"
+    },
+    {
+      "p_id": 130,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_8"
+    },
+    {
+      "p_id": 432,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 426,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 3,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 266,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 397,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 18,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_3"
+    },
+    {
+      "p_id": 255,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Generals",
+      "yearsInProgram": "Year_5"
+    },
+    {
+      "p_id": 193,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Pre_Quals",
+      "yearsInProgram": "Year_1"
+    },
+    {
+      "p_id": 52,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 195,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 72,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 76,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 393,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "Faculty",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 64,
+      "professor": 1,
+      "student": 0,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    },
+    {
+      "p_id": 427,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "Post_Quals",
+      "yearsInProgram": "Year_4"
+    },
+    {
+      "p_id": 102,
+      "professor": 0,
+      "student": 1,
+      "hasPosition": "0",
+      "inPhase": "0",
+      "yearsInProgram": "0"
+    }
+]

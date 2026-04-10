@@ -1,0 +1,122 @@
+[
+    {
+      "course_id": 13,
+      "p_id": 72
+    },
+    {
+      "course_id": 14,
+      "p_id": 124
+    },
+    {
+      "course_id": 18,
+      "p_id": 213
+    },
+    {
+      "course_id": 18,
+      "p_id": 373
+    },
+    {
+      "course_id": 18,
+      "p_id": 375
+    },
+    {
+      "course_id": 32,
+      "p_id": 319
+    },
+    {
+      "course_id": 36,
+      "p_id": 181
+    },
+    {
+      "course_id": 38,
+      "p_id": 124
+    },
+    {
+      "course_id": 38,
+      "p_id": 204
+    },
+    {
+      "course_id": 38,
+      "p_id": 255
+    },
+    {
+      "course_id": 44,
+      "p_id": 293
+    },
+    {
+      "course_id": 49,
+      "p_id": 64
+    },
+    {
+      "course_id": 74,
+      "p_id": 124
+    },
+    {
+      "course_id": 77,
+      "p_id": 52
+    },
+    {
+      "course_id": 77,
+      "p_id": 165
+    },
+    {
+      "course_id": 79,
+      "p_id": 72
+    },
+    {
+      "course_id": 103,
+      "p_id": 201
+    },
+    {
+      "course_id": 115,
+      "p_id": 72
+    },
+    {
+      "course_id": 121,
+      "p_id": 52
+    },
+    {
+      "course_id": 124,
+      "p_id": 9
+    },
+    {
+      "course_id": 126,
+      "p_id": 165
+    },
+    {
+      "course_id": 129,
+      "p_id": 213
+    },
+    {
+      "course_id": 129,
+      "p_id": 373
+    },
+    {
+      "course_id": 137,
+      "p_id": 165
+    },
+    {
+      "course_id": 151,
+      "p_id": 267
+    },
+    {
+      "course_id": 161,
+      "p_id": 201
+    },
+    {
+      "course_id": 162,
+      "p_id": 213
+    },
+    {
+      "course_id": 165,
+      "p_id": 141
+    },
+    {
+      "course_id": 165,
+      "p_id": 181
+    },
+    {
+      "course_id": 174,
+      "p_id": 267
+    }
+]
