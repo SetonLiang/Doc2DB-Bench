@@ -1,0 +1,79 @@
+[
+    {
+      "district_name": "Benesov",
+      "error_field": "A14",
+      "json_true_value": 132,
+      "text_description": "文本中明确写为 100",
+      "reason": "文本给出虚假数据（'established at exactly one hundred'），完全无法通过推理得出真实值 132。"
+    },
+    {
+      "district_name": "Benesov",
+      "error_field": "A15",
+      "json_true_value": 2159,
+      "text_description": "2159 在文本中被张冠李戴给了 Vsetin",
+      "reason": "真实数据 2159 被文本明确分配给了 Vsetin（'official tally... in Vsetin was 2159'），且文本声称 Benesov 的值为 2674，存在严重误导，无法推理还原。"
+    },
+    {
+      "district_name": "Kladno",
+      "error_field": "A7",
+      "json_true_value": 6,
+      "text_description": "文本中明确写为 4",
+      "reason": "文本给出虚假数据（'each of these 4 municipalities...'），没有留下任何线索可以推理出真实值 6。"
+    },
+    {
+      "district_name": "Kutna Hora",
+      "error_field": "A9",
+      "json_true_value": 4,
+      "text_description": "文本中缺失具体数值",
+      "reason": "文本仅提到 'the A9 indicator is reported'，但全篇没有出现属于该地区的 4，属于彻底的数据遗漏，无法推理。"
+    },
+    {
+      "district_name": "Melnik",
+      "error_field": "A15",
+      "json_true_value": 4289,
+      "text_description": "4289 在文本中被张冠李戴给了 Plzen - sever",
+      "reason": "文本声称 Melnik 是 4846，并将真实的 4289 分配给了 Plzen-sever（'4289 crimes were committed in the Plzen-sever district'），无法推理。"
+    },
+    {
+      "district_name": "Praha - vychod",
+      "error_field": "A16",
+      "json_true_value": 4316,
+      "text_description": "4316 在文本中被分配给了 Jesenik",
+      "reason": "文本声称 Praha - vychod 是 1913，并将真实的 4316 分配给了 Jesenik（'Jesenik had exactly 4316 committed crimes'），导致数据错位无法推理。"
+    },
+    {
+      "district_name": "Pribram",
+      "error_field": "A16",
+      "json_true_value": 3868,
+      "text_description": "3868 在文本中被分配给了匿名地区",
+      "reason": "文本声称 Pribram 是 2354，并将真实的 3868 分配给了一个未知地区（'In an additional reporting jurisdiction... 3868'），断绝了推理链条。"
+    },
+    {
+      "district_name": "Rakovnik",
+      "error_field": "A16",
+      "json_true_value": 1875,
+      "text_description": "1875 在文本中被分配给了 Praha - zapad",
+      "reason": "文本声称 Rakovnik 是 1117，并将真实的 1875 混淆给了 Praha-zapad（'for Prague-West, the total number... was 1875'），无法推理。"
+    },
+    {
+      "district_name": "Cesky Krumlov",
+      "error_field": "A15",
+      "json_true_value": 1845,
+      "text_description": "1845 在文本中被分配给了 Rakovnik",
+      "reason": "文本声称 Cesky Krumlov 是 1525，并将真实的 1845 错配给了 Rakovnik（'Rakovnik, saw the total number... was 1845'），无法推理还原。"
+    },
+    {
+      "district_name": "Domazlice",
+      "error_field": "A16",
+      "json_true_value": 1117,
+      "text_description": "1117 在文本中被分配给了 Rakovnik",
+      "reason": "文本中不仅遗漏了 Domazlice 的值，还将真实的 1117 分配给了 Rakovnik（'Rakovnik, a total of 1117 committed crimes'），彻底无法推理。"
+    },
+    {
+      "district_name": "Plzen - sever",
+      "error_field": "A15",
+      "json_true_value": 1580,
+      "text_description": "1580 在文本中被匿名化，文本同时给出虚假的 4289",
+      "reason": "真实值 1580 被分配给了 'Another district' 匿名处理，同时文本用属于 Melnik 的 4289 假冒 Plzen-sever 的数据，无法建立正确的推理联系。"
+    }
+  ]
