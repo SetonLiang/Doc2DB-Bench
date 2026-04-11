@@ -1,0 +1,219 @@
+[
+    {
+      "id": "1",
+      "name": "City",
+      "type": "relation",
+      "fields": [
+        {
+          "name": "ID",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": false,
+            "primary_key": true
+          },
+          "description": "the unique id for the city"
+        },
+        {
+          "name": "Name",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "the name of the city"
+        },
+        {
+          "name": "CountryCode",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false,
+            "foreign_key": {
+              "table": "Country",
+              "column": "Code"
+            }
+          },
+          "description": "the country code of the country that the city is belonged"
+        },
+        {
+          "name": "District",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "the district where the city locates"
+        },
+        {
+          "name": "Population",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "the number of the population in the area"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Country",
+      "type": "entity",
+      "fields": [
+        {
+          "name": "Code",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false,
+            "primary_key": true
+          },
+          "description": "the unique country code of the country"
+        },
+        {
+          "name": "Name",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "the country name"
+        },
+        {
+          "name": "Continent",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "the continent that the country locates"
+        },
+        {
+          "name": "Region",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "the region that the country locates"
+        },
+        {
+          "name": "SurfaceArea",
+          "type": "REAL",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "the surface area of the country"
+        },
+        {
+          "name": "IndepYear",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "the year that the country declared independence"
+        },
+        {
+          "name": "Population",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "the number of the population in the area"
+        },
+        {
+          "name": "LifeExpectancy",
+          "type": "REAL",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "GNP",
+          "type": "REAL",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "GNPOld",
+          "type": "REAL",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "LocalName",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false
+          }
+        },
+        {
+          "name": "GovernmentForm",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false
+          }
+        },
+        {
+          "name": "HeadOfState",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "Capital",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "Code2",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "CountryLanguage",
+      "type": "relation",
+      "fields": [
+        {
+          "name": "CountryCode",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false,
+            "primary_key": true,
+            "foreign_key": {
+              "table": "Country",
+              "column": "Code"
+            }
+          },
+          "description": "The unique code for country"
+        },
+        {
+          "name": "Language",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false,
+            "primary_key": true
+          },
+          "description": "Country language"
+        },
+        {
+          "name": "IsOfficial",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "Information on whether the language is official in a given country"
+        },
+        {
+          "name": "Percentage",
+          "type": "REAL",
+          "constraints": {
+            "nullable": false
+          },
+          "description": "Percentage of language use"
+        }
+      ]
+    }
+  ]
