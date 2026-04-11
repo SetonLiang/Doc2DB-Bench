@@ -1,62 +1,62 @@
 [
   {
-    "product_id": 135,
-    "product_name": "Lock Nut 14",
-    "error_type": "Missing ID & Hidden Unit Conversion",
-    "description": "原文中仅出现名称 'Lock Nut 14'，完全未提及 ProductID 135（该主键纯属外部数据库映射）。同时，原文记录价格为 54,720，必须结合几十段之外另一句毫无指向性的 'unit of currency for that price is U.S. cents' 隐式除以 100，才能得出真实答案 547.2。"
+    "sales_id": 6358138,
+    "sales_name": "Ann Dull -> Diane Suarez (Half-Finger Gloves, L)",
+    "error_type": "Data Masking (Missing Quantity)",
+    "description": "原文表述为 'Ann Dull assisted Diane Suarez with an order for Half-Finger Gloves, L.'，文中完全未提及这笔订单的数量。但 JSON 标准答案中赫然出现了精确的 Quantity: 870。这属于纯粹的“无字天书”，无法从文本提取。"
   },
   {
-    "product_id": 383,
-    "product_name": "Fender Set - Mountain",
-    "error_type": "External ID Dependency",
-    "description": "文档中清楚写明了产品名称和价格 21.98，但通篇没有任何文字提及该产品的 ID 是 383。系统无法通过纯文本阅读获取该 ID，属于严重的外部信息依赖。"
+    "sales_id": 4341744,
+    "sales_name": "Abraham Bennet -> Gerald Gomez",
+    "error_type": "Severe Omission (Missing Product & Quantity)",
+    "description": "原文仅一笔带过：'Abraham Bennet facilitated a transaction for the customer Gerald Gomez'。既没有提买了什么产品，也没提数量。但 JSON 答案却精确给出了 ProductID: 215 (Mountain Bike Socks, L) 和 Quantity: 720。"
   },
   {
-    "product_id": 463,
-    "product_name": "Touring-3000 Blue, 54",
-    "error_type": "Ghost Variants & Implicit Cartesian Product",
-    "description": "原文仅提到 'price for the Touring-3000 Blue bike is 742.35'，从未提及有 44, 50, 54, 58 等具体尺码。JSON 标准答案利用外部业务规则，凭空生成了大量文本中不存在的尺码变体记录。"
+    "sales_id": 4523948,
+    "sales_name": "Stearns MacFeather -> Alexis Hughes",
+    "error_type": "Severe Omission (Missing Product & Quantity)",
+    "description": "原文描述：'Stearns MacFeather, an employee, facilitated a sale to the customer Alexis Hughes'。文本切断了与具体产品的全部关联，JSON 中却精准给出了 ProductID: 253 (HL Mountain Frame - Silver, 38) 且 Quantity 为 253。"
   },
   {
-    "product_id": 71,
-    "product_name": "Hex Nut 3",
-    "error_type": "Unassigned Surcharges",
-    "description": "原文明确写明 Hex Nut 3 的基础价格为 150，但 JSON 标准答案为 156.8。差额 6.8 来源于文中另一处无明确指代对象的规则 'materials surcharge of 6.8 is applied... for certain custom builds'，被标准答案强行暗扣在了该零件上。"
+    "sales_id": 6145373,
+    "sales_name": "Heather McBadden -> Kellie Torres",
+    "error_type": "Ghost Data Insertion",
+    "description": "原文仅提及 'another entry indicates a purchase order involved the employee Heather McBadden and the customer Kellie Torres'。没有任何线索指向具体产品，标准答案却凭空出现了 ProductID: 85 (External Lock Washer 5) 和 Quantity: 590。"
   },
   {
-    "product_id": 387,
-    "product_name": "Short-Sleeve Classic Jersey, M",
-    "error_type": "Data Update Contradiction",
-    "description": "文档在前文明确给出其价格为 54.99，但 JSON 真实答案为 53.99。因为在极靠后的段落中，用极其隐晦的方式补充了一句 'the correct price for the jersey is 53.99'，构成了“前文挖坑，后文填土”的跨段落矛盾。"
+    "sales_id": 6001847,
+    "sales_name": "Michel DeFrance -> Stacey Ye",
+    "error_type": "Fragmentation & Masking",
+    "description": "原文写 'a transaction involving Michel DeFrance and Stacey Ye was recorded'，后来又在另一段补充了这是个 'Standard Volume' 交易，但通篇未提具体商品及精确件数。JSON 强行指定 ProductID 为 148 (Lock Washer 1)，数量为 148。"
   },
   {
-    "product_id": 284,
-    "product_name": "Mountain-200 Silver, 38",
-    "error_type": "Data Masking & Omission",
-    "description": "原文故意提供了一个错误的干扰项：'incorrectly printed as $2,349.99'，并声称后来被修正，但整篇文档再也没有提供修正后的真实价格。JSON 里的真值 2319.99 属于“无字天书”，无法从文本提取。"
+    "sales_id": 3917690,
+    "sales_name": "Innes del Castillo -> Monica Prasad",
+    "error_type": "Data Masking (Blanket Obfuscation)",
+    "description": "原文表述为 'a recent shipment handled by Innes del Castillo involved a transaction with Monica Prasad'。完全未提供产品和数量。标准答案利用其隐藏标签 [RI_AC]（可能是 Random Insertion），提取出 ProductID: 28 (Flat Washer 8) 且数量为 533。"
   },
   {
-    "product_id": 33,
-    "product_name": "Front Derailleur Linkage",
-    "error_type": "Implicit Zero-Cost Policy",
-    "description": "原文中并没有出现数值 0.0，而是使用业务逻辑术语 'its value is absorbed into the complete derailleur unit' 表达免费或成本转移，模型需要将此文本语义强制转化为数字 0.0。"
+    "sales_id": 454421,
+    "sales_name": "Ann Dull -> Aaron Con (LL Mountain Rear Wheel)",
+    "error_type": "Implicit Calculation & Entity Delegation",
+    "description": "这是一条极少数能在文中找到线索但极具迷惑性的记录。业务员 Ann Dull 是通过隐藏规则 'last name ending in -on... is assigned to Ann' 推导出来的；而数量则变成了一道数学题：'110 multiplied by 3, minus 3'，借此得出真实 Quantity 为 327。"
   },
   {
-    "product_id": 449,
-    "product_name": "LL Mountain Frame - Silver, 40",
-    "error_type": "Data Masking (Unit Obfuscation)",
-    "description": "原文故意不写正常的美元定价，而是将其写为 '26,405 cents'。这是一个刻意的反常识陷阱，要求解析时必须先识别异常单位，再执行数学除法运算得出 264.05。"
+    "sales_id": 1930345,
+    "sales_name": "Employee 15 -> Destiny Flores",
+    "error_type": "External Database Dependency (Ghost Entity)",
+    "description": "文档中大量出现类似 'Employee 15 is responsible for all customer orders involving touring equipment' 的派单规则。但在 Employees.json 中，ID 15 的员工信息被完全删除（ID从14直接跳到了16）。这是一个典型的对抗性测试掩码，要求跨表强行绑定一个不存在的外键。"
   },
   {
-    "product_id": 151,
-    "product_name": "Lock Washer 2",
-    "error_type": "Global Policy Override",
-    "description": "原文没有提到它的具体价格，后文有一条孤立的全局规则 'items marked as promotional giveaway has its cost entirely waived'。因为该零件属于 promotional giveaway，所以其价格在 JSON 中被判定为 0.0。"
+    "sales_id": 1884900,
+    "sales_name": "Abraham Bennet -> Joe Lopez (Adjustable Race)",
+    "error_type": "Ambiguous Context Definition",
+    "description": "原文提到 'The transaction between Abraham Bennet and Joe Lopez involved the sale of an Adjustable Race... total units traded were neither a round number nor a multiple of 10'。这只是对数值特征的模糊描述，JSON 给定的确切答案却是 Quantity: 1。"
   },
   {
-    "product_id": 300,
-    "product_name": "Road-250 Black, 52",
-    "error_type": "Semantic Unit Trap",
-    "description": "原文描述价格为 '$2.44335 thousand'。它在小数点和单位上同时设下陷阱（以千为单位的小数），如果提取逻辑只抓取数字部分，就会提取成错误的 2.44，实际需转换为 2443.35。"
+    "sales_id": 7438495,
+    "sales_name": "Dean Straight -> Marvin Gomez (LL Road Rim)",
+    "error_type": "Data Type Coercion Trap",
+    "description": "原文为 'first order was for 598.26087 units of the LL Road Rim product'。在 Sales 的 Schema 约束中，Quantity 必须是 INTEGER。必须依靠外部约束将此小数强转并四舍五入为 598（此数据不在您给出的几个样例中，但在原文逻辑中是一个经典的类型转换坑）。"
   }
 ]
