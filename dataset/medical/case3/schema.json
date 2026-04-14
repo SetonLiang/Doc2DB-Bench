@@ -1,0 +1,592 @@
+[
+  {
+    "id": "1",
+    "name": "Examination",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "Patient ID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Patient",
+            "column": "ID"
+          }
+        },
+        "description": "identification of the patient"
+      },
+      {
+        "name": "Examination Date",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Examination Date"
+      },
+      {
+        "name": "aCL IgG",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-Cardiolipin antibody (IgG) concentration"
+      },
+      {
+        "name": "aCL IgM",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-Cardiolipin antibody (IgM) concentration"
+      },
+      {
+        "name": "ANA",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-nucleus antibody concentration"
+      },
+      {
+        "name": "ANA Pattern",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "pattern observed in the sheet of ANA examination"
+      },
+      {
+        "name": "aCL IgA",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-Cardiolipin antibody (IgA) concentration"
+      },
+      {
+        "name": "Diagnosis",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "disease names"
+      },
+      {
+        "name": "KCT",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "measure of degree of coagulation"
+      },
+      {
+        "name": "RVVT",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "measure of degree of coagulation"
+      },
+      {
+        "name": "LAC",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "measure of degree of coagulation"
+      },
+      {
+        "name": "Symptoms",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "other symptoms observed"
+      },
+      {
+        "name": "Thrombosis",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "degree of thrombosis"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Patient",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "ID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "identification of the patient"
+      },
+      {
+        "name": "Name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "name of the patient"
+      },
+      {
+        "name": "SEX",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Sex"
+      },
+      {
+        "name": "Birthday",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Birthday"
+      },
+      {
+        "name": "Description",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the first date when a patient data was recorded"
+      },
+      {
+        "name": "First Date",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the date when a patient came to the hospital"
+      },
+      {
+        "name": "Admission",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "patient was admitted to the hospital (+) or followed at the outpatient clinic (-)"
+      },
+      {
+        "name": "Diagnosis",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "disease names"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Laboratory",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "Patient ID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Patient",
+            "column": "ID"
+          }
+        },
+        "description": "identification of the patient"
+      },
+      {
+        "name": "Date",
+        "type": "DATE",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "Date of the laboratory tests (YYMMDD)"
+      },
+      {
+        "name": "GOT",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "AST glutamic oxaloacetic transaminase",
+        "range": "N < 60"
+      },
+      {
+        "name": "GPT",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "ALT glutamic pyruvic transaminase",
+        "range": "N < 60"
+      },
+      {
+        "name": "LDH",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "lactate dehydrogenase",
+        "range": "N < 500"
+      },
+      {
+        "name": "ALP",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "alkaliphophatase",
+        "range": "N < 300"
+      },
+      {
+        "name": "TP",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "total protein",
+        "range": "6.0 < N < 8.5"
+      },
+      {
+        "name": "ALB",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "albumin",
+        "range": "3.5 < N < 5.5"
+      },
+      {
+        "name": "UA",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "uric acid",
+        "range": "N > 8.0 (Male), N > 6.5 (Female)"
+      },
+      {
+        "name": "UN",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "urea nitrogen",
+        "range": "N < 30"
+      },
+      {
+        "name": "CRE",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "creatinine",
+        "range": "N < 1.5"
+      },
+      {
+        "name": "T-BIL",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "total bilirubin",
+        "range": "N < 2.0"
+      },
+      {
+        "name": "T-CHO",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "total cholesterol",
+        "range": "N < 250"
+      },
+      {
+        "name": "TG",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "triglyceride",
+        "range": "N < 200"
+      },
+      {
+        "name": "CPK",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "creatinine phosphokinase",
+        "range": "N < 250"
+      },
+      {
+        "name": "GLU",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "blood glucose",
+        "range": "N < 180"
+      },
+      {
+        "name": "WBC",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "White blood cell",
+        "range": "3.5 < N < 9.0"
+      },
+      {
+        "name": "RBC",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Red blood cell",
+        "range": "3.5 < N < 6.0"
+      },
+      {
+        "name": "HGB",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Hemoglobin",
+        "range": "10 < N < 17"
+      },
+      {
+        "name": "HCT",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Hematoclit",
+        "range": "29 < N < 52"
+      },
+      {
+        "name": "PLT",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "platelet",
+        "range": "100 < N < 400"
+      },
+      {
+        "name": "PT",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "prothrombin time",
+        "range": "N < 14"
+      },
+      {
+        "name": "APTT",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "activated partial prothrombin time",
+        "range": "N < 45"
+      },
+      {
+        "name": "FG",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "fibrinogen",
+        "range": "150 < N < 450"
+      },
+      {
+        "name": "PIC",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "No column description in Laboratory.csv (empty row)."
+      },
+      {
+        "name": "TAT",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "No column description in Laboratory.csv (empty row)."
+      },
+      {
+        "name": "TAT2",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "No column description in Laboratory.csv (empty row)."
+      },
+      {
+        "name": "U-PRO",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "proteinuria",
+        "range": "0 < N < 30"
+      },
+      {
+        "name": "IGG",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Ig G",
+        "range": "900 < N < 2000"
+      },
+      {
+        "name": "IGA",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Ig A",
+        "range": "80 < N < 500"
+      },
+      {
+        "name": "IGM",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Ig M",
+        "range": "40 < N < 400"
+      },
+      {
+        "name": "CRP",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "C-reactive protein",
+        "range": "N = -, +-, or N < 1.0"
+      },
+      {
+        "name": "RA",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Rhuematoid Factor",
+        "range": "N = -, +-"
+      },
+      {
+        "name": "RF",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "RAHA",
+        "range": "N < 20"
+      },
+      {
+        "name": "C3",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "complement 3",
+        "range": "N > 35"
+      },
+      {
+        "name": "C4",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "complement 4",
+        "range": "N > 10"
+      },
+      {
+        "name": "RNP",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-ribonuclear protein",
+        "range": "N = -, +-"
+      },
+      {
+        "name": "SM",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-SM",
+        "range": "N = -, +-"
+      },
+      {
+        "name": "SC170",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-scl70",
+        "range": "N = -, +-"
+      },
+      {
+        "name": "SSA",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-SSA",
+        "range": "N = -, +-"
+      },
+      {
+        "name": "SSB",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-SSB",
+        "range": "N = -, +-"
+      },
+      {
+        "name": "CENTROMEA",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-centromere",
+        "range": "N = -, +-"
+      },
+      {
+        "name": "DNA",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-DNA",
+        "range": "N < 8"
+      },
+      {
+        "name": "DNA-II",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "anti-DNA",
+        "range": "N < 8"
+      }
+    ]
+  }
+]
