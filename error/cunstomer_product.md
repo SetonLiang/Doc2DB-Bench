@@ -6,7 +6,9 @@ ID 4 (Gustave Ebert) & ID 15 (Hellen Little)：交叉错配。原文明确指出
 ID 1 (Cierra Collins) & ID 9 (Etha Raynor)：无中生有（捏造性别）。原文全篇未提及 Cierra 和 Etha 的性别，答案凭空捏造并填充了 male（男）。
 
 ID 5 (Danika Bauch) & ID 13 (Darion Leannon)：缺乏依据的强行配对。原文只提到了 Buford 这个别名关联了 Darion、Danika 两个名字和 Bauch、Leannon 两个姓氏，但从未明确写出 Danika Bauch 或 Darion Leannon 这种组合，答案的配对属于没有逐字依据的主观猜测。
+
 Customer_Address_History表格：
+
 地址实体错位（Customer ID 12 - Madaline 的起止时间张冠李戴）
 标准答案将 2015-07-23 14:37:18 -> 2018-03-07 12:04:20 分配给了 Address ID 7 (East Rickey)，但原文明确说明这组起止时间对应的是 Address ID 9 (Agustinstad, zip 248)，并未给出 East Rickey 的精确时间范围。因此这是严重的地址 ID 错配。
 
@@ -15,7 +17,9 @@ Customer_Address_History表格：
 
 模糊信息强行精确化（Customer ID 11 - Shany 的分钟被脑补到了秒）
 关于其在 Gleasonland (Address ID 10) 的两段居住期，原文只写了：第一段结束于 8:16 PM，第二段结束于 shortly after 11:30 PM。标准答案却分别写成了精确的 20:16:56 和 23:31:30，明显超出了原文支持范围，属于将模糊时间强行补全为精确秒级时间的 AI 幻觉。
+
 Customer_Orders表格：
+
 时间戳移花接木（Customer ID 4 - Caterina 的订单时间被错误拼接）
 标准答案将 Order 4 的时间精确到了 2003-01-17 00:06:12。但原文仅支持 Caterina 的订单日期为 January 17th, 2003，并未提供具体到秒的时间。而 12:06:12 AM 实际上是原文中另一位客户 Melissa（Customer ID 13）的订单处理时间。标准答案将他人的时间戳强行缝合到了 Caterina 的记录上。
 
