@@ -1,0 +1,12 @@
+[
+{"rid": 36725, "dst_apid": 3682, "dst_ap": "AT", "src_apid": 3550, "src_ap": "IAH", "alid": 3090, "airline": "K", "codeshare": "Y"},
+{"rid": 892, "dst_apid": 6400, "dst_ap": "MIG", "src_apid": 3388, "src_ap": "KG", "alid": 4608, "airline": "3", "codeshare": null},
+{"rid": 55791, "dst_apid": 1187, "dst_ap": "EBB", "src_apid": 1165, "src_ap": "KG", "alid": 3721, "airline": "7", "codeshare": null},
+{"rid": 36683, "dst_apid": 3682, "dst_ap": "AT", "src_apid": 3775, "src_ap": "GRK", "alid": 3090, "airline": "K", "codeshare": "Y"},
+{"rid": 20538, "dst_apid": 3473, "dst_ap": "MEM", "src_apid": 3488, "src_ap": "CVG", "alid": 2009, "airline": "D", "codeshare": "Y"},
+{"rid": 28405, "dst_apid": 3273, "dst_ap": "PK", "src_apid": 3408, "src_ap": "SZB", "alid": 2353, "airline": "FY", "codeshare": null},
+{"rid": 44398, "dst_apid": 3940, "dst_ap": "DPS", "src_apid": 3304, "src_ap": "K", "alid": 18732, "airline": "OD", "codeshare": null},
+{"rid": 13547, "dst_apid": 2179, "dst_ap": "AH", "src_apid": 3339, "src_ap": "ME", "alid": 596, "airline": "AZ", "codeshare": "Y"},
+{"rid": 12307, "dst_apid": 1074, "dst_ap": "CM", "src_apid": 1273, "src_ap": "TS", "alid": 4248, "airline": "AT", "codeshare": null},
+{"rid": 50173, "dst_apid": 1212, "dst_ap": "AC", "src_apid": 666, "src_ap": "SVG", "alid": 4319, "airline": "SK", "codeshare": null}
+]
