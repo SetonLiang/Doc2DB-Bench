@@ -1,0 +1,38 @@
+[
+  {
+    "student_id": "Global",
+    "student_name": "All Students",
+    "error_type": "Undocumented Enum Normalization (Hidden Schema)",
+    "description": "原文中对 salary（薪水）的描述五花八门：'Tier 1', 'Standard', 'minimal', 'Stipend Grade A', 'stipend barely covering basic expenses'。Schema 中仅将 salary 定义为 TEXT。但标准答案动用了外部的上帝视角，将这些复杂的长文本强制映射为了只有 'low', 'med', 'high', 'free' 四个枚举值。单纯依靠文本和 Schema 无法得出这种归一化映射规则。"
+  },
+  {
+    "student_id": 31,
+    "student_name": "Faina Mallinar (with Prof 2 Zhihua Zhou)",
+    "error_type": "Semantic Trap & Phantom Data",
+    "description": "标准答案给出了 Faina 与 Zhihua Zhou 的关系（capability: 4, salary: 'free'）。但原文仅仅是说 'Faina 经常去听 Zhihua Zhou 的公开课 (open lectures)' 并且 '公开课是免费的 (complimentary access)'。标准答案竟然把“听免费公开课”等同于“成为该教授的研究助理 (RA)”，这完全违背了人类常识。同时，原文根本没有提到 Faina 在这里的 capability 是 4，纯属幽灵数据。"
+  },
+  {
+    "student_id": 31,
+    "student_name": "Faina Mallinar (Multiple Records)",
+    "error_type": "Temporal Flattening (Event Log vs State)",
+    "description": "标准答案中 Faina 竟然出现了 4 条 RA 记录，分别对应不同的教授，且 capability score 一会儿是 3，一会儿是 4。这是因为原文以“时间线”的方式描述了她“最初加入 A”、“后来转到 B”、“同时入选 C”。作为常规的关系表，一般只保留最新状态；但标准答案把所有的历史轨迹（包括短期孵化器）全部拍扁成了并列的当前记录。我的抽取未能捕捉这种“历史全量快照”的意图。"
+  },
+  {
+    "student_id": 17,
+    "student_name": "Grover Rosell",
+    "error_type": "Contradictory Historical States",
+    "description": "标准答案包含 Grover 的两条记录：一条与 Millie Cunningham (capability: 2, salary: 'med')，另一条与 Ogdon Zywicki (capability: 3, salary: 'med')。原文写道他在 Millie 组里完成后能力'升级到了 2 (upgraded to level 2)'，而另一处又说他'正式能力评级为 3 (formal capability rating of 3)'。标准答案无视了时间线上的因果冲突，将矛盾的历史版本全部强行收录为合法外键关联。"
+  },
+  {
+    "student_id": 24,
+    "student_name": "Olia Rabier (with Prof 10 Hattie Smythin)",
+    "error_type": "Data Type Coercion Trap",
+    "description": "标准答案中她的 salary 被记录为 'low'。但在原文中，描述为 'Olia received a stipend barely covering basic expenses'（Olia 领取的津贴勉强够基本开销）。抽取模型忠实地提取了这句话的核心意思，而标准答案则使用未写明的情感分析/语义降维规则，将其硬编码为了 'low'。"
+  },
+  {
+    "student_id": 16,
+    "student_name": "Oliy Spratling (with Prof 3 Ogdon Zywicki)",
+    "error_type": "Implicit Derivation & Rule Chaining",
+    "description": "这是一个极深的多跳推理。原文并没有直接说 Oliy 给 Ogdon 当 RA。原文说：'Ogdon 经常指导高技能助理... Oliy 完全符合这个画像 (fits this profile perfectly)'。标准答案通过这种极其微弱的暗示（fits the profile），直接敲定了他们之间确立了正式的 RA 关系。在严谨的信采任务中，这通常被视为过拟合或脑补。"
+  }
+]

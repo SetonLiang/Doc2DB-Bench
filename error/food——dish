@@ -1,0 +1,38 @@
+[
+  {
+    "dish_id": "Multiple (e.g., 153, 776, 3952, etc.)",
+    "dish_name": "Malaga grapes, Apollinaris, Nesselrode Pudding...",
+    "error_type": "Phantom Records (幽灵记录)",
+    "description": "标准答案中包含了大约 30 道菜品的大量统计数据（如出现了上千次的 Apollinaris）。但在 `Dish.md` 原文中，通篇只虚构了一家名为 'THE HERITAGE TABLE' 的餐厅，且只列出了 5 道菜。其余 25 道菜在文本中被 100% 物理删除，属于纯粹的“无字天书”。"
+  },
+  {
+    "dish_id": 468361,
+    "dish_name": "ice cream a la benjamin",
+    "error_type": "Data Contradiction (数据矛盾与篡改)",
+    "description": "原文白纸黑字地写着 'Originally documented at the 1903 Waldorf collection 7.50'。模型忠实提取了年份 1903 和价格 7.50。但标准答案竟然要求 first_appeared 为 1912，且价格为 null。出题人在文本中故意改了数字，却用原数据库的答案来做评测。"
+  },
+  {
+    "dish_id": 191062,
+    "dish_name": "Cooked Cereal with Cream",
+    "error_type": "Data Contradiction & Primary Key Deletion",
+    "description": "原文中明确标价为 '5.95'，并且没有任何年份信息。标准答案不仅凭空要求一个被抹除的主键 ID (191062)，还要求价格为 0.0，年份为 1941。文本表述与标准答案完全背道而驰。"
+  },
+  {
+    "dish_id": 289812,
+    "dish_name": "Hamburger Steak Platter, French Fried Potatoes",
+    "error_type": "Data Contradiction (数据矛盾)",
+    "description": "原文中该菜品的售价明确写为 '11.95'。但 JSON 真实答案中，其最低和最高价格均被要求提取为 '2.25'。模型如果提取为 2.25 才是真正的幻觉错误。"
+  },
+  {
+    "dish_id": 373890,
+    "dish_name": "RADISHES",
+    "error_type": "Data Masking (数据深度掩蔽)",
+    "description": "原文确实提到了 RADISHES 最高价格为 0（免费）。但标准答案要求提取出它出现了 64 次 (times_appeared: 64)，且在 1890 到 1921 年间活跃。原文对这些宏观统计数据只字未提，只讲了黄油来自哪个农场。"
+  },
+  {
+    "dish_id": 511581,
+    "dish_name": "broiled Gosling (half)",
+    "error_type": "Decoy Data (诱导性脏数据)",
+    "description": "原文故意用葡萄酒的年份设置了障眼法：'pairing with the 1928 Châteauneuf-du-Pape'。在没有其他年份的情况下，这是唯一的年份线索。但标准答案给出的该菜品真实出现年份是 '1914'。这种未提及的真相，纯靠阅读理解绝对无法获取。"
+  }
+]
