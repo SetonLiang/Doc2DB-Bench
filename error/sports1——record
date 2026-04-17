@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Fesenko -> FINA / World Master",
+    "error_type": "Data Contradiction & Phantom Records",
+    "description": "标准答案捏造了主键 ID 1。数据映射上，原文本段落明确写明 Fesenko 的 'NC' (Not Classified) 是在 World Master 赛事中取得的（'Sergiy Fesenko's official status was recorded as Not Classified'）。然而，在文末的聚合表格中，'NC' 被张冠李戴放在了 FINA (Event_ID=1) 栏下。标准答案选择性地盲从了错误的表格，无视了正文段落。"
+  },
+  {
+    "id": 3,
+    "name": "Mellouli -> World Master",
+    "error_type": "Data Contradiction & Identity Substitution",
+    "description": "标准答案判定为 'Loss'，这是极其严重的逻辑错误。原文明确指出 Mellouli 虽然没有夺冠 ('did not result in a victory')，但他登上了领奖台 ('Classified as podium')，且表 A.2 中他的 Result Code 明确为 '1'（文本规定 1 代表登台）。标准答案不仅强行把状态码翻译为文本，还将银牌/铜牌直接判定为 'Loss'。"
+  },
+  {
+    "id": 5,
+    "name": "Fesenko -> World Master",
+    "error_type": "Implicit Translation (No Ground Truth)",
+    "description": "标准答案判定为 'Loss'。但在原文中，Fesenko 在 World Master 赛事的最终判定经历了从 1 -> 0 -> NC 的多次反转，文本当中从未出现过 'Loss' 这个词，最准确的字面提取应为 '0' 或 'NC'。标准答案采用了外部的主观概括。"
+  },
+  {
+    "id": 11,
+    "name": "Stevens -> Pacific",
+    "error_type": "Data Contradiction & Extreme Fragmentation",
+    "description": "原文在此处布下了极强的矛盾陷阱：一方面写 Stevens 的档案更新为 'STATUS_WIN'（对应 Win），另一方面在多个后续段落中又明确声明他其实退赛了，导致 'no result was officially recorded for him in that competition'。标准答案 (ID 11 提取为 Win) 强行忽略了文档中大段的退赛与无成绩声明。"
+  },
+  {
+    "id": 13,
+    "name": "Stevens -> World Junior",
+    "error_type": "Rule Obfuscation & Value Substitution",
+    "description": "标准答案提取为 'Loss'。原文实际上并未直接给出非输即赢的判定，而是要求读者进行规则推导：'finished in fourth place' -> 'automatic registration in the non-podium ledger' -> 映射为代码 '0'。标准答案再次将规则推导出的代码 '0' 擅自转译为了原文本不存在的词汇 'Loss'。"
+  },
+  {
+    "id": "Global",
+    "name": "Value Substitution & Phantom Records",
+    "error_type": "Systematic Adversarial Formatting",
+    "description": "整个标准答案存在系统性造假：1. 凭空捏造了 ID 1-13（原文完全不存在物理主键）；2. 原文 A.1 明确建立了基于状态码（1, 0, NC, STATUS_WIN）的打分体系，但标准答案要求模型抛弃这些原文代码，全部强行替换为 'Win/Loss' 的二元标签，这属于典型的诱导大模型产生幻觉的对抗手段。"
+  }
+]
