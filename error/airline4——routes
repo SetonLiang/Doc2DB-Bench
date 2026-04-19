@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Global_RID",
+    "name": "All Route Records (rid)",
+    "error_type": "Primary Key Omission",
+    "description": "schema 要求 routes.rid 为数据库主键，但原始 routes 文档中从未提供可与标准答案中 36725、892、55791、50173 等数值对应的真实主键。文中仅出现 R-0、R1-C4、R9-07 等文内参考号，这些不是数据库 rid。因此，rid 无法仅依据原文档准确恢复，这属于文档/任务设计层面的信息缺失问题。"
+  },
+  {
+    "id": "Global_Fragmentation",
+    "name": "Cross-section Route Field Fragmentation",
+    "error_type": "Fragmentation",
+    "description": "routes 文档并未按一条记录对应一处完整字段的方式编排，而是把同一条 route 的 origin/destination、src_ap、dst_ap、airline code、codeshare 分散在多个 section、续表和说明段落中，要求跨页、跨表、跨段拼接。这种结构不是数据缺失，但属于文档表达层面的高度碎片化问题，极易导致方向判断和字段归属出错。"
+  },
+  {
+    "id": "Global_Nonstandard_Codes",
+    "name": "Mixed Use of Standard Codes and Route-specific Codes",
+    "error_type": "Semantic Ambiguity",
+    "description": "文档同时混用了机场标准 IATA/ICAO 代码、destination classification code、source airport code、special partnership code、carrier-specific internal code 等多种编码体系，但字段名并未在每一处都显式提醒其类型，容易让抽取系统误把 AT、KG、K、AH、ME、CM 等专用 route code 当成标准机场代码或截断后的 IATA 代码。此问题属于文档语义设计模糊，而非单纯缺字段。"
+  },
+  {
+    "id": "R8_Royal_Air_Maroc",
+    "name": "Royal Air Maroc Route",
+    "error_type": "Fragmentation & Redaction",
+    "description": "Royal Air Maroc 相关字段被故意拆散并部分遮蔽：前文给出 Mohammed V International Airport 与 Toulouse-Blagnac Airport 及目标分类码 CM，后文又在被 redacted 的记录中仅保留 src_ap: TS，再在 operations section 补充 Casablanca 与 Toulouse 的运营描述。标准答案所需字段必须跨多个位置反向拼接，且存在遮蔽式表达，属于原文档本身的高难度结构问题。"
+  },
+  {
+    "id": "Global_Status_Mixing",
+    "name": "Active / Review / Withdrawn Records Mixed Together",
+    "error_type": "Status Mixing",
+    "description": "文档把 active、reviewed、not established、withdrawn、declined 等不同状态的路线混排在同一大文档中，且部分段落仍使用与正式运营相似的叙述方式。虽然并非缺数据，但会显著增加是否应纳入最终 routes 结果的判断难度，属于文档组织上的混淆性问题。"
+  }
+]
