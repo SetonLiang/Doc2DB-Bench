@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "FINA",
+    "error_type": "Identity Substitution & Phantom Records",
+    "description": "标准答案凭空捏造了主键 ID 1（原文未提供任何主键）。同时，原文 Table 1 明确标出赛事名称 (Event Edition) 为 'Valencia Initiative'，'FINA' 只是其组织代码 (Org. Code)，标准答案将组织者名称偷换成了赛事名称。"
+  },
+  {
+    "id": 2,
+    "name": "Pacific",
+    "error_type": "Data Contradiction & Misattribution",
+    "description": "标准答案捏造了 ID 2。原文 Table 1 中赛事名为 'Pacific League'，而 'Pacific' 仅是驻场球队名（文中描述 'The actual name of the team... is Pacific'）。此外，年份 '2011' 在 Table 2 中被明确映射给了 'WM (World Master)' 赛事，标准答案将其张冠李戴赋予了 Pacific。"
+  },
+  {
+    "id": 3,
+    "name": "World Master",
+    "error_type": "Data Contradiction & Misattribution",
+    "description": "标准答案捏造了 ID 3。在原文中，Table 1 确实把 'World Master' 关联到了 Gazprom Arena (Stadium_ID=2)，但在 Table 2 中，Gazprom Arena 对应的年份 2012 ('two years after 2010') 属于 'Asian Games (proposed)' 赛事，标准答案强行将跨行的年份数据拼接到了一起。"
+  },
+  {
+    "id": 4,
+    "name": "World Junior",
+    "error_type": "Phantom Records",
+    "description": "实体映射 (Stadium_ID=3) 和年份推算 ('thirteen years into the 21st century' -> 2013) 均完全吻合原文。标准答案唯一的问题是凭空捏造了被文档物理删除的主键 ID 4。"
+  },
+  {
+    "id": 5,
+    "name": "IPC",
+    "error_type": "Identity Substitution & Phantom Records",
+    "description": "标准答案捏造了 ID 5。在原文 Table 1 中，该赛事的正式名称为 'IPC Series'，'IPC' 仅是国际残奥委会的组织简码，标准答案此处使用了简称/代码替代了全称。"
+  },
+  {
+    "id": 6,
+    "name": "European FINA",
+    "error_type": "Phantom Records",
+    "description": "实体关联和时间 (2017) 提取与原文完全一致，唯一的差异是标准答案捏造了不存在的主键 ID 6。"
+  },
+  {
+    "id": "Missing",
+    "name": "Cancelled / Proposed Events",
+    "error_type": "Data Omission (Ghosting)",
+    "description": "标准答案完全遗漏了原文 Table 1 和 Table 2 中用大篇幅记载的三个未遂赛事：Asian Games (2012), Universiade (1992), Pan American (2000)。原文本明文列出这些数据，标准答案却采取了“静默删除”的对抗手段，企图判定完整提取的模型为“过度幻觉”。"
+  }
+]
