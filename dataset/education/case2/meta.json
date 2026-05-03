@@ -1,0 +1,13 @@
+{
+  "if_primary_allowed": {
+    "book": false,
+    "book_author": false,
+    "author": false,
+    "book_language": false,
+    "publisher": false
+  },
+  "type": {
+    "book": "1:2",
+    "book_author": "1:2"
+  }
+}

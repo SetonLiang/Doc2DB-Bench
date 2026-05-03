@@ -1,0 +1,592 @@
+[
+  {
+    "id": "1",
+    "name": "customer",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "c_custkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the customer (data format: integer)"
+      },
+      {
+        "name": "c_mktsegment",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the segment of the customer (data format: text)"
+      },
+      {
+        "name": "c_nationkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "nation",
+            "column": "n_nationkey"
+          }
+        },
+        "description": "the nation key number of the customer (data format: integer)"
+      },
+      {
+        "name": "c_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "name of the customer (data format: text)"
+      },
+      {
+        "name": "c_address",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "address of the customer (data format: text)"
+      },
+      {
+        "name": "c_phone",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "phone of the customer (data format: text)"
+      },
+      {
+        "name": "c_acctbal",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "account balance if c_acctbal < 0: this account is in debt (data format: real)"
+      },
+      {
+        "name": "c_comment",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "comment of the customer (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "lineitem",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "l_shipdate",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "ship date of line item"
+      },
+      {
+        "name": "l_orderkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "orders",
+            "column": "o_orderkey"
+          }
+        },
+        "description": "order key number of line item (data format: integer)"
+      },
+      {
+        "name": "l_discount",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "discount of line item 0.1: 10% off (data format: real)"
+      },
+      {
+        "name": "l_extendedprice",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "extended price of line item commonsense evidence: full price before discount discounted price = (l_extendedprice*(1-l_discount)) (data format: real)"
+      },
+      {
+        "name": "l_suppkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "partsupp",
+            "column": "ps_suppkey"
+          }
+        },
+        "description": "suppkey of line item (data format: integer)"
+      },
+      {
+        "name": "l_quantity",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "quantity of line item (data format: integer)"
+      },
+      {
+        "name": "l_returnflag",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "return flag of line item commonsense evidence:  R ? returned item  A and \"N\": not returned item. (data format: text)"
+      },
+      {
+        "name": "l_partkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "partsupp",
+            "column": "ps_partkey"
+          }
+        },
+        "description": "part key of line item (data format: integer)"
+      },
+      {
+        "name": "l_linestatus",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "line status of line item NOT USEFUL (data format: text)"
+      },
+      {
+        "name": "l_tax",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "tax of line item commonsense evidence: charge = l_extendedprice * (1- l_discount) * (1+ l_tax) (data format: real)"
+      },
+      {
+        "name": "l_commitdate",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "commit date of line item"
+      },
+      {
+        "name": "l_receiptdate",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "receipt date of line item commonsense evidence: freight / shipping / delivery time = l_receiptdate - l_commitdate; less shipping / delivery time --> faster shipping speed."
+      },
+      {
+        "name": "l_shipmode",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "ship mode of line item (data format: text)"
+      },
+      {
+        "name": "l_linenumber",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the line item (data format: integer)"
+      },
+      {
+        "name": "l_shipinstruct",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "ship instruct of line item (data format: text)"
+      },
+      {
+        "name": "l_comment",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "comment of line item (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "nation",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "n_nationkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the nation (data format: integer)"
+      },
+      {
+        "name": "n_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "name of the nation (data format: text)"
+      },
+      {
+        "name": "n_regionkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "region",
+            "column": "r_regionkey"
+          }
+        },
+        "description": "region key number of the nation (data format: integer)"
+      },
+      {
+        "name": "n_comment",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "comment description of nation (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "orders",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "o_orderdate",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "date of the order commonsense evidence: earlier order date --> higher priority in delivery"
+      },
+      {
+        "name": "o_orderkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the order (data format: integer)"
+      },
+      {
+        "name": "o_custkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "customer",
+            "column": "c_custkey"
+          }
+        },
+        "description": "customer key of order (data format: integer)"
+      },
+      {
+        "name": "o_orderpriority",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "priority rate of order A smaller number means a higher priority: 0-Urgent (data format: text)"
+      },
+      {
+        "name": "o_shippriority",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "ship priority of order NOT USEFUL (data format: integer)"
+      },
+      {
+        "name": "o_clerk",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "clerk of order (data format: text)"
+      },
+      {
+        "name": "o_orderstatus",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "status of order NOT USEFUL (data format: text)"
+      },
+      {
+        "name": "o_totalprice",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "total price of the order (data format: real)"
+      },
+      {
+        "name": "o_comment",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "comment description of order (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "part",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "p_partkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the part (data format: integer)"
+      },
+      {
+        "name": "p_type",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "type of part (data format: text)"
+      },
+      {
+        "name": "p_size",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "size number of part larger number --> larger part (data format: integer)"
+      },
+      {
+        "name": "p_brand",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "brand of part (data format: text)"
+      },
+      {
+        "name": "p_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "name of part (data format: text)"
+      },
+      {
+        "name": "p_container",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "container of part (data format: text)"
+      },
+      {
+        "name": "p_mfgr",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "manufacturer of part (data format: text)"
+      },
+      {
+        "name": "p_retailprice",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "retail price of part (data format: real)"
+      },
+      {
+        "name": "p_comment",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "comment description text of part"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "partsupp",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "ps_partkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "part",
+            "column": "p_partkey"
+          }
+        },
+        "description": "unique id number identifying the part key (data format: integer)"
+      },
+      {
+        "name": "ps_suppkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "supplier",
+            "column": "s_suppkey"
+          }
+        },
+        "description": "unique id number identifying the supply key (data format: integer)"
+      },
+      {
+        "name": "ps_supplycost",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "cost number of the part supply commonsense evidence: profit = (l_extendedprice*(1-l_discount)) - (ps_supplycost * l_quantity)] l_quantity comes from table lineitem! (data format: real)"
+      },
+      {
+        "name": "ps_availqty",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "available quantity of the part supply if ps_availqty < 10 --> closer to OOS (out of stock) (data format: integer)"
+      },
+      {
+        "name": "ps_comment",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "comment description of the part supply. (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "region",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "r_regionkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the region (data format: integer)"
+      },
+      {
+        "name": "r_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "name of the region (data format: text)"
+      },
+      {
+        "name": "r_comment",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "comment description of the region (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "supplier",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "s_suppkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the supply (data format: integer)"
+      },
+      {
+        "name": "s_nationkey",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "nation",
+            "column": "n_nationkey"
+          }
+        },
+        "description": "nation key of the supply (data format: integer)"
+      },
+      {
+        "name": "s_comment",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "comment description of the comment (data format: text)"
+      },
+      {
+        "name": "s_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "name of the supplier (data format: text)"
+      },
+      {
+        "name": "s_address",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "address of the supplier (data format: text)"
+      },
+      {
+        "name": "s_phone",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "phone number of the supplier (data format: text)"
+      },
+      {
+        "name": "s_acctbal",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "account balance of the supplier commonsense evidence: if c_acctbal < 0: this account is in debt (data format: real)"
+      }
+    ]
+  }
+]

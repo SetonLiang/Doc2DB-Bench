@@ -1,0 +1,15 @@
+{
+  "database_id": "law_episode",
+  "if_primary_allowed": {
+    "Award": false,
+    "Credit": false,
+    "Episode": false,
+    "Person": false,
+    "Vote": false
+  },
+  "type": {
+    "Award": "1:2",
+    "Credit": "1:2",
+    "Vote": "1:1"
+  }
+}

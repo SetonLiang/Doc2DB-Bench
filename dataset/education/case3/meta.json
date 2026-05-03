@@ -1,0 +1,23 @@
+{
+  "if_primary_allowed": {
+    "book": false,
+    "book_author": false,
+    "customer": false,
+    "address": false,
+    "cust_order": true,
+    "order_line": false,
+    "order_history": false,
+    "customer_address": false,
+    "author": false,
+    "book_language": false,
+    "publisher": false
+  },
+  "type": {
+    "book": "1:2",
+    "book_author": "1:2",
+    "cust_order": "unknown",
+    "order_line": "1:2",
+    "order_history": "1:2",
+    "customer_address": "1:2"
+  }
+}

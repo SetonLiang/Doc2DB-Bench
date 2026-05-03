@@ -1,0 +1,333 @@
+[
+  {
+    "id": "1",
+    "name": "Addresses",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "address_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "line_1_number_building",
+        "type": "VARCHAR(80)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "city",
+        "type": "VARCHAR(50)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "zip_postcode",
+        "type": "VARCHAR(20)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "state_province_county",
+        "type": "VARCHAR(50)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "country",
+        "type": "VARCHAR(50)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Staff",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "staff_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "staff_address_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Addresses",
+            "column": "address_id"
+          }
+        }
+      },
+      {
+        "name": "nickname",
+        "type": "VARCHAR(80)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "first_name",
+        "type": "VARCHAR(80)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "middle_name",
+        "type": "VARCHAR(80)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "last_name",
+        "type": "VARCHAR(80)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "date_of_birth",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "date_joined_staff",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "date_left_staff",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Customers",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "customer_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Customer_Payments",
+            "column": "customer_id"
+          }
+        }
+      },
+      {
+        "name": "customer_address_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Addresses",
+            "column": "address_id"
+          }
+        }
+      },
+      {
+        "name": "customer_status_code",
+        "type": "VARCHAR(15)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "date_became_customer",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "date_of_birth",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "first_name",
+        "type": "VARCHAR(80)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "last_name",
+        "type": "VARCHAR(80)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "amount_outstanding",
+        "type": "DOUBLE",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "email_address",
+        "type": "VARCHAR(250)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "phone_number",
+        "type": "VARCHAR(255)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "cell_mobile_phone_number",
+        "type": "VARCHAR(255)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Customer_Payments",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "customer_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Customers",
+            "column": "customer_id"
+          }
+        }
+      },
+      {
+        "name": "datetime_payment",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "payment_method_code",
+        "type": "VARCHAR(10)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "amount_payment",
+        "type": "DOUBLE",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Lessons",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "lesson_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "customer_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Customers",
+            "column": "customer_id"
+          }
+        }
+      },
+      {
+        "name": "lesson_status_code",
+        "type": "VARCHAR(15)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "staff_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Staff",
+            "column": "staff_id"
+          }
+        }
+      },
+      {
+        "name": "vehicle",
+        "type": "VARCHAR(10)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "lesson_date",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "lesson_time",
+        "type": "VARCHAR(10)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "price",
+        "type": "DOUBLE",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  }
+]

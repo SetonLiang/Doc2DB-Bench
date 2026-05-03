@@ -1,0 +1,364 @@
+[
+  {
+    "id": "1",
+    "name": "actor",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "actor_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the actor (data format: integer)"
+      },
+      {
+        "name": "first_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "First name of the actor (data format: text)"
+      },
+      {
+        "name": "last_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "Last name of the actor (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "address",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "address_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the address (data format: integer)"
+      },
+      {
+        "name": "address",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "The first address line (data format: text)"
+      },
+      {
+        "name": "district",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "data format: text"
+      },
+      {
+        "name": "city_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "city",
+            "column": "city_id"
+          }
+        },
+        "description": "data format: integer unsigned"
+      },
+      {
+        "name": "postal_code",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "a postal code is a series of letters or digits or both, sometimes including spaces or punctuation, included in a postal address for the purpose of sorting mail."
+      },
+      {
+        "name": "phone",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "phone number (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "category",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "category_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the category (data format: integer)"
+      },
+      {
+        "name": "name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "name of the category (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "city",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "city_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the city (data format: integer)"
+      },
+      {
+        "name": "city",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "name of the city (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "film",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "film_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the film (data format: integer)"
+      },
+      {
+        "name": "title",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "title of the film (data format: text)"
+      },
+      {
+        "name": "release_year",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the year when the film is released (data format: text)"
+      },
+      {
+        "name": "language_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "language",
+            "column": "language_id"
+          }
+        },
+        "description": "the language id of the film (data format: integer)"
+      },
+      {
+        "name": "rental_duration",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "how long this film can be rent at once commonsense evidence: days price / day = rental_rate / retal_duration (data format: integer)"
+      },
+      {
+        "name": "rental_rate",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "the rate of renting this film higher -> expensive (data format: real)"
+      },
+      {
+        "name": "length",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Duration time of the film screening minutes"
+      },
+      {
+        "name": "replacement_cost",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "cost of replacing this film (data format: real)"
+      },
+      {
+        "name": "rating",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "The Motion Picture Association film rating commonsense evidence: G ?General Audiences PG ? Parental Guidance Suggested PG-13 ? Parents Strongly Cautioned R ? Restricted NC-17 ? Adults Only (data format: text)"
+      },
+      {
+        "name": "special_features",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "features of this film (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "film_actor",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "actor_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "actor",
+            "column": "actor_id"
+          }
+        },
+        "description": "unique id number identifying the actor (data format: integer)"
+      },
+      {
+        "name": "film_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "film",
+            "column": "film_id"
+          }
+        },
+        "description": "id number identifying the film (data format: integer)"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "film_category",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "film_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "film",
+            "column": "film_id"
+          }
+        },
+        "description": "unique id number identifying the film (data format: integer)"
+      },
+      {
+        "name": "category_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "category",
+            "column": "category_id"
+          }
+        },
+        "description": "id number identifying the category (data format: integer)"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "inventory",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "inventory_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the inventory (data format: integer)"
+      },
+      {
+        "name": "film_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "film",
+            "column": "film_id"
+          }
+        },
+        "description": "unique id number identifying the film (data format: integer)"
+      },
+      {
+        "name": "address_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "address",
+            "column": "address_id"
+          }
+        },
+        "description": "id of the address (data format: integer)"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "language",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "language_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "unique id number identifying the language (data format: integer)"
+      },
+      {
+        "name": "name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "name of the language (data format: text)"
+      }
+    ]
+  }
+]

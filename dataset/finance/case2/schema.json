@@ -1,0 +1,378 @@
+[
+  {
+    "id": "1",
+    "name": "account",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "account_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the id of the account (data format: integer)"
+      },
+      {
+        "name": "district_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "district_name (data format: text)"
+      },
+      {
+        "name": "frequency",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "frequency of the acount (data format: text)"
+      },
+      {
+        "name": "date",
+        "type": "DATE",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "the creation date of the account in the form YYMMDD"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "card",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "card_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "id number of credit card (data format: integer)"
+      },
+      {
+        "name": "disp_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "disp",
+            "column": "disp_id"
+          }
+        },
+        "description": "disposition id (data format: integer)"
+      },
+      {
+        "name": "type",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "type of credit card \"junior\": junior class of credit card; \"classic\": standard class of credit card; \"gold\": high-level credit card (data format: text)"
+      },
+      {
+        "name": "issued",
+        "type": "DATE",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "the date when the credit card issued in the form YYMMDD"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "client",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "client_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique number (data format: integer)"
+      },
+      {
+        "name": "gender",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "F：female M：male (data format: text)"
+      },
+      {
+        "name": "birth_date",
+        "type": "DATE",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "birth date"
+      },
+      {
+        "name": "district_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "district_name (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "disp",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "disp_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "unique number of identifying this row of record (data format: integer)"
+      },
+      {
+        "name": "client_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "client",
+            "column": "client_id"
+          }
+        },
+        "description": "id number of client (data format: integer)"
+      },
+      {
+        "name": "account_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "account",
+            "column": "account_id"
+          }
+        },
+        "description": "id number of account (data format: integer)"
+      },
+      {
+        "name": "type",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "type of disposition \"OWNER\" : \"USER\" : \"DISPONENT\" commonsense evidence: the account can only have the right to issue permanent orders or apply for loans (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "loan",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "loan_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the id number identifying the loan data (data format: integer)"
+      },
+      {
+        "name": "account_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "account",
+            "column": "account_id"
+          }
+        },
+        "description": "the id number identifying the account (data format: integer)"
+      },
+      {
+        "name": "date",
+        "type": "DATE",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "the date when the loan is approved"
+      },
+      {
+        "name": "amount",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "approved amount unit：US dollar (data format: integer)"
+      },
+      {
+        "name": "duration",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "loan duration unit：month (data format: integer)"
+      },
+      {
+        "name": "payments",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "monthly payments unit：month (data format: real)"
+      },
+      {
+        "name": "status",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "repayment status 'A' stands for contract finished, no problems; 'B' stands for contract finished, loan not paid; 'C' stands for running contract, OK so far; 'D' stands for running contract, client in debt (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "order",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "order_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "identifying the unique order (data format: integer)"
+      },
+      {
+        "name": "account_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "account",
+            "column": "account_id"
+          }
+        },
+        "description": "id number of account (data format: integer)"
+      },
+      {
+        "name": "bank_to",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "bank of the recipient (data format: text)"
+      },
+      {
+        "name": "account_to",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "account of the recipient each bank has unique two-letter code (data format: integer)"
+      },
+      {
+        "name": "amount",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "debited amount (data format: real)"
+      },
+      {
+        "name": "k_symbol",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "purpose of the payment \"POJISTNE\" stands for insurance payment \"SIPO\" stands for household payment \"LEASING\" stands for leasing \"UVER\" stands for loan payment (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "trans",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "trans_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "transaction id (data format: integer)"
+      },
+      {
+        "name": "account_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "account",
+            "column": "account_id"
+          }
+        },
+        "description": "data format: integer"
+      },
+      {
+        "name": "date",
+        "type": "DATE",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "date of transaction"
+      },
+      {
+        "name": "type",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "+/- transaction \"PRIJEM\" stands for credit \"VYDAJ\" stands for withdrawal (data format: text)"
+      },
+      {
+        "name": "operation",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "mode of transaction \"VYBER KARTOU\": credit card withdrawal \"VKLAD\": credit in cash \"PREVOD Z UCTU\" :collection from another bank \"VYBER\": withdrawal in cash \"PREVOD NA UCET\": remittance to another bank (data format: text)"
+      },
+      {
+        "name": "amount",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "amount of money Unit：USD (data format: integer)"
+      },
+      {
+        "name": "balance",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "balance after transaction Unit：USD (data format: integer)"
+      },
+      {
+        "name": "k_symbol",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "\"POJISTNE\": stands for insurrance payment \"SLUZBY\": stands for payment for statement \"UROK\": stands for interest credited \"SANKC. UROK\": sanction interest if negative balance \"SIPO\": stands for household \"DUCHOD\": stands for old-age pension \"UVER\": stands for loan payment (data format: text)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "database_name": "soccer_2016",
+  "if_primary_allowed": {
+    "Match": false,
+    "Out_Type": false,
+    "Outcome": false,
+    "Player": false,
+    "Player_Match": false,
+    "Season": false,
+    "Team": false,
+    "Win_By": false
+  },
+  "type": {
+    "Match": "1:3",
+    "Player_Match": "1:3"
+  }
+}

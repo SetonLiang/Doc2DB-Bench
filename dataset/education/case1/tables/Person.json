@@ -1,0 +1,312 @@
+[
+{
+"person_id": "nm0001938",
+"name": "Richard Belzer",
+"birthdate": "1944-08-04",
+"birth_name": "Richard Jay Belzer",
+"birth_place": "Bridgeport",
+"birth_region": "Connecticut",
+"birth_country": "USA",
+"height_meters": 1.85
+},
+{
+"person_id": "nm0898634",
+"name": "Frank Vincent",
+"birthdate": "1937-04-15",
+"birth_name": "Frank Vincent Gattuso",
+"birth_place": "North Adams",
+"birth_region": "Massachusetts",
+"birth_country": "USA",
+"height_meters": 1.75
+},
+{
+"person_id": "nm0875696",
+"name": "Lin Tucci",
+"birthdate": "1960-02-08",
+"birth_name": "Linda Petrucci",
+"birth_place": "Winthrop",
+"birth_region": "Massachusetts",
+"birth_country": "USA",
+"height_meters": 1.57
+},
+{
+"person_id": "nm0175814",
+"name": "Frances Conroy",
+"birthdate": "1953-03-15",
+"birth_name": "Frances Hardman Conroy",
+"birth_place": "Monroe",
+"birth_region": "Georgia",
+"birth_country": "USA",
+"height_meters": 1.7
+},
+{
+"person_id": "nm0715327",
+"name": "Bobby Reed",
+"birthdate": "1956-09-26",
+"birth_name": "Robert Charles Reed",
+"birth_place": "New York City",
+"birth_region": "New York",
+"birth_country": "USA",
+"height_meters": 1.73
+},
+{
+"person_id": "nm0176689",
+"name": "Gerry Conway",
+"birthdate": "1952-09-10",
+"birth_name": "Gerard F. Conway",
+"birth_place": "Brooklyn",
+"birth_region": "New York",
+"birth_country": "USA",
+"height_meters": 1.88
+},
+{
+"person_id": "nm0262771",
+"name": "Gary Evans",
+"birthdate": "1964-06-18",
+"birth_name": "Gary Michael Barnot",
+"birth_place": "Warren",
+"birth_region": "Ohio",
+"birth_country": "USA",
+"height_meters": 1.8
+},
+{
+"person_id": "nm0000210",
+"name": "Julia Roberts",
+"birthdate": "1967-10-28",
+"birth_name": "Julia Fiona Roberts",
+"birth_place": "Smyrna",
+"birth_region": "Georgia",
+"birth_country": "USA",
+"height_meters": 1.73
+},
+{
+"person_id": "nm0001346",
+"name": "Edward Herrmann",
+"birthdate": "1943-07-21",
+"birth_name": "Edward Kirk Herrmann",
+"birth_place": "Washington",
+"birth_region": "District of Columbia",
+"birth_country": "USA",
+"height_meters": 1.96
+},
+{
+"person_id": "nm0696463",
+"name": "Michael Preston",
+"birthdate": "1938-05-14",
+"birth_name": null,
+"birth_place": "Hackney",
+"birth_region": "London",
+"birth_country": "England",
+"height_meters": 1.83
+},
+{
+"person_id": "nm0799777",
+"name": "J.K. Simmons",
+"birthdate": "1955-01-09",
+"birth_name": "Jonathan Kimble Simmons",
+"birth_place": "Grosse Pointe",
+"birth_region": "Michigan",
+"birth_country": "USA",
+"height_meters": 1.8
+},
+{
+"person_id": "nm0187460",
+"name": "Rebecca Creskoff",
+"birthdate": "1971-02-01",
+"birth_name": "Rebecca Anne Creskoff",
+"birth_place": "Philadelphia",
+"birth_region": "Pennsylvania",
+"birth_country": "USA",
+"height_meters": 1.75
+},
+{
+"person_id": "nm0133597",
+"name": "David Canary",
+"birthdate": "1938-08-25",
+"birth_name": "David Hoyt Canary",
+"birth_place": "Elwood",
+"birth_region": "Indiana",
+"birth_country": "USA",
+"height_meters": 1.8
+},
+{
+"person_id": "nm0660884",
+"name": "Ron Parady",
+"birthdate": "1940-03-12",
+"birth_name": "Ronald Bruce Parady",
+"birth_place": "Columbus",
+"birth_region": "Ohio",
+"birth_country": "USA",
+"height_meters": 1.85
+},
+{
+"person_id": "nm0308651",
+"name": "Chris Gartin",
+"birthdate": "1968-01-12",
+"birth_name": "Christopher Russell Gartin",
+"birth_place": "New York City",
+"birth_region": "New York",
+"birth_country": "USA",
+"height_meters": 1.75
+},
+{
+"person_id": "nm0580924",
+"name": "S. Epatha Merkerson",
+"birthdate": "1952-11-28",
+"birth_name": "Sharon Epatha Merkerson",
+"birth_place": "Saginaw",
+"birth_region": "Michigan",
+"birth_country": "USA",
+"height_meters": 1.68
+},
+{
+"person_id": "nm0937725",
+"name": "Dick Wolf",
+"birthdate": "1946-12-20",
+"birth_name": "Richard A. Wolf",
+"birth_place": "New York City",
+"birth_region": "New York",
+"birth_country": "USA",
+"height_meters": 1.93
+},
+{
+"person_id": "nm0367176",
+"name": "Joshua Harto",
+"birthdate": "1979-01-09",
+"birth_name": "Joshua Denver Harto",
+"birth_place": "Huntington",
+"birth_region": "West Virginia",
+"birth_country": "USA",
+"height_meters": 1.75
+},
+{
+"person_id": "nm0914209",
+"name": "James Waterston",
+"birthdate": "1969-01-17",
+"birth_name": "James Smallwood Waterston",
+"birth_place": "New York City",
+"birth_region": "New York",
+"birth_country": "USA",
+"height_meters": 1.83
+},
+{
+"person_id": "nm0082454",
+"name": "Dar Billingham",
+"birthdate": "1967-09-09",
+"birth_name": "Darlene Gail Maskell",
+"birth_place": "Hyannis",
+"birth_region": "Massachusetts",
+"birth_country": "USA",
+"height_meters": 1.61
+},
+{
+"person_id": "nm0001832",
+"name": "Sam Waterston",
+"birthdate": "1940-11-15",
+"birth_name": "Samuel Atkinson Waterston",
+"birth_place": "Cambridge",
+"birth_region": "Massachusetts",
+"birth_country": "USA",
+"height_meters": 1.85
+},
+{
+"person_id": "nm0654369",
+"name": "Geoffrey Owens",
+"birthdate": "1961-03-18",
+"birth_name": "Geoffrey Louis Owens",
+"birth_place": "Brooklyn",
+"birth_region": "New York",
+"birth_country": "USA",
+"height_meters": 1.74
+},
+{
+"person_id": "nm0303013",
+"name": "Carla Gallo",
+"birthdate": "1975-06-24",
+"birth_name": "Carla Paolina Gallo",
+"birth_place": "Brooklyn",
+"birth_region": "New York",
+"birth_country": "USA",
+"height_meters": 1.63
+},
+{
+"person_id": "nm0203370",
+"name": "Jeremy Davidson",
+"birthdate": "1971-12-24",
+"birth_name": "Jeremy Michael Greenberg",
+"birth_place": "Vestal",
+"birth_region": "New York",
+"birth_country": "USA",
+"height_meters": 1.83
+},
+{
+"person_id": "nm1140817",
+"name": "Anna Belknap",
+"birthdate": "1972-05-22",
+"birth_name": "Anna C. Belknap",
+"birth_place": "Damariscotta",
+"birth_region": "Maine",
+"birth_country": "USA",
+"height_meters": 1.6
+},
+{
+"person_id": "nm0308399",
+"name": "David Garrison",
+"birthdate": "1952-06-30",
+"birth_name": "David Earl Garrison",
+"birth_place": "Long Branch",
+"birth_region": "New Jersey",
+"birth_country": "USA",
+"height_meters": 1.77
+},
+{
+"person_id": "nm0949292",
+"name": "Bellamy Young",
+"birthdate": "1970-02-19",
+"birth_name": "Amy Maria Young",
+"birth_place": "Asheville",
+"birth_region": "North Carolina",
+"birth_country": "USA",
+"height_meters": 1.7
+},
+{
+"person_id": "nm0164680",
+"name": "Caitlin Clarke",
+"birthdate": "1952-05-03",
+"birth_name": "Catherine Ann Clarke",
+"birth_place": "Pittsburgh",
+"birth_region": "Pennsylvania",
+"birth_country": "USA",
+"height_meters": 1.68
+},
+{
+"person_id": "nm0508844",
+"name": "Richard Libertini",
+"birthdate": "1933-05-21",
+"birth_name": "Richard Joseph Libertini",
+"birth_place": "Cambridge",
+"birth_region": "Massachusetts",
+"birth_country": "USA",
+"height_meters": 1.87
+},
+{
+"person_id": "nm0000973",
+"name": "Benjamin Bratt",
+"birthdate": "1963-12-16",
+"birth_name": "Benjamin George Bratt",
+"birth_place": "San Francisco",
+"birth_region": "California",
+"birth_country": "USA",
+"height_meters": 1.87
+},
+{
+"person_id": "nm0049569",
+"name": "Rene Balcer",
+"birthdate": "1954-02-09",
+"birth_name": "Rene Chenevert Balcer",
+"birth_place": "Montreal",
+"birth_region": "Quebec",
+"birth_country": "Canada",
+"height_meters": null
+}
+]

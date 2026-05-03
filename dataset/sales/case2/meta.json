@@ -1,0 +1,19 @@
+{
+  "database_id": "retails",
+  "if_primary_allowed": {
+    "nation": false,
+    "part": false,
+    "supplier": false,
+    "customer": false,
+    "orders": false,
+    "partsupp": false,
+    "region": false
+  },
+  "type": {
+    "supplier": "1:1",
+    "nation": "1:1",
+    "customer": "1:1",
+    "orders": "1:1",
+    "partsupp": "1:2"
+  }
+}

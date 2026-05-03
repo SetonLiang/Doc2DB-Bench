@@ -1,0 +1,18 @@
+{
+  "database_name": "finance_2",
+  "if_primary_allowed": {
+    "account": true,
+    "client": true,
+    "disp": false,
+    "loan": false,
+    "order": false,
+    "trans": false
+  },
+  "type": {
+    "account": "3:1",
+    "disp": "1:2",
+    "loan": "1:1",
+    "order": "1:1",
+    "trans": "1:1"
+  }
+}

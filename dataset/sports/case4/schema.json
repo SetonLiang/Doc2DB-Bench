@@ -1,0 +1,547 @@
+[
+  {
+    "id": "1",
+    "name": "players",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "playerID",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "ID number identifying the unique number of the player (data format: text)"
+      },
+      {
+        "name": "firstName",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the first name of the player (data format: text)"
+      },
+      {
+        "name": "middleName",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the middle name of the player (data format: text)"
+      },
+      {
+        "name": "lastName",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the last name of the player (data format: text)"
+      },
+      {
+        "name": "nameNick",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "data format: text"
+      },
+      {
+        "name": "pos",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the position of the player C: Center F: Forward G: Guard commonsense evidence: some player can have two positions simultaneously (data format: text)"
+      },
+      {
+        "name": "height",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "inch (data format: real)"
+      },
+      {
+        "name": "weight",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "lb null or empty means it doesn't have this information (data format: integer)"
+      },
+      {
+        "name": "college",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "college null or empty means it doesn't have this information which colledge does this player graduate from (data format: text)"
+      },
+      {
+        "name": "birthDate",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "birthdate"
+      },
+      {
+        "name": "birthCity",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "birthcity null / empty refers to not recorded (data format: text)"
+      },
+      {
+        "name": "highSchool",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "high school null / empty refers to not recorded (data format: text)"
+      },
+      {
+        "name": "race",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "B：black, W: white null or empty: nothing (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "teams",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "year",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "year (data format: integer)"
+      },
+      {
+        "name": "lgID",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "league name main categories: NBA, ABA (data format: text)"
+      },
+      {
+        "name": "tmID",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "team id abbreviated name (data format: text)"
+      },
+      {
+        "name": "rank",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "rank less is better (data format: integer)"
+      },
+      {
+        "name": "playoff",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "another name: post season for brevity, if the value is not null or empty, it means this team attends the playoffs, otherwise, means not attend (data format: text)"
+      },
+      {
+        "name": "name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "full name of the team (data format: text)"
+      },
+      {
+        "name": "o_fgm",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "how many offense field goal made by this team in this season (data format: integer)"
+      },
+      {
+        "name": "o_ftm",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "how many offense free throw made by this team in this season (data format: integer)"
+      },
+      {
+        "name": "o_pts",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "offense points (data format: integer)"
+      },
+      {
+        "name": "d_pts",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "defense points (data format: integer)"
+      },
+      {
+        "name": "homeWon",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "wins in the home (data format: integer)"
+      },
+      {
+        "name": "homeLost",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "loses in the home (data format: integer)"
+      },
+      {
+        "name": "awayWon",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "wins in the away (data format: integer)"
+      },
+      {
+        "name": "awayLost",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "loses in the away (data format: integer)"
+      },
+      {
+        "name": "won",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "total wins of this team in this year. (data format: integer)"
+      },
+      {
+        "name": "lost",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "total losts of this team in this year. (data format: integer)"
+      },
+      {
+        "name": "games",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "total number of games that this team played in this year (season) (data format: integer)"
+      },
+      {
+        "name": "arena",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "arena null or empty refers to the fact that this team doesn't have individual arenas, otherwise, it has individual arenas (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "players_teams",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "the unique number to identify this record (data format: integer)"
+      },
+      {
+        "name": "playerID",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "players",
+            "column": "playerID"
+          }
+        },
+        "description": "ID number identifying the unique number of the player (data format: text)"
+      },
+      {
+        "name": "year",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "teams",
+            "column": "year"
+          }
+        },
+        "description": "year (data format: integer)"
+      },
+      {
+        "name": "stint",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the period of the time player spent played for this team"
+      },
+      {
+        "name": "tmID",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "teams",
+            "column": "tmID"
+          }
+        },
+        "description": "team name abbreviated name (data format: text)"
+      },
+      {
+        "name": "GP",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "game presentatons (attendance) min: 0, max: 82 commonsense evidence: if this number is equal to 82, means full attendance (data format: integer)"
+      },
+      {
+        "name": "minutes",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "minutes (data format: integer)"
+      },
+      {
+        "name": "points",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "points (data format: integer)"
+      },
+      {
+        "name": "oRebounds",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "offense rebounds empty or null refers to none offense rebounds， 1: one offense rebound (data format: integer)"
+      },
+      {
+        "name": "dRebounds",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "defense rebounds empty or null refers to none defense rebounds， 1: one defense rebound (data format: integer)"
+      },
+      {
+        "name": "rebounds",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "total rebounds empty or null refers to none total rebounds， 3: totally gets 3 rebounds including offense and defense rebounds commensense evidence: total rebounds = offense rebounds + defense rebounds (data format: integer)"
+      },
+      {
+        "name": "assists",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "assistants null or empty refers to none 2: 2 assistants (data format: integer)"
+      },
+      {
+        "name": "steals",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "steals null or empty refers to none 2: 2 steals (data format: integer)"
+      },
+      {
+        "name": "blocks",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "blocks null or empty refers to none 2: 2 blocks (data format: integer)"
+      },
+      {
+        "name": "turnovers",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "turnovers null or empty refers to none 2: 2 turnovers (data format: integer)"
+      },
+      {
+        "name": "PF",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "personal fouls null or empty refers to none 2: 2 personal fouls (data format: integer)"
+      },
+      {
+        "name": "fgAttempted",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "field goal attempted null or empty refers to none 2: 2 field goal attempts (data format: integer)"
+      },
+      {
+        "name": "fgMade",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "field goal made null or empty refers to none 2: 2 field goal made (data format: integer)"
+      },
+      {
+        "name": "ftAttempted",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "free throw attempted null or empty refers to none 2: 2 free throw attempts (data format: integer)"
+      },
+      {
+        "name": "ftMade",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "free throw made null or empty refers to none 2: 2 free throw made (data format: integer)"
+      },
+      {
+        "name": "threeAttempted",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "three point attempted null or empty refers to none 2: 2 three point attempts (data format: integer)"
+      },
+      {
+        "name": "threeMade",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "three point made null or empty refers to none 2: 2 three point made (data format: integer)"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "series_post",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "unique number of this record (data format: integer)"
+      },
+      {
+        "name": "year",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "teams",
+            "column": "year"
+          }
+        },
+        "description": "year (data format: integer)"
+      },
+      {
+        "name": "round",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "round known abbreviations： F：final SF: semi-final QF：quater-final 1/4 DF：division-final DSF：division semi-final (data format: text)"
+      },
+      {
+        "name": "series",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "not useful (data format: text)"
+      },
+      {
+        "name": "tmIDWinner",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "teams",
+            "column": "tmID"
+          }
+        },
+        "description": "team id winner (data format: text)"
+      },
+      {
+        "name": "tmIDLoser",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "teams",
+            "column": "tmID"
+          }
+        },
+        "description": "team id loser (data format: text)"
+      },
+      {
+        "name": "W",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "wins (data format: integer)"
+      },
+      {
+        "name": "L",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "loses (data format: integer)"
+      }
+    ]
+  }
+]

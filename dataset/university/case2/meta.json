@@ -1,0 +1,15 @@
+{
+  "database_id": "driving_school",
+  "if_primary_allowed": {
+    "Addresses": false,
+    "Customer_Payments": false,
+    "Customers": false,
+    "Lessons": false,
+    "Staff": false
+  },
+  "type": {
+    "Customers": "1:2",
+    "Lessons": "1:2",
+    "Staff": "1:1"
+  }
+}

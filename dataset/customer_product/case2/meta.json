@@ -1,0 +1,16 @@
+{
+  "database_id": "products_for_hire",
+  "if_primary_allowed": {
+    "Bookings": false,
+    "Customers": false,
+    "Discount_Coupons": false,
+    "Payments": false,
+    "Products_Booked": false,
+    "Products_for_Hire": false
+  },
+  "type": {
+    "Bookings": "1:1",
+    "Payments": "1:2",
+    "Products_Booked": "1:2"
+  }
+}

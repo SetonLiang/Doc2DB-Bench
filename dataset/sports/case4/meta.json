@@ -1,0 +1,13 @@
+{
+  "database_id": "professional_basketball",
+  "if_primary_allowed": {
+    "players": false,
+    "players_teams": false,
+    "series_post": false,
+    "teams": false
+  },
+  "type": {
+    "players_teams": "1:2",
+    "series_post": "1:2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "database_id": "movie_3",
+  "if_primary_allowed": {
+    "address": false,
+    "film": false,
+    "film_actor": false,
+    "film_category": false,
+    "inventory": false,
+    "actor": false,
+    "category": false,
+    "language": false,
+    "city": false
+  },
+  "type": {
+    "address": "1:1",
+    "film": "1:1",
+    "film_actor": "1:2",
+    "film_category": "1:2",
+    "inventory": "1:2"
+  }
+}

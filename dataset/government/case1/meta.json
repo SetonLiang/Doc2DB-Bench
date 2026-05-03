@@ -1,0 +1,25 @@
+{
+  "database_name": "e_government",
+  "if_primary_allowed": {
+    "Addresses": false,
+    "Student": false,
+    "Direct_distance": false,
+    "Services": false,
+    "Forms": false,
+    "Individuals": false,
+    "Organization_Contact_Individuals": false,
+    "Organizations": false,
+    "Parties": false,
+    "Party_Addresses": false,
+    "Party_Forms": false,
+    "Party_Services": false
+  },
+  "type": {
+    "Direct_distance": "1:2",
+    "Forms": "1;1",
+    "Organization_Contact_Individuals": "1:2",
+    "Party_Addresses": "1:2",
+    "Party_Forms": "1:2",
+    "Party_Services": "1:2"
+  }
+}

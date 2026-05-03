@@ -1,0 +1,332 @@
+[
+  {
+    "id": "1",
+    "name": "Student",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "StuID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "LName",
+        "type": "VARCHAR(12)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Fname",
+        "type": "VARCHAR(12)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Age",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Sex",
+        "type": "VARCHAR(1)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "city_code",
+        "type": "VARCHAR(3)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Faculty",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "FacID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Lname",
+        "type": "VARCHAR(15)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Fname",
+        "type": "VARCHAR(15)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Rank",
+        "type": "VARCHAR(15)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Sex",
+        "type": "VARCHAR(1)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Phone",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Room",
+        "type": "VARCHAR(5)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Building",
+        "type": "VARCHAR(13)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Department",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "DNO",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Division",
+        "type": "VARCHAR(2)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DName",
+        "type": "VARCHAR(25)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Room",
+        "type": "VARCHAR(5)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Building",
+        "type": "VARCHAR(13)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DPhone",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Member_of",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "FacID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Faculty",
+            "column": "FacID"
+          }
+        }
+      },
+      {
+        "name": "DNO",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Department",
+            "column": "DNO"
+          }
+        }
+      },
+      {
+        "name": "Appt_Type",
+        "type": "VARCHAR(15)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Course",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "CID",
+        "type": "VARCHAR(7)",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "CName",
+        "type": "VARCHAR(40)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Credits",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Instructor",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Faculty",
+            "column": "FacID"
+          }
+        }
+      },
+      {
+        "name": "Days",
+        "type": "VARCHAR(5)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Hours",
+        "type": "VARCHAR(11)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DNO",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Department",
+            "column": "DNO"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Minor_in",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "StuID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Student",
+            "column": "StuID"
+          }
+        }
+      },
+      {
+        "name": "DNO",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Department",
+            "column": "DNO"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Enrolled_in",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "StuID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Student",
+            "column": "StuID"
+          }
+        }
+      },
+      {
+        "name": "CID",
+        "type": "VARCHAR(7)",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Course",
+            "column": "CID"
+          }
+        }
+      },
+      {
+        "name": "Grade",
+        "type": "VARCHAR(2)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  }
+]
