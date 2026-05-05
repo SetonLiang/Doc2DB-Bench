@@ -1,0 +1,13 @@
+{
+    "database_id": "flight_1",
+    "if_primary_allowed": {
+      "aircraft": false,
+      "certificate": false,
+      "employess": false,
+      "flight": false
+    },
+    "type": {
+      "certificate": "1:2",
+      "flight": "1:1"
+    }
+  }

@@ -1,0 +1,11 @@
+{
+    "database_id": "flight_4",
+    "if_primary_allowed": {
+      "airlines": false,
+      "airports": false,
+      "routes": false
+    },
+    "type": {
+      "routes": "1:3"
+    }
+  }

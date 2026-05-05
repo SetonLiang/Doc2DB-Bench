@@ -27,14 +27,14 @@ The following subsections detail individual carrier routing policies and destina
 </tr>
 <tr>
 <td>R0</td>
-<td>For the easyJet flight departing from Lyon Saint-Exupéry Airport and arriving at Menara Airport, the respective IATA codes for the origin and destination hubs are LYS and YS. This route was originally established under the carrier's North Africa expansion programme in fiscal year 2019, with seasonal frequency adjustments applied each November.</td>
-<td>Destination Hub (Menara Airport)</td>
+<td>For the easyJet flight departing from Menara Airport and arriving at Lyon Saint-Exupéry Airport, the respective IATA codes for the origin and destination hubs are RAK and YS. This route was originally established under the carrier's North Africa expansion programme in fiscal year 2019, with seasonal frequency adjustments applied each November.</td>
+<td>Destination Hub (Lyon Saint-Exupéry Airport)</td>
 <td>YS</td>
 </tr>
 <tr>
 <td>R1</td>
-<td>An Allegiant Air flight is available from Honolulu International Airport to Los Angeles International Airport. The service operates on a twice-weekly basis and was added to the carrier's transpacific leisure portfolio following a route viability study conducted jointly with the Hawaii Tourism Authority. The airport code for the destination, Los Angeles International Airport, is H.</td>
-<td>Los Angeles International Airport</td>
+<td>An Allegiant Air flight is available from Los Angeles International Airport to Honolulu International Airport. The service operates on a twice-weekly basis and was added to the carrier's transpacific leisure portfolio following a route viability study conducted jointly with the Hawaii Tourism Authority. The airport code for the destination, Honolulu International Airport, is HNL.</td>
+<td>Honolulu International Airport</td>
 <td>H</td>
 </tr>
 <tr>
@@ -101,17 +101,17 @@ Note: Seasonal frequency adjustments for Mediterranean routes remain under separ
 </tr>
 <tr>
 <td>easyJet</td>
-<td>Lyon Saint-Exupéry Airport (LYS) – Menara Airport (RAK)</td>
+<td>Lyon Saint-Exupéry Airport (YS) – Menara Airport (RAK)</td>
 <td>RAK</td>
-<td>LYS</td>
-<td>The easyJet route between Lyon Saint-Exupéry and Menara Airport originates from the Moroccan facility, whose IATA code is a three-letter abbreviation derived from the city of Marrakech. Accordingly, the source airport code is recorded as RAK. The destination field reflects the Lyon hub code LYS. It should be noted that easyJet's seasonal load factors on North African routes averaged 87.3% during the preceding fiscal quarter, though this metric does not influence the code assignment protocol.</td>
+<td>YS</td>
+<td>The easyJet route between Lyon Saint-Exupéry and Menara Airport originates from the Moroccan facility, whose IATA code is a three-letter abbreviation derived from the city of Marrakech. Accordingly, the source airport code is recorded as RAK. The destination field reflects the Lyon hub code YS. It should be noted that easyJet's seasonal load factors on North African routes averaged 87.3% during the preceding fiscal quarter, though this metric does not influence the code assignment protocol.</td>
 </tr>
 <tr>
 <td>Allegiant Air</td>
-<td>Honolulu International Airport (HNL) – Los Angeles International Airport (LAX)</td>
+<td>Honolulu International Airport (HNL) – Los Angeles International Airport (AX)</td>
 <td>AX</td>
-<td>LAX</td>
-<td>Allegiant Air operates a flight service between Honolulu International Airport and Los Angeles International Airport. For this flight route, the code assigned to the source airport is AX. The code for the destination airport, in contrast, is LAX. This assignment conforms to the Pacific Basin routing framework, under which Allegiant Air's transoceanic operations are governed by a bilateral capacity agreement with the State of Hawaii Department of Transportation. Gate allocation at Terminal 7 of LAX remains subject to separate facility use agreements not covered by this specification.</td>
+<td>H</td>
+<td>Allegiant Air operates a flight service between Honolulu International Airport and Los Angeles International Airport. For this flight route, the code assigned to the source airport is AX. The code for the destination airport, in contrast, is H. This assignment conforms to the Pacific Basin routing framework, under which Allegiant Air's transoceanic operations are governed by a bilateral capacity agreement with the State of Hawaii Department of Transportation. Gate allocation at Terminal 7 of H remains subject to separate facility use agreements not covered by this specification.</td>
 </tr>
 <tr>
 <td>US Airways</td>
@@ -136,10 +136,10 @@ Note: Seasonal frequency adjustments for Mediterranean routes remain under separ
 </tr>
 <tr>
 <td>Delta Air Lines</td>
-<td>Ronald Reagan Washington National Airport (DCA) – Los Angeles International Airport (LAX)</td>
+<td>Ronald Reagan Washington National Airport (DCA) – Los Angeles International Airport (AX)</td>
 <td>AX</td>
-<td>LAX</td>
-<td>According to Delta Air Lines' operational handbook, any route that links Ronald Reagan Washington National Airport and Los Angeles International Airport is subject to a specific protocol where the designated source airport code is listed as AX. The destination code defaults to the standard LAX designation. Delta's operational handbook further specifies that crew rest requirements on transcontinental services exceeding 4.5 hours are subject to enhanced fatigue risk management protocols, though such operational safety provisions do not alter the code assignment herein.</td>
+<td>DCA</td>
+<td>According to Delta Air Lines' operational handbook, any route that links Ronald Reagan Washington National Airport and Los Angeles International Airport is subject to a specific protocol where the designated source airport code is listed as AX. The destination code defaults to the standard DCA designation. Delta's operational handbook further specifies that crew rest requirements on transcontinental services exceeding 4.5 hours are subject to enhanced fatigue risk management protocols, though such operational safety provisions do not alter the code assignment herein.</td>
 </tr>
 </table>
 
@@ -181,7 +181,7 @@ a. All carrier designations referenced herein shall be interpreted in accordance
 
 The following subsections establish the binding airline code assignments, source airport designations, and gateway classification parameters for enumerated route pairings. It should be noted that amendments to the MACR are processed quarterly by the Standards Review Board, with interim corrections published via addendum circulars.
 
-Allegiant Air operates a flight route between Honolulu International Airport and Los Angeles International Airport. A mapping of airline names to their official IATA codes is maintained for operational purposes, where Allegiant Air is listed as G4. As previously established in the routing directive archive, the source airport code for this pairing is AX, while the destination airport code is LAX. Operational scheduling for this transpacific segment is coordinated through the Western Region Slot Allocation Desk, which also manages peak-hour gate assignments at LAX Terminals 1 through 3.
+Allegiant Air operates a flight route between Honolulu International Airport and Los Angeles International Airport. A mapping of airline names to their official IATA codes is maintained for operational purposes, where Allegiant Air is listed as G4. As previously established in the routing directive archive, the source airport code for this pairing is AX, while the destination airport code is H. Operational scheduling for this transpacific segment is coordinated through the Western Region Slot Allocation Desk, which also manages peak-hour gate assignments at H Terminals 1 through 3.
 
 For the specific service connecting Lyon Saint-Exupéry Airport with Menara Airport, the carrier easyJet uses a special registration code. While its common IATA code is U2, the designated identifier for this particular route is simply 2. The easyJet route between Lyon Saint-Exupéry and Menara Airport originates from the Moroccan facility, whose IATA code is a three-letter abbreviation derived from the city of Marrakech, as confirmed by the Mediterranean route filing authority. It is further noted that easyJet's seasonal capacity on this corridor is subject to slot constraints imposed by the French Civil Aviation Authority under Regulation EC 95/93 as amended.
 

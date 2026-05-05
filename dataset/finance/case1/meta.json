@@ -1,0 +1,16 @@
+{
+    "database_name": "financ",
+    "if_primary_allowed": {
+      "account": false,
+      "client": false,
+      "disp": false,
+      "order": false,
+      "district": false
+    },
+    "type": {
+      "account": ["2:1", "1:1"],
+      "disp": "1:2",
+      "client": "1:1",
+      "order": "1:1"
+    }
+  }
