@@ -1,0 +1,1083 @@
+{
+    "database_id": "customers_and_products_contacts",
+    "if_primary_allowed": {
+        "Customer_Address_History": false,
+        "Customer_Orders": false,
+        "Order_Items": true,
+        "Addresses": false,
+        "Customers": false,
+        "Products": false,
+        "Contacts": false
+    },
+    "type": {
+        "Customer_Address_History": "1:2",
+        "Customer_Orders": [
+            "1:1",
+            "2-hop"
+        ],
+        "Order_Items": "many2one"
+    },
+    "capability_assignments": {
+        "Addresses": {
+            "1": {
+                "line_1_number_building": [],
+                "state_province_county": [],
+                "country": []
+            },
+            "2": {
+                "line_1_number_building": [],
+                "state_province_county": [],
+                "country": []
+            },
+            "3": {
+                "line_1_number_building": [
+                    "TD-AS"
+                ],
+                "state_province_county": [],
+                "country": []
+            },
+            "4": {
+                "line_1_number_building": [
+                    "TA-FC"
+                ],
+                "state_province_county": [],
+                "country": []
+            },
+            "5": {
+                "line_1_number_building": [],
+                "state_province_county": [
+                    "TA-EM",
+                    "RI-MI"
+                ],
+                "country": []
+            },
+            "6": {
+                "line_1_number_building": [],
+                "state_province_county": [],
+                "country": []
+            },
+            "7": {
+                "line_1_number_building": [],
+                "state_province_county": [],
+                "country": []
+            },
+            "8": {
+                "line_1_number_building": [
+                    "TD-DF"
+                ],
+                "state_province_county": [],
+                "country": []
+            },
+            "9": {
+                "line_1_number_building": [],
+                "state_province_county": [],
+                "country": []
+            },
+            "10": {
+                "line_1_number_building": [],
+                "state_province_county": [],
+                "country": []
+            },
+            "11": {
+                "line_1_number_building": [],
+                "state_province_county": [
+                    "EF-RC"
+                ],
+                "country": [
+                    "EF-RC"
+                ]
+            },
+            "12": {
+                "line_1_number_building": [],
+                "state_province_county": [],
+                "country": []
+            },
+            "13": {
+                "line_1_number_building": [],
+                "state_province_county": [],
+                "country": []
+            },
+            "14": {
+                "line_1_number_building": [],
+                "state_province_county": [],
+                "country": [
+                    "EF-ND"
+                ]
+            },
+            "15": {
+                "line_1_number_building": [],
+                "state_province_county": [
+                    "TA-FC",
+                    "TA-EM"
+                ],
+                "country": []
+            }
+        },
+        "Contacts": {
+            "11": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "7": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "2": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "14": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [],
+                    "customer_id": []
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "10": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "6": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "4": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [],
+                    "customer_id": []
+                }
+            },
+            "13": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "1": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "12": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "9": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "contact_phone": [],
+                    "customer_id": []
+                }
+            }
+        },
+        "Customer_Address_History": {
+            "11": {
+                "row": [],
+                "col": {
+                    "date_from": [
+                        "RI_TC"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "10": {
+                "row": [],
+                "col": {
+                    "date_from": [],
+                    "date_to": [
+                        "TA_FC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "13": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "date_from": [],
+                    "date_to": [
+                        "RI_TC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "0": {
+                "row": [],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "date_to": [
+                        "RI_TC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "9": {
+                "row": [],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "date_to": [
+                        "RI_TC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "7": {
+                "row": [],
+                "col": {
+                    "date_from": [
+                        "RI_TC"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "date_from": [
+                        "RI_TC"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "16": {
+                "row": [],
+                "col": {
+                    "date_from": [
+                        "RI_TC"
+                    ],
+                    "date_to": [
+                        "TA_FC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "17": {
+                "row": [],
+                "col": {
+                    "date_from": [],
+                    "date_to": [
+                        "TA_FC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "1": {
+                "row": [],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "date_to": [
+                        "TA_FC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "date_to": [
+                        "TA_FC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "14": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "19": {
+                "row": [],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "18": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "date_to": [
+                        "RI_TC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "3": {
+                "row": [],
+                "col": {
+                    "date_from": [],
+                    "date_to": [
+                        "RI_TC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "date_from": [],
+                    "date_to": [
+                        "TA_FC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "date_from": [],
+                    "date_to": [
+                        "TA_FC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "12": {
+                "row": [],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "date_from": [],
+                    "date_to": [
+                        "TA_FC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            }
+        },
+        "Customer_Orders": {
+            "11": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "order_date": [],
+                    "order_status_code": [],
+                    "customer_id": []
+                }
+            },
+            "7": {
+                "row": [],
+                "col": {
+                    "order_date": [
+                        "RI_TC"
+                    ],
+                    "order_status_code": [
+                        "RI_LD"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "order_date": [],
+                    "order_status_code": [
+                        "TA_EM"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "3": {
+                "row": [],
+                "col": {
+                    "order_date": [],
+                    "order_status_code": [],
+                    "customer_id": []
+                }
+            },
+            "14": {
+                "row": [],
+                "col": {
+                    "order_date": [],
+                    "order_status_code": [
+                        "TA_EM"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "8": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "order_date": [],
+                    "order_status_code": [],
+                    "customer_id": []
+                }
+            },
+            "10": {
+                "row": [],
+                "col": {
+                    "order_date": [
+                        "RI_TC"
+                    ],
+                    "order_status_code": [
+                        "TA_EM"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "6": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "order_date": [
+                        "TA_FC"
+                    ],
+                    "order_status_code": [],
+                    "customer_id": []
+                }
+            },
+            "4": {
+                "row": [],
+                "col": {
+                    "order_date": [
+                        "RI_TC"
+                    ],
+                    "order_status_code": [
+                        "TA_EM"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "13": {
+                "row": [],
+                "col": {
+                    "order_date": [
+                        "TA_FC"
+                    ],
+                    "order_status_code": [],
+                    "customer_id": []
+                }
+            },
+            "1": {
+                "row": [],
+                "col": {
+                    "order_date": [
+                        "TA_FC"
+                    ],
+                    "order_status_code": [
+                        "TA_EM"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "order_date": [],
+                    "order_status_code": [
+                        "TD_DF"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "order_date": [
+                        "TD_AS"
+                    ],
+                    "order_status_code": [
+                        "TD_DF"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "order_date": [
+                        "RI_TC"
+                    ],
+                    "order_status_code": [
+                        "RI_LD"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "9": {
+                "row": [],
+                "col": {
+                    "order_date": [
+                        "TA_FC"
+                    ],
+                    "order_status_code": [],
+                    "customer_id": []
+                }
+            }
+        },
+        "Customers": {
+            "1": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "2": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "3": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "4": {
+                "payment_method_code": [
+                    "TA_EM"
+                ],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "5": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "6": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "7": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "8": {
+                "payment_method_code": [
+                    "RI_LD"
+                ],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "9": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "10": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "11": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "12": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "13": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "14": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": []
+            },
+            "15": {
+                "payment_method_code": [],
+                "customer_number": [],
+                "customer_address": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [
+                    "TD_DF"
+                ]
+            }
+        },
+        "Order_Items": {
+            "13": {
+                "row": [],
+                "col": {
+                    "order_quantity": [
+                        "RI_AC"
+                    ],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "order_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "12": {
+                "row": [],
+                "col": {
+                    "order_quantity": [
+                        "EF_RC"
+                    ],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "order_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "order_quantity": [
+                        "RI_LD"
+                    ],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "2": {
+                "row": [],
+                "col": {
+                    "order_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "10": {
+                "row": [],
+                "col": {
+                    "order_quantity": [
+                        "TD_DF"
+                    ],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "order_quantity": [
+                        "EF_ND"
+                    ],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "9": {
+                "row": [],
+                "col": {
+                    "order_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "11": {
+                "row": [],
+                "col": {
+                    "order_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "14": {
+                "row": [],
+                "col": {
+                    "order_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "order_quantity": [
+                        "TA_FC"
+                    ],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "1": {
+                "row": [],
+                "col": {
+                    "order_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "order_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "3": {
+                "row": [],
+                "col": {
+                    "order_quantity": [
+                        "TA_US"
+                    ],
+                    "order_id": [],
+                    "product_id": []
+                }
+            }
+        },
+        "Products": {
+            "1": {
+                "product_type_code": []
+            },
+            "2": {
+                "product_type_code": [
+                    "TA_EM"
+                ]
+            },
+            "3": {
+                "product_type_code": []
+            },
+            "4": {
+                "product_type_code": [
+                    "TA_EM"
+                ]
+            },
+            "5": {
+                "product_type_code": [
+                    "RI_LD"
+                ]
+            },
+            "6": {
+                "product_type_code": []
+            },
+            "7": {
+                "product_type_code": []
+            },
+            "8": {
+                "product_type_code": [
+                    "TA_EM"
+                ]
+            },
+            "9": {
+                "product_type_code": []
+            },
+            "10": {
+                "product_type_code": []
+            },
+            "11": {
+                "product_type_code": [
+                    "TD_DF"
+                ]
+            },
+            "12": {
+                "product_type_code": []
+            },
+            "13": {
+                "product_type_code": [
+                    "RI_LD"
+                ]
+            },
+            "14": {
+                "product_type_code": []
+            },
+            "15": {
+                "product_type_code": [
+                    "TD_DF",
+                    "TA_EM"
+                ]
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/customers_and_products_contacts/tables"
+}

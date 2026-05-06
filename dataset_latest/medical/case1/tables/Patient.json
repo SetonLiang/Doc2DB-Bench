@@ -1,0 +1,89 @@
+{
+  "rows": [
+    {
+      "SSN": 100000001,
+      "Name": "John Smith",
+      "Address": "42 Foobar Lane",
+      "Phone": "555-0256",
+      "InsuranceID": 68476213,
+      "PCP": 1
+    },
+    {
+      "SSN": 100000002,
+      "Name": "Grace Ritchie",
+      "Address": "37 Snafu Drive",
+      "Phone": "555-0512",
+      "InsuranceID": 36546321,
+      "PCP": 2
+    },
+    {
+      "SSN": 100000003,
+      "Name": "Random J. Patient",
+      "Address": "101 Omgbbq Street",
+      "Phone": "555-1204",
+      "InsuranceID": 65465421,
+      "PCP": 2
+    },
+    {
+      "SSN": 100000004,
+      "Name": "Dennis Doe",
+      "Address": "1100 Foobaz Avenue",
+      "Phone": "555-2048",
+      "InsuranceID": 68421879,
+      "PCP": 3
+    }
+  ],
+  "capability_assignments": {
+    "100000001": {
+      "Address": [
+        "TA_FC"
+      ],
+      "Phone": [
+        "TA_FC"
+      ],
+      "InsuranceID": [],
+      "PCP": [
+        "TA_EM"
+      ]
+    },
+    "100000002": {
+      "Address": [
+        "TD_DF"
+      ],
+      "Phone": [],
+      "InsuranceID": [
+        "RI_LD"
+      ],
+      "PCP": [
+        "TA_EM"
+      ]
+    },
+    "100000003": {
+      "Address": [
+        "TA_FC"
+      ],
+      "Phone": [
+        "TD_AS"
+      ],
+      "InsuranceID": [
+        "TD_CA"
+      ],
+      "PCP": [
+        "RI_LD"
+      ]
+    },
+    "100000004": {
+      "Address": [
+        "TA_FC",
+        "TD_DF"
+      ],
+      "Phone": [
+        "TA_FC"
+      ],
+      "InsuranceID": [],
+      "PCP": [
+        "RI_MI"
+      ]
+    }
+  }
+}

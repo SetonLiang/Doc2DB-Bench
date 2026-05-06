@@ -1,0 +1,1961 @@
+{
+    "database_id": "menu",
+    "if_primary_allowed": {
+        "MenuPage": false,
+        "MenuItem": false,
+        "Dish": false,
+        "Menu": false
+    },
+    "type": {
+        "MenuPage": "1:1",
+        "MenuItem": "1:2"
+    },
+    "capability_assignments": {
+        "Dish": {
+            "496253": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [
+                    "TA_FC"
+                ],
+                "last_appeared": [
+                    "TA_FC"
+                ],
+                "lowest_price": [
+                    "TA_US"
+                ],
+                "highest_price": [
+                    "TA_US"
+                ]
+            },
+            "28839": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "RI_LD"
+                ],
+                "highest_price": [
+                    "RI_LD"
+                ]
+            },
+            "37737": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [
+                    "TA_FC"
+                ],
+                "last_appeared": [],
+                "lowest_price": [
+                    "RI_LD"
+                ],
+                "highest_price": [
+                    "RI_LD"
+                ]
+            },
+            "296993": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "RI_LD"
+                ],
+                "highest_price": [
+                    "RI_LD"
+                ]
+            },
+            "468361": {
+                "menus_appeared": [],
+                "times_appeared": [
+                    "RI_LD"
+                ],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "EF_ND"
+                ],
+                "highest_price": [
+                    "EF_ND"
+                ]
+            },
+            "337474": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [
+                    "TA_FC"
+                ],
+                "last_appeared": [
+                    "TA_FC"
+                ],
+                "lowest_price": [
+                    "RI_LD"
+                ],
+                "highest_price": [
+                    "RI_LD"
+                ]
+            },
+            "462301": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [
+                    "RI_LD"
+                ],
+                "last_appeared": [
+                    "RI_LD"
+                ],
+                "lowest_price": [
+                    "RI_LD"
+                ],
+                "highest_price": []
+            },
+            "289812": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [
+                    "RI_LD"
+                ],
+                "last_appeared": [
+                    "RI_LD"
+                ],
+                "lowest_price": [
+                    "TA_US"
+                ],
+                "highest_price": [
+                    "TA_US"
+                ]
+            },
+            "376434": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [
+                    "RI_LD"
+                ],
+                "last_appeared": [],
+                "lowest_price": [
+                    "RI_LD"
+                ],
+                "highest_price": []
+            },
+            "191062": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "RI_LD"
+                ],
+                "highest_price": [
+                    "RI_LD"
+                ]
+            },
+            "506579": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [
+                    "TA_FC"
+                ],
+                "last_appeared": [],
+                "lowest_price": [
+                    "EF_ND"
+                ],
+                "highest_price": [
+                    "EF_ND"
+                ]
+            },
+            "393895": {
+                "menus_appeared": [],
+                "times_appeared": [
+                    "RI_LD"
+                ],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "TA_US"
+                ],
+                "highest_price": [
+                    "TA_US"
+                ]
+            },
+            "390337": {
+                "menus_appeared": [],
+                "times_appeared": [
+                    "RI_LD"
+                ],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "TA_US"
+                ],
+                "highest_price": [
+                    "TA_US"
+                ]
+            },
+            "242212": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [
+                    "RI_TC"
+                ],
+                "lowest_price": [
+                    "RI_LD"
+                ],
+                "highest_price": []
+            },
+            "496064": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "TD_AS"
+                ],
+                "highest_price": [
+                    "TD_AS"
+                ]
+            },
+            "153": {
+                "menus_appeared": [],
+                "times_appeared": [
+                    "RI_AC"
+                ],
+                "first_appeared": [
+                    "TA_FC"
+                ],
+                "last_appeared": [],
+                "lowest_price": [
+                    "TA_US"
+                ],
+                "highest_price": [
+                    "TA_US"
+                ]
+            },
+            "776": {
+                "menus_appeared": [],
+                "times_appeared": [
+                    "RI_LD"
+                ],
+                "first_appeared": [
+                    "RI_LD"
+                ],
+                "last_appeared": [],
+                "lowest_price": [],
+                "highest_price": [
+                    "TA_US"
+                ]
+            },
+            "3153": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [
+                    "RI_TC"
+                ],
+                "lowest_price": [
+                    "TA_US"
+                ],
+                "highest_price": []
+            },
+            "3952": {
+                "menus_appeared": [],
+                "times_appeared": [
+                    "RI_AC"
+                ],
+                "first_appeared": [],
+                "last_appeared": [
+                    "RI_LD"
+                ],
+                "lowest_price": [],
+                "highest_price": [
+                    "TA_US"
+                ]
+            },
+            "21967": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "TA_US"
+                ],
+                "highest_price": []
+            },
+            "22054": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [
+                    "RI_TC"
+                ],
+                "lowest_price": [
+                    "TA_US"
+                ],
+                "highest_price": [
+                    "TA_US"
+                ]
+            },
+            "85265": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "RI_AC"
+                ],
+                "highest_price": []
+            },
+            "103068": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [
+                    "RI_TC"
+                ],
+                "lowest_price": [],
+                "highest_price": []
+            },
+            "132722": {
+                "menus_appeared": [],
+                "times_appeared": [
+                    "RI_AC"
+                ],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [],
+                "highest_price": [
+                    "TA_US"
+                ]
+            },
+            "157452": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [
+                    "RI_LD"
+                ],
+                "last_appeared": [
+                    "RI_LD"
+                ],
+                "lowest_price": [
+                    "TA_US"
+                ],
+                "highest_price": []
+            },
+            "194679": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [
+                    "TA_FC"
+                ],
+                "lowest_price": [
+                    "RI_LD"
+                ],
+                "highest_price": []
+            },
+            "306115": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "TA_US"
+                ],
+                "highest_price": [
+                    "TA_US"
+                ]
+            },
+            "355250": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "RI_LD"
+                ],
+                "highest_price": [
+                    "RI_LD"
+                ]
+            },
+            "373890": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [
+                    "TA_FC"
+                ],
+                "last_appeared": [
+                    "RI_TC"
+                ],
+                "lowest_price": [
+                    "RI_LD"
+                ],
+                "highest_price": []
+            },
+            "511581": {
+                "menus_appeared": [],
+                "times_appeared": [],
+                "first_appeared": [],
+                "last_appeared": [],
+                "lowest_price": [
+                    "TA_US"
+                ],
+                "highest_price": [
+                    "TA_US"
+                ]
+            }
+        },
+        "Menu": {
+            "21581": {
+                "sponsor": [
+                    "TA_FC"
+                ],
+                "event": [
+                    "TA_EM"
+                ],
+                "venue": [
+                    "TA_EM"
+                ],
+                "place": [
+                    "TA_FC"
+                ],
+                "occasion": [
+                    "TA_EM"
+                ],
+                "notes": [],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "EF_ND"
+                ],
+                "currency_symbol": [
+                    "EF_ND"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "28786": {
+                "sponsor": [
+                    "TA_FC"
+                ],
+                "event": [
+                    "EF_ND"
+                ],
+                "venue": [
+                    "EF_ND"
+                ],
+                "place": [
+                    "EF_ND"
+                ],
+                "occasion": [
+                    "EF_ND"
+                ],
+                "notes": [
+                    "EF_ND"
+                ],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "TA_EM"
+                ],
+                "currency_symbol": [
+                    "TA_US"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "32607": {
+                "sponsor": [
+                    "TD_AS",
+                    "EF_RC"
+                ],
+                "event": [
+                    "EF_ND"
+                ],
+                "venue": [
+                    "EF_ND"
+                ],
+                "place": [
+                    "EF_ND"
+                ],
+                "occasion": [
+                    "EF_ND"
+                ],
+                "notes": [
+                    "EF_ND"
+                ],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS",
+                    "EF_RC"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "EF_ND"
+                ],
+                "currency_symbol": [
+                    "EF_ND"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "22905": {
+                "sponsor": [
+                    "TA_FC"
+                ],
+                "event": [
+                    "TA_EM"
+                ],
+                "venue": [
+                    "TA_EM"
+                ],
+                "place": [
+                    "TA_FC"
+                ],
+                "occasion": [
+                    "EF_ND"
+                ],
+                "notes": [
+                    "TD_DF"
+                ],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "TA_EM"
+                ],
+                "currency_symbol": [
+                    "TA_US"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "33037": {
+                "sponsor": [
+                    "TD_AS",
+                    "EF_RC"
+                ],
+                "event": [
+                    "EF_ND"
+                ],
+                "venue": [
+                    "EF_ND"
+                ],
+                "place": [
+                    "EF_ND"
+                ],
+                "occasion": [
+                    "EF_ND"
+                ],
+                "notes": [
+                    "EF_ND"
+                ],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS",
+                    "EF_RC"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "TA_EM"
+                ],
+                "currency_symbol": [
+                    "TA_US"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "22197": {
+                "sponsor": [
+                    "TA_FC"
+                ],
+                "event": [
+                    "TA_FC"
+                ],
+                "venue": [
+                    "TA_EM"
+                ],
+                "place": [
+                    "TA_FC"
+                ],
+                "occasion": [
+                    "TA_EM"
+                ],
+                "notes": [],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS",
+                    "TA_FC"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "EF_ND"
+                ],
+                "currency_symbol": [
+                    "EF_ND"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "21560": {
+                "sponsor": [
+                    "TA_FC"
+                ],
+                "event": [
+                    "TA_EM"
+                ],
+                "venue": [
+                    "EF_ND"
+                ],
+                "place": [
+                    "TA_FC"
+                ],
+                "occasion": [
+                    "EF_ND"
+                ],
+                "notes": [],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "TA_EM"
+                ],
+                "currency_symbol": [
+                    "TA_US"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "26770": {
+                "sponsor": [
+                    "TA_FC"
+                ],
+                "event": [
+                    "TA_EM"
+                ],
+                "venue": [
+                    "TA_EM"
+                ],
+                "place": [
+                    "TD_AS",
+                    "EF_RC"
+                ],
+                "occasion": [
+                    "EF_ND"
+                ],
+                "notes": [],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "EF_ND"
+                ],
+                "location": [
+                    "TD_AS",
+                    "TA_FC"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "EF_ND"
+                ],
+                "currency_symbol": [
+                    "EF_ND"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "33444": {
+                "sponsor": [
+                    "TD_AS",
+                    "EF_RC"
+                ],
+                "event": [
+                    "EF_ND"
+                ],
+                "venue": [
+                    "EF_ND"
+                ],
+                "place": [
+                    "EF_ND"
+                ],
+                "occasion": [
+                    "EF_ND"
+                ],
+                "notes": [
+                    "EF_ND"
+                ],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS",
+                    "EF_RC"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "TA_EM"
+                ],
+                "currency_symbol": [
+                    "TA_US"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "19097": {
+                "sponsor": [
+                    "EF_ND"
+                ],
+                "event": [
+                    "EF_ND"
+                ],
+                "venue": [
+                    "EF_ND"
+                ],
+                "place": [
+                    "EF_ND"
+                ],
+                "occasion": [
+                    "EF_ND"
+                ],
+                "notes": [
+                    "EF_ND"
+                ],
+                "call_number": [
+                    "EF_ND"
+                ],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "RI_LD"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "EF_ND"
+                ],
+                "currency_symbol": [
+                    "EF_ND"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "34653": {
+                "sponsor": [
+                    "TD_AS",
+                    "EF_RC"
+                ],
+                "event": [
+                    "EF_ND"
+                ],
+                "venue": [
+                    "EF_ND"
+                ],
+                "place": [
+                    "EF_ND"
+                ],
+                "occasion": [
+                    "EF_ND"
+                ],
+                "notes": [
+                    "RI_LD"
+                ],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS",
+                    "EF_RC"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "EF_ND"
+                ],
+                "currency_symbol": [
+                    "EF_ND"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "14479": {
+                "sponsor": [
+                    "TA_FC"
+                ],
+                "event": [
+                    "TA_EM"
+                ],
+                "venue": [
+                    "TA_EM"
+                ],
+                "place": [
+                    "TA_FC"
+                ],
+                "occasion": [
+                    "TA_EM"
+                ],
+                "notes": [
+                    "EF_ND"
+                ],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "EF_ND"
+                ],
+                "currency_symbol": [
+                    "EF_ND"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "27337": {
+                "sponsor": [
+                    "TA_FC"
+                ],
+                "event": [
+                    "TA_EM"
+                ],
+                "venue": [
+                    "TA_EM"
+                ],
+                "place": [
+                    "TA_FC"
+                ],
+                "occasion": [
+                    "EF_ND"
+                ],
+                "notes": [],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "EF_ND"
+                ],
+                "location": [
+                    "TD_AS"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "TA_EM"
+                ],
+                "currency_symbol": [
+                    "TA_US"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "33210": {
+                "sponsor": [
+                    "TD_AS",
+                    "EF_RC"
+                ],
+                "event": [
+                    "EF_ND"
+                ],
+                "venue": [
+                    "EF_ND"
+                ],
+                "place": [
+                    "EF_ND"
+                ],
+                "occasion": [
+                    "EF_ND"
+                ],
+                "notes": [
+                    "EF_ND"
+                ],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS",
+                    "EF_RC"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "TA_EM"
+                ],
+                "currency_symbol": [
+                    "TA_US"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            },
+            "25920": {
+                "sponsor": [
+                    "TA_FC"
+                ],
+                "event": [
+                    "TA_EM"
+                ],
+                "venue": [
+                    "TA_EM"
+                ],
+                "place": [
+                    "TA_FC"
+                ],
+                "occasion": [
+                    "TA_EM"
+                ],
+                "notes": [],
+                "call_number": [],
+                "keywords": [
+                    "EF_ND"
+                ],
+                "language": [
+                    "EF_ND"
+                ],
+                "date": [
+                    "TA_FC"
+                ],
+                "location": [
+                    "TD_AS"
+                ],
+                "location_type": [
+                    "EF_ND"
+                ],
+                "currency": [
+                    "TA_EM"
+                ],
+                "currency_symbol": [
+                    "TA_US"
+                ],
+                "status": [
+                    "TA_EM"
+                ],
+                "page_count": [],
+                "dish_count": []
+            }
+        },
+        "MenuItem": {
+            "583317": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "price": [
+                        "EF_ND"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [
+                        "TA_FC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "707405": {
+                "row": [],
+                "col": {
+                    "price": [
+                        "EF_ND"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [
+                        "RI_TC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "914603": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "price": [
+                        "TA_US"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [],
+                    "updated_at": [
+                        "TA_FC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "1039382": {
+                "row": [],
+                "col": {
+                    "price": [
+                        "TA_US"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [],
+                    "updated_at": [
+                        "TA_FC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "1353738": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "price": [
+                        "TA_US"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [
+                        "TA_FC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "1383367": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "price": [
+                        "TA_US"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "299331": {
+                "row": [],
+                "col": {
+                    "price": [
+                        "TA_US"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "563679": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "price": [
+                        "TA_US"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "948175": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "price": [
+                        "TA_US"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [
+                        "TA_FC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "773767": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "price": [
+                        "TA_US",
+                        "TD_AS"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "412966": {
+                "row": [
+                    "GR_DC",
+                    "IC_RI"
+                ],
+                "col": {
+                    "price": [
+                        "EF_ND"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "375361": {
+                "row": [
+                    "IC_RI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "price": [
+                        "EF_ND"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "48303": {
+                "row": [
+                    "RL_MB",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "price": [
+                        "TA_US"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "511400": {
+                "row": [],
+                "col": {
+                    "price": [
+                        "TA_US"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [
+                        "TA_FC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            },
+            "52320": {
+                "row": [],
+                "col": {
+                    "price": [
+                        "TA_US"
+                    ],
+                    "high_price": [
+                        "EF_ND"
+                    ],
+                    "created_at": [
+                        "TA_FC"
+                    ],
+                    "updated_at": [
+                        "TA_FC"
+                    ],
+                    "xpos": [],
+                    "ypos": [],
+                    "menu_page_id": [],
+                    "dish_id": []
+                }
+            }
+        },
+        "MenuPage": {
+            "48848": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [
+                        "TA_US"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "69900": {
+                "row": [
+                    "RL_O2M",
+                    "GR_TI"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TD_AS"
+                    ],
+                    "full_width": [
+                        "TA_US"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "73927": {
+                "row": [],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [],
+                    "full_width": [
+                        "TD_AS"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "28847": {
+                "row": [
+                    "RL_O2M",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [],
+                    "full_width": [
+                        "TA_US"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "28846": {
+                "row": [
+                    "RL_O2M",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "28852": {
+                "row": [
+                    "RL_O2M",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [
+                        "TD_AS"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "31392": {
+                "row": [],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "26494": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [],
+                    "full_width": [
+                        "TA_US"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "53875": {
+                "row": [],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "69897": {
+                "row": [
+                    "RL_O2M",
+                    "GR_TI"
+                ],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [
+                        "EF_HC"
+                    ],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "26424": {
+                "row": [],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [],
+                    "full_width": [
+                        "TA_US"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "28849": {
+                "row": [
+                    "GR_CTA",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [
+                        "TD_AS"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "26493": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TD_AS"
+                    ],
+                    "full_width": [
+                        "RI_AC"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "28855": {
+                "row": [
+                    "RL_O2M",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [
+                        "TD_AS"
+                    ],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "46523": {
+                "row": [],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US",
+                        "TD_AS"
+                    ],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "770487": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "216739": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "126225": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            }
+        },
+        "MenuPage_old": {
+            "26424": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "page_number": [
+                        "TA_FC"
+                    ],
+                    "full_height": [],
+                    "full_width": [
+                        "TA_US"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "26493": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [
+                        "TA_US"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "69897": {
+                "row": [
+                    "GR_TI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "page_number": [
+                        "TA_FC"
+                    ],
+                    "full_height": [],
+                    "full_width": [
+                        "EF_HC"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "73927": {
+                "row": [],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "31392": {
+                "row": [],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [
+                        "TD_AS"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "28846": {
+                "row": [],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [
+                        "TD_AS"
+                    ],
+                    "full_width": [
+                        "TA_US"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "28855": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [
+                        "TD_AS"
+                    ],
+                    "full_width": [
+                        "TA_US"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "46523": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US",
+                        "TD_AS"
+                    ],
+                    "full_width": [
+                        "RI_AC"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "28852": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [],
+                    "full_width": [
+                        "TA_US"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "28849": {
+                "row": [
+                    "RL_MI",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "28847": {
+                "row": [],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [],
+                    "full_width": [
+                        "RI_AC"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "53875": {
+                "row": [],
+                "col": {
+                    "page_number": [
+                        "TA_FC"
+                    ],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "69900": {
+                "row": [
+                    "RL_MB",
+                    "GR_TI"
+                ],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [
+                        "EF_HC"
+                    ],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "26494": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {
+                    "page_number": [
+                        "RI_LD"
+                    ],
+                    "full_height": [
+                        "TD_AS"
+                    ],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "48848": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [
+                        "TA_US"
+                    ],
+                    "full_width": [
+                        "TD_AS"
+                    ],
+                    "menu_id": []
+                }
+            },
+            "770487": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "388389": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            },
+            "872246": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "page_number": [],
+                    "full_height": [],
+                    "full_width": [],
+                    "menu_id": []
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/menu/tables"
+}

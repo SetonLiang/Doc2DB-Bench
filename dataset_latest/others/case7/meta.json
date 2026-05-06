@@ -1,0 +1,546 @@
+{
+    "database_id": "city_record",
+    "if_primary_allowed": {
+        "hosting_city": false,
+        "temperature": false,
+        "match": false,
+        "city": false
+    },
+    "type": {
+        "hosting_city": "1:2",
+        "temperature": "1:1"
+    },
+    "capability_assignments": {
+        "city": {
+            "1": {
+                "Regional_Population": [
+                    "TA_FC",
+                    "TA_US"
+                ],
+                "GDP": [
+                    "TA_US"
+                ]
+            },
+            "2": {
+                "Regional_Population": [
+                    "TA_US"
+                ],
+                "GDP": [
+                    "TD_AS"
+                ]
+            },
+            "3": {
+                "Regional_Population": [
+                    "TA_FC"
+                ],
+                "GDP": [
+                    "RI_AC"
+                ]
+            },
+            "4": {
+                "Regional_Population": [
+                    "TA_US"
+                ],
+                "GDP": [
+                    "TA_US",
+                    "TD_AS"
+                ]
+            },
+            "5": {
+                "Regional_Population": [],
+                "GDP": [
+                    "TA_FC"
+                ]
+            },
+            "6": {
+                "Regional_Population": [
+                    "RI_AC"
+                ],
+                "GDP": []
+            },
+            "7": {
+                "Regional_Population": [
+                    "TA_FC"
+                ],
+                "GDP": [
+                    "TA_US"
+                ]
+            },
+            "8": {
+                "Regional_Population": [],
+                "GDP": [
+                    "EF_HC"
+                ]
+            },
+            "9": {
+                "Regional_Population": [
+                    "TD_AS"
+                ],
+                "GDP": []
+            },
+            "10": {
+                "Regional_Population": [],
+                "GDP": [
+                    "RI_LD"
+                ]
+            },
+            "11": {
+                "Regional_Population": [
+                    "TA_US"
+                ],
+                "GDP": []
+            },
+            "12": {
+                "Regional_Population": [
+                    "TA_FC"
+                ],
+                "GDP": [
+                    "EF_HC"
+                ]
+            },
+            "13": {
+                "Regional_Population": [],
+                "GDP": [
+                    "TD_AS"
+                ]
+            }
+        },
+        "hosting_city": {
+            "2012": {
+                "row": [],
+                "col": {
+                    "Match_ID": [],
+                    "Host_City": []
+                }
+            },
+            "2013": {
+                "row": [],
+                "col": {
+                    "Match_ID": [],
+                    "Host_City": []
+                }
+            },
+            "2008": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Match_ID": [],
+                    "Host_City": []
+                }
+            },
+            "2011": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "Match_ID": [],
+                    "Host_City": []
+                }
+            },
+            "2009": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "Match_ID": [],
+                    "Host_City": []
+                }
+            },
+            "2010": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Match_ID": [],
+                    "Host_City": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "Match_ID": [],
+                    "Host_City": []
+                }
+            },
+            "1993": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "Match_ID": [],
+                    "Host_City": []
+                }
+            },
+            "1999": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "Match_ID": [],
+                    "Host_City": []
+                }
+            }
+        },
+        "match": {
+            "1": {
+                "Venue": [
+                    "TA_FC"
+                ],
+                "Score": [],
+                "Result": [
+                    "RI_AC"
+                ],
+                "Competition": [
+                    "TA_EM"
+                ]
+            },
+            "2": {
+                "Venue": [
+                    "TA_FC"
+                ],
+                "Score": [],
+                "Result": [
+                    "RI_AC"
+                ],
+                "Competition": [
+                    "TA_EM"
+                ]
+            },
+            "3": {
+                "Venue": [
+                    "EF_RC"
+                ],
+                "Score": [
+                    "TD_AS"
+                ],
+                "Result": [
+                    "RI_AC"
+                ],
+                "Competition": []
+            },
+            "4": {
+                "Venue": [
+                    "EF_RC"
+                ],
+                "Score": [
+                    "TD_AS",
+                    "RI_LD"
+                ],
+                "Result": [],
+                "Competition": [
+                    "TA_EM"
+                ]
+            },
+            "5": {
+                "Venue": [
+                    "EF_RC"
+                ],
+                "Score": [
+                    "TA_FC"
+                ],
+                "Result": [
+                    "TA_FC"
+                ],
+                "Competition": []
+            },
+            "6": {
+                "Venue": [
+                    "EF_RC"
+                ],
+                "Score": [
+                    "TA_FC"
+                ],
+                "Result": [
+                    "TA_FC"
+                ],
+                "Competition": [
+                    "TA_EM"
+                ]
+            }
+        },
+        "temperature": {
+            "10": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "Jan": [
+                        "RI_LD"
+                    ],
+                    "Feb": [
+                        "TA_FC"
+                    ],
+                    "Mar": [],
+                    "Apr": [
+                        "TD_DF"
+                    ],
+                    "Jun": [
+                        "RI_AC"
+                    ],
+                    "Jul": [
+                        "TD_AS"
+                    ],
+                    "Aug": [],
+                    "Sep": [
+                        "RI_AC"
+                    ],
+                    "Oct": [
+                        "TA_US"
+                    ],
+                    "Nov": [],
+                    "Dec": [
+                        "EF_HC"
+                    ]
+                }
+            },
+            "4": {
+                "row": [
+                    "IDR_ED",
+                    "RL_CL"
+                ],
+                "col": {
+                    "Jan": [
+                        "TA_FC"
+                    ],
+                    "Feb": [],
+                    "Mar": [
+                        "RI_AC"
+                    ],
+                    "Apr": [
+                        "TD_AS"
+                    ],
+                    "Jun": [
+                        "RI_LD"
+                    ],
+                    "Jul": [
+                        "TA_US"
+                    ],
+                    "Aug": [
+                        "TD_DF",
+                        "RI_AC"
+                    ],
+                    "Sep": [],
+                    "Oct": [
+                        "EF_HC"
+                    ],
+                    "Nov": [],
+                    "Dec": [
+                        "TD_AS"
+                    ]
+                }
+            },
+            "11": {
+                "row": [],
+                "col": {
+                    "Jan": [
+                        "TA_FC"
+                    ],
+                    "Feb": [
+                        "RI_AC"
+                    ],
+                    "Mar": [
+                        "TD_DF"
+                    ],
+                    "Apr": [],
+                    "Jun": [
+                        "TA_US"
+                    ],
+                    "Jul": [],
+                    "Aug": [
+                        "TD_AS"
+                    ],
+                    "Sep": [
+                        "RI_LD"
+                    ],
+                    "Oct": [
+                        "EF_HC"
+                    ],
+                    "Nov": [
+                        "RI_AC"
+                    ],
+                    "Dec": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Jan": [],
+                    "Feb": [
+                        "TD_AS"
+                    ],
+                    "Mar": [
+                        "EF_HC"
+                    ],
+                    "Apr": [
+                        "RI_AC"
+                    ],
+                    "Jun": [],
+                    "Jul": [
+                        "TD_DF"
+                    ],
+                    "Aug": [
+                        "RI_LD"
+                    ],
+                    "Sep": [
+                        "TA_FC"
+                    ],
+                    "Oct": [
+                        "RI_AC"
+                    ],
+                    "Nov": [
+                        "TA_US"
+                    ],
+                    "Dec": []
+                }
+            },
+            "2": {
+                "row": [],
+                "col": {
+                    "Jan": [
+                        "TD_DF"
+                    ],
+                    "Feb": [
+                        "RI_AC"
+                    ],
+                    "Mar": [],
+                    "Apr": [
+                        "EF_HC"
+                    ],
+                    "Jun": [
+                        "TD_AS"
+                    ],
+                    "Jul": [],
+                    "Aug": [
+                        "RI_AC"
+                    ],
+                    "Sep": [
+                        "TD_DF"
+                    ],
+                    "Oct": [
+                        "RI_LD"
+                    ],
+                    "Nov": [
+                        "TA_US"
+                    ],
+                    "Dec": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "3": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Jan": [],
+                    "Feb": [
+                        "RI_AC"
+                    ],
+                    "Mar": [
+                        "TD_AS"
+                    ],
+                    "Apr": [
+                        "TA_FC"
+                    ],
+                    "Jun": [
+                        "RI_LD"
+                    ],
+                    "Jul": [
+                        "EF_HC"
+                    ],
+                    "Aug": [
+                        "TD_DF"
+                    ],
+                    "Sep": [],
+                    "Oct": [
+                        "RI_AC"
+                    ],
+                    "Nov": [
+                        "TA_US"
+                    ],
+                    "Dec": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Jan": [
+                        "TA_US"
+                    ],
+                    "Feb": [
+                        "TD_DF",
+                        "RI_AC"
+                    ],
+                    "Mar": [],
+                    "Apr": [
+                        "TD_AS"
+                    ],
+                    "Jun": [
+                        "RI_AC"
+                    ],
+                    "Jul": [
+                        "TD_DF"
+                    ],
+                    "Aug": [
+                        "RI_AC"
+                    ],
+                    "Sep": [],
+                    "Oct": [
+                        "TD_AS"
+                    ],
+                    "Nov": [
+                        "RI_LD"
+                    ],
+                    "Dec": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "6": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "Jan": [
+                        "TA_US"
+                    ],
+                    "Feb": [
+                        "TD_DF"
+                    ],
+                    "Mar": [
+                        "RI_AC"
+                    ],
+                    "Apr": [],
+                    "Jun": [
+                        "TD_AS"
+                    ],
+                    "Jul": [
+                        "RI_AC"
+                    ],
+                    "Aug": [],
+                    "Sep": [
+                        "RI_LD"
+                    ],
+                    "Oct": [
+                        "TA_FC"
+                    ],
+                    "Nov": [
+                        "EF_HC"
+                    ],
+                    "Dec": [
+                        "TD_DF"
+                    ]
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/city_record/tables"
+}

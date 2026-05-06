@@ -1,0 +1,1910 @@
+{
+    "database_name": "soccer_2016",
+    "if_primary_allowed": {
+        "Match": false,
+        "Out_Type": false,
+        "Outcome": false,
+        "Player": false,
+        "Player_Match": false,
+        "Season": false,
+        "Team": false,
+        "Win_By": false
+    },
+    "type": {
+        "Match": "1:3",
+        "Player_Match": "1:3"
+    },
+    "capability_assignments": {
+        "Match": {
+            "980928": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "733998": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "548384": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "548311": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "419135": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "729304": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Win_Margin": [
+                        "RI_LD"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "501231": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "501276": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Win_Margin": [
+                        "RI_LD"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "734020": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "980920": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Win_Margin": [
+                        "RI_LD"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "392209": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "548369": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "980908": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "335996": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "598078": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "336016": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "598019": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "501235": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "598071": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "548360": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "501204": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Win_Margin": [
+                        "RI_LD"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "548332": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "548318": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "392241": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "336029": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "548317": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "419138": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "829812": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "501247": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "392186": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "598052": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "392221": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "598026": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "734012": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "734002": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "829828": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "335993": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "729314": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "548383": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "336019": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "392208": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "336034": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "981006": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "392191": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "419162": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "548375": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "336044": {
+                "row": [],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "829770": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Win_Margin": [
+                        "RI_LD"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "501219": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "419163": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Win_Margin": [
+                        "RI_LD"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "419146": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "729294": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "336032": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "501263": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "392223": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Win_Margin": [
+                        "RI_LD"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "548382": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "392210": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            },
+            "419157": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Match_Date": [
+                        "TA_FC"
+                    ],
+                    "Team_1": [],
+                    "Team_2": [],
+                    "Season_Id": [],
+                    "Win_Type": [],
+                    "Win_Margin": [],
+                    "Outcome_type": [],
+                    "Man_of_the_Match": []
+                }
+            }
+        },
+        "Out_Type": {},
+        "Outcome": {},
+        "Player": {
+            "29": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "99": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": []
+            },
+            "447": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "337": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "177": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "64": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "144": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "184": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "82": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": []
+            },
+            "442": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "287": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": []
+            },
+            "383": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "293": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "54": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "228": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "27": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD",
+                    "TA_EM"
+                ]
+            },
+            "463": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "178": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "411": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": []
+            },
+            "428": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "189": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "129": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": []
+            },
+            "414": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": []
+            },
+            "86": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD",
+                    "TA_EM"
+                ]
+            },
+            "175": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "92": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "292": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "391": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": []
+            },
+            "465": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": []
+            },
+            "166": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "1": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "20": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "31": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "40": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "62": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "EF_ND"
+                ]
+            },
+            "71": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "85": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "94": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": []
+            },
+            "104": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "122": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": []
+            },
+            "133": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD",
+                    "TA_EM"
+                ]
+            },
+            "151": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": []
+            },
+            "154": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "185": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "221": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "232": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": []
+            },
+            "315": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "334": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "336": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "346": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "18": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": []
+            },
+            "26": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "38": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "42": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "44": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "47": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "EF_ND"
+                ]
+            },
+            "52": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "57": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "66": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": []
+            },
+            "95": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "236": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": []
+            },
+            "281": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": []
+            },
+            "306": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD",
+                    "TA_EM"
+                ]
+            },
+            "321": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "357": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "400": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "21": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "46": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": []
+            },
+            "53": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "96": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": []
+            },
+            "109": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "110": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "118": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": []
+            },
+            "124": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "162": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD",
+                    "TA_EM"
+                ]
+            },
+            "186": {
+                "DOB": [
+                    "RI_TC"
+                ],
+                "Bowling_skill": [
+                    "TA_EM"
+                ]
+            },
+            "199": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "254": {
+                "DOB": [
+                    "TA_FC"
+                ],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "320": {
+                "DOB": [],
+                "Bowling_skill": [
+                    "RI_LD"
+                ]
+            },
+            "39": {
+                "DOB": [],
+                "Bowling_skill": []
+            },
+            "147": {
+                "DOB": [],
+                "Bowling_skill": []
+            },
+            "210": {
+                "DOB": [],
+                "Bowling_skill": []
+            },
+            "307": {
+                "DOB": [],
+                "Bowling_skill": []
+            },
+            "340": {
+                "DOB": [],
+                "Bowling_skill": []
+            },
+            "24": {
+                "DOB": [],
+                "Bowling_skill": []
+            },
+            "97": {
+                "DOB": [],
+                "Bowling_skill": []
+            },
+            "216": {
+                "DOB": [],
+                "Bowling_skill": []
+            },
+            "55": {
+                "DOB": [],
+                "Bowling_skill": []
+            },
+            "176": {
+                "DOB": [],
+                "Bowling_skill": []
+            },
+            "300": {
+                "DOB": [],
+                "Bowling_skill": []
+            }
+        },
+        "Player_Match": {
+            "729304, 315": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Team_Id": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "548375, 40": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "Team_Id": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "548383, 232": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Team_Id": [
+                        "TD_CA"
+                    ]
+                }
+            },
+            "336044, 64": {
+                "row": [],
+                "col": {
+                    "Team_Id": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "734020, 315": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "336016, 31": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "980920, 40": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "Team_Id": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "734020, 40": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Team_Id": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "336016, 39": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "548383, 40": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "501204, 154": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "598026, 166": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "729304, 336": {
+                "row": [],
+                "col": {
+                    "Team_Id": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "501276, 62": {
+                "row": [],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "980920, 232": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "419163, 31": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "729294, 31": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "733998, 154": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "598026, 94": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Team_Id": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "734020, 29": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "Team_Id": [
+                        "TD_CA"
+                    ]
+                }
+            },
+            "548317, 40": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "729294, 40": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "598026, 340": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "Team_Id": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "548382, 133": {
+                "row": [],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "336019, 129": {
+                "row": [],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "980920, 334": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Team_Id": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "548375, 147": {
+                "row": [],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "392223, 71": {
+                "row": [],
+                "col": {
+                    "Team_Id": []
+                }
+            },
+            "733998, 166": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {
+                    "Team_Id": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "501247, 346": {
+                "row": [],
+                "col": {
+                    "Team_Id": []
+                }
+            }
+        },
+        "Season": {
+            "1": {
+                "Man_of_the_Series": [
+                    "TD_AS"
+                ],
+                "Orange_Cap": [
+                    "TA_EM"
+                ],
+                "Purple_Cap": [
+                    "TD_DF"
+                ]
+            },
+            "2": {
+                "Man_of_the_Series": [],
+                "Orange_Cap": [
+                    "TA_EM"
+                ],
+                "Purple_Cap": []
+            },
+            "3": {
+                "Man_of_the_Series": [
+                    "RI_LD"
+                ],
+                "Orange_Cap": [],
+                "Purple_Cap": [
+                    "TD_AS"
+                ]
+            },
+            "4": {
+                "Man_of_the_Series": [
+                    "RI_MI"
+                ],
+                "Orange_Cap": [],
+                "Purple_Cap": [
+                    "TD_DF"
+                ]
+            },
+            "5": {
+                "Man_of_the_Series": [],
+                "Orange_Cap": [
+                    "TD_AS"
+                ],
+                "Purple_Cap": []
+            },
+            "6": {
+                "Man_of_the_Series": [],
+                "Orange_Cap": [],
+                "Purple_Cap": [
+                    "TD_AS"
+                ]
+            },
+            "7": {
+                "Man_of_the_Series": [
+                    "TA_EM"
+                ],
+                "Orange_Cap": [],
+                "Purple_Cap": []
+            },
+            "8": {
+                "Man_of_the_Series": [],
+                "Orange_Cap": [
+                    "TD_DF"
+                ],
+                "Purple_Cap": []
+            },
+            "9": {
+                "Man_of_the_Series": [
+                    "RI_LD"
+                ],
+                "Orange_Cap": [],
+                "Purple_Cap": [
+                    "TA_EM",
+                    "TD_AS"
+                ]
+            }
+        },
+        "Team": {},
+        "Win_By": {}
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/soccer_2016/tables"
+}

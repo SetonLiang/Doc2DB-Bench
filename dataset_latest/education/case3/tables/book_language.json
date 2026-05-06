@@ -1,0 +1,110 @@
+[
+{
+"language_id": 1,
+"language_name": "English"
+},
+{
+"language_id": 2,
+"language_name": "United States English"
+},
+{
+"language_id": 3,
+"language_name": "French"
+},
+{
+"language_id": 4,
+"language_name": "Spanish"
+},
+{
+"language_id": 5,
+"language_name": "British English"
+},
+{
+"language_id": 6,
+"language_name": "Multiple Languages"
+},
+{
+"language_id": 7,
+"language_name": "Greek"
+},
+{
+"language_id": 8,
+"language_name": "Middle English"
+},
+{
+"language_id": 9,
+"language_name": "Canadian English"
+},
+{
+"language_id": 10,
+"language_name": "German"
+},
+{
+"language_id": 11,
+"language_name": "Japanese"
+},
+{
+"language_id": 12,
+"language_name": "Arabic"
+},
+{
+"language_id": 13,
+"language_name": "Dutch"
+},
+{
+"language_id": 14,
+"language_name": "Chinese"
+},
+{
+"language_id": 15,
+"language_name": "Latin"
+},
+{
+"language_id": 16,
+"language_name": "Portuguese"
+},
+{
+"language_id": 17,
+"language_name": "Serbian"
+},
+{
+"language_id": 18,
+"language_name": "Italian"
+},
+{
+"language_id": 19,
+"language_name": "Russian"
+},
+{
+"language_id": 20,
+"language_name": "Malaysian"
+},
+{
+"language_id": 21,
+"language_name": "Galician"
+},
+{
+"language_id": 22,
+"language_name": "Welsh"
+},
+{
+"language_id": 23,
+"language_name": "Swedish"
+},
+{
+"language_id": 24,
+"language_name": "Norwegian"
+},
+{
+"language_id": 25,
+"language_name": "Turkish"
+},
+{
+"language_id": 26,
+"language_name": "Gaelic"
+},
+{
+"language_id": 27,
+"language_name": "Aleut"
+}
+]

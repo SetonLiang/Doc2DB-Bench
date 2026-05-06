@@ -1,0 +1,350 @@
+[
+  {
+    "id": "1",
+    "name": "Episode",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "episode_id",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the episode (data format: text)"
+      },
+      {
+        "name": "series",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the series (data format: text)"
+      },
+      {
+        "name": "season",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "a number indicating the season of the episode (data format: integer)"
+      },
+      {
+        "name": "episode",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the sequential number of the episode within a specific season (data format: integer)"
+      },
+      {
+        "name": "number_in_series",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the overall sequence number of episode in the entire series (data format: integer)"
+      },
+      {
+        "name": "title",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the title of the episode (data format: text)"
+      },
+      {
+        "name": "air_date",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the date the episode was initially broadcast in the United States"
+      },
+      {
+        "name": "rating",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the weighted average of the votes received for the episode commonsense evidence: The higher rating means the episode has more positive viewer comments. (data format: real)"
+      },
+      {
+        "name": "votes",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the total number of rating votes for the episode (data format: integer)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Person",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "person_id",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "the unique identifier for the person (data format: text)"
+      },
+      {
+        "name": "name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the person (data format: text)"
+      },
+      {
+        "name": "birthdate",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the date the person was born if null, it means this birthdate of the person is not available"
+      },
+      {
+        "name": "birth_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name parents gave to the person shortly after birth (data format: text)"
+      },
+      {
+        "name": "birth_place",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the place where a person was born. commonsense evidence: the birth place info is integrate if birth_name, birth_place, birth_region don't contain null value the full birth place = birth_country +birth_region +birth_place (data format: text)"
+      },
+      {
+        "name": "birth_region",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the geographical area describing where a person was born that is larger than the birth place (data format: text)"
+      },
+      {
+        "name": "birth_country",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the country where the person was born commonsense evidence: can ask questions about its corresponding continent: e.g.: USA --> North America (data format: text)"
+      },
+      {
+        "name": "height_meters",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "how tall the person is in meters (data format: real)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Award",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "award_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "the unique identifier for the award nomination (data format: integer)"
+      },
+      {
+        "name": "organization",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the organization that grants the award (data format: text)"
+      },
+      {
+        "name": "year",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the year of the nomination for  the award (data format: integer)"
+      },
+      {
+        "name": "award_category",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the class of the award (data format: text)"
+      },
+      {
+        "name": "award",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the specific award (data format: text)"
+      },
+      {
+        "name": "series",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the Law & Order series that has been nominated (data format: text)"
+      },
+      {
+        "name": "episode_id",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Episode",
+            "column": "episode_id"
+          }
+        },
+        "description": "the id of the episode that has been nominated (data format: text)"
+      },
+      {
+        "name": "person_id",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Person",
+            "column": "person_id"
+          }
+        },
+        "description": "the id of the person that has been nominated (data format: text)"
+      },
+      {
+        "name": "role",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the role that has been nominated (data format: text)"
+      },
+      {
+        "name": "result",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the nomination result Nominee / Winner commonsense evidence: 'Winner' means that the award was actually received. (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Credit",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "episode_id",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Episode",
+            "column": "episode_id"
+          }
+        },
+        "description": "the id of the episode to which the credit information pertains (data format: text)"
+      },
+      {
+        "name": "person_id",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Person",
+            "column": "person_id"
+          }
+        },
+        "description": "the id of the person to which the credit information pertains (data format: text)"
+      },
+      {
+        "name": "category",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the kind of credit being recognized (data format: text)"
+      },
+      {
+        "name": "role",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the role for which the person is being recognized If the credit is for an actor, this is the name of the character he or she portrayed (Dan Florek plays Donald Craven). Otherwise, this is the production role (producer, sound editor). (data format: text)"
+      },
+      {
+        "name": "credited",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "whether the credit was displayed in the credits at the end of the episode commonsense evidence: A person may fill a role in an episode, but not show up in the on-screen credits. In this case, the work is said to be \"uncredited.\" (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Vote",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "episode_id",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Episode",
+            "column": "episode_id"
+          }
+        },
+        "description": "the id of the episode (data format: text)"
+      },
+      {
+        "name": "stars",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "a number between 1 and 10 indicating how much the viewer enjoyed the episode commonsense evidence: The higher the number, the more the episode was enjoyed (data format: integer)"
+      },
+      {
+        "name": "votes",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "The total number of viewers that gave the specific episode the number of stars indicated in the \"stars\" column (data format: integer)"
+      },
+      {
+        "name": "percent",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "The percent of viewers that gave the specific episode the number of stars indicated in the \"stars\" column (data format: real)"
+      }
+    ]
+  }
+]

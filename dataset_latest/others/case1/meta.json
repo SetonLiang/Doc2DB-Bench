@@ -1,0 +1,1474 @@
+{
+    "database_id": "social_media",
+    "if_primary_allowed": {
+        "twitter": false,
+        "user": true,
+        "location": false
+    },
+    "type": {
+        "twitter": "1:2"
+    },
+    "capability_assignments": {
+        "location": {
+            "205": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": []
+            },
+            "4547": {
+                "StateCode": [
+                    "RI_LD"
+                ],
+                "City": [
+                    "EF_HC"
+                ]
+            },
+            "713": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": []
+            },
+            "4917": {
+                "StateCode": [],
+                "City": [
+                    "TD_DF"
+                ]
+            },
+            "3536": {
+                "StateCode": [
+                    "TA_EM",
+                    "TA_FC"
+                ],
+                "City": []
+            },
+            "1906": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": [
+                    "TA_FC"
+                ]
+            },
+            "4219": {
+                "StateCode": [],
+                "City": [
+                    "TA_FC"
+                ]
+            },
+            "5011": {
+                "StateCode": [],
+                "City": []
+            },
+            "218": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": [
+                    "EF_HC"
+                ]
+            },
+            "4677": {
+                "StateCode": [
+                    "RI_LD"
+                ],
+                "City": []
+            },
+            "1629": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": [
+                    "EF_HC"
+                ]
+            },
+            "5945": {
+                "StateCode": [],
+                "City": [
+                    "TD_DF"
+                ]
+            },
+            "5403": {
+                "StateCode": [
+                    "RI_LD"
+                ],
+                "City": []
+            },
+            "5825": {
+                "StateCode": [],
+                "City": [
+                    "TD_DF"
+                ]
+            },
+            "4544": {
+                "StateCode": [],
+                "City": []
+            },
+            "78": {
+                "StateCode": [
+                    "TA_EM",
+                    "TA_FC"
+                ],
+                "City": []
+            },
+            "289": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": [
+                    "TA_FC"
+                ]
+            },
+            "468": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": []
+            },
+            "1069": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": [
+                    "TD_AS"
+                ]
+            },
+            "1334": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": [
+                    "RI_LD"
+                ]
+            },
+            "1483": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": []
+            },
+            "1831": {
+                "StateCode": [],
+                "City": [
+                    "RI_LD"
+                ]
+            },
+            "2055": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": []
+            },
+            "2612": {
+                "StateCode": [],
+                "City": []
+            },
+            "3019": {
+                "StateCode": [
+                    "TA_EM",
+                    "TA_FC"
+                ],
+                "City": [
+                    "TD_AS"
+                ]
+            },
+            "3357": {
+                "StateCode": [
+                    "TA_EM"
+                ],
+                "City": [
+                    "EF_HC"
+                ]
+            },
+            "3738": {
+                "StateCode": [],
+                "City": [
+                    "TA_FC"
+                ]
+            },
+            "3741": {
+                "StateCode": [],
+                "City": []
+            },
+            "3766": {
+                "StateCode": [],
+                "City": []
+            },
+            "3774": {
+                "StateCode": [
+                    "RI_LD"
+                ],
+                "City": []
+            },
+            "3776": {
+                "StateCode": [],
+                "City": []
+            },
+            "3816": {
+                "StateCode": [],
+                "City": [
+                    "TD_DF"
+                ]
+            },
+            "3836": {
+                "StateCode": [
+                    "RI_LD"
+                ],
+                "City": []
+            },
+            "3873": {
+                "StateCode": [],
+                "City": [
+                    "TD_AS"
+                ]
+            },
+            "3874": {
+                "StateCode": [],
+                "City": []
+            },
+            "3875": {
+                "StateCode": [],
+                "City": [
+                    "EF_HC"
+                ]
+            },
+            "3895": {
+                "StateCode": [
+                    "RI_LD"
+                ],
+                "City": []
+            },
+            "3902": {
+                "StateCode": [],
+                "City": [
+                    "EF_HC"
+                ]
+            },
+            "4236": {
+                "StateCode": [],
+                "City": []
+            },
+            "4885": {
+                "StateCode": [
+                    "RI_LD"
+                ],
+                "City": [
+                    "EF_ND"
+                ]
+            }
+        },
+        "twitter": {
+            "tw-697120287696011264": {
+                "row": [
+                    "GR_TI",
+                    "RL_O2M",
+                    "IC_ME"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "Reach": [
+                        "RI_LD"
+                    ],
+                    "RetweetCount": [
+                        "RI_AC",
+                        "TA_US"
+                    ],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-712058276465147904": {
+                "row": [
+                    "GR_CTA",
+                    "RL_MI"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [],
+                    "Day": [
+                        "RI_TC"
+                    ],
+                    "Lang": [
+                        "TA_FC"
+                    ],
+                    "IsReshare": [
+                        "RI_LD"
+                    ],
+                    "Reach": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [
+                        "TD_AS"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-699612376111271936": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [
+                        "TA_EM"
+                    ],
+                    "Reach": [
+                        "TA_US"
+                    ],
+                    "RetweetCount": [],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [
+                        "TD_AS"
+                    ],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-713812173722624000": {
+                "row": [
+                    "RL_O2M",
+                    "GR_TI"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [
+                        "RI_LD"
+                    ],
+                    "Reach": [
+                        "TA_US"
+                    ],
+                    "RetweetCount": [
+                        "RI_AC"
+                    ],
+                    "Likes": [],
+                    "Klout": [
+                        "TD_AS"
+                    ],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-693109746434322432": {
+                "row": [],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [],
+                    "Day": [
+                        "RI_TC"
+                    ],
+                    "Lang": [],
+                    "IsReshare": [],
+                    "Reach": [
+                        "TA_US"
+                    ],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [],
+                    "Klout": [
+                        "TD_AS"
+                    ],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-702892453221654528": {
+                "row": [
+                    "IDR_ED",
+                    "RL_MI"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [],
+                    "Day": [
+                        "RI_TC"
+                    ],
+                    "Lang": [
+                        "TA_FC"
+                    ],
+                    "IsReshare": [
+                        "TA_EM"
+                    ],
+                    "Reach": [
+                        "TA_US"
+                    ],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-698968179285037056": {
+                "row": [
+                    "GR_TI",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [
+                        "RI_LD",
+                        "TA_EM"
+                    ],
+                    "Reach": [
+                        "RI_LD"
+                    ],
+                    "RetweetCount": [
+                        "RI_AC",
+                        "TA_US"
+                    ],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [
+                        "TD_AS"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-687308573999820800": {
+                "row": [
+                    "GR_CTA",
+                    "RL_MI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [
+                        "RI_LD"
+                    ],
+                    "Reach": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [
+                        "TD_AS"
+                    ],
+                    "Sentiment": [],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-694479224791433217": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [
+                        "RI_LD"
+                    ],
+                    "Reach": [],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [],
+                    "Klout": [
+                        "TD_AS"
+                    ],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-694267488398352385": {
+                "row": [
+                    "RL_CL",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [],
+                    "Day": [
+                        "RI_TC"
+                    ],
+                    "Lang": [],
+                    "IsReshare": [],
+                    "Reach": [
+                        "TA_US"
+                    ],
+                    "RetweetCount": [],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [
+                        "TD_AS"
+                    ],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-687280877672509440": {
+                "row": [
+                    "RL_MI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [
+                        "TA_EM"
+                    ],
+                    "IsReshare": [],
+                    "Reach": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-697190673490046977": {
+                "row": [
+                    "RL_CL",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [
+                        "TA_FC"
+                    ],
+                    "IsReshare": [
+                        "TA_EM"
+                    ],
+                    "Reach": [],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-712388588135014400": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [
+                        "TA_EM"
+                    ],
+                    "IsReshare": [
+                        "RI_LD"
+                    ],
+                    "Reach": [],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [],
+                    "Klout": [
+                        "TD_AS"
+                    ],
+                    "Sentiment": [],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-710714459413749760": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [
+                        "RI_TC",
+                        "TA_FC"
+                    ],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [],
+                    "Reach": [
+                        "TA_US"
+                    ],
+                    "RetweetCount": [],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [
+                        "RI_LD"
+                    ],
+                    "Sentiment": [
+                        "RI_LD",
+                        "TD_AS"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-709433822266441728": {
+                "row": [
+                    "GR_TI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [],
+                    "Day": [
+                        "RI_TC"
+                    ],
+                    "Lang": [
+                        "TA_FC"
+                    ],
+                    "IsReshare": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "Reach": [
+                        "TD_AS"
+                    ],
+                    "RetweetCount": [],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-685645966133821441": {
+                "row": [],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [
+                        "TA_EM"
+                    ],
+                    "Reach": [
+                        "TA_US"
+                    ],
+                    "RetweetCount": [],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [
+                        "TD_AS"
+                    ],
+                    "Sentiment": [],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-699276886246084608": {
+                "row": [
+                    "RL_MI",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [],
+                    "Reach": [
+                        "TA_US"
+                    ],
+                    "RetweetCount": [],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [
+                        "TD_AS"
+                    ],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-688155155594743812": {
+                "row": [],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [],
+                    "Reach": [
+                        "TA_US"
+                    ],
+                    "RetweetCount": [],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [],
+                    "Sentiment": [
+                        "TD_AS"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-710349237813383168": {
+                "row": [
+                    "GR_TI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [
+                        "RI_TC",
+                        "TA_FC"
+                    ],
+                    "Day": [],
+                    "Lang": [
+                        "TA_EM"
+                    ],
+                    "IsReshare": [
+                        "TA_EM"
+                    ],
+                    "Reach": [
+                        "RI_LD"
+                    ],
+                    "RetweetCount": [
+                        "RI_AC"
+                    ],
+                    "Likes": [],
+                    "Klout": [
+                        "EF_ND"
+                    ],
+                    "Sentiment": [],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-696067027383951360": {
+                "row": [],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [
+                        "TA_EM"
+                    ],
+                    "Reach": [
+                        "TD_AS"
+                    ],
+                    "RetweetCount": [],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-699362078730096640": {
+                "row": [
+                    "GR_CTA",
+                    "RL_MI"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [],
+                    "Day": [
+                        "RI_TC"
+                    ],
+                    "Lang": [],
+                    "IsReshare": [
+                        "RI_LD"
+                    ],
+                    "Reach": [
+                        "TA_US",
+                        "TD_AS"
+                    ],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-691141562940678144": {
+                "row": [
+                    "RL_MB",
+                    "GR_DC"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [
+                        "TA_FC"
+                    ],
+                    "IsReshare": [],
+                    "Reach": [
+                        "TA_US"
+                    ],
+                    "RetweetCount": [
+                        "RI_AC"
+                    ],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-687442142038327296": {
+                "row": [
+                    "RL_MB",
+                    "RL_CL"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [],
+                    "Day": [],
+                    "Lang": [
+                        "TA_FC"
+                    ],
+                    "IsReshare": [
+                        "TA_EM"
+                    ],
+                    "Reach": [],
+                    "RetweetCount": [
+                        "RI_AC"
+                    ],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-699992192295653377": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [],
+                    "Day": [
+                        "RI_TC"
+                    ],
+                    "Lang": [
+                        "TA_EM"
+                    ],
+                    "IsReshare": [
+                        "TA_EM"
+                    ],
+                    "Reach": [
+                        "TD_AS"
+                    ],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-713572027236372480": {
+                "row": [
+                    "GR_DC",
+                    "RL_CL"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [
+                        "TA_FC"
+                    ],
+                    "IsReshare": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "Reach": [],
+                    "RetweetCount": [
+                        "RI_AC"
+                    ],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [],
+                    "Sentiment": [],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-710556372174241792": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [],
+                    "Day": [
+                        "RI_TC"
+                    ],
+                    "Lang": [],
+                    "IsReshare": [
+                        "RI_LD"
+                    ],
+                    "Reach": [
+                        "TA_US"
+                    ],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [
+                        "TD_AS"
+                    ],
+                    "Sentiment": [
+                        "RI_LD",
+                        "TD_AS"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-696911181919825922": {
+                "row": [],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [
+                        "RI_LD"
+                    ],
+                    "Reach": [],
+                    "RetweetCount": [],
+                    "Likes": [
+                        "EF_ND"
+                    ],
+                    "Klout": [
+                        "TD_AS"
+                    ],
+                    "Sentiment": [],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-692517327045312512": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [
+                        "TA_EM"
+                    ],
+                    "Reach": [],
+                    "RetweetCount": [
+                        "EF_ND"
+                    ],
+                    "Likes": [],
+                    "Klout": [
+                        "RI_LD"
+                    ],
+                    "Sentiment": [
+                        "RI_LD",
+                        "TA_US"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-712788035532763136": {
+                "row": [
+                    "RL_MB",
+                    "GR_TI"
+                ],
+                "col": {
+                    "Weekday": [
+                        "TA_EM"
+                    ],
+                    "Hour": [],
+                    "Day": [
+                        "RI_TC"
+                    ],
+                    "Lang": [],
+                    "IsReshare": [
+                        "RI_LD"
+                    ],
+                    "Reach": [],
+                    "RetweetCount": [
+                        "RI_AC"
+                    ],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [
+                        "RI_LD"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-711258403633545217": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [
+                        "RI_TC"
+                    ],
+                    "Day": [],
+                    "Lang": [
+                        "TA_EM"
+                    ],
+                    "IsReshare": [
+                        "TA_EM"
+                    ],
+                    "Reach": [
+                        "RI_LD"
+                    ],
+                    "RetweetCount": [
+                        "RI_AC"
+                    ],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [
+                        "TD_AS"
+                    ],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-68730877890": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [],
+                    "Reach": [],
+                    "RetweetCount": [],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-68730878891": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [],
+                    "Reach": [],
+                    "RetweetCount": [],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            },
+            "tw-68730879892": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "Weekday": [],
+                    "Hour": [],
+                    "Day": [],
+                    "Lang": [],
+                    "IsReshare": [],
+                    "Reach": [],
+                    "RetweetCount": [],
+                    "Likes": [],
+                    "Klout": [],
+                    "Sentiment": [],
+                    "LocationID": [],
+                    "UserID": []
+                }
+            }
+        },
+        "user": {
+            "tw-14951188": {
+                "Gender": []
+            },
+            "tw-3426108803": {
+                "Gender": [
+                    "TA_EM"
+                ]
+            },
+            "tw-36367087": {
+                "Gender": []
+            },
+            "tw-124966482": {
+                "Gender": [
+                    "EF_ND"
+                ]
+            },
+            "tw-55273125": {
+                "Gender": []
+            },
+            "tw-706427433654718465": {
+                "Gender": [
+                    "RI_LD",
+                    "TD_DF"
+                ]
+            },
+            "tw-258038703": {
+                "Gender": [
+                    "EF_ND"
+                ]
+            },
+            "tw-3181971065": {
+                "Gender": []
+            },
+            "tw-4725879796": {
+                "Gender": []
+            },
+            "tw-29480484": {
+                "Gender": [
+                    "TA_EM"
+                ]
+            },
+            "tw-237459358": {
+                "Gender": []
+            },
+            "tw-14909931": {
+                "Gender": []
+            },
+            "tw-800121590": {
+                "Gender": [
+                    "EF_ND",
+                    "EF_HC"
+                ]
+            },
+            "tw-18192654": {
+                "Gender": []
+            },
+            "tw-6299142": {
+                "Gender": []
+            },
+            "tw-874195280": {
+                "Gender": []
+            },
+            "tw-195917593": {
+                "Gender": [
+                    "TA_EM"
+                ]
+            },
+            "tw-2466089647": {
+                "Gender": [
+                    "EF_ND"
+                ]
+            },
+            "tw-15669871": {
+                "Gender": []
+            },
+            "tw-2296483249": {
+                "Gender": []
+            },
+            "tw-96025233": {
+                "Gender": [
+                    "RI_LD"
+                ]
+            },
+            "tw-320726331": {
+                "Gender": []
+            },
+            "tw-929672330": {
+                "Gender": []
+            },
+            "tw-81269014": {
+                "Gender": []
+            },
+            "tw-561431998": {
+                "Gender": []
+            },
+            "tw-388014714": {
+                "Gender": [
+                    "EF_ND"
+                ]
+            },
+            "tw-2433298628": {
+                "Gender": []
+            },
+            "tw-48184627": {
+                "Gender": []
+            },
+            "tw-1010810106": {
+                "Gender": [
+                    "TD_DF"
+                ]
+            },
+            "tw-3963735087": {
+                "Gender": []
+            },
+            "tw-2609421487": {
+                "Gender": []
+            },
+            "tw-82221860": {
+                "Gender": []
+            },
+            "tw-2211429601": {
+                "Gender": []
+            },
+            "tw-14171126": {
+                "Gender": []
+            },
+            "tw-1944156499": {
+                "Gender": []
+            },
+            "tw-929084149": {
+                "Gender": [
+                    "EF_HC"
+                ]
+            },
+            "tw-3328064230": {
+                "Gender": []
+            },
+            "tw-402078824": {
+                "Gender": []
+            },
+            "tw-18425003": {
+                "Gender": []
+            },
+            "tw-495786086": {
+                "Gender": []
+            },
+            "tw-2342179920": {
+                "Gender": [
+                    "TA_EM"
+                ]
+            },
+            "tw-43898598": {
+                "Gender": []
+            },
+            "tw-60754146": {
+                "Gender": []
+            },
+            "tw-2669051731": {
+                "Gender": []
+            },
+            "tw-17522346": {
+                "Gender": []
+            },
+            "tw-10285442": {
+                "Gender": []
+            },
+            "tw-2615916666": {
+                "Gender": []
+            },
+            "tw-14442748": {
+                "Gender": []
+            },
+            "tw-17136186": {
+                "Gender": []
+            },
+            "tw-22277691": {
+                "Gender": []
+            },
+            "tw-1726063478": {
+                "Gender": []
+            },
+            "tw-124825123": {
+                "Gender": []
+            },
+            "tw-2843170386": {
+                "Gender": []
+            },
+            "tw-2368325875": {
+                "Gender": [
+                    "RI_LD",
+                    "TA_EM"
+                ]
+            },
+            "tw-710335949276880897": {
+                "Gender": []
+            },
+            "tw-22054129": {
+                "Gender": []
+            },
+            "tw-2339595667": {
+                "Gender": []
+            },
+            "tw-2940988993": {
+                "Gender": [
+                    "EF_ND"
+                ]
+            },
+            "tw-4339900392": {
+                "Gender": []
+            },
+            "tw-4345002742": {
+                "Gender": []
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/social_media/tables"
+}

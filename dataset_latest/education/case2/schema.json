@@ -1,0 +1,187 @@
+[
+  {
+    "id": "1",
+    "name": "author",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "author_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the author (data format: integer)"
+      },
+      {
+        "name": "author_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the author (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "book_language",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "language_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the language (data format: integer)"
+      },
+      {
+        "name": "language_code",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the language code commonsense evidence: A language code is a unique identifier for a specific language. It is typically used to identify a language in computing and other technical contexts. Some common language codes include \"en\" for English, \"fr\" for French, and \"es\" for Spanish. The specific codes used for each language can vary depending on the context and the system in which they are being used."
+      },
+      {
+        "name": "language_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the language name (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "publisher",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "publisher_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the publisher (data format: integer)"
+      },
+      {
+        "name": "publisher_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the publisher (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "book",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "book_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the book (data format: integer)"
+      },
+      {
+        "name": "title",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the title of the book (data format: text)"
+      },
+      {
+        "name": "isbn13",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the International Standard Book Number of the book commonsense evidence: An ISBN is a unique 13-digit number assigned to each book to identify it internationally. The ISBN13 of a book is the specific version of the ISBN that uses 13 digits. It is typically displayed on the back cover of a book, along with the barcode and other information. (data format: text)"
+      },
+      {
+        "name": "language_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "book_language",
+            "column": "language_id"
+          }
+        },
+        "description": "the id of the book language Maps to book_language (language_id) (data format: integer)"
+      },
+      {
+        "name": "num_pages",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the number of the pages (data format: integer)"
+      },
+      {
+        "name": "publication_date",
+        "type": "DATE",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the publication date of the book commonsense evidence: The publication date of a book can provide information about when the book was released to the public. This can be useful for understanding the context in which the book was written, as well as for determining how current or outdated the information in the book might be. Additionally, the publication date can provide insight into the age of the book and its potential value as a collectible."
+      },
+      {
+        "name": "publisher_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "publisher",
+            "column": "publisher_id"
+          }
+        },
+        "description": "the id of the publisher Maps to publisher (publisher_id) (data format: integer)"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "book_author",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "book_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "book",
+            "column": "book_id"
+          }
+        },
+        "description": "the id of the book Maps to book(book_id) (data format: integer)"
+      },
+      {
+        "name": "author_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "author",
+            "column": "author_id"
+          }
+        },
+        "description": "the id of the author Maps to author(author_id) commonsense evidence: Books with the same author id are written by the same author. (data format: integer)"
+      }
+    ]
+  }
+]

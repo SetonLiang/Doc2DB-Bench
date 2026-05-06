@@ -1,0 +1,493 @@
+{
+    "database_id": "company_office",
+    "if_primary_allowed": {
+        "buildings": false,
+        "Companies": false,
+        "Office_locations": false
+    },
+    "type": {
+        "Office_locations": "1:2"
+    },
+    "capability_assignments": {
+        "Companies": {
+            "1": {
+                "Headquarters": [
+                    "TA_FC"
+                ],
+                "Industry": [
+                    "TA_EM"
+                ],
+                "Sales_billion": [],
+                "Profits_billion": [
+                    "RI_AC"
+                ],
+                "Assets_billion": [],
+                "Market_Value_billion": []
+            },
+            "2": {
+                "Headquarters": [
+                    "TA_FC"
+                ],
+                "Industry": [],
+                "Sales_billion": [],
+                "Profits_billion": [],
+                "Assets_billion": [
+                    "TA_US"
+                ],
+                "Market_Value_billion": []
+            },
+            "3": {
+                "Headquarters": [
+                    "TD_DF"
+                ],
+                "Industry": [
+                    "TA_EM"
+                ],
+                "Sales_billion": [],
+                "Profits_billion": [
+                    "RI_MI"
+                ],
+                "Assets_billion": [],
+                "Market_Value_billion": []
+            },
+            "4": {
+                "Headquarters": [],
+                "Industry": [],
+                "Sales_billion": [],
+                "Profits_billion": [],
+                "Assets_billion": [],
+                "Market_Value_billion": [
+                    "TD_CA"
+                ]
+            },
+            "5": {
+                "Headquarters": [],
+                "Industry": [
+                    "TA_EM"
+                ],
+                "Sales_billion": [],
+                "Profits_billion": [
+                    "RI_LD"
+                ],
+                "Assets_billion": [],
+                "Market_Value_billion": []
+            },
+            "6": {
+                "Headquarters": [],
+                "Industry": [],
+                "Sales_billion": [],
+                "Profits_billion": [],
+                "Assets_billion": [],
+                "Market_Value_billion": [
+                    "TA_US"
+                ]
+            },
+            "7": {
+                "Headquarters": [
+                    "TA_FC"
+                ],
+                "Industry": [],
+                "Sales_billion": [
+                    "RI_AC"
+                ],
+                "Profits_billion": [],
+                "Assets_billion": [
+                    "TA_US"
+                ],
+                "Market_Value_billion": []
+            },
+            "8": {
+                "Headquarters": [],
+                "Industry": [
+                    "TA_EM"
+                ],
+                "Sales_billion": [],
+                "Profits_billion": [],
+                "Assets_billion": [],
+                "Market_Value_billion": [
+                    "TD_AS"
+                ]
+            },
+            "9": {
+                "Headquarters": [
+                    "TA_FC"
+                ],
+                "Industry": [],
+                "Sales_billion": [],
+                "Profits_billion": [
+                    "RI_MI"
+                ],
+                "Assets_billion": [],
+                "Market_Value_billion": []
+            },
+            "10": {
+                "Headquarters": [
+                    "TD_DF"
+                ],
+                "Industry": [],
+                "Sales_billion": [],
+                "Profits_billion": [],
+                "Assets_billion": [
+                    "TA_US"
+                ],
+                "Market_Value_billion": [
+                    "RI_LD"
+                ]
+            },
+            "11": {
+                "Headquarters": [],
+                "Industry": [],
+                "Sales_billion": [],
+                "Profits_billion": [
+                    "RI_AC"
+                ],
+                "Assets_billion": [
+                    "TA_US"
+                ],
+                "Market_Value_billion": []
+            },
+            "12": {
+                "Headquarters": [],
+                "Industry": [
+                    "TA_EM"
+                ],
+                "Sales_billion": [],
+                "Profits_billion": [],
+                "Assets_billion": [],
+                "Market_Value_billion": []
+            },
+            "13": {
+                "Headquarters": [
+                    "TA_FC"
+                ],
+                "Industry": [],
+                "Sales_billion": [],
+                "Profits_billion": [],
+                "Assets_billion": [],
+                "Market_Value_billion": [
+                    "TD_CA"
+                ]
+            },
+            "14": {
+                "Headquarters": [],
+                "Industry": [
+                    "TA_EM"
+                ],
+                "Sales_billion": [],
+                "Profits_billion": [
+                    "RI_MI"
+                ],
+                "Assets_billion": [],
+                "Market_Value_billion": []
+            },
+            "15": {
+                "Headquarters": [
+                    "TA_FC"
+                ],
+                "Industry": [],
+                "Sales_billion": [],
+                "Profits_billion": [
+                    "RI_LD"
+                ],
+                "Assets_billion": [],
+                "Market_Value_billion": [
+                    "TA_US"
+                ]
+            },
+            "16": {
+                "Headquarters": [],
+                "Industry": [],
+                "Sales_billion": [],
+                "Profits_billion": [],
+                "Assets_billion": [
+                    "TD_AS"
+                ],
+                "Market_Value_billion": []
+            },
+            "17": {
+                "Headquarters": [],
+                "Industry": [],
+                "Sales_billion": [],
+                "Profits_billion": [
+                    "RI_AC"
+                ],
+                "Assets_billion": [
+                    "TA_US"
+                ],
+                "Market_Value_billion": []
+            },
+            "18": {
+                "Headquarters": [
+                    "TD_DF"
+                ],
+                "Industry": [
+                    "TA_EM"
+                ],
+                "Sales_billion": [
+                    "TA_US"
+                ],
+                "Profits_billion": [
+                    "RI_AC"
+                ],
+                "Assets_billion": [],
+                "Market_Value_billion": []
+            },
+            "19": {
+                "Headquarters": [
+                    "TA_FC"
+                ],
+                "Industry": [],
+                "Sales_billion": [],
+                "Profits_billion": [
+                    "RI_LD"
+                ],
+                "Assets_billion": [],
+                "Market_Value_billion": [
+                    "TD_CA"
+                ]
+            }
+        },
+        "Office_locations": {
+            "3, 4": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "move_in_year": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "2, 2": {
+                "row": [],
+                "col": {
+                    "move_in_year": [
+                        "RI_MI"
+                    ]
+                }
+            },
+            "7, 4": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "move_in_year": []
+                }
+            },
+            "10, 9": {
+                "row": [],
+                "col": {
+                    "move_in_year": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "8, 19": {
+                "row": [],
+                "col": {
+                    "move_in_year": []
+                }
+            },
+            "5, 7": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "move_in_year": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "3, 2": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "move_in_year": [
+                        "RI_MI"
+                    ]
+                }
+            },
+            "9, 10": {
+                "row": [],
+                "col": {
+                    "move_in_year": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "11, 5": {
+                "row": [],
+                "col": {
+                    "move_in_year": []
+                }
+            },
+            "4, 3": {
+                "row": [],
+                "col": {
+                    "move_in_year": []
+                }
+            },
+            "5, 3": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "move_in_year": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "1, 1": {
+                "row": [],
+                "col": {
+                    "move_in_year": []
+                }
+            },
+            "3, 9": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "move_in_year": []
+                }
+            },
+            "3, 11": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "move_in_year": []
+                }
+            },
+            "2, 11": {
+                "row": [],
+                "col": {
+                    "move_in_year": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "6, 9": {
+                "row": [],
+                "col": {
+                    "move_in_year": []
+                }
+            }
+        },
+        "buildings": {
+            "1": {
+                "City": [],
+                "Height": [
+                    "TA_US"
+                ],
+                "Stories": [],
+                "Status": []
+            },
+            "2": {
+                "City": [],
+                "Height": [
+                    "RI_MI"
+                ],
+                "Stories": [],
+                "Status": [
+                    "TA_EM"
+                ]
+            },
+            "3": {
+                "City": [],
+                "Height": [],
+                "Stories": [],
+                "Status": [
+                    "TA_EM"
+                ]
+            },
+            "4": {
+                "City": [],
+                "Height": [
+                    "TA_US"
+                ],
+                "Stories": [
+                    "RI_LD"
+                ],
+                "Status": []
+            },
+            "5": {
+                "City": [],
+                "Height": [
+                    "TA_FC"
+                ],
+                "Stories": [],
+                "Status": []
+            },
+            "6": {
+                "City": [],
+                "Height": [
+                    "RI_AC"
+                ],
+                "Stories": [],
+                "Status": [
+                    "TA_EM"
+                ]
+            },
+            "7": {
+                "City": [],
+                "Height": [
+                    "TA_US"
+                ],
+                "Stories": [
+                    "EF_ND"
+                ],
+                "Status": []
+            },
+            "8": {
+                "City": [],
+                "Height": [
+                    "RI_AC",
+                    "TA_US"
+                ],
+                "Stories": [],
+                "Status": []
+            },
+            "9": {
+                "City": [],
+                "Height": [],
+                "Stories": [],
+                "Status": [
+                    "TA_EM"
+                ]
+            },
+            "10": {
+                "City": [],
+                "Height": [
+                    "RI_MI"
+                ],
+                "Stories": [],
+                "Status": [
+                    "TA_EM"
+                ]
+            },
+            "11": {
+                "City": [],
+                "Height": [
+                    "TA_US"
+                ],
+                "Stories": [],
+                "Status": []
+            },
+            "12": {
+                "City": [],
+                "Height": [
+                    "TA_FC"
+                ],
+                "Stories": [
+                    "RI_LD"
+                ],
+                "Status": [
+                    "TA_EM"
+                ]
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/company_office/tables"
+}

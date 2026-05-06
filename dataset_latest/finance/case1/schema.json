@@ -1,0 +1,334 @@
+[
+  {
+    "id": "1",
+    "name": "account",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "account_id",
+        "type": "INTEGER",
+        "constraints": {
+          "primary_key": true,
+          "nullable": false
+        },
+        "description": "the id of the account"
+      },
+      {
+        "name": "district_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "district",
+            "column": "district_id"
+          }
+        },
+        "description": "location of branch"
+      },
+      {
+        "name": "frequency",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "frequency of the acount"
+      },
+      {
+        "name": "date",
+        "type": "DATE",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "the creation date of the account"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "disp",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "disp_id",
+        "type": "INTEGER",
+        "constraints": {
+          "primary_key": true,
+          "nullable": false
+        },
+        "description": "unique number of identifying this row of record"
+      },
+      {
+        "name": "client_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "client",
+            "column": "client_id"
+          }
+        },
+        "description": "id number of client"
+      },
+      {
+        "name": "account_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "account",
+            "column": "account_id"
+          }
+        },
+        "description": "id number of account"
+      },
+      {
+        "name": "type",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "type of disposition"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "client",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "client_id",
+        "type": "INTEGER",
+        "constraints": {
+          "primary_key": true,
+          "nullable": false
+        },
+        "description": "the unique number"
+      },
+      {
+        "name": "gender",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "F：female \nM：male"
+      },
+      {
+        "name": "birth_date",
+        "type": "DATE",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "birth date"
+      },
+      {
+        "name": "district_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "district",
+            "column": "district_id"
+          }
+        },
+        "description": "location of branch"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "order",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "order_id",
+        "type": "INTEGER",
+        "constraints": {
+          "primary_key": true,
+          "nullable": false
+        },
+        "description": "identifying the unique order"
+      },
+      {
+        "name": "account_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "account",
+            "column": "account_id"
+          }
+        },
+        "description": "id number of account"
+      },
+      {
+        "name": "bank_to",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "bank of the recipient"
+      },
+      {
+        "name": "account_to",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "account of the recipient"
+      },
+      {
+        "name": "amount",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "debited amount"
+      },
+      {
+        "name": "k_symbol",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "purpose of the payment"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "district",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "district_id",
+        "type": "INTEGER",
+        "constraints": {
+          "primary_key": true,
+          "nullable": false
+        },
+        "description": "location of branch"
+      },
+      {
+        "name": "A2",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "district_name"
+      },
+      {
+        "name": "A3",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "region"
+      },
+      {
+        "name": "A4",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "number of inhabitants"
+      },
+      {
+        "name": "A5",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "no. of municipalities with inhabitants < 499; municipality < district < region"
+      },
+      {
+        "name": "A6",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "no. of municipalities with inhabitants 500-1999; municipality < district < region"
+      },
+      {
+        "name": "A7",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "no. of municipalities with inhabitants 2000-9999; municipality < district < region"
+      },
+      {
+        "name": "A8",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "no. of municipalities with inhabitants > 10000; municipality < district < region"
+      },
+      {
+        "name": "A9",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "not useful"
+      },
+      {
+        "name": "A10",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "ratio of urban inhabitants"
+      },
+      {
+        "name": "A11",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "average salary"
+      },
+      {
+        "name": "A12",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "unemployment rate 1995"
+      },
+      {
+        "name": "A13",
+        "type": "REAL",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "unemployment rate 1996"
+      },
+      {
+        "name": "A14",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "no. of entrepreneurs per 1000 inhabitants"
+      },
+      {
+        "name": "A15",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "no. of committed crimes 1995"
+      },
+      {
+        "name": "A16",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "no. of committed crimes 1996"
+      }
+    ]
+  }
+]

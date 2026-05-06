@@ -1,0 +1,3679 @@
+{
+    "database_name": "cookbook",
+    "if_primary_allowed": {
+        "Ingredient": false,
+        "Nutrition": false,
+        "Quantity": false,
+        "Recipe": false
+    },
+    "type": {
+        "Nutrition": "1:1",
+        "Quantity": "1:2"
+    },
+    "capability_assignments": {
+        "Ingredient": {
+            "3400": {
+                "category": [
+                    "TA_EM"
+                ]
+            },
+            "3083": {
+                "category": [
+                    "RI_LD"
+                ]
+            },
+            "4153": {
+                "category": [
+                    "RI_LD"
+                ]
+            },
+            "729": {
+                "category": [
+                    "TD_CA"
+                ]
+            },
+            "2597": {
+                "category": [
+                    "RI_MI"
+                ]
+            },
+            "3099": {
+                "category": [
+                    "TA_EM"
+                ]
+            },
+            "3662": {
+                "category": [
+                    "EF_HC"
+                ]
+            },
+            "2691": {
+                "category": []
+            },
+            "177": {
+                "category": []
+            },
+            "1420": {
+                "category": []
+            },
+            "1616": {
+                "category": []
+            },
+            "3964": {
+                "category": []
+            },
+            "3778": {
+                "category": []
+            },
+            "3963": {
+                "category": []
+            },
+            "1177": {
+                "category": []
+            },
+            "723": {
+                "category": []
+            },
+            "4414": {
+                "category": []
+            },
+            "1996": {
+                "category": []
+            },
+            "1591": {
+                "category": []
+            },
+            "4333": {
+                "category": []
+            },
+            "158": {
+                "category": []
+            },
+            "4305": {
+                "category": []
+            },
+            "319": {
+                "category": []
+            },
+            "3803": {
+                "category": []
+            },
+            "1146": {
+                "category": []
+            },
+            "2700": {
+                "category": []
+            },
+            "289": {
+                "category": []
+            },
+            "998": {
+                "category": []
+            },
+            "4542": {
+                "category": []
+            },
+            "3575": {
+                "category": []
+            },
+            "125": {
+                "category": []
+            },
+            "276": {
+                "category": []
+            },
+            "351": {
+                "category": []
+            },
+            "374": {
+                "category": []
+            },
+            "560": {
+                "category": []
+            },
+            "638": {
+                "category": []
+            },
+            "841": {
+                "category": []
+            },
+            "956": {
+                "category": []
+            },
+            "1074": {
+                "category": []
+            },
+            "1086": {
+                "category": []
+            },
+            "1350": {
+                "category": []
+            },
+            "1509": {
+                "category": []
+            },
+            "1648": {
+                "category": []
+            },
+            "2282": {
+                "category": []
+            },
+            "2286": {
+                "category": []
+            },
+            "2293": {
+                "category": []
+            },
+            "2591": {
+                "category": []
+            },
+            "2634": {
+                "category": []
+            },
+            "3021": {
+                "category": []
+            },
+            "3110": {
+                "category": []
+            },
+            "3120": {
+                "category": []
+            },
+            "3287": {
+                "category": []
+            },
+            "3353": {
+                "category": []
+            },
+            "3649": {
+                "category": []
+            },
+            "4219": {
+                "category": []
+            },
+            "4244": {
+                "category": []
+            }
+        },
+        "Nutrition": {
+            "781": {
+                "row": [],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "fiber": [],
+                    "pcnt_cal_prot": [],
+                    "calories": []
+                }
+            },
+            "749": {
+                "row": [],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "fiber": [],
+                    "calories": []
+                }
+            },
+            "806": {
+                "row": [
+                    "IDR_ED",
+                    "RL_CL"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "calories": []
+                }
+            },
+            "428": {
+                "row": [],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "calories": []
+                }
+            },
+            "1149": {
+                "row": [
+                    "RL_MI",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            },
+            "1208": {
+                "row": [
+                    "RL_MI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            },
+            "788": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "calories": []
+                }
+            },
+            "948": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "carbo": [],
+                    "alcohol": [],
+                    "vitamin_a": [],
+                    "fiber": [],
+                    "pcnt_cal_carb": [],
+                    "calories": []
+                }
+            },
+            "1347": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "pcnt_cal_carb": [],
+                    "calories": []
+                }
+            },
+            "614": {
+                "row": [
+                    "RL_CL",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "calories": []
+                }
+            },
+            "1138": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            },
+            "419": {
+                "row": [
+                    "RL_MB",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "calories": []
+                }
+            },
+            "285": {
+                "row": [
+                    "RL_O2M",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            },
+            "575": {
+                "row": [
+                    "GR_TI",
+                    "RL_MB",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            },
+            "1410": {
+                "row": [
+                    "RL_MI",
+                    "IC_ME",
+                    "RL_CL"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "calories": [
+                        "TA_US"
+                    ],
+                    "alcohol": [],
+                    "fiber": []
+                }
+            },
+            "569": {
+                "row": [
+                    "RL_MI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            },
+            "513": {
+                "row": [
+                    "GR_TI",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            },
+            "1050": {
+                "row": [
+                    "RL_MI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            },
+            "796": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "protein": [],
+                    "alcohol": [],
+                    "sat_fat": [],
+                    "cholestrl": [],
+                    "sodium": [],
+                    "iron": [],
+                    "fiber": [],
+                    "pcnt_cal_prot": [],
+                    "calories": []
+                }
+            },
+            "662": {
+                "row": [
+                    "GR_CTA",
+                    "RL_MB"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "calories": []
+                }
+            },
+            "717": {
+                "row": [],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "calories": []
+                }
+            },
+            "252": {
+                "row": [],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "fiber": [],
+                    "pcnt_cal_carb": [],
+                    "calories": []
+                }
+            },
+            "913": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "calories": [
+                        "TA_US"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "iron": [],
+                    "vitamin_c": [],
+                    "vitamin_a": [],
+                    "fiber": [],
+                    "pcnt_cal_prot": []
+                }
+            },
+            "872": {
+                "row": [
+                    "IDR_ED",
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "alcohol": [
+                        "TA_US"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "total_fat": [],
+                    "sat_fat": [],
+                    "cholestrl": [],
+                    "iron": [],
+                    "vitamin_c": [],
+                    "vitamin_a": [],
+                    "fiber": [],
+                    "pcnt_cal_fat": [],
+                    "calories": []
+                }
+            },
+            "1214": {
+                "row": [
+                    "RL_MI",
+                    "RL_MB",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            },
+            "1033": {
+                "row": [
+                    "RL_MI",
+                    "GR_TI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            },
+            "928": {
+                "row": [
+                    "IC_ME",
+                    "RL_CL"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "calories": [
+                        "TA_US"
+                    ],
+                    "alcohol": [],
+                    "sat_fat": [],
+                    "cholestrl": [],
+                    "iron": [],
+                    "vitamin_c": [],
+                    "vitamin_a": [],
+                    "fiber": [],
+                    "pcnt_cal_prot": []
+                }
+            },
+            "1399": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "cholestrl": [],
+                    "vitamin_c": [],
+                    "fiber": [],
+                    "calories": []
+                }
+            },
+            "516": {
+                "row": [
+                    "RL_CL",
+                    "IDR_ED",
+                    "GR_TI"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            },
+            "472": {
+                "row": [
+                    "RL_MI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "protein": [
+                        "TA_US"
+                    ],
+                    "carbo": [
+                        "TA_US"
+                    ],
+                    "total_fat": [
+                        "TA_US"
+                    ],
+                    "sat_fat": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "cholestrl": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "sodium": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "iron": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "vitamin_c": [
+                        "TA_US"
+                    ],
+                    "vitamin_a": [
+                        "TA_US"
+                    ],
+                    "fiber": [
+                        "TA_US"
+                    ],
+                    "pcnt_cal_carb": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_fat": [
+                        "RI_AC"
+                    ],
+                    "pcnt_cal_prot": [
+                        "RI_AC"
+                    ],
+                    "alcohol": [],
+                    "calories": []
+                }
+            }
+        },
+        "Quantity": {
+            "5232": {
+                "row": [
+                    "RL_MB",
+                    "RL_CL"
+                ],
+                "col": {
+                    "preparation": [
+                        "TA_FC"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "5308": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "preparation": [
+                        "TA_FC"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "193": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "preparation": [
+                        "EF_ND"
+                    ],
+                    "optional": [
+                        "RI_LD"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": []
+                }
+            },
+            "4480": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "preparation": [
+                        "EF_ND"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "1739": {
+                "row": [],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "preparation": [
+                        "EF_ND"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "3184": {
+                "row": [],
+                "col": {
+                    "optional": [
+                        "RI_LD"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": []
+                }
+            },
+            "2156": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "preparation": [
+                        "TA_FC"
+                    ],
+                    "optional": [
+                        "RI_LD"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": []
+                }
+            },
+            "568": {
+                "row": [],
+                "col": {
+                    "preparation": [
+                        "EF_ND"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "2402": {
+                "row": [],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "preparation": [
+                        "TA_FC"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "4272": {
+                "row": [],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "preparation": [
+                        "EF_ND"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "2572": {
+                "row": [],
+                "col": {
+                    "preparation": [
+                        "EF_ND"
+                    ],
+                    "optional": [
+                        "RI_LD"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": []
+                }
+            },
+            "549": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "preparation": [
+                        "TA_FC"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "2251": {
+                "row": [
+                    "RL_MB",
+                    "RL_MI"
+                ],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "preparation": [
+                        "TA_FC"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "1598": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "preparation": [
+                        "TA_FC"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "5170": {
+                "row": [],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "preparation": [
+                        "EF_ND"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "2529": {
+                "row": [],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "optional": [
+                        "RI_LD"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": []
+                }
+            },
+            "3447": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "preparation": [
+                        "EF_ND"
+                    ],
+                    "optional": [
+                        "RI_LD"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": []
+                }
+            },
+            "4262": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "unit": [
+                        "TA_US"
+                    ],
+                    "optional": [
+                        "RI_LD"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": []
+                }
+            },
+            "3175": {
+                "row": [
+                    "RL_MB",
+                    "IC_ME"
+                ],
+                "col": {
+                    "preparation": [
+                        "TA_FC"
+                    ],
+                    "optional": [
+                        "RI_LD"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": []
+                }
+            },
+            "4886": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "unit": [
+                        "TA_US"
+                    ],
+                    "preparation": [
+                        "EF_ND"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "optional": []
+                }
+            },
+            "4383": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "optional": [
+                        "RI_LD"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": []
+                }
+            },
+            "3132": {
+                "row": [
+                    "IDR_ED",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "preparation": [],
+                    "optional": []
+                }
+            },
+            "2452": {
+                "row": [
+                    "RL_MI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "unit": [
+                        "TA_US"
+                    ],
+                    "preparation": [
+                        "TA_FC"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "optional": []
+                }
+            },
+            "1878": {
+                "row": [],
+                "col": {
+                    "preparation": [
+                        "TA_FC"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "2440": {
+                "row": [],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "optional": [
+                        "RI_LD"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": []
+                }
+            },
+            "1958": {
+                "row": [
+                    "RL_MB",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "preparation": [
+                        "RI_MI"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "4862": {
+                "row": [],
+                "col": {
+                    "preparation": [
+                        "EF_ND"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "1639": {
+                "row": [],
+                "col": {
+                    "min_qty": [
+                        "RI_LD"
+                    ],
+                    "preparation": [
+                        "EF_ND"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "unit": [],
+                    "optional": []
+                }
+            },
+            "912": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "max_qty": [
+                        "TA_FC"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "min_qty": [],
+                    "unit": [],
+                    "preparation": [],
+                    "optional": []
+                }
+            },
+            "1723": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "preparation": [
+                        "TA_FC"
+                    ],
+                    "optional": [
+                        "RI_LD"
+                    ],
+                    "recipe_id": [],
+                    "ingredient_id": [],
+                    "max_qty": [],
+                    "min_qty": [],
+                    "unit": []
+                }
+            }
+        },
+        "Recipe": {
+            "1038": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "554": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "837": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1063": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "619": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "521": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1359": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "418": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1043": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1085": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "789": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "638": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1032": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "656": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1029": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "923": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "646": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "755": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "450": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "672": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "743": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "232": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "503": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "948": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "551": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "714": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "252": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "285": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "419": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "428": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "472": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "513": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "516": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "569": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "575": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "614": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "662": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "717": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "749": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "781": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "788": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "796": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "806": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "872": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "913": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "928": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1033": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1050": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1138": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1149": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1208": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1214": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1347": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1399": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1410": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "237": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "277": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "279": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "426": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "517": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "529": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "530": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "541": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "549": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "568": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "577": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "592": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "596": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "597": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "605": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "608": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "690": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "704": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "705": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "712": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "899": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "924": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1079": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1080": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1092": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1102": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1146": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1152": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "1159": {
+                "servings": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "prep_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "cook_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "stnd_min": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/cookbook/tables"
+}

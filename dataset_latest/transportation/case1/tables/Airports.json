@@ -1,0 +1,426 @@
+[
+    {
+      "Code": "SGU",
+      "Description": "St. George, UT: St George Regional"
+    },
+    {
+      "Code": "HDB",
+      "Description": "Heidelberg, Germany: Heidelberg AHP"
+    },
+    {
+      "Code": "APO",
+      "Description": "Apartado, Colombia: Apartado Airport"
+    },
+    {
+      "Code": "WQE",
+      "Description": "Dinsmore, CA: Dinsmore Airport"
+    },
+    {
+      "Code": "NCP",
+      "Description": "Subic Bay, Philippines: Cubi Point NAS"
+    },
+    {
+      "Code": "POM",
+      "Description": "Port Moresby, Papua New Guinea: Port Moresby International"
+    },
+    {
+      "Code": "CGI",
+      "Description": "Cape Girardeau, MO: Cape Girardeau Regional"
+    },
+    {
+      "Code": "LMA",
+      "Description": "Lake Minchumina, AK: Lake Minchumina Airport"
+    },
+    {
+      "Code": "BHJ",
+      "Description": "Bhuj, India: Bhuj Airport"
+    },
+    {
+      "Code": "PZA",
+      "Description": "Paz de Ariporo, Colombia: Paz de Ariporo Airport"
+    },
+    {
+      "Code": "ILL",
+      "Description": "Willmar, MN: Willmar Municipal"
+    },
+    {
+      "Code": "SSJ",
+      "Description": "Sandnessjoen, Norway: Stokka"
+    },
+    {
+      "Code": "SNF",
+      "Description": "San Felipe, Venezuela: Sub Teniente Nestor Arias"
+    },
+    {
+      "Code": "LAF",
+      "Description": "Lafayette, IN: Purdue University"
+    },
+    {
+      "Code": "ROP",
+      "Description": "Rota, TT: Benjamin Taisacan Manglona International"
+    },
+    {
+      "Code": "EGS",
+      "Description": "Egilsstadir, Iceland: Egilsstadir Airport"
+    },
+    {
+      "Code": "VIT",
+      "Description": "Vitoria, Spain: Vitoria Airport"
+    },
+    {
+      "Code": "BDH",
+      "Description": "Bandar Lengeh, Iran: Bandar Lengeh Airport"
+    },
+    {
+      "Code": "ARI",
+      "Description": "Arica, Chile: Chacalluta"
+    },
+    {
+      "Code": "TLT",
+      "Description": "Tuluksak, AK: Tuluksak Airport"
+    },
+    {
+      "Code": "FUN",
+      "Description": "Funafuti, Tuvalu: Funafuti International"
+    },
+    {
+      "Code": "YRQ",
+      "Description": "Trois Rivieres, Canada: Trois Rivieres Airport"
+    },
+    {
+      "Code": "IFP",
+      "Description": "Bullhead City, AZ: Laughlin/Bullhead International"
+    },
+    {
+      "Code": "BHS",
+      "Description": "Bathurst, Australia: Bathurst Airport"
+    },
+    {
+      "Code": "GA2",
+      "Description": "Carrollton, GA: West Georgia Regional - O V Gray Field"
+    },
+    {
+      "Code": "BTJ",
+      "Description": "Banda Aceh, Indonesia: Sultan Iskandar Muda"
+    },
+    {
+      "Code": "LNK",
+      "Description": "Lincoln, NE: Lincoln Airport"
+    },
+    {
+      "Code": "HRB",
+      "Description": "Harbin, China: Taiping"
+    },
+    {
+      "Code": "N1Y",
+      "Description": "Canandaigua, NY: Canandaigua Airport"
+    },
+    {
+      "Code": "SVN",
+      "Description": "Savannah, GA: Hunter AAF"
+    },
+    {
+      "Code": "LBQ",
+      "Description": "Lambarene, Gabon: Lambarene Airport"
+    },
+    {
+      "Code": "DAU",
+      "Description": "Daru, Papua New Guinea: Daru Airport"
+    },
+    {
+      "Code": "LFK",
+      "Description": "Lufkin, TX: Angelina County"
+    },
+    {
+      "Code": "KUL",
+      "Description": "Kuala Lumpur, Malaysia: Kuala Lumpur International"
+    },
+    {
+      "Code": "FCH",
+      "Description": "Fresno, CA: Fresno Chandler Executive"
+    },
+    {
+      "Code": "TRM",
+      "Description": "Thermal, CA: Jacqueline Cochran Regional"
+    },
+    {
+      "Code": "HFF",
+      "Description": "Hoffman, NC: Mackall AAF"
+    },
+    {
+      "Code": "VEL",
+      "Description": "Vernal, UT: Vernal Regional"
+    },
+    {
+      "Code": "UDI",
+      "Description": "Uberlandia, Brazil: Uberlandia Airport"
+    },
+    {
+      "Code": "TCA",
+      "Description": "Tennant Creek, Australia: Tennant Creek Airport"
+    },
+    {
+      "Code": "BE1",
+      "Description": "Steenokkerzeel, Belgium: Steenokkerzeel Airport"
+    },
+    {
+      "Code": "SJO",
+      "Description": "San Jose, Costa Rica: Juan Santamaria International"
+    },
+    {
+      "Code": "SVC",
+      "Description": "Silver City/Hurley, NM: Grant County"
+    },
+    {
+      "Code": "DKR",
+      "Description": "Dakar, Senegal: Leopold Sedar Senghor International"
+    },
+    {
+      "Code": "PNO",
+      "Description": "Pinotepa, Mexico: Pinotepa Nacional"
+    },
+    {
+      "Code": "WQA",
+      "Description": "Ovid, NY: Ovid Airport"
+    },
+    {
+      "Code": "GLH",
+      "Description": "Greenville, MS: Greenville Mid Delta"
+    },
+    {
+      "Code": "DBM",
+      "Description": "Debra Marcos, Ethiopia: Debre Marcos"
+    },
+    {
+      "Code": "NEU",
+      "Description": "Sam Neua, Laos: Samneua"
+    },
+    {
+      "Code": "LMT",
+      "Description": "Klamath Falls, OR: Crater Lake Klamath Regional"
+    },
+    {
+      "Code": "AEX",
+      "Description": "Alexandria, LA: Alexandria International"
+    },
+    {
+      "Code": "ATL",
+      "Description": "Atlanta, GA: Hartsfield-Jackson Atlanta International"
+    },
+    {
+      "Code": "AUS",
+      "Description": "Austin, TX: Austin - Bergstrom International"
+    },
+    {
+      "Code": "BDL",
+      "Description": "Hartford, CT: Bradley International"
+    },
+    {
+      "Code": "BTV",
+      "Description": "Burlington, VT: Burlington International"
+    },
+    {
+      "Code": "BWI",
+      "Description": "Baltimore, MD: Baltimore/Washington International Thurgood Marshall"
+    },
+    {
+      "Code": "CAE",
+      "Description": "Columbia, SC: Columbia Metropolitan"
+    },
+    {
+      "Code": "CLT",
+      "Description": "Charlotte, NC: Charlotte Douglas International"
+    },
+    {
+      "Code": "DAB",
+      "Description": "Daytona Beach, FL: Daytona Beach International"
+    },
+    {
+      "Code": "DCA",
+      "Description": "Washington, DC: Ronald Reagan Washington National"
+    },
+    {
+      "Code": "DEN",
+      "Description": "Denver, CO: Denver International"
+    },
+    {
+      "Code": "DFW",
+      "Description": "Dallas/Fort Worth, TX: Dallas/Fort Worth International"
+    },
+    {
+      "Code": "ELM",
+      "Description": "Elmira/Corning, NY: Elmira/Corning Regional"
+    },
+    {
+      "Code": "EWR",
+      "Description": "Newark, NJ: Newark Liberty International"
+    },
+    {
+      "Code": "GGG",
+      "Description": "Longview, TX: East Texas Regional"
+    },
+    {
+      "Code": "GSO",
+      "Description": "Greensboro/High Point, NC: Piedmont Triad International"
+    },
+    {
+      "Code": "HSV",
+      "Description": "Huntsville, AL: Huntsville International-Carl T Jones Field"
+    },
+    {
+      "Code": "ISP",
+      "Description": "Islip, NY: Long Island MacArthur"
+    },
+    {
+      "Code": "JFK",
+      "Description": "New York, NY: John F. Kennedy International"
+    },
+    {
+      "Code": "LAS",
+      "Description": "Las Vegas, NV: McCarran International"
+    },
+    {
+      "Code": "LGA",
+      "Description": "New York, NY: LaGuardia"
+    },
+    {
+      "Code": "MCO",
+      "Description": "Orlando, FL: Orlando International"
+    },
+    {
+      "Code": "MHT",
+      "Description": "Manchester, NH: Manchester-Boston Regional"
+    },
+    {
+      "Code": "MKE",
+      "Description": "Milwaukee, WI: General Mitchell International"
+    },
+    {
+      "Code": "MQT",
+      "Description": "Marquette, MI: Sawyer International"
+    },
+    {
+      "Code": "ORD",
+      "Description": "Chicago, IL: Chicago O'Hare International"
+    },
+    {
+      "Code": "ORF",
+      "Description": "Norfolk, VA: Norfolk International"
+    },
+    {
+      "Code": "PBI",
+      "Description": "West Palm Beach/Palm Beach, FL: Palm Beach International"
+    },
+    {
+      "Code": "PHX",
+      "Description": "Phoenix, AZ: Phoenix Sky Harbor International"
+    },
+    {
+      "Code": "PIE",
+      "Description": "St. Petersburg, FL: St Pete Clearwater International"
+    },
+    {
+      "Code": "SAN",
+      "Description": "San Diego, CA: San Diego International"
+    },
+    {
+      "Code": "SEA",
+      "Description": "Seattle, WA: Seattle/Tacoma International"
+    },
+    {
+      "Code": "SFO",
+      "Description": "San Francisco, CA: San Francisco International"
+    },
+    {
+      "Code": "SJC",
+      "Description": "San Jose, CA: Norman Y. Mineta San Jose International"
+    },
+    {
+      "Code": "SMF",
+      "Description": "Sacramento, CA: Sacramento International"
+    },
+    {
+      "Code": "TPA",
+      "Description": "Tampa, FL: Tampa International"
+    },
+    {
+      "Code": "VLD",
+      "Description": "Valdosta, GA: Valdosta Regional"
+    },
+    {
+      "Code": "ATW",
+      "Description": "Appleton, WI: Appleton International"
+    },
+    {
+      "Code": "BUF",
+      "Description": "Buffalo, NY: Buffalo Niagara International"
+    },
+    {
+      "Code": "BUR",
+      "Description": "Burbank, CA: Bob Hope"
+    },
+    {
+      "Code": "DAL",
+      "Description": "Dallas, TX: Dallas Love Field"
+    },
+    {
+      "Code": "GEG",
+      "Description": "Spokane, WA: Spokane International"
+    },
+    {
+      "Code": "IAD",
+      "Description": "Washington, DC: Washington Dulles International"
+    },
+    {
+      "Code": "LAX",
+      "Description": "Los Angeles, CA: Los Angeles International"
+    },
+    {
+      "Code": "MCI",
+      "Description": "Kansas City, MO: Kansas City International"
+    },
+    {
+      "Code": "MDT",
+      "Description": "Harrisburg, PA: Harrisburg International"
+    },
+    {
+      "Code": "MSP",
+      "Description": "Minneapolis, MN: Minneapolis-St Paul International"
+    },
+    {
+      "Code": "ONT",
+      "Description": "Ontario, CA: Ontario International"
+    },
+    {
+      "Code": "PHL",
+      "Description": "Philadelphia, PA: Philadelphia International"
+    },
+    {
+      "Code": "PVD",
+      "Description": "Providence, RI: Theodore Francis Green State"
+    },
+    {
+      "Code": "RDM",
+      "Description": "Bend/Redmond, OR: Roberts Field"
+    },
+    {
+      "Code": "RNO",
+      "Description": "Reno, NV: Reno/Tahoe International"
+    },
+    {
+      "Code": "SLC",
+      "Description": "Salt Lake City, UT: Salt Lake City International"
+    },
+    {
+      "Code": "SRQ",
+      "Description": "Sarasota/Bradenton, FL: Sarasota/Bradenton International"
+    },
+    {
+      "Code": "TOL",
+      "Description": "Toledo, OH: Toledo Express"
+    },
+    {
+      "Code": "TXK",
+      "Description": "Texarkana, AR: Texarkana Regional-Webb Field"
+    }
+]

@@ -1,0 +1,604 @@
+{
+    "database_id": "swimming",
+    "if_primary_allowed": {
+        "event": false,
+        "record": false,
+        "swimmer": false,
+        "stadium": false
+    },
+    "type": {
+        "event": "1:1",
+        "record": "1:2"
+    },
+    "capability_assignments": {
+        "event": {
+            "1": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_EM"
+                    ],
+                    "Year": [
+                        "TA_FC"
+                    ],
+                    "Stadium_ID": []
+                }
+            },
+            "4": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Name": [],
+                    "Year": [
+                        "TA_FC"
+                    ],
+                    "Stadium_ID": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_EM"
+                    ],
+                    "Year": [
+                        "RI_TC"
+                    ],
+                    "Stadium_ID": []
+                }
+            },
+            "6": {
+                "row": [
+                    "GR_CTA",
+                    "RL_MI"
+                ],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "Year": [
+                        "EF_HC"
+                    ],
+                    "Stadium_ID": []
+                }
+            },
+            "2": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "Year": [],
+                    "Stadium_ID": []
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TA_EM",
+                        "EF_HC"
+                    ],
+                    "Year": [],
+                    "Stadium_ID": []
+                }
+            },
+            "7": {
+                "row": [
+                    "IDR_NR"
+                ],
+                "col": {
+                    "Name": [],
+                    "Year": [],
+                    "Stadium_ID": []
+                }
+            },
+            "8": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "Name": [],
+                    "Year": [],
+                    "Stadium_ID": []
+                }
+            },
+            "9": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "Name": [],
+                    "Year": [],
+                    "Stadium_ID": []
+                }
+            }
+        },
+        "record": {
+            "6": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "ID": [
+                        "TD_AS"
+                    ],
+                    "Result": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "13": {
+                "row": [
+                    "GR_DC",
+                    "RL_CL"
+                ],
+                "col": {
+                    "ID": [
+                        "TD_DF"
+                    ],
+                    "Result": [
+                        "RI_LD",
+                        "TD_DF"
+                    ]
+                }
+            },
+            "11": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "ID": [
+                        "TA_FC"
+                    ],
+                    "Result": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "5": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "ID": [],
+                    "Result": [
+                        "TA_EM",
+                        "TD_DF"
+                    ]
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "ID": [],
+                    "Result": [
+                        "TA_EM",
+                        "RI_LD"
+                    ]
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_MI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "ID": [
+                        "RI_AC"
+                    ],
+                    "Result": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "ID": [
+                        "TD_AS"
+                    ],
+                    "Result": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "9": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "ID": [],
+                    "Result": [
+                        "EF_HC"
+                    ]
+                }
+            },
+            "12": {
+                "row": [],
+                "col": {
+                    "ID": [],
+                    "Result": [
+                        "EF_HC",
+                        "TA_EM"
+                    ]
+                }
+            },
+            "10": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "ID": [
+                        "TA_FC"
+                    ],
+                    "Result": []
+                }
+            },
+            "7": {
+                "row": [],
+                "col": {
+                    "ID": [],
+                    "Result": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "ID": [
+                        "RI_AC"
+                    ],
+                    "Result": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_MB",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "ID": [
+                        "RI_AC"
+                    ],
+                    "Result": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "14": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "ID": [],
+                    "Result": []
+                }
+            },
+            "15": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "ID": [],
+                    "Result": []
+                }
+            },
+            "16": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "ID": [],
+                    "Result": []
+                }
+            }
+        },
+        "stadium": {
+            "1": {
+                "Capacity": [
+                    "TA_FC",
+                    "TA_US"
+                ],
+                "City": [],
+                "Country": [
+                    "TA_EM"
+                ],
+                "Opening_year": []
+            },
+            "2": {
+                "Capacity": [
+                    "TA_US"
+                ],
+                "City": [
+                    "TA_FC"
+                ],
+                "Country": [
+                    "TA_EM"
+                ],
+                "Opening_year": [
+                    "RI_TC"
+                ]
+            },
+            "3": {
+                "Capacity": [],
+                "City": [],
+                "Country": [
+                    "TA_EM"
+                ],
+                "Opening_year": []
+            },
+            "4": {
+                "Capacity": [
+                    "TA_US"
+                ],
+                "City": [
+                    "TD_AS"
+                ],
+                "Country": [],
+                "Opening_year": [
+                    "RI_TC"
+                ]
+            },
+            "5": {
+                "Capacity": [
+                    "TA_FC"
+                ],
+                "City": [],
+                "Country": [
+                    "TA_EM"
+                ],
+                "Opening_year": []
+            },
+            "6": {
+                "Capacity": [
+                    "TA_US"
+                ],
+                "City": [
+                    "TA_FC"
+                ],
+                "Country": [],
+                "Opening_year": [
+                    "RI_TC"
+                ]
+            },
+            "7": {
+                "Capacity": [],
+                "City": [
+                    "TD_AS"
+                ],
+                "Country": [
+                    "TA_EM"
+                ],
+                "Opening_year": []
+            },
+            "8": {
+                "Capacity": [
+                    "TA_FC"
+                ],
+                "City": [],
+                "Country": [
+                    "TD_DF"
+                ],
+                "Opening_year": []
+            },
+            "9": {
+                "Capacity": [
+                    "RI_AC"
+                ],
+                "City": [],
+                "Country": [],
+                "Opening_year": [
+                    "TA_FC"
+                ]
+            },
+            "10": {
+                "Capacity": [
+                    "RI_AC",
+                    "TD_DF"
+                ],
+                "City": [],
+                "Country": [],
+                "Opening_year": [
+                    "TA_FC"
+                ]
+            }
+        },
+        "swimmer": {
+            "7": {
+                "Nationality": [
+                    "TA_EM"
+                ],
+                "meter_100": [
+                    "TA_FC"
+                ],
+                "meter_200": [
+                    "RI_AC"
+                ],
+                "meter_300": [],
+                "meter_400": [
+                    "RI_AC"
+                ],
+                "meter_500": [],
+                "meter_600": [
+                    "RI_AC"
+                ],
+                "meter_700": [],
+                "Time": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "4": {
+                "Nationality": [
+                    "TA_EM"
+                ],
+                "meter_100": [],
+                "meter_200": [
+                    "TA_FC"
+                ],
+                "meter_300": [
+                    "RI_AC"
+                ],
+                "meter_400": [],
+                "meter_500": [],
+                "meter_600": [
+                    "RI_AC"
+                ],
+                "meter_700": [
+                    "RI_AC"
+                ],
+                "Time": [
+                    "TD_AS"
+                ]
+            },
+            "5": {
+                "Nationality": [
+                    "TA_EM"
+                ],
+                "meter_100": [
+                    "TA_FC"
+                ],
+                "meter_200": [],
+                "meter_300": [
+                    "RI_AC"
+                ],
+                "meter_400": [],
+                "meter_500": [
+                    "RI_AC"
+                ],
+                "meter_600": [],
+                "meter_700": [
+                    "RI_AC"
+                ],
+                "Time": []
+            },
+            "8": {
+                "Nationality": [
+                    "TA_EM"
+                ],
+                "meter_100": [],
+                "meter_200": [
+                    "RI_AC"
+                ],
+                "meter_300": [],
+                "meter_400": [
+                    "RI_AC"
+                ],
+                "meter_500": [
+                    "RI_AC"
+                ],
+                "meter_600": [],
+                "meter_700": [
+                    "TA_FC"
+                ],
+                "Time": [
+                    "RI_AC"
+                ]
+            },
+            "1": {
+                "Nationality": [
+                    "TA_EM"
+                ],
+                "meter_100": [
+                    "TA_FC"
+                ],
+                "meter_200": [],
+                "meter_300": [],
+                "meter_400": [
+                    "RI_AC"
+                ],
+                "meter_500": [],
+                "meter_600": [
+                    "RI_AC"
+                ],
+                "meter_700": [
+                    "RI_AC"
+                ],
+                "Time": [
+                    "TD_AS"
+                ]
+            },
+            "2": {
+                "Nationality": [
+                    "TA_EM"
+                ],
+                "meter_100": [],
+                "meter_200": [
+                    "TA_FC"
+                ],
+                "meter_300": [],
+                "meter_400": [],
+                "meter_500": [
+                    "RI_AC"
+                ],
+                "meter_600": [],
+                "meter_700": [
+                    "RI_AC"
+                ],
+                "Time": [
+                    "RI_AC"
+                ]
+            },
+            "6": {
+                "Nationality": [
+                    "TA_EM"
+                ],
+                "meter_100": [
+                    "TA_FC"
+                ],
+                "meter_200": [],
+                "meter_300": [
+                    "RI_AC"
+                ],
+                "meter_400": [],
+                "meter_500": [
+                    "RI_AC"
+                ],
+                "meter_600": [],
+                "meter_700": [],
+                "Time": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "3": {
+                "Nationality": [
+                    "TA_EM"
+                ],
+                "meter_100": [],
+                "meter_200": [
+                    "RI_AC"
+                ],
+                "meter_300": [
+                    "TA_FC"
+                ],
+                "meter_400": [],
+                "meter_500": [
+                    "RI_AC"
+                ],
+                "meter_600": [
+                    "RI_AC"
+                ],
+                "meter_700": [],
+                "Time": [
+                    "TD_AS"
+                ]
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/swimming/tables"
+}

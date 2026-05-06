@@ -1,0 +1,955 @@
+{
+    "database_id": "apartment_rentals",
+    "if_primary_allowed": {
+        "Apartment_Bookings": false,
+        "Apartment_Buildings": false,
+        "Apartments": false,
+        "Guests": false,
+        "View_Unit_Status": false
+    },
+    "type": {
+        "Apartment_Bookings": "1:2",
+        "Apartments": "1:1",
+        "View_Unit_Status": [
+            "1:2",
+            "2-hop"
+        ]
+    },
+    "capability_assignments": {
+        "Apartment_Bookings": {
+            "577": {
+                "row": [],
+                "col": {
+                    "booking_status_code": [],
+                    "booking_start_date": [],
+                    "booking_end_date": [
+                        "TA_FC"
+                    ],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "365": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "TD_DF"
+                    ],
+                    "booking_start_date": [],
+                    "booking_end_date": [
+                        "RI_TC"
+                    ],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "623": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "526": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "booking_start_date": [
+                        "RI_TC"
+                    ],
+                    "booking_end_date": [
+                        "RI_MI"
+                    ],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "337": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "RI_LD"
+                    ],
+                    "booking_start_date": [],
+                    "booking_end_date": [],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "920": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "279": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "booking_start_date": [
+                        "RI_TC"
+                    ],
+                    "booking_end_date": [
+                        "TA_FC"
+                    ],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "889": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "TD_DF"
+                    ],
+                    "booking_start_date": [],
+                    "booking_end_date": [],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "258": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "401": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "booking_start_date": [],
+                    "booking_end_date": [
+                        "RI_TC"
+                    ],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "497": {
+                "row": [],
+                "col": {
+                    "booking_status_code": [
+                        "RI_LD"
+                    ],
+                    "booking_start_date": [],
+                    "booking_end_date": [],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "807": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "booking_start_date": [],
+                    "booking_end_date": [
+                        "RI_TC"
+                    ],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "924": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "RI_LD"
+                    ],
+                    "booking_start_date": [],
+                    "booking_end_date": [
+                        "TD_AS"
+                    ],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "575": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "booking_start_date": [],
+                    "booking_end_date": [],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "343": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "booking_start_date": [],
+                    "booking_end_date": [],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "booking_start_date": [],
+                    "booking_end_date": [],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            },
+            "1999": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "booking_start_date": [],
+                    "booking_end_date": [],
+                    "apt_id": [],
+                    "guest_id": []
+                }
+            }
+        },
+        "Apartment_Buildings": {
+            "133": {
+                "building_description": [],
+                "building_address": [],
+                "building_manager": [
+                    "RI_LD"
+                ],
+                "building_phone": [
+                    "TA_FC"
+                ]
+            },
+            "153": {
+                "building_description": [
+                    "TA_EM"
+                ],
+                "building_address": [],
+                "building_manager": [],
+                "building_phone": [
+                    "TA_FC"
+                ]
+            },
+            "191": {
+                "building_description": [
+                    "TA_EM"
+                ],
+                "building_address": [],
+                "building_manager": [
+                    "TD_DF"
+                ],
+                "building_phone": []
+            },
+            "196": {
+                "building_description": [],
+                "building_address": [
+                    "RI_MI"
+                ],
+                "building_manager": [],
+                "building_phone": [
+                    "TA_FC"
+                ]
+            },
+            "225": {
+                "building_description": [],
+                "building_address": [],
+                "building_manager": [],
+                "building_phone": [
+                    "TA_FC"
+                ]
+            },
+            "532": {
+                "building_description": [
+                    "RI_LD"
+                ],
+                "building_address": [],
+                "building_manager": [
+                    "RI_LD"
+                ],
+                "building_phone": []
+            },
+            "556": {
+                "building_description": [],
+                "building_address": [],
+                "building_manager": [],
+                "building_phone": [
+                    "TA_FC"
+                ]
+            },
+            "624": {
+                "building_description": [
+                    "TA_EM"
+                ],
+                "building_address": [
+                    "RI_MI"
+                ],
+                "building_manager": [],
+                "building_phone": []
+            },
+            "644": {
+                "building_description": [],
+                "building_address": [],
+                "building_manager": [],
+                "building_phone": []
+            },
+            "673": {
+                "building_description": [],
+                "building_address": [],
+                "building_manager": [
+                    "TD_DF"
+                ],
+                "building_phone": []
+            },
+            "734": {
+                "building_description": [],
+                "building_address": [],
+                "building_manager": [],
+                "building_phone": [
+                    "TA_FC"
+                ]
+            },
+            "744": {
+                "building_description": [
+                    "TA_EM"
+                ],
+                "building_address": [],
+                "building_manager": [],
+                "building_phone": []
+            },
+            "790": {
+                "building_description": [],
+                "building_address": [
+                    "RI_MI"
+                ],
+                "building_manager": [],
+                "building_phone": []
+            },
+            "808": {
+                "building_description": [],
+                "building_address": [],
+                "building_manager": [],
+                "building_phone": [
+                    "TA_FC"
+                ]
+            },
+            "968": {
+                "building_description": [],
+                "building_address": [],
+                "building_manager": [
+                    "RI_LD"
+                ],
+                "building_phone": []
+            }
+        },
+        "Apartments": {
+            "2": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "apt_type_code": [],
+                    "apt_number": [],
+                    "bathroom_count": [
+                        "TD_AS"
+                    ],
+                    "bedroom_count": [],
+                    "room_count": [],
+                    "building_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "apt_type_code": [],
+                    "apt_number": [
+                        "TA_FC"
+                    ],
+                    "bathroom_count": [
+                        "TD_AS"
+                    ],
+                    "bedroom_count": [],
+                    "room_count": [
+                        "RI_LD"
+                    ],
+                    "building_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "apt_type_code": [],
+                    "apt_number": [],
+                    "bathroom_count": [
+                        "TD_AS"
+                    ],
+                    "bedroom_count": [
+                        "RI_AC"
+                    ],
+                    "room_count": [],
+                    "building_id": []
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "apt_type_code": [],
+                    "apt_number": [],
+                    "bathroom_count": [
+                        "RI_AC"
+                    ],
+                    "bedroom_count": [
+                        "TD_AS"
+                    ],
+                    "room_count": [],
+                    "building_id": []
+                }
+            },
+            "15": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "apt_type_code": [
+                        "TD_DF"
+                    ],
+                    "apt_number": [],
+                    "bathroom_count": [],
+                    "bedroom_count": [
+                        "RI_AC"
+                    ],
+                    "room_count": [],
+                    "building_id": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "apt_type_code": [
+                        "TA_EM"
+                    ],
+                    "apt_number": [
+                        "TA_FC"
+                    ],
+                    "bathroom_count": [],
+                    "bedroom_count": [
+                        "TD_AS"
+                    ],
+                    "room_count": [
+                        "RI_AC"
+                    ],
+                    "building_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "apt_type_code": [
+                        "TA_EM"
+                    ],
+                    "apt_number": [],
+                    "bathroom_count": [],
+                    "bedroom_count": [
+                        "EF_HC"
+                    ],
+                    "room_count": [
+                        "RI_AC"
+                    ],
+                    "building_id": []
+                }
+            },
+            "6": {
+                "row": [],
+                "col": {
+                    "apt_type_code": [],
+                    "apt_number": [
+                        "TA_FC"
+                    ],
+                    "bathroom_count": [],
+                    "bedroom_count": [],
+                    "room_count": [
+                        "RI_AC"
+                    ],
+                    "building_id": []
+                }
+            },
+            "13": {
+                "row": [],
+                "col": {
+                    "apt_type_code": [
+                        "TA_EM"
+                    ],
+                    "apt_number": [],
+                    "bathroom_count": [],
+                    "bedroom_count": [],
+                    "room_count": [
+                        "RI_LD"
+                    ],
+                    "building_id": []
+                }
+            },
+            "9": {
+                "row": [],
+                "col": {
+                    "apt_type_code": [
+                        "TD_DF"
+                    ],
+                    "apt_number": [
+                        "TA_FC"
+                    ],
+                    "bathroom_count": [],
+                    "bedroom_count": [],
+                    "room_count": [
+                        "RI_LD"
+                    ],
+                    "building_id": []
+                }
+            },
+            "7": {
+                "row": [],
+                "col": {
+                    "apt_type_code": [
+                        "TA_EM",
+                        "TD_DF"
+                    ],
+                    "apt_number": [],
+                    "bathroom_count": [],
+                    "bedroom_count": [],
+                    "room_count": [],
+                    "building_id": []
+                }
+            },
+            "10": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "apt_type_code": [],
+                    "apt_number": [],
+                    "bathroom_count": [],
+                    "bedroom_count": [
+                        "EF_HC"
+                    ],
+                    "room_count": [
+                        "RI_AC"
+                    ],
+                    "building_id": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "apt_type_code": [
+                        "TA_EM"
+                    ],
+                    "apt_number": [],
+                    "bathroom_count": [],
+                    "bedroom_count": [
+                        "TD_AS"
+                    ],
+                    "room_count": [],
+                    "building_id": []
+                }
+            },
+            "14": {
+                "row": [],
+                "col": {
+                    "apt_type_code": [],
+                    "apt_number": [
+                        "TA_FC"
+                    ],
+                    "bathroom_count": [
+                        "TD_AS"
+                    ],
+                    "bedroom_count": [],
+                    "room_count": [],
+                    "building_id": []
+                }
+            },
+            "11": {
+                "row": [],
+                "col": {
+                    "apt_type_code": [
+                        "TA_EM"
+                    ],
+                    "apt_number": [
+                        "TA_FC"
+                    ],
+                    "bathroom_count": [],
+                    "bedroom_count": [],
+                    "room_count": [],
+                    "building_id": []
+                }
+            }
+        },
+        "Guests": {
+            "1": {
+                "gender_code": [
+                    "TA_EM"
+                ],
+                "date_of_birth": [
+                    "RI_TC"
+                ]
+            },
+            "2": {
+                "gender_code": [
+                    "RI_LD"
+                ],
+                "date_of_birth": [
+                    "TA_FC"
+                ]
+            },
+            "3": {
+                "gender_code": [],
+                "date_of_birth": [
+                    "RI_TC"
+                ]
+            },
+            "4": {
+                "gender_code": [],
+                "date_of_birth": []
+            },
+            "5": {
+                "gender_code": [],
+                "date_of_birth": []
+            },
+            "6": {
+                "gender_code": [
+                    "EF_ND"
+                ],
+                "date_of_birth": []
+            },
+            "7": {
+                "gender_code": [],
+                "date_of_birth": []
+            },
+            "8": {
+                "gender_code": [
+                    "RI_LD"
+                ],
+                "date_of_birth": []
+            },
+            "9": {
+                "gender_code": [],
+                "date_of_birth": []
+            },
+            "10": {
+                "gender_code": [],
+                "date_of_birth": []
+            },
+            "11": {
+                "gender_code": [],
+                "date_of_birth": [
+                    "RI_TC"
+                ]
+            },
+            "12": {
+                "gender_code": [],
+                "date_of_birth": []
+            },
+            "13": {
+                "gender_code": [],
+                "date_of_birth": [
+                    "TA_FC"
+                ]
+            },
+            "14": {
+                "gender_code": [],
+                "date_of_birth": [
+                    "RI_TC"
+                ]
+            },
+            "15": {
+                "gender_code": [],
+                "date_of_birth": []
+            }
+        },
+        "View_Unit_Status": {
+            "2015-06-19 07:59:01": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "2003-08-02 08:36:36": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "1978-12-28 11:53:34": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "2012-11-24 13:39:37": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "available_yn": [
+                        "TA_EM"
+                    ],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "2011-11-06 22:08:42": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "2011-02-12 09:04:07": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "available_yn": [
+                        "RI_MI"
+                    ],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "1970-09-28 10:24:29": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "available_yn": [
+                        "TA_EM"
+                    ],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "2006-02-23 05:50:04": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "2001-02-17 20:17:09": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "1976-12-18 04:03:51": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "2003-07-25 10:13:48": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "1977-04-15 13:42:19": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "1985-11-05 11:46:35": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "available_yn": [
+                        "RI_LD"
+                    ],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "2000-02-04 07:50:09": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "available_yn": [
+                        "RI_MI"
+                    ],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "1980-11-12 13:34:45": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "2014-12-10 13:53:21": {
+                "row": [],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "2015-07-15 11:06:29": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "1972-03-23 22:55:53": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "available_yn": [
+                        "RI_LD"
+                    ],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "1990-11-04 17:57:50": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            },
+            "1973-10-28 04:30:14": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "available_yn": [],
+                    "apt_id": [],
+                    "apt_booking_id": []
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/apartment_rentals/tables"
+}

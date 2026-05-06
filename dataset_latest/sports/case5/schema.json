@@ -1,0 +1,355 @@
+[
+  {
+    "id": "1",
+    "name": "city",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the city (data format: integer)"
+      },
+      {
+        "name": "city_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the city (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "games",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the game (data format: integer)"
+      },
+      {
+        "name": "games_year",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the year of the game (data format: integer)"
+      },
+      {
+        "name": "games_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the game commonsense evidence: games_name is 'games_year season' (data format: text)"
+      },
+      {
+        "name": "season",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the season of the game commonsense evidence: The Olympics are held every four years and include both summer and winter games. The summer games include a wide range of sports, such as athletics, swimming, and gymnastics, while the winter games feature sports that are played on ice or snow, such as ice hockey, figure skating, and skiing. (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "games_city",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "games_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "games",
+            "column": "id"
+          }
+        },
+        "description": "the id of the game Maps to games(id) (data format: integer)"
+      },
+      {
+        "name": "city_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "city",
+            "column": "id"
+          }
+        },
+        "description": "the id of the city that held the game Maps to city(id) (data format: integer)"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "noc_region",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the noc region (data format: integer)"
+      },
+      {
+        "name": "noc",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the NOC code of the region commonsense evidence: A NOC code is a number used by the International Olympic Committee (IOC) to identify each of the national Olympic committees (NOCs) from around the world. (data format: text)"
+      },
+      {
+        "name": "region_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the region (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "person",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the person (data format: integer)"
+      },
+      {
+        "name": "full_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the full name of the person commonsense evidence: A person's full name is the complete name that they are known by, which typically includes their first name, middle name (if applicable), and last name. (data format: text)"
+      },
+      {
+        "name": "gender",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the gender of the person commonsense evidence: M stands for male and F stands for female. (data format: text)"
+      },
+      {
+        "name": "height",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the height of the person (data format: integer)"
+      },
+      {
+        "name": "weight",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the weight of the person commonsense evidence: The unit of height is cm, and the unit of weight is kg. If the height or the weight of the person is 0, it means his/her height or weight is missing. (data format: integer)"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "games_competitor",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the record"
+      },
+      {
+        "name": "games_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "games",
+            "column": "id"
+          }
+        },
+        "description": "the id of the game Maps to games(id) (data format: integer)"
+      },
+      {
+        "name": "person_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "person",
+            "column": "id"
+          }
+        },
+        "description": "the id of the person Maps to person(id) commonsense evidence: The times a person participated in the Olympics games could be calculated by grouping by person_id."
+      },
+      {
+        "name": "age",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the age of the person when he/she participated in the game commonsense evidence: If person A's age was 22 when he participated in game A and his age was 24 when he participated in game B, it means that game A was held two years earlier than game B. (data format: integer)"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "person_region",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "person_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "person",
+            "column": "id"
+          }
+        },
+        "description": "the id of the person Maps to person(id) (data format: integer)"
+      },
+      {
+        "name": "region_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "noc_region",
+            "column": "id"
+          }
+        },
+        "description": "the id of the noc region Maps to noc_region(id) (data format: integer)"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "sport",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the sport (data format: integer)"
+      },
+      {
+        "name": "sport_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the sport (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "event",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true
+        },
+        "description": "the unique identifier of the event (data format: integer)"
+      },
+      {
+        "name": "sport_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "sport",
+            "column": "id"
+          }
+        },
+        "description": "the id of the sport Maps to sport(id) commonsense evidence: There may be different events for the same sport in Olympics. (data format: integer)"
+      },
+      {
+        "name": "event_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the event (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "competitor_event",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "event_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "event",
+            "column": "id"
+          }
+        },
+        "description": "the id of the event Maps to event(id) (data format: integer)"
+      },
+      {
+        "name": "competitor_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "games_competitor",
+            "column": "id"
+          }
+        },
+        "description": "the id of the competitor Maps to games_competitor(id) commonsense evidence: The number of competitors who participated in a specific event could be calculated by grouping by event_id. (data format: integer)"
+      },
+      {
+        "name": "medal_name",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the name of the medal commonsense evidence: For a specific event, the competitor whose medal_name = 'Gold' is the champion, the competitor whose medal_name = 'Silver' is the runner-up, and the competitor whose medal_name = 'Bronze' got third place. (data format: text)"
+      }
+    ]
+  }
+]

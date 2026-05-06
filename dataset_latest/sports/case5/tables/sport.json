@@ -1,0 +1,23 @@
+[
+    {"id": 2, "sport_name": "Alpine Skiing"},
+    {"id": 6, "sport_name": "Athletics"},
+    {"id": 18, "sport_name": "Cross Country Skiing"},
+    {"id": 20, "sport_name": "Cycling"},
+    {"id": 22, "sport_name": "Equestrianism"},
+    {"id": 23, "sport_name": "Fencing"},
+    {"id": 24, "sport_name": "Figure Skating"},
+    {"id": 25, "sport_name": "Football"},
+    {"id": 28, "sport_name": "Gymnastics"},
+    {"id": 30, "sport_name": "Hockey"},
+    {"id": 33, "sport_name": "Judo"},
+    {"id": 42, "sport_name": "Rhythmic Gymnastics"},
+    {"id": 44, "sport_name": "Rowing"},
+    {"id": 47, "sport_name": "Sailing"},
+    {"id": 48, "sport_name": "Shooting"},
+    {"id": 54, "sport_name": "Speed Skating"},
+    {"id": 55, "sport_name": "Swimming"},
+    {"id": 56, "sport_name": "Synchronized Swimming"},
+    {"id": 63, "sport_name": "Volleyball"},
+    {"id": 66, "sport_name": "Wrestling"}
+    ]
+    

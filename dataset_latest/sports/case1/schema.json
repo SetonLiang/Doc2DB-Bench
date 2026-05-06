@@ -1,0 +1,221 @@
+[
+  {
+    "id": "1",
+    "name": "swimmer",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "ID",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "name",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Nationality",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "meter_100",
+        "type": "real",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "meter_200",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "meter_300",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "meter_400",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "meter_500",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "meter_600",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "meter_700",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Time",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "stadium",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "ID",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "name",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Capacity",
+        "type": "int",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "City",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Country",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Opening_year",
+        "type": "int",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "event",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "ID",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Name",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Stadium_ID",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "stadium",
+            "column": "ID"
+          }
+        }
+      },
+      {
+        "name": "Year",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "record",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "ID",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "Result",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Swimmer_ID",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "swimmer",
+            "column": "ID"
+          }
+        }
+      },
+      {
+        "name": "Event_ID",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "event",
+            "column": "ID"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,706 @@
+[
+  {
+    "recipe_id": 1038,
+    "title": "Chicken Chutney Salad",
+    "servings": 4,
+    "prep_min": 25,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 554,
+    "title": "Spicy Beef Tortillas",
+    "servings": 4,
+    "prep_min": 5,
+    "cook_min": 15,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 837,
+    "title": "-Animal Crackers-",
+    "servings": 4,
+    "prep_min": 3,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1063,
+    "title": "Dad's Favorite Turkey Kebabs",
+    "servings": 4,
+    "prep_min": 135,
+    "cook_min": 28,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 619,
+    "title": "Pasta and Walnut Fruit Salad",
+    "servings": 8,
+    "prep_min": 20,
+    "cook_min": 10,
+    "stnd_min": 60
+  },
+  {
+    "recipe_id": 521,
+    "title": "Greek-Style Lamb and Bean Skillet Dinner",
+    "servings": 4,
+    "prep_min": 8,
+    "cook_min": 12,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1359,
+    "title": "Freeze and Bake Pie Crust",
+    "servings": 8,
+    "prep_min": 30,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 418,
+    "title": "Applesauce the Easy Way",
+    "servings": 6,
+    "prep_min": 10,
+    "cook_min": 10,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1043,
+    "title": "Chicken Spiral Pasta Salad",
+    "servings": 6,
+    "prep_min": 20,
+    "cook_min": 40,
+    "stnd_min": 60
+  },
+  {
+    "recipe_id": 1085,
+    "title": "Brown Rice Chicken Bake",
+    "servings": 6,
+    "prep_min": 10,
+    "cook_min": 20,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 789,
+    "title": "-Canned Peaches-",
+    "servings": 4,
+    "prep_min": 2,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 638,
+    "title": "California Sunshine Salad",
+    "servings": 8,
+    "prep_min": 30,
+    "cook_min": 0,
+    "stnd_min": 120
+  },
+  {
+    "recipe_id": 1032,
+    "title": "Turkey Ring Meatloaf",
+    "servings": 8,
+    "prep_min": 15,
+    "cook_min": 45,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 656,
+    "title": "Stewed Tomatoes with Chickpeas",
+    "servings": 6,
+    "prep_min": 10,
+    "cook_min": 21,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1029,
+    "title": "Chicken Lentil Salad",
+    "servings": 4,
+    "prep_min": 20,
+    "cook_min": 20,
+    "stnd_min": 90
+  },
+  {
+    "recipe_id": 923,
+    "title": " -Dry Roasted, Unsalted Peanuts- ",
+    "servings": 4,
+    "prep_min": 2,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1504,
+    "title": null,
+    "servings": null,
+    "prep_min": null,
+    "cook_min": null,
+    "stnd_min": null
+  },
+  {
+    "recipe_id": 646,
+    "title": "Mushroom and Spinach Lasagne",
+    "servings": 8,
+    "prep_min": 25,
+    "cook_min": 60,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 755,
+    "title": "-Avocados-",
+    "servings": 4,
+    "prep_min": 5,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1566,
+    "title": null,
+    "servings": null,
+    "prep_min": null,
+    "cook_min": null,
+    "stnd_min": null
+  },
+  {
+    "recipe_id": 1446,
+    "title": null,
+    "servings": null,
+    "prep_min": null,
+    "cook_min": null,
+    "stnd_min": null
+  },
+  {
+    "recipe_id": 450,
+    "title": "Citrus Salad with California Avocado",
+    "servings": 6,
+    "prep_min": 30,
+    "cook_min": 15,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 672,
+    "title": "Summer Vegetable Paella",
+    "servings": 6,
+    "prep_min": 10,
+    "cook_min": 8,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 743,
+    "title": "-Spinach-",
+    "servings": 4,
+    "prep_min": 15,
+    "cook_min": 5,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 232,
+    "title": "Apple Bean Cake",
+    "servings": 12,
+    "prep_min": 30,
+    "cook_min": 40,
+    "stnd_min": 10
+  },
+  {
+    "recipe_id": 503,
+    "title": "Puree of Potatoes and Parsnips",
+    "servings": 8,
+    "prep_min": 10,
+    "cook_min": 25,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1515,
+    "title": null,
+    "servings": null,
+    "prep_min": null,
+    "cook_min": null,
+    "stnd_min": null
+  },
+  {
+    "recipe_id": 948,
+    "title": "-Sliced Ham-",
+    "servings": 4,
+    "prep_min": 3,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 551,
+    "title": "Western Pork Barbecue Supper",
+    "servings": 4,
+    "prep_min": 15,
+    "cook_min": 60,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 714,
+    "title": "-Sauteed Mushrooms-",
+    "servings": 4,
+    "prep_min": 15,
+    "cook_min": 3,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 252,
+    "title": "Oregon Hazelnut Brittle",
+    "servings": 36,
+    "prep_min": 10,
+    "cook_min": 13,
+    "stnd_min": 30
+  },
+  {
+    "recipe_id": 285,
+    "title": "Old-Fashioned Peach Cobbler",
+    "servings": 6,
+    "prep_min": 10,
+    "cook_min": 27,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 419,
+    "title": "Brussels Sprouts with Peppers and Potatoes",
+    "servings": 6,
+    "prep_min": 10,
+    "cook_min": 13,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 428,
+    "title": "Mushrooms Oriental",
+    "servings": 4,
+    "prep_min": 10,
+    "cook_min": 10,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 472,
+    "title": "Cherry Ambrosia Salad",
+    "servings": 8,
+    "prep_min": 20,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 513,
+    "title": "Acorn Squash and Apple Puree",
+    "servings": 2,
+    "prep_min": 15,
+    "cook_min": 16,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 516,
+    "title": "Beef Brisket",
+    "servings": 10,
+    "prep_min": 15,
+    "cook_min": 165,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 569,
+    "title": "Strawberry-Pork Salad",
+    "servings": 6,
+    "prep_min": 20,
+    "cook_min": 0,
+    "stnd_min": 120
+  },
+  {
+    "recipe_id": 575,
+    "title": "Vegetable Pork Stir-Fry",
+    "servings": 6,
+    "prep_min": 20,
+    "cook_min": 8,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 614,
+    "title": "Western Beans and Rice",
+    "servings": 6,
+    "prep_min": 10,
+    "cook_min": 20,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 662,
+    "title": "Tuscan Bean Salad",
+    "servings": 8,
+    "prep_min": 140,
+    "cook_min": 0,
+    "stnd_min": 120
+  },
+  {
+    "recipe_id": 717,
+    "title": "-Steamed or Sauteed Zucchini-",
+    "servings": 4,
+    "prep_min": 10,
+    "cook_min": 5,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 749,
+    "title": "-Celery Sticks-",
+    "servings": 4,
+    "prep_min": 10,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 781,
+    "title": "-Tangerines-",
+    "servings": 4,
+    "prep_min": 3,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 788,
+    "title": "-Steamed Bok Choy-",
+    "servings": 4,
+    "prep_min": 15,
+    "cook_min": 9,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 796,
+    "title": "-Canned Mandarin Oranges-",
+    "servings": 4,
+    "prep_min": 3,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 806,
+    "title": "-Canned Yams-",
+    "servings": 4,
+    "prep_min": 3,
+    "cook_min": 5,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 872,
+    "title": "-Light Beer-",
+    "servings": 4,
+    "prep_min": 2,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 913,
+    "title": "-Low-Cal Thousand Island Salad Dressing-",
+    "servings": 4,
+    "prep_min": 3,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 928,
+    "title": "-Tortilla Chips-",
+    "servings": 4,
+    "prep_min": 3,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1033,
+    "title": "Apple-Stuffed Turkey Tenderloins",
+    "servings": 6,
+    "prep_min": 20,
+    "cook_min": 40,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1050,
+    "title": "Polynesian Pineapple Turkey",
+    "servings": 6,
+    "prep_min": 15,
+    "cook_min": 15,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1138,
+    "title": "Sandlapper Salad",
+    "servings": 8,
+    "prep_min": 20,
+    "cook_min": 0,
+    "stnd_min": 180
+  },
+  {
+    "recipe_id": 1149,
+    "title": "Summer Seafood Salad",
+    "servings": 4,
+    "prep_min": 15,
+    "cook_min": 20,
+    "stnd_min": 30
+  },
+  {
+    "recipe_id": 1208,
+    "title": "Long Island Fisherman Stew",
+    "servings": 12,
+    "prep_min": 25,
+    "cook_min": 35,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1214,
+    "title": "Broiled Scallops",
+    "servings": 2,
+    "prep_min": 10,
+    "cook_min": 7,
+    "stnd_min": 60
+  },
+  {
+    "recipe_id": 1347,
+    "title": "Iceberg Salad Athena",
+    "servings": 6,
+    "prep_min": 20,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1399,
+    "title": "Oriental Ginger-Nut Dressing",
+    "servings": 6,
+    "prep_min": 10,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1410,
+    "title": "No-Bake Chocolate Cheesecake",
+    "servings": 12,
+    "prep_min": 30,
+    "cook_min": 0,
+    "stnd_min": 120
+  },
+  {
+    "recipe_id": 237,
+    "title": "Cayuga Cookies",
+    "servings": 12,
+    "prep_min": 10,
+    "cook_min": 15,
+    "stnd_min": 20
+  },
+  {
+    "recipe_id": 277,
+    "title": "Open Sesame Blueberry Pie",
+    "servings": 8,
+    "prep_min": 20,
+    "cook_min": 40,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 279,
+    "title": "Cantaloupe-Ginger Sorbet",
+    "servings": 8,
+    "prep_min": 20,
+    "cook_min": 10,
+    "stnd_min": 270
+  },
+  {
+    "recipe_id": 426,
+    "title": "Armenian Spinach Plum Salad",
+    "servings": 4,
+    "prep_min": 15,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 517,
+    "title": "Beef and Two Pepper Stew",
+    "servings": 4,
+    "prep_min": 20,
+    "cook_min": 120,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 529,
+    "title": "Mesa Lamb and Bean Salad",
+    "servings": 4,
+    "prep_min": 20,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 530,
+    "title": "Mandarin Lamb with Oriental Noodles",
+    "servings": 4,
+    "prep_min": 10,
+    "cook_min": 15,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 541,
+    "title": "Thai-Style Beef Salad",
+    "servings": 4,
+    "prep_min": 40,
+    "cook_min": 3,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 549,
+    "title": "Sesame Potato Sticks with Oriental Beef and Peppers",
+    "servings": 4,
+    "prep_min": 20,
+    "cook_min": 13,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 568,
+    "title": "Southwestern Black Beans and Rice",
+    "servings": 4,
+    "prep_min": 20,
+    "cook_min": 165,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 577,
+    "title": "Holiday Stuffed Pork Roast",
+    "servings": 6,
+    "prep_min": 20,
+    "cook_min": 105,
+    "stnd_min": 15
+  },
+  {
+    "recipe_id": 592,
+    "title": "Broiled Marinated Beef Top Loin",
+    "servings": 4,
+    "prep_min": 1440,
+    "cook_min": 20,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 596,
+    "title": " Tomato, Pork and Pepper Kabob ",
+    "servings": 4,
+    "prep_min": 30,
+    "cook_min": 12,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 597,
+    "title": "Oriental Pork",
+    "servings": 4,
+    "prep_min": 70,
+    "cook_min": 15,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 605,
+    "title": "Tandoori Pork Saute",
+    "servings": 4,
+    "prep_min": 20,
+    "cook_min": 42,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 608,
+    "title": "German Egg Noodle and Meatball Soup",
+    "servings": 8,
+    "prep_min": 30,
+    "cook_min": 10,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 690,
+    "title": "Apple Brown Rice Stuffing",
+    "servings": 6,
+    "prep_min": 15,
+    "cook_min": 15,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 704,
+    "title": "Hazelnut Medley",
+    "servings": 4,
+    "prep_min": 30,
+    "cook_min": 30,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 705,
+    "title": "Sheepherder's Hearty Soup",
+    "servings": 6,
+    "prep_min": 15,
+    "cook_min": 25,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 712,
+    "title": "New Zealand Brown Rice Salad",
+    "servings": 6,
+    "prep_min": 150,
+    "cook_min": 20,
+    "stnd_min": 120
+  },
+  {
+    "recipe_id": 899,
+    "title": "-Brown Sugar-",
+    "servings": 4,
+    "prep_min": 0,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 924,
+    "title": " -Dried, Unsalted Pecan Halves- ",
+    "servings": 4,
+    "prep_min": 2,
+    "cook_min": 0,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1079,
+    "title": "Oriental Stir-Fry",
+    "servings": 3,
+    "prep_min": 10,
+    "cook_min": 10,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1080,
+    "title": "Peruvian Chicken with Plums",
+    "servings": 8,
+    "prep_min": 15,
+    "cook_min": 28,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1092,
+    "title": "Hearty Healthy Chicken Salad",
+    "servings": 6,
+    "prep_min": 20,
+    "cook_min": 15,
+    "stnd_min": 120
+  },
+  {
+    "recipe_id": 1102,
+    "title": "Grilled Chicken Salad",
+    "servings": 4,
+    "prep_min": 90,
+    "cook_min": 20,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1146,
+    "title": "Swordfish Skewers with Pears",
+    "servings": 4,
+    "prep_min": 10,
+    "cook_min": 10,
+    "stnd_min": 30
+  },
+  {
+    "recipe_id": 1152,
+    "title": "Shrimp with Snow Peas",
+    "servings": 4,
+    "prep_min": 10,
+    "cook_min": 15,
+    "stnd_min": 0
+  },
+  {
+    "recipe_id": 1159,
+    "title": "Native American Catfish",
+    "servings": 4,
+    "prep_min": 10,
+    "cook_min": 8,
+    "stnd_min": 0
+  }
+]

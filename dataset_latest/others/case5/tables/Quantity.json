@@ -1,0 +1,17 @@
+[
+{"quantity_id": 2987, "recipe_id": 647, "ingredient_id": 2282, "max_qty": 0.5, "min_qty": 0.5, "unit": "cup(s)", "preparation": "chopped", "optional": "FALSE"},
+{"quantity_id": 4726, "recipe_id": 787, "ingredient_id": 3021, "max_qty": 1.0, "min_qty": 1.0, "unit": "teaspoon(s)", "preparation": null, "optional": "FALSE"},
+{"quantity_id": 1585, "recipe_id": 434, "ingredient_id": 2220, "max_qty": 2.0, "min_qty": 2.0, "unit": "tablespoon(s)", "preparation": "or butter", "optional": "FALSE"},
+{"quantity_id": 6022, "recipe_id": 1356, "ingredient_id": 3618, "max_qty": 3.0, "min_qty": 3.0, "unit": "tablespoon(s)", "preparation": null, "optional": "FALSE"},
+{"quantity_id": 2128, "recipe_id": 566, "ingredient_id": 3086, "max_qty": 1.0, "min_qty": 1.0, "unit": "teaspoon(s)", "preparation": null, "optional": "FALSE"},
+{"quantity_id": 5011, "recipe_id": 1129, "ingredient_id": 1086, "max_qty": 0.5, "min_qty": 0.5, "unit": "teaspoon(s)", "preparation": "crushed", "optional": "FALSE"},
+{"quantity_id": 4414, "recipe_id": 1095, "ingredient_id": 219, "max_qty": 0.5, "min_qty": 0.5, "unit": "teaspoon(s)", "preparation": null, "optional": "FALSE"},
+{"quantity_id": 5271, "recipe_id": 1155, "ingredient_id": 2287, "max_qty": 0.75, "min_qty": 0.75, "unit": "cup(s)", "preparation": "cut in strips", "optional": "FALSE"},
+{"quantity_id": 637, "recipe_id": 289, "ingredient_id": 3334, "max_qty": 0.75, "min_qty": 0.75, "unit": "cup(s)", "preparation": null, "optional": "FALSE"},
+{"quantity_id": 1715, "recipe_id": 528, "ingredient_id": 2518, "max_qty": 0.5, "min_qty": 0.5, "unit": "teaspoon(s)", "preparation": null, "optional": "FALSE"},
+{"quantity_id": 5998, "recipe_id": 1352, "ingredient_id": 2288, "max_qty": 0.5, "min_qty": 0.5, "unit": "cup(s)", "preparation": "thinly-sliced and separated into rings", "optional": "FALSE"},
+{"quantity_id": 2077, "recipe_id": 560, "ingredient_id": 3021, "max_qty": 1.0, "min_qty": 1.0, "unit": "teaspoon(s)", "preparation": null, "optional": "FALSE"},
+{"quantity_id": 6231, "recipe_id": 1408, "ingredient_id": 3595, "max_qty": 1.0, "min_qty": 1.0, "unit": "teaspoon(s)", "preparation": null, "optional": "FALSE"},
+{"quantity_id": 6013, "recipe_id": 1354, "ingredient_id": 3021, "max_qty": 0.25, "min_qty": 0.25, "unit": "teaspoon(s)", "preparation": null, "optional": "FALSE"},
+{"quantity_id": 90, "recipe_id": 225, "ingredient_id": 3021, "max_qty": 0.13, "min_qty": 0.13, "unit": "teaspoon(s)", "preparation": null, "optional": "FALSE"}
+]

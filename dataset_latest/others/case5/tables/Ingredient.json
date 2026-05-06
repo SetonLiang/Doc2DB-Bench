@@ -1,0 +1,276 @@
+{
+  "rows": [
+    {
+      "ingredient_id": 2691,
+      "category": "salad dressings",
+      "name": "poppyseed dressing"
+    },
+    {
+      "ingredient_id": 3400,
+      "category": "Mexican products",
+      "name": "taco shell"
+    },
+    {
+      "ingredient_id": 3083,
+      "category": "fresh vegetables",
+      "name": "serrano or jalapeno chiles"
+    },
+    {
+      "ingredient_id": 177,
+      "category": "meat/poultry",
+      "name": "beef kidney"
+    },
+    {
+      "ingredient_id": 1420,
+      "category": "fresh herbs",
+      "name": "fresh rosemary"
+    },
+    {
+      "ingredient_id": 1616,
+      "category": "fresh fruit",
+      "name": "Granny Smith apple"
+    },
+    {
+      "ingredient_id": 3964,
+      "category": "beverages",
+      "name": "orange soda"
+    },
+    {
+      "ingredient_id": 3778,
+      "category": "salad dressings",
+      "name": "Wish-Bone Healthy Sensation! Honey Dijon"
+    },
+    {
+      "ingredient_id": 3963,
+      "category": "beverages",
+      "name": "lemon-lime soda"
+    },
+    {
+      "ingredient_id": 1177,
+      "category": "pasta/noodles",
+      "name": "egg pastina"
+    },
+    {
+      "ingredient_id": 723,
+      "category": "Oriental products",
+      "name": "chrysanthemum"
+    },
+    {
+      "ingredient_id": 4414,
+      "category": "fresh fruit",
+      "name": "green apple"
+    },
+    {
+      "ingredient_id": 1996,
+      "category": "meat/poultry",
+      "name": "lean American lamb"
+    },
+    {
+      "ingredient_id": 1591,
+      "category": "meat/poultry",
+      "name": "giblets"
+    },
+    {
+      "ingredient_id": 4333,
+      "category": "cereals",
+      "name": "quick-cooking hominy grits"
+    },
+    {
+      "ingredient_id": 219,
+      "category": "spices and seasonings",
+      "name": "black pepper"
+    },
+    {
+      "ingredient_id": 1086,
+      "category": "spices and seasonings",
+      "name": "oregano"
+    },
+    {
+      "ingredient_id": 2220,
+      "category": "dairy",
+      "name": "margarine"
+    },
+    {
+      "ingredient_id": 2282,
+      "category": "fresh vegetables",
+      "name": "onion"
+    },
+    {
+      "ingredient_id": 2287,
+      "category": "fresh vegetables",
+      "name": "red bell pepper"
+    },
+    {
+      "ingredient_id": 2288,
+      "category": "fresh vegetables",
+      "name": "red onion"
+    },
+    {
+      "ingredient_id": 2518,
+      "category": "spices and seasonings",
+      "name": "paprika"
+    },
+    {
+      "ingredient_id": 3021,
+      "category": "spices and seasonings",
+      "name": "salt"
+    },
+    {
+      "ingredient_id": 3086,
+      "category": "Oriental products",
+      "name": "sesame oil"
+    },
+    {
+      "ingredient_id": 3334,
+      "category": "baking products",
+      "name": "sugar"
+    },
+    {
+      "ingredient_id": 3595,
+      "category": "spices and seasonings",
+      "name": "vanilla"
+    },
+    {
+      "ingredient_id": 3618,
+      "category": "oils and fats",
+      "name": "vegetable oil"
+    }
+  ],
+  "capability_assignments": {
+    "2691": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "3400": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "3083": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "177": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "1420": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "1616": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "3964": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "3778": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "3963": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "1177": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "723": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "4414": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "1996": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "1591": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "4333": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "219": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "1086": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "2220": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "2282": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "2287": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "2288": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "2518": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "3021": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "3086": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "3334": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "3595": {
+      "category": [
+        "TA_EM"
+      ]
+    },
+    "3618": {
+      "category": [
+        "TA_EM"
+      ]
+    }
+  }
+}

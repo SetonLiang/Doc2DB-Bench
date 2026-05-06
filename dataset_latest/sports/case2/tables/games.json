@@ -1,0 +1,584 @@
+{
+  "rows": [
+    {
+      "id": 1,
+      "games_year": 1992,
+      "games_name": "1992 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 2,
+      "games_year": 2012,
+      "games_name": "2012 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 3,
+      "games_year": 1920,
+      "games_name": "1920 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 4,
+      "games_year": 1900,
+      "games_name": "1900 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 5,
+      "games_year": 1988,
+      "games_name": "1988 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 6,
+      "games_year": 1992,
+      "games_name": "1992 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 7,
+      "games_year": 1994,
+      "games_name": "1994 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 8,
+      "games_year": 1932,
+      "games_name": "1932 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 9,
+      "games_year": 2002,
+      "games_name": "2002 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 10,
+      "games_year": 1952,
+      "games_name": "1952 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 11,
+      "games_year": 1980,
+      "games_name": "1980 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 12,
+      "games_year": 2000,
+      "games_name": "2000 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 13,
+      "games_year": 1996,
+      "games_name": "1996 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 14,
+      "games_year": 1912,
+      "games_name": "1912 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 15,
+      "games_year": 1924,
+      "games_name": "1924 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 16,
+      "games_year": 2014,
+      "games_name": "2014 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 17,
+      "games_year": 1948,
+      "games_name": "1948 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 18,
+      "games_year": 1998,
+      "games_name": "1998 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 19,
+      "games_year": 2006,
+      "games_name": "2006 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 20,
+      "games_year": 2008,
+      "games_name": "2008 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 21,
+      "games_year": 2016,
+      "games_name": "2016 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 22,
+      "games_year": 2004,
+      "games_name": "2004 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 23,
+      "games_year": 1960,
+      "games_name": "1960 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 24,
+      "games_year": 1964,
+      "games_name": "1964 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 25,
+      "games_year": 1984,
+      "games_name": "1984 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 26,
+      "games_year": 1984,
+      "games_name": "1984 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 27,
+      "games_year": 1968,
+      "games_name": "1968 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 28,
+      "games_year": 1972,
+      "games_name": "1972 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 29,
+      "games_year": 1988,
+      "games_name": "1988 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 30,
+      "games_year": 1936,
+      "games_name": "1936 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 31,
+      "games_year": 1952,
+      "games_name": "1952 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 32,
+      "games_year": 1956,
+      "games_name": "1956 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 33,
+      "games_year": 1956,
+      "games_name": "1956 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 34,
+      "games_year": 1960,
+      "games_name": "1960 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 35,
+      "games_year": 1928,
+      "games_name": "1928 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 36,
+      "games_year": 1976,
+      "games_name": "1976 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 37,
+      "games_year": 1980,
+      "games_name": "1980 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 38,
+      "games_year": 1964,
+      "games_name": "1964 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 39,
+      "games_year": 2010,
+      "games_name": "2010 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 40,
+      "games_year": 1968,
+      "games_name": "1968 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 51,
+      "games_year": 1896,
+      "games_name": "1896 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 42,
+      "games_year": 1976,
+      "games_name": "1976 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 43,
+      "games_year": 1924,
+      "games_name": "1924 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 44,
+      "games_year": 1904,
+      "games_name": "1904 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 45,
+      "games_year": 1906,
+      "games_name": "1906 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 46,
+      "games_year": 1928,
+      "games_name": "1928 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 47,
+      "games_year": 1908,
+      "games_name": "1908 Summer",
+      "season": "Summer"
+    },
+    {
+      "id": 48,
+      "games_year": 1948,
+      "games_name": "1948 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 49,
+      "games_year": 1932,
+      "games_name": "1932 Winter",
+      "season": "Winter"
+    },
+    {
+      "id": 50,
+      "games_year": 1936,
+      "games_name": "1936 Winter",
+      "season": "Winter"
+    }
+  ],
+  "capability_assignments": {
+    "1": {
+      "games_year": [
+        "RI_LD"
+      ],
+      "season": []
+    },
+    "2": {
+      "games_year": [],
+      "season": [
+        "TA_EM"
+      ]
+    },
+    "3": {
+      "games_year": [
+        "TA_FC"
+      ],
+      "season": [
+        "RI_LD"
+      ]
+    },
+    "4": {
+      "games_year": [],
+      "season": [
+        "RI_LD",
+        "EF_HC"
+      ]
+    },
+    "5": {
+      "games_year": [
+        "TD_AS"
+      ],
+      "season": []
+    },
+    "6": {
+      "games_year": [
+        "RI_LD"
+      ],
+      "season": [
+        "TA_EM"
+      ]
+    },
+    "7": {
+      "games_year": [],
+      "season": []
+    },
+    "8": {
+      "games_year": [],
+      "season": [
+        "RI_LD"
+      ]
+    },
+    "9": {
+      "games_year": [
+        "RI_AC"
+      ],
+      "season": []
+    },
+    "10": {
+      "games_year": [],
+      "season": []
+    },
+    "11": {
+      "games_year": [],
+      "season": [
+        "TA_EM"
+      ]
+    },
+    "12": {
+      "games_year": [
+        "TA_FC"
+      ],
+      "season": []
+    },
+    "13": {
+      "games_year": [],
+      "season": [
+        "RI_LD"
+      ]
+    },
+    "14": {
+      "games_year": [
+        "EF_HC"
+      ],
+      "season": []
+    },
+    "15": {
+      "games_year": [],
+      "season": []
+    },
+    "16": {
+      "games_year": [],
+      "season": [
+        "TD_AS"
+      ]
+    },
+    "17": {
+      "games_year": [
+        "RI_LD"
+      ],
+      "season": []
+    },
+    "18": {
+      "games_year": [],
+      "season": [
+        "TA_EM"
+      ]
+    },
+    "19": {
+      "games_year": [
+        "TD_AS"
+      ],
+      "season": [
+        "RI_LD"
+      ]
+    },
+    "20": {
+      "games_year": [],
+      "season": []
+    },
+    "21": {
+      "games_year": [
+        "RI_AC"
+      ],
+      "season": []
+    },
+    "22": {
+      "games_year": [],
+      "season": []
+    },
+    "23": {
+      "games_year": [],
+      "season": [
+        "RI_LD"
+      ]
+    },
+    "24": {
+      "games_year": [
+        "TA_FC"
+      ],
+      "season": []
+    },
+    "25": {
+      "games_year": [],
+      "season": [
+        "TA_EM"
+      ]
+    },
+    "26": {
+      "games_year": [
+        "RI_LD",
+        "TD_AS"
+      ],
+      "season": []
+    },
+    "27": {
+      "games_year": [],
+      "season": []
+    },
+    "28": {
+      "games_year": [],
+      "season": [
+        "RI_LD"
+      ]
+    },
+    "29": {
+      "games_year": [
+        "TD_AS"
+      ],
+      "season": []
+    },
+    "30": {
+      "games_year": [],
+      "season": [
+        "EF_HC"
+      ]
+    },
+    "31": {
+      "games_year": [
+        "RI_LD"
+      ],
+      "season": []
+    },
+    "32": {
+      "games_year": [],
+      "season": []
+    },
+    "33": {
+      "games_year": [],
+      "season": [
+        "TD_AS"
+      ]
+    },
+    "34": {
+      "games_year": [],
+      "season": []
+    },
+    "35": {
+      "games_year": [
+        "TA_FC"
+      ],
+      "season": []
+    },
+    "36": {
+      "games_year": [],
+      "season": []
+    },
+    "37": {
+      "games_year": [],
+      "season": []
+    },
+    "38": {
+      "games_year": [],
+      "season": []
+    },
+    "39": {
+      "games_year": [],
+      "season": [
+        "TA_EM"
+      ]
+    },
+    "40": {
+      "games_year": [
+        "RI_AC"
+      ],
+      "season": []
+    },
+    "51": {
+      "games_year": [
+        "EF_HC"
+      ],
+      "season": [
+        "RI_LD"
+      ]
+    },
+    "42": {
+      "games_year": [],
+      "season": []
+    },
+    "43": {
+      "games_year": [],
+      "season": []
+    },
+    "44": {
+      "games_year": [],
+      "season": []
+    },
+    "45": {
+      "games_year": [
+        "RI_LD"
+      ],
+      "season": [
+        "EF_HC"
+      ]
+    },
+    "46": {
+      "games_year": [],
+      "season": []
+    },
+    "47": {
+      "games_year": [],
+      "season": []
+    },
+    "48": {
+      "games_year": [],
+      "season": [
+        "RI_LD"
+      ]
+    },
+    "49": {
+      "games_year": [
+        "TA_FC"
+      ],
+      "season": []
+    },
+    "50": {
+      "games_year": [],
+      "season": []
+    }
+  }
+}

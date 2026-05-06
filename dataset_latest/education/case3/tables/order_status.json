@@ -1,0 +1,8 @@
+[
+{"status_id": 1, "status_value": "Order Received"},
+{"status_id": 2, "status_value": "Pending Delivery"},
+{"status_id": 3, "status_value": "Delivery In Progress"},
+{"status_id": 4, "status_value": "Delivered"},
+{"status_id": 5, "status_value": "Cancelled"},
+{"status_id": 6, "status_value": "Returned"}
+]

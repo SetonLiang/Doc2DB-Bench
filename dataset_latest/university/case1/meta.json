@@ -1,0 +1,1827 @@
+{
+    "database_name": "cs_semester",
+    "if_primary_allowed": {
+        "RA": false,
+        "Student": false,
+        "Prof": false,
+        "Course": false,
+        "Registration": false
+    },
+    "type": {
+        "RA": "1:2",
+        "Registration": "1:2"
+    },
+    "capability_assignments": {
+        "RA": {
+            "11, 5": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "23, 4": {
+                "row": [
+                    "RL_CL",
+                    "GR_DC"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD",
+                        "TD_CA"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "31, 3": {
+                "row": [
+                    "GR_DC",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD",
+                        "TD_CA"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "17, 3": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "capability": [],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "30, 9": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "capability": [],
+                    "salary": [
+                        "TA_EM",
+                        "EF_RC"
+                    ]
+                }
+            },
+            "6, 10": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_MI"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "8, 9": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "capability": [],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "16, 5": {
+                "row": [
+                    "GR_DC",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD",
+                        "TD_CA"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "15, 9": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "capability": [],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "36, 5": {
+                "row": [
+                    "GR_DC",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD",
+                        "TD_CA"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "21, 2": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "capability": [],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "24, 10": {
+                "row": [
+                    "GR_DC",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD",
+                        "TD_CA"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "5, 10": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "capability": [],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "13, 1": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "16, 3": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "12, 4": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_MI"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "33, 8": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "36, 3": {
+                "row": [
+                    "GR_DC",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD",
+                        "TD_CA"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "24, 8": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "9, 2": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "capability": [],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "2, 7": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "31, 6": {
+                "row": [
+                    "GR_DC",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [],
+                    "salary": [
+                        "RI_LD",
+                        "TA_EM"
+                    ]
+                }
+            },
+            "31, 5": {
+                "row": [
+                    "GR_DC",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD"
+                    ],
+                    "salary": [
+                        "TA_EM",
+                        "TD_CA"
+                    ]
+                }
+            },
+            "36, 6": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "17, 7": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_MI",
+                        "TD_CA"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "31, 2": {
+                "row": [
+                    "GR_DC",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [
+                        "TD_CA",
+                        "RI_LD"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "23, 6": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "capability": [
+                        "RI_LD"
+                    ],
+                    "salary": [
+                        "TA_EM"
+                    ]
+                }
+            }
+        },
+        "course": {
+            "1": {
+                "credit": [],
+                "diff": []
+            },
+            "2": {
+                "credit": [],
+                "diff": [
+                    "RI_LD"
+                ]
+            },
+            "3": {
+                "credit": [
+                    "TA_FC"
+                ],
+                "diff": []
+            },
+            "4": {
+                "credit": [],
+                "diff": [
+                    "RI_LD"
+                ]
+            },
+            "5": {
+                "credit": [
+                    "TA_US"
+                ],
+                "diff": [
+                    "RI_MI"
+                ]
+            },
+            "6": {
+                "credit": [],
+                "diff": [
+                    "RI_LD"
+                ]
+            },
+            "7": {
+                "credit": [],
+                "diff": [
+                    "RI_LD"
+                ]
+            },
+            "8": {
+                "credit": [
+                    "TA_US"
+                ],
+                "diff": [
+                    "RI_MI"
+                ]
+            },
+            "9": {
+                "credit": [],
+                "diff": [
+                    "RI_LD"
+                ]
+            },
+            "10": {
+                "credit": [],
+                "diff": [
+                    "RI_LD"
+                ]
+            },
+            "11": {
+                "credit": [
+                    "TA_FC"
+                ],
+                "diff": []
+            },
+            "12": {
+                "credit": [],
+                "diff": []
+            },
+            "13": {
+                "credit": [
+                    "TA_FC"
+                ],
+                "diff": []
+            }
+        },
+        "prof": {
+            "1": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email": [
+                    "TA_FC"
+                ],
+                "popularity": [
+                    "TA_US"
+                ],
+                "teachingability": [
+                    "TA_US"
+                ],
+                "graduate_from": [
+                    "TA_FC"
+                ]
+            },
+            "2": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email": [
+                    "TA_FC"
+                ],
+                "popularity": [
+                    "TA_US"
+                ],
+                "teachingability": [
+                    "TA_US"
+                ],
+                "graduate_from": [
+                    "TA_FC"
+                ]
+            },
+            "3": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email": [
+                    "TA_FC"
+                ],
+                "popularity": [
+                    "TA_US"
+                ],
+                "teachingability": [
+                    "TA_US"
+                ],
+                "graduate_from": [
+                    "TA_FC"
+                ]
+            },
+            "4": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email": [
+                    "TA_FC"
+                ],
+                "popularity": [
+                    "TA_US"
+                ],
+                "teachingability": [
+                    "TA_US"
+                ],
+                "graduate_from": [
+                    "TA_FC"
+                ]
+            },
+            "5": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email": [
+                    "TA_FC"
+                ],
+                "popularity": [
+                    "TA_US"
+                ],
+                "teachingability": [
+                    "TA_US"
+                ],
+                "graduate_from": [
+                    "TA_FC"
+                ]
+            },
+            "6": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email": [
+                    "TA_FC"
+                ],
+                "popularity": [
+                    "TA_US"
+                ],
+                "teachingability": [
+                    "TA_US"
+                ],
+                "graduate_from": [
+                    "TA_FC"
+                ]
+            },
+            "7": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email": [
+                    "TA_FC"
+                ],
+                "popularity": [
+                    "TA_US"
+                ],
+                "teachingability": [
+                    "TA_US"
+                ],
+                "graduate_from": [
+                    "TA_FC"
+                ]
+            },
+            "8": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email": [
+                    "TA_FC"
+                ],
+                "popularity": [
+                    "TA_US"
+                ],
+                "teachingability": [
+                    "TA_US"
+                ],
+                "graduate_from": [
+                    "TA_FC"
+                ]
+            },
+            "9": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email": [
+                    "TA_FC"
+                ],
+                "popularity": [
+                    "TA_US"
+                ],
+                "teachingability": [
+                    "TA_US"
+                ],
+                "graduate_from": [
+                    "TA_FC"
+                ]
+            },
+            "10": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email": [
+                    "TA_FC"
+                ],
+                "popularity": [
+                    "TA_US"
+                ],
+                "teachingability": [
+                    "TA_US"
+                ],
+                "graduate_from": [
+                    "TA_FC"
+                ]
+            }
+        },
+        "registration": {
+            "11, 16": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "5, 21": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "13, 21": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "13, 26": {
+                "row": [
+                    "RI_MI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "6, 4": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "12, 23": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "9, 31": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "6, 21": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "11, 32": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "13, 16": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": [
+                        "RI_MI"
+                    ]
+                }
+            },
+            "13, 20": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "1, 31": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "12, 33": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "2, 38": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "2, 22": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "1, 2": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "1, 6": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "2, 7": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "5, 38": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "9, 12": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "8, 20": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "6, 30": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "6, 19": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "10, 36": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "7, 4": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "12, 10": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "6, 13": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "8, 34": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "11, 28": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "3, 36": {
+                "row": [],
+                "col": {
+                    "sat": []
+                }
+            },
+            "4, 10": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "3, 20": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "13, 27": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "11, 37": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "9, 6": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "13, 14": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "12, 28": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "8, 14": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "3, 19": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "13, 7": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "12, 24": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "12, 22": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "6, 9": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "9, 20": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "7, 20": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "4, 22": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "9, 15": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "2, 31": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "11, 14": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "12, 11": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "10, 11": {
+                "row": [],
+                "col": {
+                    "sat": []
+                }
+            },
+            "3, 23": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "8, 22": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "7, 9": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "11, 8": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "3, 13": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "10, 17": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "2, 17": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "11, 7": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "11, 23": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "9, 35": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "1, 12": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "13, 33": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "sat": []
+                }
+            },
+            "8, 11": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "1, 7": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "4, 3": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "10, 14": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "8, 30": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "5, 19": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "12, 8": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "1, 3": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "8, 9": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "11, 11": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "9, 23": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "4, 19": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "11, 17": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "13, 37": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "12, 21": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "12, 37": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "4, 7": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "6, 7": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "6, 25": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "10, 6": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "8, 6": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "6, 6": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "12, 17": {
+                "row": [
+                    "IC_NNP"
+                ],
+                "col": {
+                    "sat": []
+                }
+            },
+            "8, 10": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "7, 30": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "12, 26": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "7, 23": {
+                "row": [
+                    "IC_NNP"
+                ],
+                "col": {
+                    "sat": []
+                }
+            },
+            "4, 31": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "3, 21": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "9, 10": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "4, 8": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "7, 15": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "9, 33": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "10, 18": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "10, 23": {
+                "row": [],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": []
+                }
+            },
+            "1, 4": {
+                "row": [],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "10, 32": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [],
+                    "sat": []
+                }
+            },
+            "7, 5": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "grade": [
+                        "TA_EM"
+                    ],
+                    "sat": [
+                        "RI_AC"
+                    ]
+                }
+            }
+        },
+        "student": {
+            "2": {
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "email": [],
+                "intelligence": [
+                    "RI_LD"
+                ],
+                "gpa": [],
+                "type": []
+            },
+            "3": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "TA_US"
+                ],
+                "type": []
+            },
+            "4": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": [
+                    "TA_EM"
+                ]
+            },
+            "5": {
+                "phone_number": [],
+                "email": [
+                    "TD_DF"
+                ],
+                "intelligence": [],
+                "gpa": [],
+                "type": []
+            },
+            "6": {
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": []
+            },
+            "7": {
+                "phone_number": [
+                    "TD_DF"
+                ],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "RI_AC"
+                ],
+                "type": []
+            },
+            "8": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "EF_ND"
+                ],
+                "type": []
+            },
+            "9": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": [
+                    "TA_EM"
+                ]
+            },
+            "10": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [
+                    "TD_AS"
+                ],
+                "gpa": [],
+                "type": []
+            },
+            "11": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [
+                    "RI_LD"
+                ],
+                "gpa": [],
+                "type": []
+            },
+            "12": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "TA_US"
+                ],
+                "type": []
+            },
+            "13": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": [
+                    "TD_DF"
+                ]
+            },
+            "14": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [
+                    "TD_AS"
+                ],
+                "gpa": [],
+                "type": []
+            },
+            "15": {
+                "phone_number": [
+                    "TA_FC",
+                    "TD_DF"
+                ],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": []
+            },
+            "16": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [
+                    "RI_LD"
+                ],
+                "gpa": [],
+                "type": []
+            },
+            "17": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "RI_AC"
+                ],
+                "type": []
+            },
+            "18": {
+                "phone_number": [],
+                "email": [
+                    "TD_DF"
+                ],
+                "intelligence": [],
+                "gpa": [],
+                "type": []
+            },
+            "19": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "TA_US"
+                ],
+                "type": []
+            },
+            "20": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": [
+                    "TA_EM"
+                ]
+            },
+            "21": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [
+                    "TD_AS"
+                ],
+                "gpa": [],
+                "type": []
+            },
+            "22": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "EF_ND"
+                ],
+                "type": []
+            },
+            "23": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": [
+                    "TD_AS"
+                ]
+            },
+            "24": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "RI_AC"
+                ],
+                "type": []
+            },
+            "25": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": [
+                    "TA_EM"
+                ]
+            },
+            "26": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": [
+                    "TD_DF"
+                ]
+            },
+            "27": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [
+                    "RI_LD"
+                ],
+                "gpa": [],
+                "type": []
+            },
+            "28": {
+                "phone_number": [],
+                "email": [
+                    "TD_DF"
+                ],
+                "intelligence": [],
+                "gpa": [],
+                "type": []
+            },
+            "30": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "TA_US"
+                ],
+                "type": []
+            },
+            "31": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": [
+                    "TD_AS"
+                ]
+            },
+            "32": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [
+                    "TD_AS"
+                ],
+                "gpa": [],
+                "type": []
+            },
+            "33": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "RI_AC"
+                ],
+                "type": []
+            },
+            "34": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [
+                    "RI_LD"
+                ],
+                "gpa": [],
+                "type": []
+            },
+            "35": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "EF_ND"
+                ],
+                "type": []
+            },
+            "36": {
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": []
+            },
+            "37": {
+                "phone_number": [],
+                "email": [],
+                "intelligence": [],
+                "gpa": [
+                    "TA_US"
+                ],
+                "type": []
+            },
+            "38": {
+                "phone_number": [
+                    "TD_DF"
+                ],
+                "email": [],
+                "intelligence": [],
+                "gpa": [],
+                "type": []
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/cs_semester/tables"
+}

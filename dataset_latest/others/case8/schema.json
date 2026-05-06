@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1",
+    "name": "Student",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "StuID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "LName",
+        "type": "VARCHAR(12)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Fname",
+        "type": "VARCHAR(12)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Age",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Sex",
+        "type": "VARCHAR(1)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Major",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "Advisor",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "city_name",
+        "type": "VARCHAR(25)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Direct_distance",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "city1_code",
+        "type": "varchar(3)",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "City",
+            "column": "city_code"
+          }
+        }
+      },
+      {
+        "name": "city2_code",
+        "type": "varchar(3)",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "City",
+            "column": "city_code"
+          }
+        }
+      },
+      {
+        "name": "distance",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "City",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "city_code",
+        "type": "VARCHAR(3)",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "city_name",
+        "type": "VARCHAR(25)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "state",
+        "type": "VARCHAR(2)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "country",
+        "type": "VARCHAR(25)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "latitude",
+        "type": "FLOAT",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "longitude",
+        "type": "FLOAT",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  }
+]

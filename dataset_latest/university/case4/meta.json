@@ -1,0 +1,2285 @@
+{
+    "database_id": "college_3",
+    "if_primary_allowed": {
+        "Course": false,
+        "Enrolled_in": false,
+        "Member_of": false,
+        "Minor_in": false,
+        "Department": false,
+        "Faculty": false,
+        "Student": false
+    },
+    "type": {
+        "Course": "1:2",
+        "Enrolled_in": "1:2",
+        "Member_of": "1:2",
+        "Minor_in": "1:2"
+    },
+    "capability_assignments": {
+        "Course": {
+            "050.381": {
+                "row": [
+                    "GR_DC",
+                    "RL_CL"
+                ],
+                "col": {
+                    "CName": [],
+                    "Credits": [],
+                    "Days": [
+                        "TA_FC"
+                    ],
+                    "Hours": [
+                        "RI_TC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "600.315": {
+                "row": [
+                    "GR_DC",
+                    "RL_CL"
+                ],
+                "col": {
+                    "CName": [],
+                    "Credits": [],
+                    "Days": [
+                        "TA_FC"
+                    ],
+                    "Hours": [
+                        "RI_TC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "520.651": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "CName": [
+                        "TA_EM"
+                    ],
+                    "Credits": [],
+                    "Days": [],
+                    "Hours": [
+                        "RI_TC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "520.475": {
+                "row": [],
+                "col": {
+                    "CName": [
+                        "TA_EM"
+                    ],
+                    "Credits": [],
+                    "Days": [
+                        "TA_FC"
+                    ],
+                    "Hours": [],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "550.681": {
+                "row": [],
+                "col": {
+                    "CName": [
+                        "TD_DF"
+                    ],
+                    "Credits": [],
+                    "Days": [
+                        "TA_FC"
+                    ],
+                    "Hours": [],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "050.102": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "CName": [],
+                    "Credits": [],
+                    "Days": [
+                        "TA_FC"
+                    ],
+                    "Hours": [],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "520.435": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "CName": [],
+                    "Credits": [
+                        "RI_LD"
+                    ],
+                    "Days": [
+                        "TA_FC"
+                    ],
+                    "Hours": [
+                        "TA_FC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "520.432": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "CName": [
+                        "TA_EM"
+                    ],
+                    "Credits": [],
+                    "Days": [],
+                    "Hours": [
+                        "TA_FC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "520.490": {
+                "row": [],
+                "col": {
+                    "CName": [
+                        "TA_EM"
+                    ],
+                    "Credits": [],
+                    "Days": [
+                        "TA_FC"
+                    ],
+                    "Hours": [],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "550.750": {
+                "row": [
+                    "RL_CL",
+                    "GR_DC"
+                ],
+                "col": {
+                    "CName": [
+                        "TA_EM"
+                    ],
+                    "Credits": [],
+                    "Days": [
+                        "TA_FC"
+                    ],
+                    "Hours": [
+                        "RI_TC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "520.353": {
+                "row": [
+                    "GR_DC",
+                    "IC_ME"
+                ],
+                "col": {
+                    "CName": [],
+                    "Credits": [],
+                    "Days": [
+                        "TA_EM"
+                    ],
+                    "Hours": [
+                        "TA_FC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "600.337": {
+                "row": [
+                    "GR_TI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "CName": [],
+                    "Credits": [],
+                    "Days": [
+                        "TA_EM"
+                    ],
+                    "Hours": [
+                        "TA_FC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "520.349": {
+                "row": [
+                    "GR_TI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "CName": [
+                        "TA_EM"
+                    ],
+                    "Credits": [],
+                    "Days": [
+                        "TD_DF"
+                    ],
+                    "Hours": [],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "500.205": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {
+                    "CName": [
+                        "EF_RC"
+                    ],
+                    "Credits": [],
+                    "Days": [
+                        "TA_EM"
+                    ],
+                    "Hours": [],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "520.213": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "CName": [],
+                    "Credits": [
+                        "RI_AC"
+                    ],
+                    "Days": [],
+                    "Hours": [
+                        "TA_FC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "500.206": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "CName": [
+                        "EF_RC"
+                    ],
+                    "Credits": [],
+                    "Days": [
+                        "TD_DF"
+                    ],
+                    "Hours": [],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "600.363": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "CName": [
+                        "EF_RC"
+                    ],
+                    "Credits": [],
+                    "Days": [],
+                    "Hours": [
+                        "RI_LD"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "050.427": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {
+                    "CName": [
+                        "TA_EM"
+                    ],
+                    "Credits": [],
+                    "Days": [],
+                    "Hours": [
+                        "RI_TC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "500.204": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "CName": [
+                        "TA_EM"
+                    ],
+                    "Credits": [],
+                    "Days": [],
+                    "Hours": [
+                        "RI_TC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "520.421": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "CName": [
+                        "TA_EM"
+                    ],
+                    "Credits": [
+                        "RI_LD"
+                    ],
+                    "Days": [],
+                    "Hours": [],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "600.433": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "CName": [],
+                    "Credits": [
+                        "RI_LD"
+                    ],
+                    "Days": [],
+                    "Hours": [],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "550.361": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "CName": [],
+                    "Credits": [
+                        "RI_AC"
+                    ],
+                    "Days": [
+                        "TA_FC"
+                    ],
+                    "Hours": [
+                        "TA_FC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "550.790": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "CName": [],
+                    "Credits": [
+                        "TD_DF"
+                    ],
+                    "Days": [],
+                    "Hours": [
+                        "RI_TC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "520.219": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "CName": [],
+                    "Credits": [],
+                    "Days": [
+                        "TA_FC"
+                    ],
+                    "Hours": [
+                        "TA_FC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "050.325": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "CName": [
+                        "TA_EM"
+                    ],
+                    "Credits": [],
+                    "Days": [],
+                    "Hours": [
+                        "RI_TC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "050.670": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "CName": [
+                        "TD_DF"
+                    ],
+                    "Credits": [],
+                    "Days": [],
+                    "Hours": [
+                        "RI_TC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "600.463": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "CName": [
+                        "EF_RC",
+                        "TA_EM"
+                    ],
+                    "Credits": [],
+                    "Days": [],
+                    "Hours": [
+                        "TD_DF"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "520.345": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "CName": [
+                        "TA_EM"
+                    ],
+                    "Credits": [],
+                    "Days": [],
+                    "Hours": [
+                        "TD_DF"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "600.333": {
+                "row": [
+                    "IDR_CR",
+                    "GR_DC"
+                ],
+                "col": {
+                    "CName": [
+                        "EF_RC"
+                    ],
+                    "Credits": [],
+                    "Days": [],
+                    "Hours": [
+                        "TA_FC"
+                    ],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            },
+            "550.661": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "CName": [
+                        "EF_RC"
+                    ],
+                    "Credits": [],
+                    "Days": [],
+                    "Hours": [],
+                    "Instructor": [],
+                    "DNO": []
+                }
+            }
+        },
+        "Department": {
+            "10": {
+                "Division": [
+                    "TA_EM"
+                ],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": [],
+                "DPhone": [
+                    "TA_FC"
+                ]
+            },
+            "20": {
+                "Division": [
+                    "RI_LD"
+                ],
+                "Room": [
+                    "TD_AS"
+                ],
+                "Building": [],
+                "DPhone": [
+                    "TD_DF"
+                ]
+            },
+            "30": {
+                "Division": [],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "DPhone": [
+                    "TA_FC"
+                ]
+            },
+            "40": {
+                "Division": [
+                    "TA_EM"
+                ],
+                "Room": [],
+                "Building": [
+                    "RI_LD"
+                ],
+                "DPhone": [
+                    "RI_AC"
+                ]
+            },
+            "50": {
+                "Division": [],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "TD_DF"
+                ],
+                "DPhone": [
+                    "TA_FC"
+                ]
+            },
+            "60": {
+                "Division": [
+                    "TA_EM"
+                ],
+                "Room": [
+                    "TD_DF"
+                ],
+                "Building": [],
+                "DPhone": []
+            },
+            "70": {
+                "Division": [
+                    "RI_LD"
+                ],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "DPhone": []
+            },
+            "90": {
+                "Division": [],
+                "Room": [],
+                "Building": [
+                    "RI_LD"
+                ],
+                "DPhone": [
+                    "TA_FC"
+                ]
+            },
+            "100": {
+                "Division": [
+                    "TA_EM"
+                ],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": [],
+                "DPhone": [
+                    "TD_DF"
+                ]
+            },
+            "110": {
+                "Division": [],
+                "Room": [],
+                "Building": [
+                    "TA_EM"
+                ],
+                "DPhone": []
+            },
+            "130": {
+                "Division": [
+                    "TA_EM"
+                ],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "RI_LD"
+                ],
+                "DPhone": [
+                    "TA_FC"
+                ]
+            },
+            "140": {
+                "Division": [
+                    "TD_DF"
+                ],
+                "Room": [],
+                "Building": [],
+                "DPhone": []
+            },
+            "150": {
+                "Division": [],
+                "Room": [
+                    "TD_AS"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "DPhone": [
+                    "TA_FC"
+                ]
+            },
+            "170": {
+                "Division": [
+                    "RI_LD"
+                ],
+                "Room": [],
+                "Building": [
+                    "TA_EM"
+                ],
+                "DPhone": [
+                    "TD_DF"
+                ]
+            },
+            "180": {
+                "Division": [],
+                "Room": [],
+                "Building": [],
+                "DPhone": []
+            },
+            "190": {
+                "Division": [],
+                "Room": [],
+                "Building": [],
+                "DPhone": []
+            },
+            "200": {
+                "Division": [],
+                "Room": [],
+                "Building": [],
+                "DPhone": []
+            },
+            "340": {
+                "Division": [],
+                "Room": [],
+                "Building": [],
+                "DPhone": []
+            },
+            "350": {
+                "Division": [],
+                "Room": [],
+                "Building": [],
+                "DPhone": []
+            },
+            "520": {
+                "Division": [
+                    "TA_EM"
+                ],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": [],
+                "DPhone": []
+            },
+            "530": {
+                "Division": [
+                    "RI_LD"
+                ],
+                "Room": [],
+                "Building": [],
+                "DPhone": [
+                    "TA_FC"
+                ]
+            },
+            "540": {
+                "Division": [
+                    "TA_EM"
+                ],
+                "Room": [],
+                "Building": [
+                    "TA_EM"
+                ],
+                "DPhone": []
+            },
+            "550": {
+                "Division": [
+                    "TD_DF"
+                ],
+                "Room": [],
+                "Building": [
+                    "TA_EM"
+                ],
+                "DPhone": []
+            },
+            "560": {
+                "Division": [],
+                "Room": [],
+                "Building": [],
+                "DPhone": []
+            },
+            "580": {
+                "Division": [],
+                "Room": [],
+                "Building": [],
+                "DPhone": []
+            },
+            "600": {
+                "Division": [
+                    "RI_LD"
+                ],
+                "Room": [],
+                "Building": [
+                    "TA_EM"
+                ],
+                "DPhone": [
+                    "RI_AC"
+                ]
+            }
+        },
+        "Enrolled_in": {
+            "22": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Grade": [
+                        "TA_FC"
+                    ],
+                    "StuID": [],
+                    "CID": []
+                }
+            },
+            "3": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "11": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "21": {
+                "row": [],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "19": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "20": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "4": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "0": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "13": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "8": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "27": {
+                "row": [],
+                "col": {
+                    "Grade": [
+                        "RI_LD"
+                    ],
+                    "StuID": [],
+                    "CID": []
+                }
+            },
+            "12": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "28": {
+                "row": [],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "7": {
+                "row": [
+                    "IDR_CR",
+                    "GR_TI"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "18": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "Grade": [
+                        "TA_EM"
+                    ],
+                    "StuID": [],
+                    "CID": []
+                }
+            },
+            "23": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "29": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Grade": [
+                        "RI_LD"
+                    ],
+                    "StuID": [],
+                    "CID": []
+                }
+            },
+            "10": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "25": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "15": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "Grade": [
+                        "TD_DF"
+                    ],
+                    "StuID": [],
+                    "CID": []
+                }
+            },
+            "14": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "26": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "16": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "1": {
+                "row": [
+                    "IC_ME",
+                    "GR_DC"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "24": {
+                "row": [],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "9": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "17": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "1994": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "1991": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "1990": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "1998": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "StuID": [],
+                    "CID": [],
+                    "Grade": []
+                }
+            }
+        },
+        "Faculty": {
+            "9514": {
+                "Rank": [],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "Phone": [
+                    "TD_DF"
+                ],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": []
+            },
+            "9824": {
+                "Rank": [],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": [
+                    "EF_RC"
+                ]
+            },
+            "1082": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Sex": []
+            },
+            "9199": {
+                "Rank": [
+                    "TD_CA"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Room": [],
+                "Building": []
+            },
+            "9922": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Phone": [],
+                "Room": []
+            },
+            "2291": {
+                "Rank": [
+                    "TD_CA"
+                ],
+                "Phone": [
+                    "TD_DF"
+                ],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Sex": []
+            },
+            "8989": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "EF_RC"
+                ],
+                "Sex": [],
+                "Room": []
+            },
+            "7271": {
+                "Rank": [],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "Phone": [
+                    "TD_DF"
+                ],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": []
+            },
+            "6330": {
+                "Sex": [
+                    "TA_EM"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Rank": [],
+                "Room": []
+            },
+            "5718": {
+                "Rank": [],
+                "Room": [
+                    "TD_DF"
+                ],
+                "Building": [
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "Phone": []
+            },
+            "2192": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Building": [],
+                "Sex": [],
+                "Room": []
+            },
+            "2881": {
+                "Rank": [
+                    "TD_CA"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "Phone": [
+                    "TD_DF"
+                ],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": []
+            },
+            "9210": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Sex": [
+                    "TA_FC"
+                ],
+                "Phone": [],
+                "Room": [],
+                "Building": [
+                    "TA_EM"
+                ]
+            },
+            "1823": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Phone": [],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Sex": []
+            },
+            "1193": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Building": [],
+                "Room": []
+            },
+            "6925": {
+                "Rank": [],
+                "Room": [
+                    "TD_DF"
+                ],
+                "Building": [
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "Phone": []
+            },
+            "9811": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Sex": [
+                    "TA_FC"
+                ],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Phone": []
+            },
+            "6541": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "EF_RC"
+                ],
+                "Sex": [],
+                "Room": []
+            },
+            "8741": {
+                "Rank": [],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Phone": []
+            },
+            "8722": {
+                "Rank": [
+                    "TD_CA"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Sex": [],
+                "Room": []
+            },
+            "4432": {
+                "Rank": [],
+                "Phone": [
+                    "TD_DF"
+                ],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": [],
+                "Sex": []
+            },
+            "1148": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "Phone": [],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "TA_EM"
+                ]
+            },
+            "7712": {
+                "Rank": [],
+                "Phone": [
+                    "RI_AC"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Sex": [],
+                "Room": []
+            },
+            "8118": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Sex": []
+            },
+            "2028": {
+                "Rank": [],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "Phone": [
+                    "TD_DF"
+                ],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "TA_EM"
+                ]
+            },
+            "8791": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Sex": []
+            },
+            "8918": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Sex": [],
+                "Phone": []
+            },
+            "9823": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "Phone": [
+                    "TD_DF"
+                ],
+                "Room": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "TA_EM"
+                ]
+            },
+            "9191": {
+                "Rank": [
+                    "TD_CA"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "Building": [
+                    "TA_EM"
+                ],
+                "Sex": [],
+                "Room": []
+            },
+            "7231": {
+                "Rank": [
+                    "TA_EM"
+                ],
+                "Room": [
+                    "RI_LD"
+                ],
+                "Building": [
+                    "EF_RC"
+                ],
+                "Sex": [],
+                "Phone": []
+            }
+        },
+        "Member_of": {
+            "13": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "Appt_Type": [
+                        "TD_CA"
+                    ],
+                    "FacID": [],
+                    "DNO": []
+                }
+            },
+            "17": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "0": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "19": {
+                "row": [],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "3": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "25": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "9": {
+                "row": [],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Appt_Type": [
+                        "TA_EM"
+                    ],
+                    "FacID": [],
+                    "DNO": []
+                }
+            },
+            "27": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "8": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "21": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "11": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Appt_Type": [
+                        "RI_LD"
+                    ],
+                    "FacID": [],
+                    "DNO": []
+                }
+            },
+            "16": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "22": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "28": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "20": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "24": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "18": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "7": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Appt_Type": [
+                        "TD_DF"
+                    ],
+                    "FacID": [],
+                    "DNO": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "14": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "23": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "29": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "26": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "10": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "12": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            },
+            "1999": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "FacID": [],
+                    "DNO": [],
+                    "Appt_Type": []
+                }
+            }
+        },
+        "Minor_in": {
+            "0": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "6": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "11": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "10": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "4": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "3": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "9": {
+                "row": [],
+                "col": {}
+            },
+            "7": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "2": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "8": {
+                "row": [],
+                "col": {}
+            },
+            "5": {
+                "row": [
+                    "IC_ME",
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            },
+            "1999": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            }
+        },
+        "Student": {
+            "1008": {
+                "Age": [
+                    "TD_DF"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1002": {
+                "Age": [
+                    "RI_LD"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1019": {
+                "Age": [],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1035": {
+                "Age": [
+                    "RI_MI"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "city_code": []
+            },
+            "1032": {
+                "Age": [
+                    "TA_FC"
+                ],
+                "Sex": [],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1005": {
+                "Age": [
+                    "RI_MI"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1025": {
+                "Age": [
+                    "RI_MI"
+                ],
+                "Sex": [],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1004": {
+                "Age": [
+                    "TD_DF"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1023": {
+                "Age": [],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1029": {
+                "Age": [
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1033": {
+                "Age": [
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1003": {
+                "Age": [
+                    "RI_AC"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": []
+            },
+            "1020": {
+                "Age": [
+                    "TA_US"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "city_code": []
+            },
+            "1015": {
+                "Age": [
+                    "RI_AC"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": [
+                    "RI_MI"
+                ]
+            },
+            "1034": {
+                "Age": [],
+                "Sex": [],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1001": {
+                "Age": [
+                    "RI_MI"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": []
+            },
+            "1024": {
+                "Age": [],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "city_code": [
+                    "RI_MI"
+                ]
+            },
+            "1007": {
+                "Age": [
+                    "RI_AC"
+                ],
+                "Sex": [],
+                "city_code": []
+            },
+            "1031": {
+                "Age": [],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1009": {
+                "Age": [
+                    "RI_MI"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": [
+                    "RI_MI"
+                ]
+            },
+            "1010": {
+                "Age": [
+                    "TA_FC"
+                ],
+                "Sex": [],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1027": {
+                "Age": [
+                    "RI_LD"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1016": {
+                "Age": [
+                    "RI_MI"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1028": {
+                "Age": [
+                    "RI_MI"
+                ],
+                "Sex": [],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1012": {
+                "Age": [
+                    "TD_DF"
+                ],
+                "Sex": [],
+                "city_code": [
+                    "RI_MI"
+                ]
+            },
+            "1018": {
+                "Age": [],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": []
+            },
+            "1011": {
+                "Age": [
+                    "RI_MI"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "city_code": [
+                    "RI_MI"
+                ]
+            },
+            "1017": {
+                "Age": [
+                    "TA_FC"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1030": {
+                "Age": [
+                    "TA_US"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "city_code": [
+                    "TA_EM"
+                ]
+            },
+            "1026": {
+                "Age": [
+                    "RI_AC"
+                ],
+                "Sex": [
+                    "RI_LD"
+                ],
+                "city_code": [
+                    "RI_MI"
+                ]
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/college_3/tables"
+}

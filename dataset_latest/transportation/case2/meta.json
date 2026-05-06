@@ -1,0 +1,916 @@
+{
+    "database_id": "flight_1",
+    "if_primary_allowed": {
+        "aircraft": false,
+        "certificate": false,
+        "employess": false,
+        "flight": false
+    },
+    "type": {
+        "certificate": "1:2",
+        "flight": "1:1"
+    },
+    "capability_assignments": {
+        "aircraft": {
+            "1": {
+                "distance": [
+                    "TA_US",
+                    "TD_DF"
+                ]
+            },
+            "2": {
+                "distance": [
+                    "TA_US",
+                    "EF_HC"
+                ]
+            },
+            "3": {
+                "distance": [
+                    "TA_US",
+                    "RI_AC"
+                ]
+            },
+            "4": {
+                "distance": [
+                    "TD_DF",
+                    "EF_HC"
+                ]
+            },
+            "5": {
+                "distance": [
+                    "RI_AC",
+                    "TD_DF"
+                ]
+            },
+            "6": {
+                "distance": [
+                    "TA_US",
+                    "TD_CA"
+                ]
+            },
+            "7": {
+                "distance": [
+                    "TA_US",
+                    "RI_AC"
+                ]
+            },
+            "8": {
+                "distance": [
+                    "TA_US",
+                    "EF_HC"
+                ]
+            },
+            "16": {
+                "distance": [
+                    "RI_AC",
+                    "TD_DF"
+                ]
+            },
+            "9": {
+                "distance": [
+                    "TA_US",
+                    "TD_CA"
+                ]
+            },
+            "10": {
+                "distance": [
+                    "TA_US",
+                    "RI_LD"
+                ]
+            },
+            "11": {
+                "distance": [
+                    "TA_US",
+                    "TD_DF"
+                ]
+            },
+            "12": {
+                "distance": [
+                    "EF_HC",
+                    "TD_CA"
+                ]
+            },
+            "13": {
+                "distance": [
+                    "TA_US",
+                    "EF_HC"
+                ]
+            },
+            "14": {
+                "distance": [
+                    "TD_DF"
+                ]
+            },
+            "15": {
+                "distance": [
+                    "RI_AC"
+                ]
+            }
+        },
+        "certificate": {
+            "269734834, 5": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "355548984, 8": {
+                "row": [],
+                "col": {}
+            },
+            "11564812, 2": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "269734834, 15": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "548977562, 7": {
+                "row": [],
+                "col": {}
+            },
+            "269734834, 1": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "550156548, 1": {
+                "row": [],
+                "col": {}
+            },
+            "552455318, 14": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "573284895, 4": {
+                "row": [],
+                "col": {}
+            },
+            "550156548, 12": {
+                "row": [],
+                "col": {}
+            },
+            "269734834, 10": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "274878974, 10": {
+                "row": [],
+                "col": {}
+            },
+            "573284895, 3": {
+                "row": [],
+                "col": {}
+            },
+            "552455318, 2": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "567354612, 3": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "556784565, 3": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "269734834, 11": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "556784565, 5": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "142519864, 13": {
+                "row": [
+                    "RL_O2M",
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "310454876, 8": {
+                "row": [],
+                "col": {}
+            },
+            "356187925, 6": {
+                "row": [],
+                "col": {}
+            },
+            "567354612, 1": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "269734834, 6": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "567354612, 4": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "355548984, 9": {
+                "row": [],
+                "col": {}
+            },
+            "567354612, 5": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "269734834, 9": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "142519864, 12": {
+                "row": [
+                    "RL_O2M",
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "567354612, 15": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "142519864, 2": {
+                "row": [
+                    "RL_O2M",
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "567354612, 7": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "269734834, 8": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "242518965, 2": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "142519864, 1": {
+                "row": [
+                    "RL_O2M",
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "567354612, 10": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "574489457, 7": {
+                "row": [],
+                "col": {}
+            },
+            "269734834, 14": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "574489456, 8": {
+                "row": [],
+                "col": {}
+            },
+            "574489456, 6": {
+                "row": [],
+                "col": {}
+            },
+            "573284895, 5": {
+                "row": [],
+                "col": {}
+            },
+            "269734834, 4": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "159542516, 7": {
+                "row": [],
+                "col": {}
+            },
+            "556784565, 2": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "142519864, 10": {
+                "row": [
+                    "RL_O2M",
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "159542516, 5": {
+                "row": [],
+                "col": {}
+            },
+            "269734834, 12": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "390487451, 3": {
+                "row": [
+                    "RL_MB",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "141582651, 12": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "552455318, 7": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "567354612, 11": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "141582651, 10": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "269734834, 7": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "90873519, 6": {
+                "row": [],
+                "col": {}
+            },
+            "142519864, 7": {
+                "row": [
+                    "RL_O2M",
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "269734834, 3": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "274878974, 12": {
+                "row": [],
+                "col": {}
+            },
+            "567354612, 9": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "142519864, 11": {
+                "row": [
+                    "RL_O2M",
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "242518965, 10": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "269734834, 13": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "310454876, 9": {
+                "row": [],
+                "col": {}
+            },
+            "390487451, 14": {
+                "row": [
+                    "RL_MB",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "11564812, 10": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "141582651, 2": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "142519864, 3": {
+                "row": [
+                    "RL_O2M",
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "390487451, 13": {
+                "row": [
+                    "RL_MB",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "269734834, 2": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "567354612, 2": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "567354612, 12": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {}
+            }
+        },
+        "employee": {
+            "242518965": {
+                "salary": [
+                    "TA_FC",
+                    "TA_US"
+                ]
+            },
+            "141582651": {
+                "salary": [
+                    "RI_AC"
+                ]
+            },
+            "11564812": {
+                "salary": [
+                    "TD_DF"
+                ]
+            },
+            "567354612": {
+                "salary": [
+                    "RI_TC"
+                ]
+            },
+            "552455318": {
+                "salary": [
+                    "TD_CA"
+                ]
+            },
+            "550156548": {
+                "salary": [
+                    "RI_MI"
+                ]
+            },
+            "390487451": {
+                "salary": [
+                    "TA_FC",
+                    "EF_HC"
+                ]
+            },
+            "274878974": {
+                "salary": [
+                    "RI_AC",
+                    "TD_AS"
+                ]
+            },
+            "254099823": {
+                "salary": [
+                    "TD_DF",
+                    "TA_US"
+                ]
+            },
+            "356187925": {
+                "salary": [
+                    "RI_TC",
+                    "RI_AC"
+                ]
+            },
+            "355548984": {
+                "salary": [
+                    "EF_RC"
+                ]
+            },
+            "310454876": {
+                "salary": [
+                    "TA_FC",
+                    "TD_CA"
+                ]
+            },
+            "489456522": {
+                "salary": [
+                    "RI_LD"
+                ]
+            },
+            "489221823": {
+                "salary": [
+                    "RI_AC"
+                ]
+            },
+            "548977562": {
+                "salary": [
+                    "TD_AS"
+                ]
+            },
+            "310454877": {
+                "salary": [
+                    "TD_DF"
+                ]
+            },
+            "142519864": {
+                "salary": [
+                    "RI_MI"
+                ]
+            },
+            "269734834": {
+                "salary": [
+                    "TA_US",
+                    "TA_FC"
+                ]
+            },
+            "287321212": {
+                "salary": [
+                    "RI_AC",
+                    "EF_RC"
+                ]
+            },
+            "552455348": {
+                "salary": [
+                    "RI_TC",
+                    "TA_FC"
+                ]
+            },
+            "248965255": {
+                "salary": [
+                    "TD_CA",
+                    "EF_HC"
+                ]
+            },
+            "159542516": {
+                "salary": [
+                    "RI_AC",
+                    "TA_US"
+                ]
+            },
+            "348121549": {
+                "salary": [
+                    "TD_DF",
+                    "RI_LD"
+                ]
+            },
+            "90873519": {
+                "salary": [
+                    "RI_MI"
+                ]
+            },
+            "486512566": {
+                "salary": [
+                    "TA_FC"
+                ]
+            },
+            "619023588": {
+                "salary": [
+                    "RI_TC"
+                ]
+            },
+            "15645489": {
+                "salary": []
+            },
+            "556784565": {
+                "salary": []
+            },
+            "573284895": {
+                "salary": []
+            },
+            "574489456": {
+                "salary": []
+            },
+            "574489457": {
+                "salary": []
+            }
+        },
+        "flight": {
+            "387": {
+                "row": [],
+                "col": {
+                    "origin": [],
+                    "destination": [],
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "departure_date": [
+                        "TA_FC"
+                    ],
+                    "arrival_date": [
+                        "TA_FC"
+                    ],
+                    "price": [
+                        "TA_US",
+                        "TD_DF"
+                    ],
+                    "aid": []
+                }
+            },
+            "2": {
+                "row": [],
+                "col": {
+                    "origin": [],
+                    "destination": [],
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "departure_date": [
+                        "TA_FC"
+                    ],
+                    "arrival_date": [
+                        "TA_FC"
+                    ],
+                    "price": [
+                        "TA_US"
+                    ],
+                    "aid": []
+                }
+            },
+            "346": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "origin": [
+                        "TD_AS"
+                    ],
+                    "destination": [
+                        "TD_AS"
+                    ],
+                    "distance": [
+                        "RI_AC"
+                    ],
+                    "departure_date": [
+                        "RI_TC"
+                    ],
+                    "arrival_date": [
+                        "RI_TC"
+                    ],
+                    "price": [
+                        "TD_DF"
+                    ],
+                    "aid": []
+                }
+            },
+            "68": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "origin": [],
+                    "destination": [],
+                    "distance": [],
+                    "departure_date": [],
+                    "arrival_date": [],
+                    "price": [
+                        "TA_US"
+                    ],
+                    "aid": []
+                }
+            },
+            "7": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "origin": [
+                        "TD_CA"
+                    ],
+                    "destination": [
+                        "TD_CA"
+                    ],
+                    "distance": [],
+                    "departure_date": [
+                        "RI_TC"
+                    ],
+                    "arrival_date": [
+                        "RI_TC"
+                    ],
+                    "price": [
+                        "RI_AC"
+                    ],
+                    "aid": []
+                }
+            },
+            "76": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "origin": [
+                        "TD_DF"
+                    ],
+                    "destination": [
+                        "TD_DF"
+                    ],
+                    "distance": [],
+                    "departure_date": [],
+                    "arrival_date": [],
+                    "price": [],
+                    "aid": []
+                }
+            },
+            "99": {
+                "row": [
+                    "RL_MI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "origin": [
+                        "TA_FC"
+                    ],
+                    "destination": [
+                        "TA_FC"
+                    ],
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "departure_date": [
+                        "RI_TC"
+                    ],
+                    "arrival_date": [
+                        "RI_TC"
+                    ],
+                    "price": [
+                        "RI_AC"
+                    ],
+                    "aid": []
+                }
+            },
+            "13": {
+                "row": [
+                    "GR_TI",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "origin": [
+                        "TD_DF"
+                    ],
+                    "destination": [
+                        "TD_DF"
+                    ],
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "departure_date": [
+                        "TA_FC"
+                    ],
+                    "arrival_date": [
+                        "TA_FC"
+                    ],
+                    "price": [
+                        "TA_US"
+                    ],
+                    "aid": []
+                }
+            },
+            "33": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "origin": [],
+                    "destination": [],
+                    "distance": [
+                        "RI_AC"
+                    ],
+                    "departure_date": [
+                        "RI_TC"
+                    ],
+                    "arrival_date": [
+                        "RI_TC"
+                    ],
+                    "price": [],
+                    "aid": []
+                }
+            },
+            "34": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "origin": [
+                        "TA_FC"
+                    ],
+                    "destination": [
+                        "TA_FC"
+                    ],
+                    "distance": [],
+                    "departure_date": [],
+                    "arrival_date": [],
+                    "price": [
+                        "TA_US"
+                    ],
+                    "aid": []
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/flight_1/tables"
+}

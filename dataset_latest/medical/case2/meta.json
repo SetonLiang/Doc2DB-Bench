@@ -1,0 +1,2451 @@
+{
+    "database_name": "thrombosis_prediction",
+    "if_primary_allowed": {
+        "Examination": false,
+        "Laboratory": false,
+        "Patient": false
+    },
+    "type": {
+        "Examination": "1:1",
+        "Laboratory": "1:1",
+        "Patient": "2:1"
+    },
+    "capability_assignments": {
+        "Examination": {
+            "4": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "ANA": [
+                        "RI_LD"
+                    ],
+                    "Diagnosis": [
+                        "TA_EM",
+                        "EF_RC"
+                    ],
+                    "Thrombosis": [
+                        "RI_LD"
+                    ],
+                    "Patient ID": [],
+                    "Examination Date": [],
+                    "aCL IgG": [],
+                    "aCL IgM": [],
+                    "ANA Pattern": [],
+                    "aCL IgA": [],
+                    "KCT": [],
+                    "RVVT": [],
+                    "LAC": []
+                }
+            },
+            "7": {
+                "row": [],
+                "col": {
+                    "aCL IgM": [
+                        "RI_LD"
+                    ],
+                    "ANA": [
+                        "RI_LD"
+                    ],
+                    "ANA Pattern": [
+                        "TA_EM"
+                    ],
+                    "Patient ID": [],
+                    "Examination Date": [],
+                    "aCL IgG": [],
+                    "aCL IgA": [],
+                    "Diagnosis": [],
+                    "Thrombosis": []
+                }
+            },
+            "2": {
+                "row": [],
+                "col": {
+                    "aCL IgM": [
+                        "RI_LD"
+                    ],
+                    "ANA Pattern": [
+                        "TA_EM"
+                    ],
+                    "Diagnosis": [
+                        "TA_EM"
+                    ],
+                    "Patient ID": [],
+                    "Examination Date": [],
+                    "aCL IgG": [],
+                    "ANA": [],
+                    "aCL IgA": [],
+                    "Thrombosis": []
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "ANA": [
+                        "RI_LD"
+                    ],
+                    "ANA Pattern": [
+                        "EF_ND"
+                    ],
+                    "Diagnosis": [
+                        "TA_EM"
+                    ],
+                    "Patient ID": [],
+                    "Examination Date": [],
+                    "aCL IgG": [],
+                    "aCL IgM": [],
+                    "aCL IgA": [],
+                    "Thrombosis": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL",
+                    "RL_MB"
+                ],
+                "col": {
+                    "aCL IgG": [
+                        "RI_LD"
+                    ],
+                    "ANA": [
+                        "RI_LD"
+                    ],
+                    "ANA Pattern": [
+                        "TA_EM"
+                    ],
+                    "Diagnosis": [
+                        "TA_EM"
+                    ],
+                    "LAC": [
+                        "RI_MI"
+                    ],
+                    "Patient ID": [],
+                    "Examination Date": [],
+                    "aCL IgM": [],
+                    "aCL IgA": [],
+                    "KCT": [],
+                    "RVVT": [],
+                    "Thrombosis": []
+                }
+            },
+            "0": {
+                "row": [],
+                "col": {
+                    "Examination Date": [
+                        "TA_FC"
+                    ],
+                    "aCL IgG": [
+                        "RI_LD"
+                    ],
+                    "ANA Pattern": [
+                        "EF_ND"
+                    ],
+                    "Diagnosis": [
+                        "TA_EM"
+                    ],
+                    "Symptoms": [
+                        "EF_ND"
+                    ],
+                    "Thrombosis": [
+                        "RI_LD"
+                    ],
+                    "Patient ID": [],
+                    "aCL IgM": [],
+                    "ANA": [],
+                    "aCL IgA": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_O2M",
+                    "IC_ME"
+                ],
+                "col": {
+                    "Examination Date": [
+                        "TA_FC"
+                    ],
+                    "ANA": [
+                        "TD_DF"
+                    ],
+                    "Diagnosis": [
+                        "RI_MI"
+                    ],
+                    "LAC": [
+                        "RI_LD"
+                    ],
+                    "Patient ID": [],
+                    "aCL IgG": [],
+                    "aCL IgM": [],
+                    "ANA Pattern": [],
+                    "aCL IgA": [],
+                    "KCT": [],
+                    "RVVT": [],
+                    "Thrombosis": []
+                }
+            },
+            "6": {
+                "row": [],
+                "col": {
+                    "aCL IgA": [
+                        "RI_AC"
+                    ],
+                    "ANA": [
+                        "EF_ND"
+                    ],
+                    "Thrombosis": [
+                        "RI_LD"
+                    ],
+                    "Patient ID": [],
+                    "Examination Date": [],
+                    "aCL IgG": [],
+                    "aCL IgM": [],
+                    "Diagnosis": []
+                }
+            }
+        },
+        "Laboratory": {
+            "1617548": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Date": [],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": []
+                }
+            },
+            "1617548, 1981-06-02": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [
+                        "EF_ND"
+                    ],
+                    "CPK": [],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "EF_ND"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "TA_EM"
+                    ],
+                    "RF": [
+                        "EF_ND"
+                    ]
+                }
+            },
+            "2276582, 1983-11-28": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [
+                        "TD_DF"
+                    ],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [
+                        "TA_US"
+                    ],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [
+                        "EF_ND"
+                    ],
+                    "CPK": [],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "TA_EM"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "TA_EM"
+                    ],
+                    "RF": [
+                        "EF_ND"
+                    ]
+                }
+            },
+            "3561717, 1986-03-06": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [
+                        "EF_ND"
+                    ],
+                    "CPK": [],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "TA_EM"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "TA_EM"
+                    ],
+                    "RF": [
+                        "EF_ND"
+                    ]
+                }
+            },
+            "2276582, 1983-06-06": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [
+                        "TA_US"
+                    ],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [
+                        "EF_ND"
+                    ],
+                    "CPK": [],
+                    "GLU": [],
+                    "WBC": [
+                        "TD_DF"
+                    ],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "TA_EM"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "TA_EM"
+                    ],
+                    "RF": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "4921572": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "Date": [],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [],
+                    "CPK": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "CRP": []
+                }
+            },
+            "1610433, 1983-11-21": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [
+                        "EF_ND"
+                    ],
+                    "CPK": [
+                        "EF_ND"
+                    ],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "EF_ND"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "TA_EM"
+                    ],
+                    "RF": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "2276582": {
+                "row": [
+                    "RL_O2M",
+                    "GR_DC"
+                ],
+                "col": {
+                    "Date": [],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "CPK": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "U-PRO": [],
+                    "CRP": [],
+                    "RA": [],
+                    "RF": []
+                }
+            },
+            "1078741, 1993-06-21": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [
+                        "TA_US"
+                    ],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [],
+                    "CPK": [],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "TA_EM"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "TA_EM"
+                    ],
+                    "RF": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "1078741": {
+                "row": [
+                    "GR_CTA",
+                    "GR_DC"
+                ],
+                "col": {
+                    "Date": [],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [],
+                    "CPK": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "CRP": []
+                }
+            },
+            "4878272": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "Date": [],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [],
+                    "CPK": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "CRP": [],
+                    "C3": [],
+                    "C4": []
+                }
+            },
+            "1610433": {
+                "row": [
+                    "RL_MI",
+                    "IC_RI"
+                ],
+                "col": {
+                    "Date": [],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "CRP": [],
+                    "RA": [],
+                    "RF": []
+                }
+            },
+            "5296268": {
+                "row": [],
+                "col": {
+                    "Date": [],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-CHO": [],
+                    "TG": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "CRP": []
+                }
+            },
+            "5296268, 1995-05-29": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [
+                        "EF_ND"
+                    ],
+                    "UN": [],
+                    "CRE": [
+                        "EF_ND"
+                    ],
+                    "T-BIL": [
+                        "EF_ND"
+                    ],
+                    "T-CHO": [],
+                    "TG": [],
+                    "CPK": [
+                        "EF_ND"
+                    ],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "EF_ND"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "EF_ND"
+                    ],
+                    "RF": [
+                        "EF_ND"
+                    ]
+                }
+            },
+            "102490, 1982-07-22": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [
+                        "EF_ND"
+                    ],
+                    "CPK": [
+                        "EF_ND"
+                    ],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "TA_EM"
+                    ],
+                    "IGG": [
+                        "TD_AS"
+                    ],
+                    "IGA": [
+                        "TD_AS"
+                    ],
+                    "IGM": [
+                        "TD_AS"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "TA_EM"
+                    ],
+                    "RF": [
+                        "EF_ND"
+                    ]
+                }
+            },
+            "1617548, 1984-04-23": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [
+                        "EF_ND"
+                    ],
+                    "CPK": [
+                        "EF_ND"
+                    ],
+                    "GLU": [
+                        "EF_ND"
+                    ],
+                    "WBC": [
+                        "EF_ND"
+                    ],
+                    "RBC": [
+                        "EF_ND"
+                    ],
+                    "HGB": [
+                        "EF_ND"
+                    ],
+                    "HCT": [
+                        "EF_ND"
+                    ],
+                    "PLT": [
+                        "EF_ND"
+                    ],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "EF_ND"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "EF_ND"
+                    ],
+                    "RA": [
+                        "EF_ND"
+                    ],
+                    "RF": [
+                        "EF_ND"
+                    ]
+                }
+            },
+            "1944121, 1985-05-13": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [
+                        "TA_US"
+                    ],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [
+                        "EF_ND"
+                    ],
+                    "CPK": [
+                        "EF_ND"
+                    ],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "EF_ND"
+                    ],
+                    "IGG": [
+                        "TD_AS"
+                    ],
+                    "IGA": [
+                        "TD_AS"
+                    ],
+                    "IGM": [
+                        "TD_AS"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "TA_EM"
+                    ],
+                    "RF": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "4921572, 1993-03-15": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [],
+                    "CPK": [],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "EF_ND"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "EF_ND"
+                    ],
+                    "RF": [
+                        "EF_ND"
+                    ]
+                }
+            },
+            "1610433, 1983-10-24": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [
+                        "TA_US"
+                    ],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [
+                        "EF_ND"
+                    ],
+                    "CPK": [
+                        "EF_ND"
+                    ],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [
+                        "EF_ND"
+                    ],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "TA_EM"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "EF_ND"
+                    ],
+                    "RF": [
+                        "EF_ND"
+                    ]
+                }
+            },
+            "3561717": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Date": [],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "CPK": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "U-PRO": [],
+                    "CRP": [],
+                    "RA": []
+                }
+            },
+            "4878272, 1993-05-10": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [
+                        "TD_DF"
+                    ],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [
+                        "RI_LD"
+                    ],
+                    "CPK": [
+                        "EF_ND"
+                    ],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "EF_ND"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "EF_ND"
+                    ],
+                    "RF": [
+                        "EF_ND"
+                    ],
+                    "C3": [],
+                    "C4": []
+                }
+            },
+            "102490": {
+                "row": [
+                    "RL_MB",
+                    "GR_TI"
+                ],
+                "col": {
+                    "Date": [],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "U-PRO": [],
+                    "IGG": [],
+                    "IGA": [],
+                    "IGM": [],
+                    "CRP": [],
+                    "RA": []
+                }
+            },
+            "1944121": {
+                "row": [
+                    "RL_MB",
+                    "RL_CL"
+                ],
+                "col": {
+                    "Date": [],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "IGG": [],
+                    "IGA": [],
+                    "IGM": [],
+                    "CRP": [],
+                    "RA": [],
+                    "RF": []
+                }
+            },
+            "1078741, 1994-12-05": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [],
+                    "CPK": [],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "EF_ND"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "EF_ND"
+                    ],
+                    "RF": [
+                        "EF_ND"
+                    ]
+                }
+            },
+            "2276582, 1986-12-01": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [
+                        "TA_US"
+                    ],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [
+                        "EF_ND"
+                    ],
+                    "CPK": [
+                        "EF_ND"
+                    ],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "TA_EM"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "TA_EM"
+                    ],
+                    "RA": [
+                        "TA_EM"
+                    ],
+                    "RF": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "1078741, 1994-01-31": {
+                "row": [],
+                "col": {
+                    "Date": [
+                        "TA_FC"
+                    ],
+                    "GOT": [],
+                    "GPT": [],
+                    "LDH": [],
+                    "ALP": [],
+                    "TP": [],
+                    "ALB": [],
+                    "UA": [],
+                    "UN": [],
+                    "CRE": [],
+                    "T-BIL": [],
+                    "T-CHO": [],
+                    "TG": [],
+                    "CPK": [],
+                    "GLU": [],
+                    "WBC": [],
+                    "RBC": [],
+                    "HGB": [],
+                    "HCT": [],
+                    "PLT": [],
+                    "PT": [
+                        "EF_ND"
+                    ],
+                    "APTT": [
+                        "EF_ND"
+                    ],
+                    "FG": [
+                        "EF_ND"
+                    ],
+                    "U-PRO": [
+                        "EF_ND"
+                    ],
+                    "IGG": [
+                        "EF_ND"
+                    ],
+                    "IGA": [
+                        "EF_ND"
+                    ],
+                    "IGM": [
+                        "EF_ND"
+                    ],
+                    "CRP": [
+                        "RI_LD"
+                    ],
+                    "RA": [
+                        "EF_ND"
+                    ],
+                    "RF": [
+                        "EF_ND"
+                    ]
+                }
+            }
+        },
+        "Patient": {
+            "2276582": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [
+                    "RI_LD"
+                ],
+                "Diagnosis": [
+                    "EF_RC"
+                ]
+            },
+            "304157": {
+                "SEX": [],
+                "Birthday": [
+                    "TA_FC"
+                ],
+                "Description": [
+                    "TD_AS"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "EF_RC"
+                ]
+            },
+            "4294577": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TD_AS"
+                ],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [
+                    "EF_ND"
+                ],
+                "Diagnosis": []
+            },
+            "4025072": {
+                "SEX": [],
+                "Birthday": [
+                    "TA_FC"
+                ],
+                "Description": [],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": [
+                    "EF_RC"
+                ]
+            },
+            "3839658": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TA_FC"
+                ],
+                "First Date": [
+                    "TD_AS"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "2783361": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": [
+                    "EF_RC"
+                ]
+            },
+            "2113425": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TD_AS"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "5646148": {
+                "SEX": [],
+                "Birthday": [
+                    "TA_FC"
+                ],
+                "Description": [
+                    "TD_AS"
+                ],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "1765494": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [
+                    "RI_LD"
+                ],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "5795462": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TA_FC"
+                ],
+                "First Date": [
+                    "TD_AS"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "5149517": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "460574": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "424396": {
+                "SEX": [],
+                "Birthday": [
+                    "TA_FC"
+                ],
+                "Description": [],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "1944121": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TD_AS"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "EF_RC",
+                    "RI_LD"
+                ]
+            },
+            "3780376": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "3936069": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "5518991": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "5820274": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "355009": {
+                "SEX": [],
+                "Birthday": [
+                    "TA_FC"
+                ],
+                "Description": [],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": [
+                    "EF_RC"
+                ]
+            },
+            "5697364": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TA_FC"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "3561717": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "5134582": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "3813010": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TD_AS"
+                ],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "5296268": {
+                "SEX": [],
+                "Birthday": [
+                    "TA_FC"
+                ],
+                "Description": [],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "5789665": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TD_AS"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "4325853": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "102490": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "3078570": {
+                "SEX": [],
+                "Birthday": [
+                    "TA_FC"
+                ],
+                "Description": [],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "5149618": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TA_FC"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "4782214": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TD_AS"
+                ],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "3002676": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "3740822": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TD_AS"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "4769457": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "1936676": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "4957746": {
+                "SEX": [],
+                "Birthday": [
+                    "TA_FC"
+                ],
+                "Description": [],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "2052784": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TD_AS"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "4878272": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TA_FC"
+                ],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "4792459": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "5834596": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "4207506": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TD_AS"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "EF_RC"
+                ]
+            },
+            "863155": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [],
+                "Diagnosis": [
+                    "EF_RC"
+                ]
+            },
+            "5352018": {
+                "SEX": [],
+                "Birthday": [
+                    "TA_FC"
+                ],
+                "Description": [],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "5625462": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "2484453": {
+                "SEX": [
+                    "EF_ND"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "4951865": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TA_FC"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "1610433": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [],
+                "Diagnosis": [
+                    "EF_RC"
+                ]
+            },
+            "5671814": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TD_AS"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "4450997": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [],
+                "Diagnosis": [
+                    "EF_RC"
+                ]
+            },
+            "4885421": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "5757653": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "3498851": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "1420920": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [
+                    "RI_LD"
+                ],
+                "Diagnosis": []
+            },
+            "905682": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "3906239": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "4419176": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TA_FC"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "1617548": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "2098731": {
+                "SEX": [],
+                "Birthday": [
+                    "TA_FC"
+                ],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "5309186": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "4900939": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TD_AS"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "3122671": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TD_AS"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "4921572": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TA_FC"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "4860570": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "3696662": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "4220679": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "1462119": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [],
+                "Diagnosis": [
+                    "TA_EM",
+                    "RI_LD"
+                ]
+            },
+            "3223244": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": [
+                    "EF_RC"
+                ]
+            },
+            "5621949": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TA_FC"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TD_DF"
+                ]
+            },
+            "3129409": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "5371743": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "4957111": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "EF_RC",
+                    "RI_LD"
+                ]
+            },
+            "4238179": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "TD_AS"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "EF_RC"
+                ]
+            },
+            "5685729": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "3796229": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TD_AS"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "4700904": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "1078741": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": [
+                    "EF_RC",
+                    "TD_DF"
+                ]
+            },
+            "3915602": {
+                "SEX": [
+                    "TA_EM"
+                ],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "4621629": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            },
+            "5060913": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [],
+                "Admission": [
+                    "TA_EM"
+                ],
+                "Diagnosis": []
+            },
+            "4228367": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [
+                    "EF_ND"
+                ],
+                "First Date": [
+                    "EF_ND"
+                ],
+                "Admission": [],
+                "Diagnosis": [
+                    "TA_EM"
+                ]
+            },
+            "1320220": {
+                "SEX": [],
+                "Birthday": [],
+                "Description": [],
+                "First Date": [
+                    "TA_FC"
+                ],
+                "Admission": [],
+                "Diagnosis": []
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/thrombosis_prediction/tables"
+}

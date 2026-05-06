@@ -1,0 +1,1824 @@
+{
+    "dataset": "customers_and_invoices",
+    "if_primary_allowed": {
+        "Accounts": false,
+        "Customers": false,
+        "Financial_Transactions": false,
+        "Invoice_Line_Items": false,
+        "Invoices": false,
+        "Order_Items": false,
+        "Orders": false,
+        "Products": false
+    },
+    "type": {
+        "Accounts": "1:1",
+        "Financial_Transactions": "1:2",
+        "Invoice_Line_Items": "1:3",
+        "Invoices": "1:1",
+        "Order_Items": [
+            "1:3",
+            "2-hop"
+        ],
+        "Orders": "1:1"
+    },
+    "capability_assignments": {
+        "Accounts": {
+            "4": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "date_account_opened": [
+                        "TD_DF"
+                    ],
+                    "account_name": [],
+                    "other_account_details": [
+                        "RI_LD"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "3": {
+                "row": [],
+                "col": {
+                    "date_account_opened": [
+                        "RI_TC"
+                    ],
+                    "account_name": [],
+                    "other_account_details": [],
+                    "customer_id": []
+                }
+            },
+            "14": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_account_opened": [
+                        "RI_TC"
+                    ],
+                    "account_name": [],
+                    "other_account_details": [],
+                    "customer_id": []
+                }
+            },
+            "5": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_account_opened": [],
+                    "account_name": [],
+                    "other_account_details": [
+                        "TA_EM"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "1": {
+                "row": [],
+                "col": {
+                    "date_account_opened": [
+                        "RI_TC"
+                    ],
+                    "account_name": [
+                        "TA_EM"
+                    ],
+                    "other_account_details": [],
+                    "customer_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_account_opened": [
+                        "RI_TC"
+                    ],
+                    "account_name": [],
+                    "other_account_details": [
+                        "EF_HC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "date_account_opened": [
+                        "RI_TC"
+                    ],
+                    "account_name": [],
+                    "other_account_details": [],
+                    "customer_id": []
+                }
+            },
+            "11": {
+                "row": [],
+                "col": {
+                    "date_account_opened": [
+                        "TA_FC"
+                    ],
+                    "account_name": [],
+                    "other_account_details": [
+                        "RI_LD"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "15": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_account_opened": [
+                        "RI_MI"
+                    ],
+                    "account_name": [],
+                    "other_account_details": [],
+                    "customer_id": []
+                }
+            },
+            "6": {
+                "row": [],
+                "col": {
+                    "date_account_opened": [
+                        "TA_FC"
+                    ],
+                    "account_name": [],
+                    "other_account_details": [],
+                    "customer_id": []
+                }
+            },
+            "10": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "date_account_opened": [],
+                    "account_name": [],
+                    "other_account_details": [
+                        "TA_EM"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "13": {
+                "row": [],
+                "col": {
+                    "date_account_opened": [],
+                    "account_name": [],
+                    "other_account_details": [
+                        "TA_EM"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "9": {
+                "row": [],
+                "col": {
+                    "date_account_opened": [],
+                    "account_name": [
+                        "TA_EM"
+                    ],
+                    "other_account_details": [],
+                    "customer_id": []
+                }
+            },
+            "2": {
+                "row": [],
+                "col": {
+                    "date_account_opened": [],
+                    "account_name": [],
+                    "other_account_details": [
+                        "TA_EM"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "date_account_opened": [
+                        "RI_TC"
+                    ],
+                    "account_name": [],
+                    "other_account_details": [],
+                    "customer_id": []
+                }
+            }
+        },
+        "Customers": {
+            "1": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "email_address": [],
+                "login_name": [
+                    "TD_AS"
+                ],
+                "login_password": [],
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "town_city": [],
+                "state_county_province": [
+                    "TA_FC"
+                ],
+                "country": []
+            },
+            "2": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email_address": [
+                    "TD_DF"
+                ],
+                "login_name": [],
+                "login_password": [],
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "town_city": [],
+                "state_county_province": [],
+                "country": []
+            },
+            "3": {
+                "gender": [],
+                "email_address": [],
+                "login_name": [
+                    "TD_AS"
+                ],
+                "login_password": [
+                    "EF_HC"
+                ],
+                "phone_number": [],
+                "town_city": [],
+                "state_county_province": [],
+                "country": [
+                    "EF_RC"
+                ]
+            },
+            "4": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "email_address": [],
+                "login_name": [],
+                "login_password": [],
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "town_city": [
+                    "EF_HC"
+                ],
+                "state_county_province": [],
+                "country": []
+            },
+            "5": {
+                "gender": [],
+                "email_address": [],
+                "login_name": [],
+                "login_password": [],
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "town_city": [],
+                "state_county_province": [
+                    "TA_FC"
+                ],
+                "country": []
+            },
+            "6": {
+                "gender": [],
+                "email_address": [],
+                "login_name": [],
+                "login_password": [
+                    "TD_DF"
+                ],
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "town_city": [],
+                "state_county_province": [],
+                "country": [
+                    "TA_EM"
+                ]
+            },
+            "7": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email_address": [],
+                "login_name": [],
+                "login_password": [],
+                "phone_number": [],
+                "town_city": [
+                    "TA_FC"
+                ],
+                "state_county_province": [],
+                "country": []
+            },
+            "8": {
+                "gender": [],
+                "email_address": [
+                    "TD_AS"
+                ],
+                "login_name": [],
+                "login_password": [],
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "town_city": [],
+                "state_county_province": [
+                    "TA_FC"
+                ],
+                "country": []
+            },
+            "9": {
+                "gender": [],
+                "email_address": [],
+                "login_name": [],
+                "login_password": [],
+                "phone_number": [],
+                "town_city": [],
+                "state_county_province": [
+                    "TA_FC"
+                ],
+                "country": [
+                    "EF_RC"
+                ]
+            },
+            "10": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "email_address": [],
+                "login_name": [],
+                "login_password": [],
+                "phone_number": [],
+                "town_city": [
+                    "TA_FC"
+                ],
+                "state_county_province": [],
+                "country": []
+            },
+            "11": {
+                "gender": [],
+                "email_address": [],
+                "login_name": [
+                    "TD_AS"
+                ],
+                "login_password": [],
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "town_city": [],
+                "state_county_province": [],
+                "country": []
+            },
+            "12": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "email_address": [],
+                "login_name": [],
+                "login_password": [],
+                "phone_number": [],
+                "town_city": [],
+                "state_county_province": [],
+                "country": []
+            },
+            "13": {
+                "gender": [],
+                "email_address": [],
+                "login_name": [],
+                "login_password": [],
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "town_city": [],
+                "state_county_province": [
+                    "TA_FC"
+                ],
+                "country": []
+            },
+            "14": {
+                "gender": [],
+                "email_address": [
+                    "TD_DF"
+                ],
+                "login_name": [],
+                "login_password": [],
+                "phone_number": [
+                    "TA_FC"
+                ],
+                "town_city": [],
+                "state_county_province": [],
+                "country": []
+            },
+            "15": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "email_address": [],
+                "login_name": [],
+                "login_password": [],
+                "phone_number": [],
+                "town_city": [],
+                "state_county_province": [
+                    "TA_FC"
+                ],
+                "country": []
+            }
+        },
+        "Financial_Transactions": {
+            "10": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [
+                        "RI_TC"
+                    ],
+                    "transaction_amount": [
+                        "RI_AC"
+                    ],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "11": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "transaction_type": [
+                        "TA_EM"
+                    ],
+                    "transaction_date": [],
+                    "transaction_amount": [
+                        "RI_AC"
+                    ],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "5": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "transaction_type": [
+                        "RI_LD"
+                    ],
+                    "transaction_date": [],
+                    "transaction_amount": [
+                        "TA_US"
+                    ],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "2": {
+                "row": [],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [
+                        "RI_TC"
+                    ],
+                    "transaction_amount": [
+                        "RI_AC"
+                    ],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "4": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "transaction_type": [
+                        "TA_EM"
+                    ],
+                    "transaction_date": [
+                        "RI_TC"
+                    ],
+                    "transaction_amount": [],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "0": {
+                "row": [],
+                "col": {
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": [],
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": []
+                }
+            },
+            "3": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": [
+                        "TD_DF"
+                    ],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "6": {
+                "row": [],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": [
+                        "TD_CA"
+                    ],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "13": {
+                "row": [
+                    "RL_O2M",
+                    "GR_DC"
+                ],
+                "col": {
+                    "transaction_type": [
+                        "RI_LD"
+                    ],
+                    "transaction_date": [],
+                    "transaction_amount": [
+                        "TD_DF"
+                    ],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "transaction_type": [
+                        "TA_EM"
+                    ],
+                    "transaction_date": [
+                        "TA_FC"
+                    ],
+                    "transaction_amount": [],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "9": {
+                "row": [],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": [
+                        "TD_DF"
+                    ],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "transaction_type": [
+                        "TA_EM"
+                    ],
+                    "transaction_date": [
+                        "RI_TC"
+                    ],
+                    "transaction_amount": []
+                }
+            },
+            "7": {
+                "row": [],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": [
+                        "RI_MI"
+                    ],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "12": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [
+                        "RI_TC"
+                    ],
+                    "transaction_amount": [],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "8": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "transaction_type": [
+                        "TA_EM"
+                    ],
+                    "transaction_date": [
+                        "TA_FC"
+                    ],
+                    "transaction_amount": [],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "14": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": [
+                        "RI_MI"
+                    ],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": [],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "1994": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": [],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "1991": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": [],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "1990": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": [],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "1998": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": [],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "transaction_type": [],
+                    "transaction_date": [],
+                    "transaction_amount": [],
+                    "transaction_id": [],
+                    "account_id": [],
+                    "invoice_number": []
+                }
+            }
+        },
+        "Invoice_Line_Items": {
+            "0": {
+                "row": [],
+                "col": {
+                    "product_quantity": [
+                        "TA_FC"
+                    ],
+                    "product_price": [],
+                    "derived_product_cost": [],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "product_quantity": [],
+                    "product_price": [],
+                    "derived_product_cost": [
+                        "RI_AC"
+                    ],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "product_price": [
+                        "TA_US"
+                    ],
+                    "derived_product_cost": [],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [
+                        "RI_AC"
+                    ],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": [],
+                    "product_quantity": []
+                }
+            },
+            "3": {
+                "row": [
+                    "GR_TI",
+                    "IC_ME"
+                ],
+                "col": {
+                    "product_quantity": [],
+                    "product_price": [
+                        "TA_US"
+                    ],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": [],
+                    "derived_product_cost": []
+                }
+            },
+            "8": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "product_price": [],
+                    "derived_product_cost": [
+                        "RI_AC"
+                    ],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": [],
+                    "product_quantity": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "product_quantity": [
+                        "TA_FC"
+                    ],
+                    "product_price": [],
+                    "derived_product_cost": [],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": []
+                }
+            },
+            "9": {
+                "row": [],
+                "col": {
+                    "product_quantity": [],
+                    "product_price": [],
+                    "derived_product_cost": [],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [
+                        "RI_AC"
+                    ],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": []
+                }
+            },
+            "12": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "product_price": [
+                        "TA_US"
+                    ],
+                    "derived_product_cost": [],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": [],
+                    "product_quantity": []
+                }
+            },
+            "13": {
+                "row": [],
+                "col": {
+                    "product_quantity": [
+                        "TA_FC"
+                    ],
+                    "derived_product_cost": [],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [
+                        "RI_AC"
+                    ],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": [],
+                    "product_price": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {}
+            },
+            "11": {
+                "row": [],
+                "col": {
+                    "product_quantity": [],
+                    "product_price": [],
+                    "derived_product_cost": [
+                        "RI_AC"
+                    ],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": []
+                }
+            },
+            "10": {
+                "row": [],
+                "col": {
+                    "product_quantity": [],
+                    "product_price": [],
+                    "derived_product_cost": [],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": []
+                }
+            },
+            "14": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "product_quantity": [],
+                    "product_price": [],
+                    "derived_product_cost": [
+                        "RI_AC"
+                    ],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": []
+                }
+            },
+            "6": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "product_price": [
+                        "TA_US",
+                        "TD_DF"
+                    ],
+                    "derived_product_cost": [],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": [],
+                    "product_quantity": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "product_quantity": [],
+                    "derived_product_cost": [],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [
+                        "RI_MI"
+                    ],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_title": [],
+                    "product_price": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "product_title": [
+                        "TA_EM"
+                    ],
+                    "product_quantity": [],
+                    "derived_product_cost": [],
+                    "derived_vat_payable": [
+                        "EF_ND"
+                    ],
+                    "derived_total_cost": [],
+                    "order_item_id": [],
+                    "invoice_number": [],
+                    "product_id": [],
+                    "product_price": []
+                }
+            }
+        },
+        "Invoices": {
+            "5": {
+                "row": [],
+                "col": {
+                    "invoice_date": [],
+                    "order_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "invoice_date": [
+                        "RI_TC"
+                    ],
+                    "order_id": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "invoice_date": [],
+                    "order_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "invoice_date": [],
+                    "order_id": []
+                }
+            },
+            "11": {
+                "row": [],
+                "col": {
+                    "invoice_date": [],
+                    "order_id": []
+                }
+            },
+            "8": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "invoice_date": [],
+                    "order_id": []
+                }
+            },
+            "6": {
+                "row": [],
+                "col": {
+                    "invoice_date": [],
+                    "order_id": []
+                }
+            },
+            "10": {
+                "row": [],
+                "col": {
+                    "invoice_date": [],
+                    "order_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "invoice_date": [
+                        "RI_LD"
+                    ],
+                    "order_id": []
+                }
+            },
+            "14": {
+                "row": [],
+                "col": {
+                    "invoice_date": [],
+                    "order_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {
+                    "invoice_date": [
+                        "TA_EM"
+                    ],
+                    "order_id": []
+                }
+            },
+            "13": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "invoice_date": [],
+                    "order_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "invoice_date": [
+                        "TA_FC"
+                    ],
+                    "order_id": []
+                }
+            },
+            "9": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "invoice_date": [],
+                    "order_id": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "invoice_date": [],
+                    "order_id": []
+                }
+            }
+        },
+        "Order_Items": {
+            "4": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "product_quantity": [
+                        "RI_AC"
+                    ],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "9": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "product_quantity": [
+                        "TA_EM"
+                    ],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "10": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "15": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "11": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "14": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "7": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "product_quantity": [
+                        "TA_US"
+                    ],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "13": {
+                "row": [],
+                "col": {
+                    "order_id": [],
+                    "product_id": [],
+                    "product_quantity": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "product_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "1994": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "product_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "1991": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "product_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "1990": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "product_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "1998": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "product_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "product_quantity": [],
+                    "order_id": [],
+                    "product_id": []
+                }
+            }
+        },
+        "Orders": {
+            "15": {
+                "row": [],
+                "col": {
+                    "date_order_placed": [],
+                    "customer_id": []
+                }
+            },
+            "11": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "date_order_placed": [],
+                    "customer_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "date_order_placed": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "6": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_order_placed": [],
+                    "customer_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "date_order_placed": [
+                        "RI_TC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "10": {
+                "row": [],
+                "col": {
+                    "date_order_placed": [],
+                    "customer_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "date_order_placed": [],
+                    "customer_id": []
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "date_order_placed": [
+                        "TD_DF"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "date_order_placed": [],
+                    "customer_id": []
+                }
+            },
+            "9": {
+                "row": [
+                    "IDR_ED",
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_order_placed": [],
+                    "customer_id": []
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "date_order_placed": [],
+                    "customer_id": []
+                }
+            },
+            "1": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_order_placed": [],
+                    "customer_id": []
+                }
+            },
+            "14": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_order_placed": [],
+                    "customer_id": []
+                }
+            },
+            "13": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "date_order_placed": [
+                        "TA_FC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "12": {
+                "row": [],
+                "col": {
+                    "date_order_placed": [],
+                    "customer_id": []
+                }
+            }
+        },
+        "Products": {
+            "8": {
+                "row": [
+                    "IDR_CR",
+                    "RL_MI"
+                ],
+                "col": {
+                    "production_type_code": [
+                        "TA_EM"
+                    ],
+                    "unit_price": [
+                        "TA_FC"
+                    ],
+                    "product_name": [
+                        "TD_DF"
+                    ],
+                    "product_color": [],
+                    "product_size": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_MI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "production_type_code": [
+                        "TA_EM"
+                    ],
+                    "unit_price": [
+                        "TA_US"
+                    ],
+                    "product_name": [
+                        "TA_EM"
+                    ],
+                    "product_color": [],
+                    "product_size": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "4": {
+                "row": [
+                    "GR_TI",
+                    "RL_MI"
+                ],
+                "col": {
+                    "production_type_code": [],
+                    "unit_price": [
+                        "TA_US",
+                        "TA_FC"
+                    ],
+                    "product_name": [
+                        "TA_EM"
+                    ],
+                    "product_color": [
+                        "TD_DF"
+                    ],
+                    "product_size": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "production_type_code": [],
+                    "unit_price": [
+                        "TA_FC"
+                    ],
+                    "product_name": [
+                        "EF_HC"
+                    ],
+                    "product_color": [
+                        "TA_EM"
+                    ],
+                    "product_size": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_CL",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "production_type_code": [
+                        "TD_AS"
+                    ],
+                    "unit_price": [
+                        "TA_US"
+                    ],
+                    "product_name": [],
+                    "product_color": [],
+                    "product_size": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "10": {
+                "row": [],
+                "col": {
+                    "production_type_code": [
+                        "TA_EM"
+                    ],
+                    "unit_price": [],
+                    "product_name": [
+                        "TA_FC"
+                    ],
+                    "product_color": [],
+                    "product_size": [
+                        "TD_AS"
+                    ]
+                }
+            },
+            "13": {
+                "row": [],
+                "col": {
+                    "production_type_code": [
+                        "TA_EM"
+                    ],
+                    "unit_price": [],
+                    "product_name": [],
+                    "product_color": [
+                        "TA_FC"
+                    ],
+                    "product_size": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "14": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "production_type_code": [],
+                    "unit_price": [],
+                    "product_name": [
+                        "EF_RC"
+                    ],
+                    "product_color": [
+                        "TD_DF"
+                    ],
+                    "product_size": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_MB",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "production_type_code": [
+                        "TA_EM"
+                    ],
+                    "unit_price": [],
+                    "product_name": [
+                        "TD_DF"
+                    ],
+                    "product_color": [
+                        "TA_FC"
+                    ],
+                    "product_size": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "5": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "production_type_code": [
+                        "TA_EM"
+                    ],
+                    "unit_price": [],
+                    "product_name": [
+                        "TD_AS"
+                    ],
+                    "product_color": [],
+                    "product_size": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "production_type_code": [
+                        "TA_EM"
+                    ],
+                    "unit_price": [
+                        "TA_US"
+                    ],
+                    "product_name": [
+                        "EF_RC"
+                    ],
+                    "product_color": [],
+                    "product_size": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "11": {
+                "row": [
+                    "GR_DC",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "production_type_code": [],
+                    "unit_price": [
+                        "TA_US"
+                    ],
+                    "product_name": [],
+                    "product_color": [
+                        "TA_EM"
+                    ],
+                    "product_size": []
+                }
+            },
+            "12": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "production_type_code": [
+                        "TD_DF"
+                    ],
+                    "unit_price": [
+                        "TA_FC"
+                    ],
+                    "product_name": [
+                        "EF_RC"
+                    ],
+                    "product_color": [],
+                    "product_size": []
+                }
+            },
+            "9": {
+                "row": [
+                    "GR_CTA",
+                    "RL_MB"
+                ],
+                "col": {
+                    "production_type_code": [],
+                    "unit_price": [
+                        "TA_US"
+                    ],
+                    "product_name": [
+                        "TA_EM",
+                        "TD_DF"
+                    ],
+                    "product_color": [],
+                    "product_size": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "production_type_code": [],
+                    "unit_price": [],
+                    "product_name": [
+                        "TA_EM",
+                        "EF_HC"
+                    ],
+                    "product_color": [
+                        "TA_EM"
+                    ],
+                    "product_size": [
+                        "TA_FC"
+                    ]
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/customers_and_invoices/tables"
+}

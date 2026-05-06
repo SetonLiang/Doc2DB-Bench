@@ -1,0 +1,388 @@
+[
+  {
+    "id": "1",
+    "name": "PROFESSOR",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "EMP_NUM",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "EMPLOYEE",
+            "column": "EMP_NUM"
+          }
+        }
+      },
+      {
+        "name": "DEPT_CODE",
+        "type": "varchar(10)",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "DEPARTMENT",
+            "column": "DEPT_CODE"
+          }
+        }
+      },
+      {
+        "name": "PROF_OFFICE",
+        "type": "varchar(50)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "PROF_EXTENSION",
+        "type": "varchar(4)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "PROF_HIGH_DEGREE",
+        "type": "varchar(5)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "ENROLL",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "CLASS_CODE",
+        "type": "varchar(5)",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "CLASS",
+            "column": "CLASS_CODE"
+          }
+        }
+      },
+      {
+        "name": "STU_NUM",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "STUDENT",
+            "column": "STU_NUM"
+          }
+        }
+      },
+      {
+        "name": "ENROLL_GRADE",
+        "type": "varchar(50)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "CLASS",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "CLASS_CODE",
+        "type": "varchar(5)",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "CRS_CODE",
+        "type": "varchar(10)",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "COURSE",
+            "column": "CRS_CODE"
+          }
+        }
+      },
+      {
+        "name": "CLASS_SECTION",
+        "type": "varchar(2)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "CLASS_TIME",
+        "type": "varchar(20)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "CLASS_ROOM",
+        "type": "varchar(8)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "PROF_NUM",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "PROFESSOR",
+            "column": "EMP_NUM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "COURSE",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "CRS_CODE",
+        "type": "varchar(10)",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "DEPT_CODE",
+        "type": "varchar(10)",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "DEPARTMENT",
+            "column": "DEPT_CODE"
+          }
+        }
+      },
+      {
+        "name": "CRS_DESCRIPTION",
+        "type": "varchar(35)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "CRS_CREDIT",
+        "type": "float(8)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "DEPARTMENT",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "DEPT_CODE",
+        "type": "varchar(10)",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "DEPT_NAME",
+        "type": "varchar(30)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "SCHOOL_CODE",
+        "type": "varchar(8)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DEPT_ADDRESS",
+        "type": "varchar(20)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DEPT_EXTENSION",
+        "type": "varchar(4)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "EMPLOYEE",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "EMP_NUM",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "EMP_LNAME",
+        "type": "varchar(15)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "EMP_FNAME",
+        "type": "varchar(12)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "EMP_INITIAL",
+        "type": "varchar(1)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "EMP_JOBCODE",
+        "type": "varchar(5)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "EMP_HIREDATE",
+        "type": "datetime",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "EMP_DOB",
+        "type": "datetime",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "STUDENT",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "STU_NUM",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "STU_LNAME",
+        "type": "varchar(15)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "STU_FNAME",
+        "type": "varchar(15)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "STU_INIT",
+        "type": "varchar(1)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "STU_DOB",
+        "type": "datetime",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "STU_HRS",
+        "type": "int",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "STU_CLASS",
+        "type": "varchar(2)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "STU_GPA",
+        "type": "float(8)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "STU_TRANSFER",
+        "type": "numeric",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DEPT_CODE",
+        "type": "varchar(18)",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "DEPARTMENT",
+            "column": "DEPT_CODE"
+          }
+        }
+      },
+      {
+        "name": "STU_PHONE",
+        "type": "varchar(4)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "PROF_NUM",
+        "type": "int",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "PROFESSOR",
+            "column": "EMP_NUM"
+          }
+        }
+      }
+    ]
+  }
+]

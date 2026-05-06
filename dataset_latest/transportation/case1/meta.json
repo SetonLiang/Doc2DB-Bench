@@ -1,0 +1,2960 @@
+{
+    "database_id": "airline",
+    "if_primary_allowed": {
+        "Air Carriers": false,
+        "Airports": false,
+        "Airlines": false
+    },
+    "type": {
+        "Airlines": "1:2"
+    },
+    "capability_assignments": {
+        "Air Carriers": {
+            "20342": {
+                "Description": []
+            },
+            "19259": {
+                "Description": []
+            },
+            "19082": {
+                "Description": []
+            },
+            "21434": {
+                "Description": []
+            },
+            "19594": {
+                "Description": [
+                    "TA_FC"
+                ]
+            },
+            "19532": {
+                "Description": [
+                    "TA_FC",
+                    "EF_HC"
+                ]
+            },
+            "19488": {
+                "Description": []
+            },
+            "19316": {
+                "Description": []
+            },
+            "21395": {
+                "Description": [
+                    "RI_LD"
+                ]
+            },
+            "19240": {
+                "Description": []
+            },
+            "20419": {
+                "Description": []
+            },
+            "21427": {
+                "Description": [
+                    "TA_FC"
+                ]
+            },
+            "20148": {
+                "Description": [
+                    "EF_HC"
+                ]
+            },
+            "19209": {
+                "Description": []
+            },
+            "20242": {
+                "Description": []
+            },
+            "19896": {
+                "Description": []
+            },
+            "19096": {
+                "Description": [
+                    "TA_FC"
+                ]
+            },
+            "19092": {
+                "Description": []
+            },
+            "19222": {
+                "Description": []
+            },
+            "19478": {
+                "Description": []
+            },
+            "19507": {
+                "Description": []
+            },
+            "20066": {
+                "Description": [
+                    "TA_FC"
+                ]
+            },
+            "20265": {
+                "Description": []
+            },
+            "19085": {
+                "Description": []
+            },
+            "20182": {
+                "Description": []
+            },
+            "19438": {
+                "Description": []
+            },
+            "21196": {
+                "Description": []
+            },
+            "20363": {
+                "Description": []
+            },
+            "21070": {
+                "Description": []
+            },
+            "19891": {
+                "Description": []
+            },
+            "19482": {
+                "Description": []
+            },
+            "19951": {
+                "Description": []
+            },
+            "20239": {
+                "Description": []
+            },
+            "19600": {
+                "Description": []
+            },
+            "19044": {
+                "Description": []
+            },
+            "21589": {
+                "Description": []
+            },
+            "21979": {
+                "Description": []
+            },
+            "19357": {
+                "Description": []
+            },
+            "21029": {
+                "Description": []
+            },
+            "19897": {
+                "Description": []
+            },
+            "19727": {
+                "Description": []
+            },
+            "19349": {
+                "Description": []
+            },
+            "19471": {
+                "Description": []
+            },
+            "21605": {
+                "Description": []
+            },
+            "19720": {
+                "Description": []
+            },
+            "19220": {
+                "Description": []
+            },
+            "19810": {
+                "Description": []
+            },
+            "19229": {
+                "Description": []
+            },
+            "19766": {
+                "Description": []
+            },
+            "19735": {
+                "Description": []
+            },
+            "19393": {
+                "Description": []
+            },
+            "19687": {
+                "Description": []
+            },
+            "19790": {
+                "Description": [
+                    "EF_HC",
+                    "TA_FC"
+                ]
+            },
+            "19805": {
+                "Description": [
+                    "TA_FC"
+                ]
+            },
+            "19977": {
+                "Description": [
+                    "RI_LD"
+                ]
+            },
+            "20046": {
+                "Description": []
+            },
+            "20237": {
+                "Description": []
+            },
+            "20304": {
+                "Description": []
+            },
+            "20366": {
+                "Description": []
+            },
+            "20368": {
+                "Description": []
+            },
+            "20398": {
+                "Description": []
+            },
+            "20409": {
+                "Description": []
+            },
+            "20416": {
+                "Description": []
+            },
+            "20427": {
+                "Description": []
+            },
+            "20436": {
+                "Description": []
+            },
+            "20445": {
+                "Description": []
+            },
+            "20452": {
+                "Description": []
+            },
+            "21167": {
+                "Description": []
+            }
+        },
+        "Airlines": {
+            "0": {
+                "row": [
+                    "RL_MI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "CANCELLATION_CODE": [
+                        "EF_ND"
+                    ],
+                    "CRS_ELAPSED_TIME": [
+                        "RI_AC",
+                        "RI_TC"
+                    ],
+                    "CARRIER_DELAY": [
+                        "EF_HC"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "ACTUAL_ELAPSED_TIME": [],
+                    "WEATHER_DELAY": [],
+                    "NAS_DELAY": [],
+                    "SECURITY_DELAY": [],
+                    "LATE_AIRCRAFT_DELAY": []
+                }
+            },
+            "45": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "12": {
+                "row": [
+                    "RL_MB",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "CANCELLATION_CODE": [
+                        "EF_ND"
+                    ],
+                    "CARRIER_DELAY": [
+                        "RI_AC"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": [],
+                    "WEATHER_DELAY": [],
+                    "NAS_DELAY": [],
+                    "SECURITY_DELAY": [],
+                    "LATE_AIRCRAFT_DELAY": []
+                }
+            },
+            "16": {
+                "row": [
+                    "RL_MI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "25": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "22": {
+                "row": [
+                    "RL_MB",
+                    "GR_TI"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_CL",
+                    "IC_RI"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "CANCELLATION_CODE": [
+                        "EF_ND"
+                    ],
+                    "CRS_ELAPSED_TIME": [
+                        "RI_AC",
+                        "RI_TC"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "28": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "9": {
+                "row": [
+                    "RL_MB",
+                    "RL_CL"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "SECURITY_DELAY": [
+                        "EF_ND"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "43": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "CARRIER_DELAY": [],
+                    "WEATHER_DELAY": [],
+                    "NAS_DELAY": [],
+                    "SECURITY_DELAY": [],
+                    "LATE_AIRCRAFT_DELAY": []
+                }
+            },
+            "44": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "24": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": [],
+                    "CARRIER_DELAY": [],
+                    "WEATHER_DELAY": [],
+                    "NAS_DELAY": [],
+                    "SECURITY_DELAY": [],
+                    "LATE_AIRCRAFT_DELAY": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_MB",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "WEATHER_DELAY": [
+                        "EF_ND"
+                    ],
+                    "NAS_DELAY": [
+                        "EF_ND"
+                    ],
+                    "SECURITY_DELAY": [
+                        "EF_ND"
+                    ],
+                    "LATE_AIRCRAFT_DELAY": [
+                        "EF_ND"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "27": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "EF_ND"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "EF_ND"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "EF_ND"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "EF_ND"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "CANCELLED": [],
+                    "CANCELLATION_CODE": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MI"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "WEATHER_DELAY": [
+                        "EF_ND"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "32": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "48": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": [],
+                    "CARRIER_DELAY": [],
+                    "WEATHER_DELAY": [],
+                    "NAS_DELAY": [],
+                    "SECURITY_DELAY": [],
+                    "LATE_AIRCRAFT_DELAY": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_MI",
+                    "GR_TI"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "NAS_DELAY": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "CARRIER_DELAY": [],
+                    "WEATHER_DELAY": [],
+                    "SECURITY_DELAY": [],
+                    "LATE_AIRCRAFT_DELAY": []
+                }
+            },
+            "8": {
+                "row": [
+                    "IDR_ED",
+                    "RL_MB"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "CANCELLATION_CODE": [
+                        "EF_ND"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "31": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "21": {
+                "row": [
+                    "RL_CL",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "19": {
+                "row": [
+                    "RL_MB",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "29": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "CARRIER_DELAY": [],
+                    "WEATHER_DELAY": [],
+                    "NAS_DELAY": [],
+                    "SECURITY_DELAY": [],
+                    "LATE_AIRCRAFT_DELAY": []
+                }
+            },
+            "41": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "34": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": [],
+                    "CARRIER_DELAY": [],
+                    "WEATHER_DELAY": [],
+                    "NAS_DELAY": [],
+                    "SECURITY_DELAY": [],
+                    "LATE_AIRCRAFT_DELAY": []
+                }
+            },
+            "35": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "26": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_MB",
+                    "IC_ME"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "CANCELLATION_CODE": [
+                        "EF_ND"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "15": {
+                "row": [
+                    "RL_MB",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "47": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "20": {
+                "row": [
+                    "RL_MI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "33": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "CARRIER_DELAY": [],
+                    "WEATHER_DELAY": [],
+                    "NAS_DELAY": [],
+                    "SECURITY_DELAY": [],
+                    "LATE_AIRCRAFT_DELAY": []
+                }
+            },
+            "49": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "18": {
+                "row": [
+                    "RL_O2M",
+                    "IC_ME"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "39": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "36": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "11": {
+                "row": [
+                    "RL_MI",
+                    "IC_RI"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "LATE_AIRCRAFT_DELAY": [
+                        "EF_ND"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "30": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "10": {
+                "row": [
+                    "GR_CTA",
+                    "RL_MB"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "CANCELLATION_CODE": [
+                        "EF_ND"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "14": {
+                "row": [
+                    "GR_DC",
+                    "RL_MB"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "37": {
+                "row": [],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "42": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": [],
+                    "CARRIER_DELAY": [],
+                    "WEATHER_DELAY": [],
+                    "NAS_DELAY": [],
+                    "SECURITY_DELAY": [],
+                    "LATE_AIRCRAFT_DELAY": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_MB",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "CANCELLATION_CODE": [
+                        "EF_ND"
+                    ],
+                    "CRS_ELAPSED_TIME": [
+                        "RI_AC",
+                        "RI_TC"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "ACTUAL_ELAPSED_TIME": [],
+                    "CARRIER_DELAY": [],
+                    "WEATHER_DELAY": [],
+                    "NAS_DELAY": [],
+                    "SECURITY_DELAY": [],
+                    "LATE_AIRCRAFT_DELAY": []
+                }
+            },
+            "46": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "17": {
+                "row": [
+                    "GR_TI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "3": {
+                "row": [
+                    "GR_TI",
+                    "RL_MI"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "CARRIER_DELAY": [
+                        "EF_ND"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "40": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            },
+            "23": {
+                "row": [
+                    "RL_MI",
+                    "IC_RI"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "13": {
+                "row": [
+                    "RL_CL",
+                    "RL_MI"
+                ],
+                "col": {
+                    "OP_CARRIER_FL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_SEQ_ID": [
+                        "TD_AS"
+                    ],
+                    "DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ARR_DELAY_NEW": [
+                        "RI_LD"
+                    ],
+                    "ACTUAL_ELAPSED_TIME": [
+                        "RI_AC"
+                    ],
+                    "WEATHER_DELAY": [
+                        "EF_ND"
+                    ],
+                    "FL_DATE": [],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "TAIL_NUM": [],
+                    "ORIGIN_AIRPORT_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "CRS_DEP_TIME": [],
+                    "DEP_DELAY": [],
+                    "ARR_TIME": [],
+                    "ARR_DELAY": [],
+                    "CANCELLED": [],
+                    "CRS_ELAPSED_TIME": []
+                }
+            },
+            "38": {
+                "row": [],
+                "col": {
+                    "FL_DATE": [
+                        "TA_FC"
+                    ],
+                    "TAIL_NUM": [
+                        "EF_HC"
+                    ],
+                    "ORIGIN_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "DEST_AIRPORT_ID": [
+                        "TD_AS"
+                    ],
+                    "CRS_DEP_TIME": [
+                        "RI_TC"
+                    ],
+                    "DEP_DELAY": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "ARR_TIME": [
+                        "RI_TC"
+                    ],
+                    "ARR_DELAY": [
+                        "RI_AC"
+                    ],
+                    "CANCELLED": [
+                        "TA_EM"
+                    ],
+                    "OP_CARRIER_AIRLINE_ID": [],
+                    "OP_CARRIER_FL_NUM": [],
+                    "ORIGIN_AIRPORT_SEQ_ID": [],
+                    "ORIGIN_CITY_MARKET_ID": [],
+                    "ORIGIN": [],
+                    "DEST_AIRPORT_SEQ_ID": [],
+                    "DEST_CITY_MARKET_ID": [],
+                    "DEST": [],
+                    "DEP_TIME": [],
+                    "DEP_DELAY_NEW": [],
+                    "ARR_DELAY_NEW": [],
+                    "CRS_ELAPSED_TIME": [],
+                    "ACTUAL_ELAPSED_TIME": []
+                }
+            }
+        },
+        "Airports": {
+            "SGU": {
+                "Description": [
+                    "TD_DF",
+                    "EF_HC"
+                ]
+            },
+            "NCP": {
+                "Description": [
+                    "TD_AS",
+                    "TA_FC"
+                ]
+            },
+            "LMA": {
+                "Description": [
+                    "TA_FC",
+                    "TD_DF"
+                ]
+            },
+            "ILL": {
+                "Description": [
+                    "EF_HC",
+                    "TD_AS"
+                ]
+            },
+            "ROP": {
+                "Description": [
+                    "TD_DF",
+                    "RI_LD"
+                ]
+            },
+            "EGS": {
+                "Description": [
+                    "EF_HC",
+                    "TD_DF"
+                ]
+            },
+            "ARI": {
+                "Description": [
+                    "TA_FC",
+                    "TD_AS"
+                ]
+            },
+            "YRQ": {
+                "Description": [
+                    "TD_DF",
+                    "TA_FC"
+                ]
+            },
+            "BHS": {
+                "Description": [
+                    "EF_HC",
+                    "RI_LD"
+                ]
+            },
+            "BTJ": {
+                "Description": [
+                    "TA_FC",
+                    "TD_AS"
+                ]
+            },
+            "LNK": {
+                "Description": [
+                    "TD_DF",
+                    "EF_HC"
+                ]
+            },
+            "HDB": {
+                "Description": []
+            },
+            "APO": {
+                "Description": []
+            },
+            "WQE": {
+                "Description": []
+            },
+            "POM": {
+                "Description": []
+            },
+            "CGI": {
+                "Description": []
+            },
+            "BHJ": {
+                "Description": []
+            },
+            "PZA": {
+                "Description": []
+            },
+            "SSJ": {
+                "Description": []
+            },
+            "SNF": {
+                "Description": []
+            },
+            "LAF": {
+                "Description": []
+            },
+            "VIT": {
+                "Description": []
+            },
+            "BDH": {
+                "Description": []
+            },
+            "TLT": {
+                "Description": []
+            },
+            "FUN": {
+                "Description": []
+            },
+            "IFP": {
+                "Description": []
+            },
+            "GA2": {
+                "Description": []
+            },
+            "HRB": {
+                "Description": []
+            },
+            "N1Y": {
+                "Description": []
+            },
+            "SVN": {
+                "Description": []
+            },
+            "LBQ": {
+                "Description": []
+            },
+            "DAU": {
+                "Description": []
+            },
+            "LFK": {
+                "Description": []
+            },
+            "KUL": {
+                "Description": []
+            },
+            "FCH": {
+                "Description": []
+            },
+            "TRM": {
+                "Description": []
+            },
+            "HFF": {
+                "Description": []
+            },
+            "VEL": {
+                "Description": []
+            },
+            "UDI": {
+                "Description": []
+            },
+            "TCA": {
+                "Description": []
+            },
+            "BE1": {
+                "Description": []
+            },
+            "SJO": {
+                "Description": []
+            },
+            "SVC": {
+                "Description": []
+            },
+            "DKR": {
+                "Description": []
+            },
+            "PNO": {
+                "Description": []
+            },
+            "WQA": {
+                "Description": []
+            },
+            "GLH": {
+                "Description": []
+            },
+            "DBM": {
+                "Description": []
+            },
+            "NEU": {
+                "Description": []
+            },
+            "LMT": {
+                "Description": []
+            },
+            "AEX": {
+                "Description": []
+            },
+            "ATL": {
+                "Description": []
+            },
+            "AUS": {
+                "Description": []
+            },
+            "BDL": {
+                "Description": []
+            },
+            "BTV": {
+                "Description": []
+            },
+            "BWI": {
+                "Description": []
+            },
+            "CAE": {
+                "Description": []
+            },
+            "CLT": {
+                "Description": []
+            },
+            "DAB": {
+                "Description": []
+            },
+            "DCA": {
+                "Description": []
+            },
+            "DEN": {
+                "Description": []
+            },
+            "DFW": {
+                "Description": []
+            },
+            "ELM": {
+                "Description": []
+            },
+            "EWR": {
+                "Description": []
+            },
+            "GGG": {
+                "Description": []
+            },
+            "GSO": {
+                "Description": []
+            },
+            "HSV": {
+                "Description": []
+            },
+            "ISP": {
+                "Description": []
+            },
+            "JFK": {
+                "Description": []
+            },
+            "LAS": {
+                "Description": []
+            },
+            "LGA": {
+                "Description": []
+            },
+            "MCO": {
+                "Description": []
+            },
+            "MHT": {
+                "Description": []
+            },
+            "MKE": {
+                "Description": []
+            },
+            "MQT": {
+                "Description": []
+            },
+            "ORD": {
+                "Description": []
+            },
+            "ORF": {
+                "Description": []
+            },
+            "PBI": {
+                "Description": []
+            },
+            "PHX": {
+                "Description": []
+            },
+            "PIE": {
+                "Description": []
+            },
+            "SAN": {
+                "Description": []
+            },
+            "SEA": {
+                "Description": []
+            },
+            "SFO": {
+                "Description": []
+            },
+            "SJC": {
+                "Description": []
+            },
+            "SMF": {
+                "Description": []
+            },
+            "TPA": {
+                "Description": []
+            },
+            "VLD": {
+                "Description": []
+            },
+            "ATW": {
+                "Description": []
+            },
+            "BUF": {
+                "Description": []
+            },
+            "BUR": {
+                "Description": []
+            },
+            "DAL": {
+                "Description": []
+            },
+            "GEG": {
+                "Description": []
+            },
+            "IAD": {
+                "Description": []
+            },
+            "LAX": {
+                "Description": []
+            },
+            "MCI": {
+                "Description": []
+            },
+            "MDT": {
+                "Description": []
+            },
+            "MSP": {
+                "Description": []
+            },
+            "ONT": {
+                "Description": []
+            },
+            "PHL": {
+                "Description": []
+            },
+            "PVD": {
+                "Description": []
+            },
+            "RDM": {
+                "Description": []
+            },
+            "RNO": {
+                "Description": []
+            },
+            "SLC": {
+                "Description": []
+            },
+            "SRQ": {
+                "Description": []
+            },
+            "TOL": {
+                "Description": []
+            },
+            "TXK": {
+                "Description": []
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/airline/tables"
+}

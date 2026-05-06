@@ -1,0 +1,302 @@
+[
+{
+"id": 566,
+"year": 2002,
+"round": "CSF",
+"series": "M",
+"tmIDWinner": "DET",
+"tmIDLoser": "PHI",
+"W": 4,
+"L": 2
+},
+{
+"id": 168,
+"year": 1971,
+"round": "CSF",
+"series": "M",
+"tmIDWinner": "MIL",
+"tmIDLoser": "GSW",
+"W": 4,
+"L": 1
+},
+{
+"id": 207,
+"year": 1976,
+"round": "CF",
+"series": "N",
+"tmIDWinner": "POR",
+"tmIDLoser": "LAL",
+"W": 4,
+"L": 0
+},
+{
+"id": 472,
+"year": 1996,
+"round": "CFR",
+"series": "L",
+"tmIDWinner": "NYK",
+"tmIDLoser": "CHH",
+"W": 3,
+"L": 0
+},
+{
+"id": 369,
+"year": 1989,
+"round": "CFR",
+"series": "L",
+"tmIDWinner": "PHI",
+"tmIDLoser": "CLE",
+"W": 3,
+"L": 2
+},
+{
+"id": 564,
+"year": 2002,
+"round": "CFR",
+"series": "L",
+"tmIDWinner": "DET",
+"tmIDLoser": "ORL",
+"W": 4,
+"L": 3
+},
+{
+"id": 437,
+"year": 1993,
+"round": "CFR",
+"series": "L",
+"tmIDWinner": "DEN",
+"tmIDLoser": "SEA",
+"W": 3,
+"L": 2
+},
+{
+"id": 165,
+"year": 1971,
+"round": "F",
+"series": "O",
+"tmIDWinner": "LAL",
+"tmIDLoser": "NYK",
+"W": 4,
+"L": 1
+},
+{
+"id": 562,
+"year": 2002,
+"round": "CFR",
+"series": "L",
+"tmIDWinner": "NJN",
+"tmIDLoser": "MIL",
+"W": 4,
+"L": 2
+},
+{
+"id": 135,
+"year": 1967,
+"round": "DSF",
+"series": "J",
+"tmIDWinner": "BOS",
+"tmIDLoser": "DET",
+"W": 4,
+"L": 2
+},
+{
+"id": 229,
+"year": 1978,
+"round": "CF",
+"series": "N",
+"tmIDWinner": "SEA",
+"tmIDLoser": "PHO",
+"W": 4,
+"L": 3
+},
+{
+"id": 378,
+"year": 1989,
+"round": "CSF",
+"series": "M",
+"tmIDWinner": "PHO",
+"tmIDLoser": "LAL",
+"W": 4,
+"L": 1
+},
+{
+"id": 412,
+"year": 1992,
+"round": "CFR",
+"series": "L",
+"tmIDWinner": "CHH",
+"tmIDLoser": "BOS",
+"W": 3,
+"L": 1
+},
+{
+"id": 156,
+"year": 1970,
+"round": "CSF",
+"series": "M",
+"tmIDWinner": "NYK",
+"tmIDLoser": "ATL",
+"W": 4,
+"L": 1
+},
+{
+"id": 117,
+"year": 1964,
+"round": "DF",
+"series": "K",
+"tmIDWinner": "BOS",
+"tmIDLoser": "PHI",
+"W": 4,
+"L": 3
+},
+{
+"id": 657,
+"year": 2008,
+"round": "F",
+"series": "O",
+"tmIDWinner": "LAL",
+"tmIDLoser": "ORL",
+"W": 4,
+"L": 1
+},
+{
+"id": 242,
+"year": 1979,
+"round": "CFR",
+"series": "L",
+"tmIDWinner": "SEA",
+"tmIDLoser": "POR",
+"W": 2,
+"L": 1
+},
+{
+"id": 243,
+"year": 1979,
+"round": "CSF",
+"series": "M",
+"tmIDWinner": "LAL",
+"tmIDLoser": "PHO",
+"W": 4,
+"L": 1
+},
+{
+"id": 650,
+"year": 2008,
+"round": "CF",
+"series": "N",
+"tmIDWinner": "ORL",
+"tmIDLoser": "CLE",
+"W": 4,
+"L": 2
+},
+{
+"id": 656,
+"year": 2008,
+"round": "CSF",
+"series": "M",
+"tmIDWinner": "ORL",
+"tmIDLoser": "BOS",
+"W": 4,
+"L": 3
+},
+{
+"id": 408,
+"year": 1991,
+"round": "CSF",
+"series": "M",
+"tmIDWinner": "POR",
+"tmIDLoser": "PHO",
+"W": 4,
+"L": 1
+},
+{
+"id": 264,
+"year": 1981,
+"round": "CSF",
+"series": "M",
+"tmIDWinner": "LAL",
+"tmIDLoser": "PHO",
+"W": 4,
+"L": 0
+},
+{
+"id": 425,
+"year": 1993,
+"round": "CF",
+"series": "N",
+"tmIDWinner": "NYK",
+"tmIDLoser": "IND",
+"W": 4,
+"L": 3
+},
+{
+"id": 166,
+"year": 1971,
+"round": "CF",
+"series": "N",
+"tmIDWinner": "LAL",
+"tmIDLoser": "MIL",
+"W": 4,
+"L": 2
+},
+{
+"id": 396,
+"year": 1991,
+"round": "CFR",
+"series": "L",
+"tmIDWinner": "BOS",
+"tmIDLoser": "IND",
+"W": 3,
+"L": 0
+},
+{
+"id": 230,
+"year": 1978,
+"round": "CFR",
+"series": "L",
+"tmIDWinner": "LAL",
+"tmIDLoser": "DEN",
+"W": 2,
+"L": 1
+},
+{
+"id": 684,
+"year": 2010,
+"round": "CFR",
+"series": "L",
+"tmIDWinner": "ATL",
+"tmIDLoser": "ORL",
+"W": 4,
+"L": 2
+},
+{
+"id": 136,
+"year": 1967,
+"round": "DSF",
+"series": "J",
+"tmIDWinner": "PHI",
+"tmIDLoser": "NYK",
+"W": 4,
+"L": 2
+},
+{
+"id": 368,
+"year": 1989,
+"round": "CFR",
+"series": "L",
+"tmIDWinner": "NYK",
+"tmIDLoser": "BOS",
+"W": 3,
+"L": 2
+},
+{
+"id": 206,
+"year": 1976,
+"round": "F",
+"series": "O",
+"tmIDWinner": "POR",
+"tmIDLoser": "PHI",
+"W": 4,
+"L": 2
+}
+]

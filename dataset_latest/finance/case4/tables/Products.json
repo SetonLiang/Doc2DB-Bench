@@ -1,0 +1,1609 @@
+{
+  "rows": [
+    {
+      "ProductID": 135,
+      "Name": "Lock Nut 14",
+      "Price": 547.2
+    },
+    {
+      "ProductID": 383,
+      "Name": "Fender Set - Mountain",
+      "Price": 21.98
+    },
+    {
+      "ProductID": 300,
+      "Name": "Road-250 Black, 52",
+      "Price": 2443.35
+    },
+    {
+      "ProductID": 220,
+      "Name": "Long-Sleeve Logo Jersey, L",
+      "Price": 49.99
+    },
+    {
+      "ProductID": 460,
+      "Name": "Touring-1000 Yellow, 50",
+      "Price": 2384.07
+    },
+    {
+      "ProductID": 299,
+      "Name": "Road-250 Black, 48",
+      "Price": 2443.35
+    },
+    {
+      "ProductID": 205,
+      "Name": "Seat Stays",
+      "Price": 851.2
+    },
+    {
+      "ProductID": 186,
+      "Name": "Touring Rim",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 113,
+      "Name": "Thin-Jam Lock Nut 7",
+      "Price": 520.8
+    },
+    {
+      "ProductID": 71,
+      "Name": "Hex Nut 3",
+      "Price": 156.8
+    },
+    {
+      "ProductID": 261,
+      "Name": "Road-450 Red, 44",
+      "Price": 1457.99
+    },
+    {
+      "ProductID": 253,
+      "Name": "HL Mountain Frame - Silver, 38",
+      "Price": 1364.5
+    },
+    {
+      "ProductID": 47,
+      "Name": "Thin-Jam Hex Nut 4",
+      "Price": 441.6
+    },
+    {
+      "ProductID": 387,
+      "Name": "Short-Sleeve Classic Jersey, M",
+      "Price": 53.99
+    },
+    {
+      "ProductID": 25,
+      "Name": "Flat Washer 9",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 441,
+      "Name": "ML Mountain Pedal",
+      "Price": 62.09
+    },
+    {
+      "ProductID": 57,
+      "Name": "Hex Nut 17",
+      "Price": 151.2
+    },
+    {
+      "ProductID": 79,
+      "Name": "LL Hub",
+      "Price": 640.0
+    },
+    {
+      "ProductID": 322,
+      "Name": "HL Mountain Front Wheel",
+      "Price": 300.215
+    },
+    {
+      "ProductID": 82,
+      "Name": "External Lock Washer 3",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 406,
+      "Name": "LL Touring Frame - Yellow, 54",
+      "Price": 333.42
+    },
+    {
+      "ProductID": 349,
+      "Name": "Minipump",
+      "Price": 19.99
+    },
+    {
+      "ProductID": 217,
+      "Name": "AWC Logo Cap",
+      "Price": 8.99
+    },
+    {
+      "ProductID": 306,
+      "Name": "Road-550-W Yellow, 48",
+      "Price": 1120.49
+    },
+    {
+      "ProductID": 33,
+      "Name": "Front Derailleur Linkage",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 198,
+      "Name": "LL Shell",
+      "Price": 630.0
+    },
+    {
+      "ProductID": 196,
+      "Name": "LL Spindle/Axle",
+      "Price": 418.4
+    },
+    {
+      "ProductID": 481,
+      "Name": "Road-350-W Yellow, 48",
+      "Price": 1700.99
+    },
+    {
+      "ProductID": 240,
+      "Name": "ML Road Frame - Red, 60",
+      "Price": 594.83
+    },
+    {
+      "ProductID": 271,
+      "Name": "Road-650 Black, 60",
+      "Price": 782.99
+    },
+    {
+      "ProductID": 129,
+      "Name": "Lock Nut 10",
+      "Price": 540.0
+    },
+    {
+      "ProductID": 284,
+      "Name": "Mountain-200 Silver, 38",
+      "Price": 2319.99
+    },
+    {
+      "ProductID": 489,
+      "Name": "Mountain-500 Silver, 40",
+      "Price": 564.99
+    },
+    {
+      "ProductID": 6,
+      "Name": "LL Crankarm",
+      "Price": 380.4
+    },
+    {
+      "ProductID": 483,
+      "Name": "Touring-3000 Blue, 44",
+      "Price": 742.35
+    },
+    {
+      "ProductID": 370,
+      "Name": "Classic Vest, M",
+      "Price": 63.5
+    },
+    {
+      "ProductID": 59,
+      "Name": "Hex Nut 8",
+      "Price": 152.0
+    },
+    {
+      "ProductID": 350,
+      "Name": "Mountain Pump",
+      "Price": 24.99
+    },
+    {
+      "ProductID": 454,
+      "Name": "LL Crankset",
+      "Price": 175.49
+    },
+    {
+      "ProductID": 275,
+      "Name": "Road-650 Black, 52",
+      "Price": 782.99
+    },
+    {
+      "ProductID": 385,
+      "Name": "Hydration Pack - 70 oz.",
+      "Price": 54.99
+    },
+    {
+      "ProductID": 137,
+      "Name": "Lock Nut 4",
+      "Price": 183.2
+    },
+    {
+      "ProductID": 394,
+      "Name": "HL Touring Frame - Yellow, 54",
+      "Price": 1003.91
+    },
+    {
+      "ProductID": 329,
+      "Name": "ML Mountain Rear Wheel",
+      "Price": 236.025
+    },
+    {
+      "ProductID": 175,
+      "Name": "Paint - Yellow",
+      "Price": 297.6
+    },
+    {
+      "ProductID": 58,
+      "Name": "Hex Nut 7",
+      "Price": 151.6
+    },
+    {
+      "ProductID": 151,
+      "Name": "Lock Washer 2",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 223,
+      "Name": "HL Road Frame - Red, 44",
+      "Price": 1431.5
+    },
+    {
+      "ProductID": 81,
+      "Name": "Keyed Washer",
+      "Price": 723.6
+    },
+    {
+      "ProductID": 233,
+      "Name": "LL Road Frame - Red, 58",
+      "Price": 337.22
+    },
+    {
+      "ProductID": 2,
+      "Name": "Bearing Ball",
+      "Price": 0.8
+    },
+    {
+      "ProductID": 469,
+      "Name": "Touring-3000 Yellow, 58",
+      "Price": 742.35
+    },
+    {
+      "ProductID": 449,
+      "Name": "LL Mountain Frame - Silver, 40",
+      "Price": 264.05
+    },
+    {
+      "ProductID": 369,
+      "Name": "Classic Vest, S",
+      "Price": 63.5
+    },
+    {
+      "ProductID": 504,
+      "Name": "Road-750 Black, 52",
+      "Price": 539.99
+    },
+    {
+      "ProductID": 257,
+      "Name": "Road-150 Red, 52",
+      "Price": 3578.27
+    },
+    {
+      "ProductID": 391,
+      "Name": "LL Touring Frame - Yellow, 62",
+      "Price": 333.42
+    },
+    {
+      "ProductID": 92,
+      "Name": "Internal Lock Washer 4",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 260,
+      "Name": "Road-450 Red, 60",
+      "Price": 1457.99
+    },
+    {
+      "ProductID": 55,
+      "Name": "Hex Nut 6",
+      "Price": 225.6
+    },
+    {
+      "ProductID": 321,
+      "Name": "ML Mountain Front Wheel",
+      "Price": 209.025
+    },
+    {
+      "ProductID": 153,
+      "Name": "Lock Washer 3",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 431,
+      "Name": "LL Mountain Frame - Black, 48",
+      "Price": 249.79
+    },
+    {
+      "ProductID": 328,
+      "Name": "LL Mountain Rear Wheel",
+      "Price": 87.745
+    },
+    {
+      "ProductID": 446,
+      "Name": "Touring Pedal",
+      "Price": 80.99
+    },
+    {
+      "ProductID": 312,
+      "Name": "HL Headset",
+      "Price": 124.73
+    },
+    {
+      "ProductID": 102,
+      "Name": "Thin-Jam Lock Nut 10",
+      "Price": 169.2
+    },
+    {
+      "ProductID": 487,
+      "Name": "Mountain-400-W Silver, 42",
+      "Price": 769.49
+    },
+    {
+      "ProductID": 192,
+      "Name": "HL Road Seat Assembly",
+      "Price": 196.92
+    },
+    {
+      "ProductID": 448,
+      "Name": "LL Mountain Frame - Black, 40",
+      "Price": 249.79
+    },
+    {
+      "ProductID": 83,
+      "Name": "External Lock Washer 4",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 277,
+      "Name": "Mountain-100 Silver, 42",
+      "Price": 3399.99
+    },
+    {
+      "ProductID": 399,
+      "Name": "Rear Derailleur",
+      "Price": 121.46
+    },
+    {
+      "ProductID": 272,
+      "Name": "Road-650 Black, 62",
+      "Price": 782.99
+    },
+    {
+      "ProductID": 1,
+      "Name": "Adjustable Race",
+      "Price": 1.6
+    },
+    {
+      "ProductID": 307,
+      "Name": "LL Fork",
+      "Price": 148.22
+    },
+    {
+      "ProductID": 166,
+      "Name": "Metal Sheet 6",
+      "Price": 389.6
+    },
+    {
+      "ProductID": 251,
+      "Name": "HL Mountain Frame - Black, 46",
+      "Price": 1349.6
+    },
+    {
+      "ProductID": 10,
+      "Name": "Chainring Nut",
+      "Price": 192.6
+    },
+    {
+      "ProductID": 459,
+      "Name": "Touring-1000 Yellow, 46",
+      "Price": 2384.07
+    },
+    {
+      "ProductID": 497,
+      "Name": "Mountain-500 Black, 48",
+      "Price": 539.99
+    },
+    {
+      "ProductID": 414,
+      "Name": "ML Mountain Seat/Saddle",
+      "Price": 39.14
+    },
+    {
+      "ProductID": 158,
+      "Name": "Metal Plate 2",
+      "Price": 574.8
+    },
+    {
+      "ProductID": 123,
+      "Name": "Lock Nut 9",
+      "Price": 177.6
+    },
+    {
+      "ProductID": 30,
+      "Name": "Flat Washer 7",
+      "Price": 418.8
+    },
+    {
+      "ProductID": 124,
+      "Name": "Lock Nut 22",
+      "Price": 89.0
+    },
+    {
+      "ProductID": 291,
+      "Name": "Mountain-300 Black, 40",
+      "Price": 1079.99
+    },
+    {
+      "ProductID": 41,
+      "Name": "Thin-Jam Hex Nut 2",
+      "Price": 144.8
+    },
+    {
+      "ProductID": 44,
+      "Name": "Thin-Jam Hex Nut 5",
+      "Price": 73.0
+    },
+    {
+      "ProductID": 375,
+      "Name": "Water Bottle - 30 oz.",
+      "Price": 4.99
+    },
+    {
+      "ProductID": 249,
+      "Name": "HL Mountain Frame - Black, 44",
+      "Price": 1349.6
+    },
+    {
+      "ProductID": 36,
+      "Name": "ML Grip Tape",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 390,
+      "Name": "HL Touring Frame - Yellow, 60",
+      "Price": 1003.91
+    },
+    {
+      "ProductID": 273,
+      "Name": "Road-650 Black, 44",
+      "Price": 782.99
+    },
+    {
+      "ProductID": 393,
+      "Name": "HL Touring Frame - Yellow, 50",
+      "Price": 1003.91
+    },
+    {
+      "ProductID": 65,
+      "Name": "Hex Nut 1",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 66,
+      "Name": "Hex Nut 10",
+      "Price": 464.4
+    },
+    {
+      "ProductID": 338,
+      "Name": "ML Road Frame-W - Yellow, 40",
+      "Price": 594.83
+    },
+    {
+      "ProductID": 244,
+      "Name": "HL Mountain Frame - Silver, 42",
+      "Price": 1364.5
+    },
+    {
+      "ProductID": 282,
+      "Name": "Mountain-100 Black, 44",
+      "Price": 3374.99
+    },
+    {
+      "ProductID": 9,
+      "Name": "Chainring Bolts",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 27,
+      "Name": "Flat Washer 3",
+      "Price": 415.2
+    },
+    {
+      "ProductID": 28,
+      "Name": "Flat Washer 8",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 38,
+      "Name": "Thin-Jam Hex Nut 9",
+      "Price": 71.8
+    },
+    {
+      "ProductID": 43,
+      "Name": "Thin-Jam Hex Nut 16",
+      "Price": 72.8
+    },
+    {
+      "ProductID": 63,
+      "Name": "Hex Nut 12",
+      "Price": 76.8
+    },
+    {
+      "ProductID": 74,
+      "Name": "Hex Nut 4",
+      "Price": 158.0
+    },
+    {
+      "ProductID": 75,
+      "Name": "Hex Nut 18",
+      "Price": 475.2
+    },
+    {
+      "ProductID": 80,
+      "Name": "HL Hub",
+      "Price": 721.8
+    },
+    {
+      "ProductID": 85,
+      "Name": "External Lock Washer 5",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 86,
+      "Name": "External Lock Washer 7",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 88,
+      "Name": "External Lock Washer 1",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 91,
+      "Name": "Internal Lock Washer 3",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 107,
+      "Name": "Thin-Jam Lock Nut 5",
+      "Price": 85.6
+    },
+    {
+      "ProductID": 110,
+      "Name": "Thin-Jam Lock Nut 4",
+      "Price": 517.2
+    },
+    {
+      "ProductID": 121,
+      "Name": "Lock Nut 7",
+      "Price": 176.8
+    },
+    {
+      "ProductID": 122,
+      "Name": "Lock Nut 8",
+      "Price": 177.2
+    },
+    {
+      "ProductID": 133,
+      "Name": "Lock Nut 21",
+      "Price": 90.8
+    },
+    {
+      "ProductID": 148,
+      "Name": "Lock Washer 1",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 149,
+      "Name": "Lock Washer 7",
+      "Price": 564.0
+    },
+    {
+      "ProductID": 155,
+      "Name": "Metal Angle",
+      "Price": 666.4
+    },
+    {
+      "ProductID": 156,
+      "Name": "Metal Bar 1",
+      "Price": 190.8
+    },
+    {
+      "ProductID": 167,
+      "Name": "Metal Sheet 1",
+      "Price": 585.6
+    },
+    {
+      "ProductID": 179,
+      "Name": "Reflector",
+      "Price": 910.8
+    },
+    {
+      "ProductID": 183,
+      "Name": "LL Road Rim",
+      "Price": 306.0
+    },
+    {
+      "ProductID": 185,
+      "Name": "HL Road Rim",
+      "Price": 0.0
+    },
+    {
+      "ProductID": 188,
+      "Name": "ML Mountain Seat Assembly",
+      "Price": 147.14
+    },
+    {
+      "ProductID": 201,
+      "Name": "Seat Lug",
+      "Price": 316.8
+    },
+    {
+      "ProductID": 215,
+      "Name": "Mountain Bike Socks, L",
+      "Price": 9.5
+    },
+    {
+      "ProductID": 219,
+      "Name": "Long-Sleeve Logo Jersey, M",
+      "Price": 49.99
+    },
+    {
+      "ProductID": 225,
+      "Name": "HL Road Frame - Red, 52",
+      "Price": 1431.5
+    },
+    {
+      "ProductID": 229,
+      "Name": "LL Road Frame - Black, 62",
+      "Price": 337.22
+    },
+    {
+      "ProductID": 231,
+      "Name": "LL Road Frame - Red, 48",
+      "Price": 337.22
+    },
+    {
+      "ProductID": 235,
+      "Name": "LL Road Frame - Red, 62",
+      "Price": 337.22
+    },
+    {
+      "ProductID": 236,
+      "Name": "ML Road Frame - Red, 44",
+      "Price": 594.83
+    },
+    {
+      "ProductID": 246,
+      "Name": "HL Mountain Frame - Silver, 48",
+      "Price": 1364.5
+    },
+    {
+      "ProductID": 252,
+      "Name": "HL Mountain Frame - Black, 38",
+      "Price": 1349.6
+    },
+    {
+      "ProductID": 259,
+      "Name": "Road-450 Red, 58",
+      "Price": 1457.99
+    },
+    {
+      "ProductID": 264,
+      "Name": "Road-650 Red, 58",
+      "Price": 782.99
+    },
+    {
+      "ProductID": 266,
+      "Name": "Road-650 Red, 62",
+      "Price": 782.99
+    },
+    {
+      "ProductID": 276,
+      "Name": "Mountain-100 Silver, 38",
+      "Price": 3399.99
+    },
+    {
+      "ProductID": 278,
+      "Name": "Mountain-100 Silver, 44",
+      "Price": 3399.99
+    },
+    {
+      "ProductID": 293,
+      "Name": "Mountain-300 Black, 48",
+      "Price": 1079.99
+    },
+    {
+      "ProductID": 294,
+      "Name": "Road-250 Red, 44",
+      "Price": 2443.35
+    },
+    {
+      "ProductID": 297,
+      "Name": "Road-250 Red, 58",
+      "Price": 2443.35
+    },
+    {
+      "ProductID": 341,
+      "Name": "ML Road Frame-W - Yellow, 48",
+      "Price": 594.83
+    },
+    {
+      "ProductID": 343,
+      "Name": "HL Road Frame - Black, 44",
+      "Price": 1431.5
+    },
+    {
+      "ProductID": 353,
+      "Name": "Headlights - Weatherproof",
+      "Price": 44.99
+    },
+    {
+      "ProductID": 356,
+      "Name": "Men's Sports Shorts, XL",
+      "Price": 59.99
+    },
+    {
+      "ProductID": 357,
+      "Name": "Women's Tights, S",
+      "Price": 74.99
+    },
+    {
+      "ProductID": 360,
+      "Name": "Men's Bib-Shorts, S",
+      "Price": 89.99
+    },
+    {
+      "ProductID": 365,
+      "Name": "Half-Finger Gloves, L",
+      "Price": 24.49
+    },
+    {
+      "ProductID": 376,
+      "Name": "Mountain Bottle Cage",
+      "Price": 9.99
+    },
+    {
+      "ProductID": 382,
+      "Name": "Bike Wash - Dissolver",
+      "Price": 7.95
+    },
+    {
+      "ProductID": 386,
+      "Name": "Short-Sleeve Classic Jersey, S",
+      "Price": 53.99
+    },
+    {
+      "ProductID": 392,
+      "Name": "HL Touring Frame - Yellow, 46",
+      "Price": 1003.91
+    },
+    {
+      "ProductID": 404,
+      "Name": "LL Touring Frame - Yellow, 44",
+      "Price": 333.42
+    },
+    {
+      "ProductID": 421,
+      "Name": "HL Touring Seat/Saddle",
+      "Price": 52.64
+    },
+    {
+      "ProductID": 440,
+      "Name": "LL Mountain Pedal",
+      "Price": 40.49
+    },
+    {
+      "ProductID": 452,
+      "Name": "HL Touring Handlebars",
+      "Price": 91.57
+    },
+    {
+      "ProductID": 453,
+      "Name": "Front Brakes",
+      "Price": 106.5
+    },
+    {
+      "ProductID": 463,
+      "Name": "Touring-3000 Blue, 54",
+      "Price": 742.35
+    },
+    {
+      "ProductID": 464,
+      "Name": "Touring-3000 Blue, 58",
+      "Price": 742.35
+    },
+    {
+      "ProductID": 479,
+      "Name": "Road-350-W Yellow, 42",
+      "Price": 1700.99
+    },
+    {
+      "ProductID": 486,
+      "Name": "Mountain-400-W Silver, 40",
+      "Price": 769.49
+    },
+    {
+      "ProductID": 502,
+      "Name": "Road-750 Black, 44",
+      "Price": 539.99
+    },
+    {
+      "ProductID": 503,
+      "Name": "Road-750 Black, 48",
+      "Price": 539.99
+    }
+  ],
+  "capability_assignments": {
+    "1": {
+      "Price": [
+        "TA_US"
+      ],
+      "Name": []
+    },
+    "2": {
+      "Price": [
+        "RI_AC"
+      ],
+      "Name": []
+    },
+    "6": {
+      "Price": [
+        "TA_US"
+      ],
+      "Name": []
+    },
+    "9": {
+      "Price": [
+        "EF_ND"
+      ],
+      "Name": []
+    },
+    "25": {
+      "Price": [
+        "RI_LD"
+      ],
+      "Name": []
+    },
+    "59": {
+      "Price": [
+        "TA_US"
+      ],
+      "Name": []
+    },
+    "71": {
+      "Price": [
+        "RI_AC"
+      ],
+      "Name": []
+    },
+    "83": {
+      "Price": [
+        "EF_ND"
+      ],
+      "Name": []
+    },
+    "113": {
+      "Name": [
+        "TD_DF"
+      ],
+      "Price": []
+    },
+    "135": {
+      "Price": [
+        "TA_US"
+      ],
+      "Name": []
+    },
+    "186": {
+      "Price": [
+        "RI_LD"
+      ],
+      "Name": []
+    },
+    "192": {
+      "Name": [
+        "TA_EM"
+      ],
+      "Price": []
+    },
+    "196": {
+      "Price": [
+        "RI_AC"
+      ],
+      "Name": []
+    },
+    "220": {
+      "Name": [
+        "TA_EM"
+      ],
+      "Price": []
+    },
+    "223": {
+      "Name": [
+        "TA_EM"
+      ],
+      "Price": [
+        "TD_DF"
+      ]
+    },
+    "233": {
+      "Price": [
+        "TA_US"
+      ],
+      "Name": []
+    },
+    "240": {
+      "Name": [
+        "RI_LD"
+      ],
+      "Price": []
+    },
+    "251": {
+      "Name": [
+        "TA_EM"
+      ],
+      "Price": [
+        "TA_FC"
+      ]
+    },
+    "257": {
+      "Price": [
+        "RI_MI"
+      ],
+      "Name": []
+    },
+    "271": {
+      "Name": [
+        "TD_DF"
+      ],
+      "Price": []
+    },
+    "275": {
+      "Price": [
+        "RI_LD"
+      ],
+      "Name": []
+    },
+    "284": {
+      "Price": [
+        "TA_FC",
+        "TD_DF"
+      ],
+      "Name": []
+    },
+    "299": {
+      "Name": [
+        "TA_EM"
+      ],
+      "Price": []
+    },
+    "300": {
+      "Price": [
+        "TA_US"
+      ],
+      "Name": []
+    },
+    "306": {
+      "Price": [
+        "RI_AC"
+      ],
+      "Name": []
+    },
+    "322": {
+      "Price": [
+        "RI_AC"
+      ],
+      "Name": []
+    },
+    "349": {
+      "Name": [
+        "TD_DF"
+      ],
+      "Price": []
+    },
+    "350": {
+      "Price": [
+        "TA_US"
+      ],
+      "Name": []
+    },
+    "369": {
+      "Name": [
+        "TA_EM",
+        "TD_DF"
+      ],
+      "Price": []
+    },
+    "370": {
+      "Price": [
+        "RI_LD"
+      ],
+      "Name": []
+    },
+    "375": {
+      "Price": [
+        "TD_DF"
+      ],
+      "Name": []
+    },
+    "383": {
+      "Name": [
+        "TA_EM"
+      ],
+      "Price": []
+    },
+    "385": {
+      "Name": [
+        "TA_FC"
+      ],
+      "Price": []
+    },
+    "387": {
+      "Price": [
+        "TD_DF"
+      ],
+      "Name": []
+    },
+    "394": {
+      "Price": [
+        "RI_AC"
+      ],
+      "Name": []
+    },
+    "406": {
+      "Name": [
+        "RI_LD"
+      ],
+      "Price": []
+    },
+    "441": {
+      "Name": [
+        "TD_DF"
+      ],
+      "Price": []
+    },
+    "449": {
+      "Price": [
+        "TA_US"
+      ],
+      "Name": []
+    },
+    "454": {
+      "Price": [
+        "RI_AC"
+      ],
+      "Name": []
+    },
+    "460": {
+      "Price": [
+        "RI_MI"
+      ],
+      "Name": []
+    },
+    "469": {
+      "Name": [
+        "TA_EM"
+      ],
+      "Price": []
+    },
+    "481": {
+      "Price": [
+        "RI_MI"
+      ],
+      "Name": []
+    },
+    "483": {
+      "Name": [
+        "TD_DF"
+      ],
+      "Price": []
+    },
+    "487": {
+      "Name": [
+        "TA_EM"
+      ],
+      "Price": [
+        "TD_DF"
+      ]
+    },
+    "497": {
+      "Price": [
+        "RI_AC"
+      ],
+      "Name": []
+    },
+    "504": {
+      "Price": [
+        "TA_FC"
+      ],
+      "Name": []
+    },
+    "205": {
+      "Name": [],
+      "Price": []
+    },
+    "261": {
+      "Name": [],
+      "Price": []
+    },
+    "253": {
+      "Name": [],
+      "Price": []
+    },
+    "47": {
+      "Name": [],
+      "Price": []
+    },
+    "57": {
+      "Name": [],
+      "Price": []
+    },
+    "79": {
+      "Name": [],
+      "Price": []
+    },
+    "82": {
+      "Name": [],
+      "Price": []
+    },
+    "217": {
+      "Name": [],
+      "Price": []
+    },
+    "33": {
+      "Name": [],
+      "Price": []
+    },
+    "198": {
+      "Name": [],
+      "Price": []
+    },
+    "129": {
+      "Name": [],
+      "Price": []
+    },
+    "489": {
+      "Name": [],
+      "Price": []
+    },
+    "137": {
+      "Name": [],
+      "Price": []
+    },
+    "329": {
+      "Name": [],
+      "Price": []
+    },
+    "175": {
+      "Name": [],
+      "Price": []
+    },
+    "58": {
+      "Name": [],
+      "Price": []
+    },
+    "151": {
+      "Name": [],
+      "Price": []
+    },
+    "81": {
+      "Name": [],
+      "Price": []
+    },
+    "391": {
+      "Name": [],
+      "Price": []
+    },
+    "92": {
+      "Name": [],
+      "Price": []
+    },
+    "260": {
+      "Name": [],
+      "Price": []
+    },
+    "55": {
+      "Name": [],
+      "Price": []
+    },
+    "321": {
+      "Name": [],
+      "Price": []
+    },
+    "153": {
+      "Name": [],
+      "Price": []
+    },
+    "431": {
+      "Name": [],
+      "Price": []
+    },
+    "328": {
+      "Name": [],
+      "Price": []
+    },
+    "446": {
+      "Name": [],
+      "Price": []
+    },
+    "312": {
+      "Name": [],
+      "Price": []
+    },
+    "102": {
+      "Name": [],
+      "Price": []
+    },
+    "448": {
+      "Name": [],
+      "Price": []
+    },
+    "277": {
+      "Name": [],
+      "Price": []
+    },
+    "399": {
+      "Name": [],
+      "Price": []
+    },
+    "272": {
+      "Name": [],
+      "Price": []
+    },
+    "307": {
+      "Name": [],
+      "Price": []
+    },
+    "166": {
+      "Name": [],
+      "Price": []
+    },
+    "10": {
+      "Name": [],
+      "Price": []
+    },
+    "459": {
+      "Name": [],
+      "Price": []
+    },
+    "414": {
+      "Name": [],
+      "Price": []
+    },
+    "158": {
+      "Name": [],
+      "Price": []
+    },
+    "123": {
+      "Name": [],
+      "Price": []
+    },
+    "30": {
+      "Name": [],
+      "Price": []
+    },
+    "124": {
+      "Name": [],
+      "Price": []
+    },
+    "291": {
+      "Name": [],
+      "Price": []
+    },
+    "41": {
+      "Name": [],
+      "Price": []
+    },
+    "44": {
+      "Name": [],
+      "Price": []
+    },
+    "249": {
+      "Name": [],
+      "Price": []
+    },
+    "36": {
+      "Name": [],
+      "Price": []
+    },
+    "390": {
+      "Name": [],
+      "Price": []
+    },
+    "273": {
+      "Name": [],
+      "Price": []
+    },
+    "393": {
+      "Name": [],
+      "Price": []
+    },
+    "65": {
+      "Name": [],
+      "Price": []
+    },
+    "66": {
+      "Name": [],
+      "Price": []
+    },
+    "338": {
+      "Name": [],
+      "Price": []
+    },
+    "244": {
+      "Name": [],
+      "Price": []
+    },
+    "282": {
+      "Name": [],
+      "Price": []
+    },
+    "27": {
+      "Name": [],
+      "Price": []
+    },
+    "28": {
+      "Name": [],
+      "Price": []
+    },
+    "38": {
+      "Name": [],
+      "Price": []
+    },
+    "43": {
+      "Name": [],
+      "Price": []
+    },
+    "63": {
+      "Name": [],
+      "Price": []
+    },
+    "74": {
+      "Name": [],
+      "Price": []
+    },
+    "75": {
+      "Name": [],
+      "Price": []
+    },
+    "80": {
+      "Name": [],
+      "Price": []
+    },
+    "85": {
+      "Name": [],
+      "Price": []
+    },
+    "86": {
+      "Name": [],
+      "Price": []
+    },
+    "88": {
+      "Name": [],
+      "Price": []
+    },
+    "91": {
+      "Name": [],
+      "Price": []
+    },
+    "107": {
+      "Name": [],
+      "Price": []
+    },
+    "110": {
+      "Name": [],
+      "Price": []
+    },
+    "121": {
+      "Name": [],
+      "Price": []
+    },
+    "122": {
+      "Name": [],
+      "Price": []
+    },
+    "133": {
+      "Name": [],
+      "Price": []
+    },
+    "148": {
+      "Name": [],
+      "Price": []
+    },
+    "149": {
+      "Name": [],
+      "Price": []
+    },
+    "155": {
+      "Name": [],
+      "Price": []
+    },
+    "156": {
+      "Name": [],
+      "Price": []
+    },
+    "167": {
+      "Name": [],
+      "Price": []
+    },
+    "179": {
+      "Name": [],
+      "Price": []
+    },
+    "183": {
+      "Name": [],
+      "Price": []
+    },
+    "185": {
+      "Name": [],
+      "Price": []
+    },
+    "188": {
+      "Name": [],
+      "Price": []
+    },
+    "201": {
+      "Name": [],
+      "Price": []
+    },
+    "215": {
+      "Name": [],
+      "Price": []
+    },
+    "219": {
+      "Name": [],
+      "Price": []
+    },
+    "225": {
+      "Name": [],
+      "Price": []
+    },
+    "229": {
+      "Name": [],
+      "Price": []
+    },
+    "231": {
+      "Name": [],
+      "Price": []
+    },
+    "235": {
+      "Name": [],
+      "Price": []
+    },
+    "236": {
+      "Name": [],
+      "Price": []
+    },
+    "246": {
+      "Name": [],
+      "Price": []
+    },
+    "252": {
+      "Name": [],
+      "Price": []
+    },
+    "259": {
+      "Name": [],
+      "Price": []
+    },
+    "264": {
+      "Name": [],
+      "Price": []
+    },
+    "266": {
+      "Name": [],
+      "Price": []
+    },
+    "276": {
+      "Name": [],
+      "Price": []
+    },
+    "278": {
+      "Name": [],
+      "Price": []
+    },
+    "293": {
+      "Name": [],
+      "Price": []
+    },
+    "294": {
+      "Name": [],
+      "Price": []
+    },
+    "297": {
+      "Name": [],
+      "Price": []
+    },
+    "341": {
+      "Name": [],
+      "Price": []
+    },
+    "343": {
+      "Name": [],
+      "Price": []
+    },
+    "353": {
+      "Name": [],
+      "Price": []
+    },
+    "356": {
+      "Name": [],
+      "Price": []
+    },
+    "357": {
+      "Name": [],
+      "Price": []
+    },
+    "360": {
+      "Name": [],
+      "Price": []
+    },
+    "365": {
+      "Name": [],
+      "Price": []
+    },
+    "376": {
+      "Name": [],
+      "Price": []
+    },
+    "382": {
+      "Name": [],
+      "Price": []
+    },
+    "386": {
+      "Name": [],
+      "Price": []
+    },
+    "392": {
+      "Name": [],
+      "Price": []
+    },
+    "404": {
+      "Name": [],
+      "Price": []
+    },
+    "421": {
+      "Name": [],
+      "Price": []
+    },
+    "440": {
+      "Name": [],
+      "Price": []
+    },
+    "452": {
+      "Name": [],
+      "Price": []
+    },
+    "453": {
+      "Name": [],
+      "Price": []
+    },
+    "463": {
+      "Name": [],
+      "Price": []
+    },
+    "464": {
+      "Name": [],
+      "Price": []
+    },
+    "479": {
+      "Name": [],
+      "Price": []
+    },
+    "486": {
+      "Name": [],
+      "Price": []
+    },
+    "502": {
+      "Name": [],
+      "Price": []
+    },
+    "503": {
+      "Name": [],
+      "Price": []
+    }
+  }
+}

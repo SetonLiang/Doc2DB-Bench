@@ -1,0 +1,230 @@
+[
+  {
+    "id": "1",
+    "name": "airlines",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "alid",
+        "type": "integer",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "Id of the airline"
+      },
+      {
+        "name": "name",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Name of the airline"
+      },
+      {
+        "name": "iata",
+        "type": "varchar(2)",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "2-letter IATA code. empty or null if not assigned/unknown"
+      },
+      {
+        "name": "icao",
+        "type": "varchar(3)",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "3-letter ICAO code. empty or null if not assigned"
+      },
+      {
+        "name": "callsign",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Airline callsign"
+      },
+      {
+        "name": "country",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Country or territory where airline is incorporated"
+      },
+      {
+        "name": "active",
+        "type": "varchar(2)",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "\"Y\" if the airline is or has until recently been operational, \"N\" if it is defunct."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "airports",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "apid",
+        "type": "integer",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "Id of the airport"
+      },
+      {
+        "name": "name",
+        "type": "text",
+        "constraints": {
+          "nullable": false
+        },
+        "description": "Name of airport"
+      },
+      {
+        "name": "city",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Main city served by airport"
+      },
+      {
+        "name": "country",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Country or territory where airport is located"
+      },
+      {
+        "name": "x",
+        "type": "real",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Latitude of airport: Decimal degrees, usually to six significant digits. Negative is South, positive is North"
+      },
+      {
+        "name": "y",
+        "type": "real",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Longitude of airport: Decimal degrees, usually to six significant digits. Negative is West, positive is East"
+      },
+      {
+        "name": "elevation",
+        "type": "bigint",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "Altitude of airport measured in feets"
+      },
+      {
+        "name": "iata",
+        "type": "varchar(3)",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "3-letter IATA code. empty or null if not assigned/unknown"
+      },
+      {
+        "name": "icao",
+        "type": "varchar(4)",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "4-letter ICAO code. empty or null if not assigned"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "routes",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "rid",
+        "type": "integer",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "Primary key for the route row"
+      },
+      {
+        "name": "dst_apid",
+        "type": "integer",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "airports",
+            "column": "apid"
+          }
+        },
+        "description": "Id of destination airport"
+      },
+      {
+        "name": "dst_ap",
+        "type": "varchar(4)",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "3-letter (IATA) or 4-letter (ICAO) code of the destination airport"
+      },
+      {
+        "name": "src_apid",
+        "type": "bigint",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "airports",
+            "column": "apid"
+          }
+        },
+        "description": "Id of source airport"
+      },
+      {
+        "name": "src_ap",
+        "type": "varchar(4)",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "3-letter (IATA) or 4-letter (ICAO) code of the source airport"
+      },
+      {
+        "name": "alid",
+        "type": "bigint",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "airlines",
+            "column": "alid"
+          }
+        },
+        "description": "2-letter (IATA) or 3-letter (ICAO) code of the airline"
+      },
+      {
+        "name": "airline",
+        "type": "varchar(4)",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "2-letter (IATA) or 3-letter (ICAO) code of the airline"
+      },
+      {
+        "name": "codeshare",
+        "type": "text",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "\"Y\" if this flight is a codeshare (that is, not operated by Airline, but another carrier), empty otherwise"
+      }
+    ]
+  }
+]

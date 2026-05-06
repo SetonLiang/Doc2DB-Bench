@@ -1,0 +1,2969 @@
+{
+    "database_name": "finance_3",
+    "if_primary_allowed": {
+        "account": false,
+        "client": false,
+        "disp": false,
+        "loan": false,
+        "order": false,
+        "trans": false
+    },
+    "type": {
+        "account": [
+            "1:1",
+            "3:1"
+        ],
+        "client": "1:1",
+        "disp": [
+            "1:2"
+        ],
+        "loan": "1:2",
+        "order": "1:2",
+        "trans": "1:2"
+    },
+    "capability_assignments": {
+        "account": {
+            "1905": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "3477": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "3403": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "7562": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3154": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2019": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_LD"
+                    ],
+                    "district_id": []
+                }
+            },
+            "132": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "10762": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "3970": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1314": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1990": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "11065": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "9627": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM",
+                        "EF_RC"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "3875": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM",
+                        "TD_CA"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "485": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "9138": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "7745": {
+                "row": [],
+                "col": {
+                    "frequency": [
+                        "TA_FC"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "9159": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "9869": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3960": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "frequency": [
+                        "EF_RC"
+                    ],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "7049": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_LD"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1828": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TD_DF"
+                    ],
+                    "district_id": []
+                }
+            },
+            "135": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3402": {
+                "row": [
+                    "IC_ME",
+                    "GR_DC"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1348": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "frequency": [
+                        "TD_CA"
+                    ],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3354": {
+                "row": [],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "656": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1934": {
+                "row": [
+                    "GR_TI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_LD"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2578": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "270": {
+                "row": [
+                    "GR_DC",
+                    "IC_ME"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "8533": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1218": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "5181": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "171": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_FC"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "673": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_LD"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1906": {
+                "row": [
+                    "IDR_CR",
+                    "GR_DC"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "4309": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM",
+                        "TD_CA"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "6397": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "298": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "frequency": [
+                        "EF_RC"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "8772": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3752": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_LD"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1751": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "2873": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC",
+                        "TD_DF"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "IDR_CR",
+                    "GR_TI"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3121": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "2611": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "487": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TD_DF"
+                    ],
+                    "district_id": []
+                }
+            },
+            "817": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "frequency": [
+                        "EF_RC"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "3702": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "2982": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "3476": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            },
+            "18": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3325": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "6158": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TD_DF"
+                    ],
+                    "district_id": []
+                }
+            },
+            "968": {
+                "row": [
+                    "RL_CL",
+                    "GR_DC"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_ME",
+                    "GR_TI"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3120": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2516": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "frequency": [
+                        "TD_DF"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "507": {
+                "row": [
+                    "GR_TI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "district_id": [],
+                    "frequency": [],
+                    "date": []
+                }
+            }
+        },
+        "client": {
+            "3111": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "2315": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "327": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "4201": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "585": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "11250": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "916": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "2693": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2350": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "2876": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "165": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "9274": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "13820": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "1997": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "4106": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "3473": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "41": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "3226": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "162": {
+                "row": [
+                    "GR_TI",
+                    "IC_ME"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "24": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "4581": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "1807": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "5189": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "3814": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "4042": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "4656": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "3601": {
+                "row": [
+                    "GR_TI",
+                    "IC_ME"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "95": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "4085": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_MI"
+                    ],
+                    "district_id": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "204": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "4203": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "2164": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_LD"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1589": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "609": {
+                "row": [
+                    "GR_TI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "4789": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "473": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2418": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "1167": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_LD"
+                    ],
+                    "district_id": []
+                }
+            },
+            "960": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            }
+        },
+        "disp": {
+            "10942": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "type": [
+                        "RI_MI",
+                        "TA_EM"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "24": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "2418": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "4201": {
+                "row": [],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "585": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "3111": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "5189": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "327": {
+                "row": [
+                    "GR_DC",
+                    "IC_ME"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "1167": {
+                "row": [
+                    "GR_DC",
+                    "IC_ME"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "3473": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "type": [
+                        "RI_LD"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "5": {
+                "row": [
+                    "IC_ME",
+                    "RL_CL"
+                ],
+                "col": {
+                    "type": [
+                        "TA_FC",
+                        "RI_LD"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "609": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "3601": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "162": {
+                "row": [],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "2350": {
+                "row": [
+                    "GR_TI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "1589": {
+                "row": [],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "3814": {
+                "row": [],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "4789": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "2315": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "4203": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "client_id": [],
+                    "account_id": [],
+                    "type": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1991": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1990": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1998": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1999": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            }
+        },
+        "district": {
+            "1": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [
+                    "TA_US"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [
+                    "EF_ND"
+                ],
+                "A10": [
+                    "TA_US"
+                ],
+                "A11": [
+                    "TA_US"
+                ],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "A16": [
+                    "TD_AS"
+                ]
+            },
+            "35": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [],
+                "A5": [
+                    "TD_AS"
+                ],
+                "A6": [
+                    "TD_AS"
+                ],
+                "A7": [],
+                "A8": [],
+                "A9": [
+                    "TD_DF"
+                ],
+                "A10": [],
+                "A11": [],
+                "A12": [
+                    "TD_AS"
+                ],
+                "A13": [
+                    "TD_AS",
+                    "RI_AC"
+                ],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "3": {
+                "A3": [],
+                "A4": [
+                    "TA_FC"
+                ],
+                "A5": [],
+                "A6": [
+                    "RI_LD"
+                ],
+                "A7": [],
+                "A8": [],
+                "A9": [
+                    "EF_ND"
+                ],
+                "A10": [
+                    "TA_US"
+                ],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [
+                    "TA_US"
+                ],
+                "A15": [],
+                "A16": [
+                    "RI_AC"
+                ]
+            },
+            "55": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [
+                    "TA_US"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [
+                    "TD_AS"
+                ],
+                "A8": [
+                    "RI_LD"
+                ],
+                "A9": [
+                    "TD_DF"
+                ],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [
+                    "RI_AC"
+                ],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "31": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [
+                    "EF_ND"
+                ],
+                "A10": [],
+                "A11": [
+                    "TA_US"
+                ],
+                "A12": [
+                    "RI_AC"
+                ],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "6": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [
+                    "TD_AS"
+                ],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [
+                    "TD_AS"
+                ],
+                "A13": [
+                    "TD_AS"
+                ],
+                "A14": [
+                    "TA_US"
+                ],
+                "A15": [
+                    "RI_AC"
+                ],
+                "A16": [
+                    "RI_AC"
+                ]
+            },
+            "53": {
+                "A3": [],
+                "A4": [
+                    "TA_FC"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [
+                    "RI_LD"
+                ],
+                "A11": [],
+                "A12": [],
+                "A13": [
+                    "RI_AC"
+                ],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "46": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [],
+                "A5": [
+                    "TD_AS"
+                ],
+                "A6": [],
+                "A7": [
+                    "TD_AS"
+                ],
+                "A8": [],
+                "A9": [
+                    "TD_DF"
+                ],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [
+                    "TD_AS"
+                ],
+                "A16": []
+            },
+            "76": {
+                "A3": [],
+                "A4": [
+                    "TA_US"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [
+                    "TA_US"
+                ],
+                "A12": [
+                    "RI_AC",
+                    "TD_AS"
+                ],
+                "A13": [
+                    "TD_AS"
+                ],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "49": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [
+                    "TD_AS"
+                ],
+                "A7": [],
+                "A8": [],
+                "A9": [
+                    "EF_ND"
+                ],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [
+                    "RI_LD"
+                ],
+                "A15": [],
+                "A16": [
+                    "RI_AC"
+                ]
+            },
+            "11": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [
+                    "RI_LD"
+                ],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [
+                    "EF_HC"
+                ],
+                "A13": [],
+                "A14": [],
+                "A15": [
+                    "RI_AC"
+                ],
+                "A16": []
+            },
+            "43": {
+                "A3": [],
+                "A4": [
+                    "TA_FC"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [
+                    "TA_US"
+                ],
+                "A11": [],
+                "A12": [],
+                "A13": [
+                    "RI_AC"
+                ],
+                "A14": [],
+                "A15": [
+                    "TD_AS"
+                ],
+                "A16": [
+                    "TD_AS"
+                ]
+            },
+            "39": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [
+                    "RI_LD"
+                ],
+                "A11": [
+                    "TA_US"
+                ],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": [
+                    "RI_AC"
+                ]
+            },
+            "14": {
+                "A3": [],
+                "A4": [
+                    "TA_US"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [
+                    "TD_DF"
+                ],
+                "A10": [],
+                "A11": [],
+                "A12": [
+                    "TD_AS"
+                ],
+                "A13": [],
+                "A14": [
+                    "TA_US"
+                ],
+                "A15": [],
+                "A16": []
+            },
+            "62": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [
+                    "TD_AS"
+                ],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [
+                    "TA_US"
+                ],
+                "A12": [],
+                "A13": [
+                    "RI_AC"
+                ],
+                "A14": [],
+                "A15": [
+                    "RI_AC"
+                ],
+                "A16": []
+            },
+            "16": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [
+                    "EF_ND"
+                ],
+                "A10": [
+                    "RI_LD"
+                ],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "47": {
+                "A3": [],
+                "A4": [
+                    "TA_FC"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [
+                    "TA_US"
+                ],
+                "A12": [
+                    "RI_AC"
+                ],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": [
+                    "TD_AS"
+                ]
+            },
+            "33": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [
+                    "TD_AS"
+                ],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [
+                    "RI_AC"
+                ],
+                "A13": [],
+                "A14": [],
+                "A15": [
+                    "TD_AS"
+                ],
+                "A16": []
+            },
+            "22": {
+                "A3": [],
+                "A4": [
+                    "TA_FC"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [
+                    "TD_DF"
+                ],
+                "A10": [
+                    "TA_US"
+                ],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "64": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [
+                    "TA_US"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [
+                    "RI_AC"
+                ],
+                "A14": [
+                    "RI_LD"
+                ],
+                "A15": [],
+                "A16": [
+                    "TD_AS"
+                ]
+            }
+        },
+        "loan": {
+            "6732": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "duration": [
+                        "TD_DF"
+                    ],
+                    "payments": [
+                        "RI_AC"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "amount": [],
+                    "status": []
+                }
+            },
+            "6255": {
+                "row": [
+                    "GR_DC",
+                    "RL_CL"
+                ],
+                "col": {
+                    "payments": [
+                        "TD_CA"
+                    ],
+                    "status": [
+                        "TA_EM"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "amount": [],
+                    "duration": []
+                }
+            },
+            "6540": {
+                "row": [],
+                "col": {
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "payments": [
+                        "RI_AC"
+                    ],
+                    "account_id": [],
+                    "amount": [],
+                    "duration": [],
+                    "status": []
+                }
+            },
+            "7004": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "duration": [
+                        "TA_US"
+                    ],
+                    "payments": [
+                        "RI_AC"
+                    ],
+                    "account_id": [],
+                    "amount": [],
+                    "status": []
+                }
+            },
+            "4996": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "amount": [
+                        "TA_FC"
+                    ],
+                    "duration": [
+                        "TA_US"
+                    ],
+                    "status": [
+                        "TA_EM"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "payments": []
+                }
+            },
+            "5354": {
+                "row": [
+                    "GR_TI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "duration": [
+                        "TA_US"
+                    ],
+                    "payments": [
+                        "RI_AC"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "amount": [],
+                    "status": []
+                }
+            },
+            "5343": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "amount": [
+                        "TD_DF"
+                    ],
+                    "payments": [
+                        "RI_AC"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "duration": [],
+                    "status": []
+                }
+            },
+            "6857": {
+                "row": [
+                    "IC_ME",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "duration": [
+                        "RI_TC"
+                    ],
+                    "payments": [
+                        "RI_AC"
+                    ],
+                    "account_id": [],
+                    "amount": [],
+                    "status": []
+                }
+            },
+            "6955": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "payments": [
+                        "RI_MI"
+                    ],
+                    "status": [
+                        "RI_LD"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "amount": [],
+                    "duration": []
+                }
+            },
+            "5486": {
+                "row": [],
+                "col": {
+                    "duration": [
+                        "TA_US"
+                    ],
+                    "payments": [
+                        "RI_MI"
+                    ],
+                    "status": [
+                        "RI_LD"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "amount": []
+                }
+            },
+            "6436": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "duration": [
+                        "TA_US"
+                    ],
+                    "payments": [
+                        "RI_AC"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "status": []
+                }
+            },
+            "5740": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "status": [
+                        "TA_EM"
+                    ],
+                    "account_id": [],
+                    "amount": [],
+                    "duration": [],
+                    "payments": []
+                }
+            },
+            "6302": {
+                "row": [],
+                "col": {
+                    "amount": [
+                        "TD_AS"
+                    ],
+                    "duration": [
+                        "TA_US"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "payments": [],
+                    "status": []
+                }
+            },
+            "5657": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "amount": [
+                        "TD_CA"
+                    ],
+                    "payments": [
+                        "RI_MI"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "duration": [],
+                    "status": []
+                }
+            },
+            "6055": {
+                "row": [],
+                "col": {
+                    "amount": [
+                        "TD_DF"
+                    ],
+                    "payments": [
+                        "RI_AC"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "duration": [],
+                    "status": []
+                }
+            },
+            "5132": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "account_id": [],
+                    "duration": [],
+                    "payments": [],
+                    "status": []
+                }
+            },
+            "5765": {
+                "row": [],
+                "col": {
+                    "amount": [
+                        "TA_FC"
+                    ],
+                    "payments": [
+                        "RI_AC"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "duration": [],
+                    "status": []
+                }
+            },
+            "4959": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "duration": [
+                        "TA_US"
+                    ],
+                    "payments": [
+                        "RI_MI"
+                    ],
+                    "status": [
+                        "TA_EM"
+                    ],
+                    "account_id": [],
+                    "amount": []
+                }
+            },
+            "6574": {
+                "row": [],
+                "col": {
+                    "amount": [
+                        "TA_FC"
+                    ],
+                    "duration": [
+                        "TA_US"
+                    ],
+                    "status": [
+                        "RI_LD"
+                    ],
+                    "account_id": [],
+                    "date": [],
+                    "payments": []
+                }
+            },
+            "5669": {
+                "row": [],
+                "col": {
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "status": [
+                        "RI_LD"
+                    ],
+                    "account_id": [],
+                    "amount": [],
+                    "duration": [],
+                    "payments": []
+                }
+            }
+        },
+        "order": {
+            "33214": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "TD_DF"
+                    ],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "43664": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "RI_AC"
+                    ],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "38541": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "TA_FC"
+                    ],
+                    "k_symbol": [
+                        "RI_LD"
+                    ],
+                    "account_id": []
+                }
+            },
+            "42980": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "TA_FC"
+                    ],
+                    "account_id": []
+                }
+            },
+            "42976": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "bank_to": [
+                        "TA_EM"
+                    ],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "44029": {
+                "row": [
+                    "RL_CL",
+                    "GR_DC"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "33817": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "bank_to": [
+                        "TA_EM"
+                    ],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "34436": {
+                "row": [
+                    "IDR_CR",
+                    "GR_DC"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "29403": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "34435": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "33816": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [
+                        "TD_DF"
+                    ],
+                    "amount": [],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "37033": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "RI_MI"
+                    ],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "40593": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "32232": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "bank_to": [
+                        "TA_EM"
+                    ],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "32187": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "29805": {
+                "row": [],
+                "col": {
+                    "bank_to": [
+                        "RI_LD"
+                    ],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "30589": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "TA_FC"
+                    ],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "32080": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "34930": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "RI_AC"
+                    ],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "34031": {
+                "row": [],
+                "col": {
+                    "bank_to": [
+                        "TA_EM"
+                    ],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            }
+        },
+        "trans": {
+            "2761806": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date": [],
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "operation": [
+                        "TA_EM"
+                    ],
+                    "amount": [],
+                    "balance": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "982789": {
+                "row": [],
+                "col": {
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "type": [
+                        "RI_LD"
+                    ],
+                    "operation": [],
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "balance": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "568270": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "type": [],
+                    "operation": [
+                        "TA_EM"
+                    ],
+                    "amount": [
+                        "TA_FC"
+                    ],
+                    "balance": [],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "1017328": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "date": [],
+                    "type": [],
+                    "operation": [],
+                    "amount": [
+                        "RI_AC"
+                    ],
+                    "balance": [
+                        "TA_FC"
+                    ],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "1519844": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "type": [],
+                    "operation": [],
+                    "amount": [
+                        "TA_FC"
+                    ],
+                    "balance": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "2292694": {
+                "row": [],
+                "col": {
+                    "date": [],
+                    "type": [
+                        "RI_LD"
+                    ],
+                    "operation": [],
+                    "amount": [],
+                    "balance": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "1017471": {
+                "row": [],
+                "col": {
+                    "date": [],
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "operation": [
+                        "TA_EM"
+                    ],
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "balance": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "996860": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "type": [],
+                    "operation": [],
+                    "amount": [],
+                    "balance": [
+                        "TA_US"
+                    ],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "1017222": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date": [],
+                    "type": [],
+                    "operation": [],
+                    "amount": [
+                        "RI_AC"
+                    ],
+                    "balance": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "2761879": {
+                "row": [],
+                "col": {
+                    "date": [],
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "operation": [
+                        "TA_EM"
+                    ],
+                    "amount": [],
+                    "balance": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "145021": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "type": [],
+                    "operation": [],
+                    "amount": [
+                        "TA_FC"
+                    ],
+                    "balance": [
+                        "TA_US"
+                    ],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "3652712": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "type": [],
+                    "operation": [
+                        "EF_ND"
+                    ],
+                    "amount": [],
+                    "balance": [
+                        "TA_FC"
+                    ],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "915506": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "date": [],
+                    "type": [],
+                    "operation": [
+                        "TA_EM"
+                    ],
+                    "amount": [],
+                    "balance": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "537060": {
+                "row": [],
+                "col": {
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "type": [],
+                    "operation": [
+                        "TA_EM"
+                    ],
+                    "amount": [],
+                    "balance": [],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": [],
+                    "bank": [],
+                    "account": []
+                }
+            },
+            "3501293": {
+                "row": [],
+                "col": {
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "type": [],
+                    "operation": [
+                        "EF_ND"
+                    ],
+                    "amount": [],
+                    "balance": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "193651": {
+                "row": [],
+                "col": {
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "operation": [],
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "balance": [],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "144983": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "date": [],
+                    "type": [
+                        "RI_LD"
+                    ],
+                    "operation": [],
+                    "amount": [],
+                    "balance": [
+                        "TA_US"
+                    ],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "3590802": {
+                "row": [
+                    "GR_DC",
+                    "IC_ME"
+                ],
+                "col": {
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "type": [],
+                    "operation": [
+                        "EF_ND"
+                    ],
+                    "amount": [
+                        "TA_FC"
+                    ],
+                    "balance": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "560269": {
+                "row": [],
+                "col": {
+                    "date": [],
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "operation": [],
+                    "amount": [],
+                    "balance": [
+                        "TA_US"
+                    ],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "1017314": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "date": [],
+                    "type": [],
+                    "operation": [
+                        "TA_EM"
+                    ],
+                    "amount": [
+                        "RI_AC"
+                    ],
+                    "balance": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/finance_3/tables"
+}

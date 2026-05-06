@@ -1,0 +1,118 @@
+{
+  "rows": [
+    {
+      "EmployeeID": 1,
+      "Name": "John Dorian",
+      "Position": "Staff Internist",
+      "SSN": 111111111
+    },
+    {
+      "EmployeeID": 2,
+      "Name": "Elliot Reid",
+      "Position": "Attending Physician",
+      "SSN": 222222222
+    },
+    {
+      "EmployeeID": 3,
+      "Name": "Christopher Turk",
+      "Position": "Surgical Attending Physician",
+      "SSN": 333333333
+    },
+    {
+      "EmployeeID": 4,
+      "Name": "Percival Cox",
+      "Position": "Senior Attending Physician",
+      "SSN": 444444444
+    },
+    {
+      "EmployeeID": 5,
+      "Name": "Bob Kelso",
+      "Position": "Head Chief of Medicine",
+      "SSN": 555555555
+    },
+    {
+      "EmployeeID": 6,
+      "Name": "Todd Quinlan",
+      "Position": "Surgical Attending Physician",
+      "SSN": 666666666
+    },
+    {
+      "EmployeeID": 7,
+      "Name": "John Wen",
+      "Position": "Surgical Attending Physician",
+      "SSN": 777777777
+    },
+    {
+      "EmployeeID": 8,
+      "Name": "Keith Dudemeister",
+      "Position": "MD Resident",
+      "SSN": 888888888
+    },
+    {
+      "EmployeeID": 9,
+      "Name": "Molly Clock",
+      "Position": "Attending Psychiatrist",
+      "SSN": 999999999
+    }
+  ],
+  "capability_assignments": {
+    "1": {
+      "Position": [
+        "TA_EM"
+      ],
+      "SSN": [
+        "TA_FC"
+      ]
+    },
+    "2": {
+      "Position": [
+        "TD_DF"
+      ],
+      "SSN": []
+    },
+    "3": {
+      "Position": [
+        "RI_MI"
+      ],
+      "SSN": [
+        "TD_AS"
+      ]
+    },
+    "4": {
+      "Position": [
+        "RI_LD"
+      ],
+      "SSN": []
+    },
+    "5": {
+      "Position": [
+        "TA_EM"
+      ],
+      "SSN": [
+        "TD_DF"
+      ]
+    },
+    "6": {
+      "Position": [],
+      "SSN": [
+        "TA_FC"
+      ]
+    },
+    "7": {
+      "Position": [],
+      "SSN": []
+    },
+    "8": {
+      "Position": [
+        "TA_EM"
+      ],
+      "SSN": []
+    },
+    "9": {
+      "Position": [
+        "RI_LD"
+      ],
+      "SSN": []
+    }
+  }
+}

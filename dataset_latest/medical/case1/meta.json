@@ -1,0 +1,427 @@
+{
+    "if_primary_allowed": {
+        "Patient": false,
+        "Nurse": false,
+        "Department": false,
+        "Physician": false,
+        "Affiliated_With": false,
+        "Appointment": false
+    },
+    "type": {
+        "Appointment": "1:3",
+        "Affiliated_With": "1:2"
+    },
+    "capability_assignments": {
+        "Affiliated_With": {
+            "4, 1": {
+                "row": [],
+                "col": {
+                    "PrimaryAffiliation": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "7, 2": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "PrimaryAffiliation": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "6, 2": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "PrimaryAffiliation": []
+                }
+            },
+            "9, 3": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "PrimaryAffiliation": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "1, 1": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "PrimaryAffiliation": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "3, 2": {
+                "row": [],
+                "col": {
+                    "PrimaryAffiliation": [
+                        "TD_AS",
+                        "TA_EM"
+                    ]
+                }
+            },
+            "7, 1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "PrimaryAffiliation": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "2, 1": {
+                "row": [],
+                "col": {
+                    "PrimaryAffiliation": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "8, 1": {
+                "row": [],
+                "col": {
+                    "PrimaryAffiliation": [
+                        "TD_CA"
+                    ]
+                }
+            },
+            "5, 1": {
+                "row": [],
+                "col": {
+                    "PrimaryAffiliation": [
+                        "RI_MI"
+                    ]
+                }
+            },
+            "3, 1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "PrimaryAffiliation": [
+                        "TD_AS",
+                        "TA_EM"
+                    ]
+                }
+            }
+        },
+        "Appointment": {
+            "13216584": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Start": [
+                        "TA_FC"
+                    ],
+                    "End": [
+                        "RI_TC"
+                    ],
+                    "ExaminationRoom": [
+                        "RI_LD"
+                    ],
+                    "Patient": [],
+                    "PrepNurse": [],
+                    "Physician": []
+                }
+            },
+            "76983231": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Start": [
+                        "TA_FC"
+                    ],
+                    "End": [],
+                    "ExaminationRoom": [
+                        "RI_MI"
+                    ],
+                    "Patient": [],
+                    "Physician": []
+                }
+            },
+            "46846589": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Start": [],
+                    "End": [
+                        "RI_TC"
+                    ],
+                    "ExaminationRoom": [
+                        "TA_EM"
+                    ],
+                    "Patient": [],
+                    "PrepNurse": [],
+                    "Physician": []
+                }
+            },
+            "26548913": {
+                "row": [],
+                "col": {
+                    "Start": [
+                        "RI_TC"
+                    ],
+                    "End": [
+                        "TA_FC"
+                    ],
+                    "ExaminationRoom": [
+                        "TA_EM"
+                    ],
+                    "Patient": [],
+                    "PrepNurse": [],
+                    "Physician": []
+                }
+            },
+            "59871321": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Start": [],
+                    "End": [
+                        "TA_FC"
+                    ],
+                    "ExaminationRoom": [
+                        "TA_EM"
+                    ],
+                    "Patient": [],
+                    "Physician": []
+                }
+            },
+            "36549879": {
+                "row": [],
+                "col": {
+                    "Start": [
+                        "TA_FC"
+                    ],
+                    "End": [],
+                    "ExaminationRoom": [
+                        "TD_DF"
+                    ],
+                    "Patient": [],
+                    "PrepNurse": [],
+                    "Physician": []
+                }
+            },
+            "69879231": {
+                "row": [],
+                "col": {
+                    "Start": [
+                        "TA_FC"
+                    ],
+                    "End": [
+                        "RI_TC"
+                    ],
+                    "ExaminationRoom": [
+                        "RI_LD"
+                    ],
+                    "Patient": [],
+                    "PrepNurse": [],
+                    "Physician": []
+                }
+            },
+            "86213939": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "Start": [
+                        "TA_FC"
+                    ],
+                    "End": [
+                        "RI_LD",
+                        "TD_DF"
+                    ],
+                    "ExaminationRoom": [],
+                    "Patient": [],
+                    "PrepNurse": [],
+                    "Physician": []
+                }
+            },
+            "93216548": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Start": [],
+                    "End": [
+                        "RI_TC"
+                    ],
+                    "ExaminationRoom": [
+                        "TD_CA"
+                    ],
+                    "Patient": [],
+                    "PrepNurse": [],
+                    "Physician": []
+                }
+            }
+        },
+        "Block": {},
+        "Department": {},
+        "Medication": {},
+        "Nurse": {
+            "101": {
+                "Position": [
+                    "TA_EM"
+                ],
+                "Registered": [
+                    "RI_LD"
+                ],
+                "SSN": [
+                    "TD_DF"
+                ]
+            },
+            "102": {
+                "Position": [],
+                "Registered": [
+                    "RI_LD"
+                ],
+                "SSN": [
+                    "TA_FC"
+                ]
+            },
+            "103": {
+                "Position": [],
+                "Registered": [
+                    "RI_LD"
+                ],
+                "SSN": [
+                    "TD_CA"
+                ]
+            }
+        },
+        "On_Call": {},
+        "Patient": {
+            "100000001": {
+                "Address": [
+                    "TA_FC"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "InsuranceID": [],
+                "PCP": [
+                    "TA_EM"
+                ]
+            },
+            "100000002": {
+                "Address": [
+                    "TD_DF"
+                ],
+                "Phone": [],
+                "InsuranceID": [
+                    "RI_LD"
+                ],
+                "PCP": [
+                    "TA_EM"
+                ]
+            },
+            "100000003": {
+                "Address": [
+                    "TA_FC"
+                ],
+                "Phone": [
+                    "TD_AS"
+                ],
+                "InsuranceID": [
+                    "TD_CA"
+                ],
+                "PCP": [
+                    "RI_LD"
+                ]
+            },
+            "100000004": {
+                "Address": [
+                    "TA_FC",
+                    "TD_DF"
+                ],
+                "Phone": [
+                    "TA_FC"
+                ],
+                "InsuranceID": [],
+                "PCP": [
+                    "RI_MI"
+                ]
+            }
+        },
+        "Physician": {
+            "1": {
+                "Position": [
+                    "TA_EM"
+                ],
+                "SSN": [
+                    "TA_FC"
+                ]
+            },
+            "2": {
+                "Position": [
+                    "TD_DF"
+                ],
+                "SSN": []
+            },
+            "3": {
+                "Position": [
+                    "RI_MI"
+                ],
+                "SSN": [
+                    "TD_AS"
+                ]
+            },
+            "4": {
+                "Position": [
+                    "RI_LD"
+                ],
+                "SSN": []
+            },
+            "5": {
+                "Position": [
+                    "TA_EM"
+                ],
+                "SSN": [
+                    "TD_DF"
+                ]
+            },
+            "6": {
+                "Position": [],
+                "SSN": [
+                    "TA_FC"
+                ]
+            },
+            "7": {
+                "Position": [],
+                "SSN": []
+            },
+            "8": {
+                "Position": [
+                    "TA_EM"
+                ],
+                "SSN": []
+            },
+            "9": {
+                "Position": [
+                    "RI_LD"
+                ],
+                "SSN": []
+            }
+        },
+        "Prescribes": {},
+        "Procedures": {},
+        "Room": {},
+        "Stay": {},
+        "Trained_In": {},
+        "Undergoes": {}
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/hospital_1/tables"
+}

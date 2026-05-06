@@ -1,0 +1,1568 @@
+{
+    "database_id": "products_for_hire",
+    "if_primary_allowed": {
+        "Bookings": false,
+        "Customers": false,
+        "Discount_Coupons": false,
+        "Payments": false,
+        "Products_Booked": false,
+        "Products_for_Hire": false
+    },
+    "type": {
+        "Bookings": "1:1",
+        "Payments": "1:2",
+        "Products_Booked": "1:2"
+    },
+    "capability_assignments": {
+        "Bookings": {
+            "8": {
+                "row": [
+                    "GR_CTA",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "RI_LD"
+                    ],
+                    "returned_damaged_yn": [
+                        "TA_EM"
+                    ],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [
+                        "RI_TC"
+                    ],
+                    "count_hired": [
+                        "TA_FC"
+                    ],
+                    "amount_payable": [
+                        "RI_AC"
+                    ],
+                    "amount_of_discount": [
+                        "TD_AS"
+                    ],
+                    "amount_outstanding": [],
+                    "amount_of_refund": [
+                        "TA_US"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "13": {
+                "row": [],
+                "col": {
+                    "booking_status_code": [],
+                    "returned_damaged_yn": [
+                        "RI_LD"
+                    ],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [
+                        "RI_TC"
+                    ],
+                    "count_hired": [],
+                    "amount_payable": [
+                        "RI_AC"
+                    ],
+                    "amount_of_discount": [
+                        "RI_AC"
+                    ],
+                    "amount_outstanding": [
+                        "TD_AS"
+                    ],
+                    "amount_of_refund": [
+                        "TA_US"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "15": {
+                "row": [
+                    "GR_CTA",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "returned_damaged_yn": [
+                        "RI_LD"
+                    ],
+                    "booking_start_date": [],
+                    "booking_end_date": [
+                        "RI_TC"
+                    ],
+                    "count_hired": [],
+                    "amount_payable": [
+                        "RI_MI"
+                    ],
+                    "amount_of_discount": [
+                        "TA_US"
+                    ],
+                    "amount_outstanding": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "amount_of_refund": [
+                        "TA_US"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "returned_damaged_yn": [
+                        "TA_EM"
+                    ],
+                    "booking_start_date": [
+                        "RI_TC"
+                    ],
+                    "booking_end_date": [
+                        "TA_FC"
+                    ],
+                    "count_hired": [
+                        "TA_FC"
+                    ],
+                    "amount_payable": [
+                        "RI_AC"
+                    ],
+                    "amount_of_discount": [
+                        "TD_AS"
+                    ],
+                    "amount_outstanding": [
+                        "TA_US"
+                    ],
+                    "amount_of_refund": [],
+                    "customer_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "GR_CTA",
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "RI_LD"
+                    ],
+                    "returned_damaged_yn": [
+                        "TA_EM"
+                    ],
+                    "booking_start_date": [],
+                    "booking_end_date": [
+                        "RI_TC"
+                    ],
+                    "count_hired": [
+                        "TA_US"
+                    ],
+                    "amount_payable": [
+                        "TD_AS"
+                    ],
+                    "amount_of_discount": [
+                        "TA_US"
+                    ],
+                    "amount_outstanding": [
+                        "TA_US"
+                    ],
+                    "amount_of_refund": [
+                        "RI_AC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "booking_status_code": [],
+                    "returned_damaged_yn": [
+                        "RI_LD"
+                    ],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [
+                        "RI_TC"
+                    ],
+                    "count_hired": [
+                        "TA_FC"
+                    ],
+                    "amount_payable": [
+                        "RI_MI"
+                    ],
+                    "amount_of_discount": [
+                        "RI_AC"
+                    ],
+                    "amount_outstanding": [
+                        "TD_AS"
+                    ],
+                    "amount_of_refund": [
+                        "TA_US"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "6": {
+                "row": [],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "returned_damaged_yn": [
+                        "RI_LD"
+                    ],
+                    "booking_start_date": [],
+                    "booking_end_date": [
+                        "TA_FC"
+                    ],
+                    "count_hired": [],
+                    "amount_payable": [
+                        "TA_US"
+                    ],
+                    "amount_of_discount": [
+                        "RI_AC"
+                    ],
+                    "amount_outstanding": [
+                        "TD_AS"
+                    ],
+                    "amount_of_refund": [
+                        "RI_AC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "7": {
+                "row": [],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "returned_damaged_yn": [
+                        "TA_EM"
+                    ],
+                    "booking_start_date": [
+                        "RI_TC"
+                    ],
+                    "booking_end_date": [],
+                    "count_hired": [],
+                    "amount_payable": [
+                        "TD_AS"
+                    ],
+                    "amount_of_discount": [
+                        "TA_US"
+                    ],
+                    "amount_outstanding": [
+                        "RI_AC"
+                    ],
+                    "amount_of_refund": [
+                        "TA_US"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "returned_damaged_yn": [
+                        "RI_LD"
+                    ],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [
+                        "RI_TC"
+                    ],
+                    "count_hired": [],
+                    "amount_payable": [
+                        "TA_US"
+                    ],
+                    "amount_of_discount": [
+                        "RI_AC"
+                    ],
+                    "amount_outstanding": [
+                        "RI_AC"
+                    ],
+                    "amount_of_refund": [
+                        "TD_AS"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "12": {
+                "row": [],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "returned_damaged_yn": [
+                        "TA_EM"
+                    ],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [
+                        "RI_TC"
+                    ],
+                    "count_hired": [
+                        "TA_FC"
+                    ],
+                    "amount_payable": [
+                        "TD_AS"
+                    ],
+                    "amount_of_discount": [],
+                    "amount_outstanding": [
+                        "RI_AC"
+                    ],
+                    "amount_of_refund": [
+                        "RI_AC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "11": {
+                "row": [
+                    "IC_ME",
+                    "RL_CL"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "RI_LD"
+                    ],
+                    "returned_damaged_yn": [
+                        "TA_EM"
+                    ],
+                    "booking_start_date": [
+                        "RI_TC"
+                    ],
+                    "booking_end_date": [],
+                    "count_hired": [],
+                    "amount_payable": [
+                        "RI_AC"
+                    ],
+                    "amount_of_discount": [
+                        "TA_US"
+                    ],
+                    "amount_outstanding": [
+                        "TA_US"
+                    ],
+                    "amount_of_refund": [
+                        "TD_AS"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "10": {
+                "row": [],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "returned_damaged_yn": [
+                        "RI_LD"
+                    ],
+                    "booking_start_date": [],
+                    "booking_end_date": [
+                        "TA_FC"
+                    ],
+                    "count_hired": [
+                        "TA_FC"
+                    ],
+                    "amount_payable": [
+                        "TA_US"
+                    ],
+                    "amount_of_discount": [
+                        "RI_AC"
+                    ],
+                    "amount_outstanding": [
+                        "TD_AS"
+                    ],
+                    "amount_of_refund": [
+                        "TA_US"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "14": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "RI_LD"
+                    ],
+                    "returned_damaged_yn": [
+                        "TA_EM"
+                    ],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [],
+                    "count_hired": [
+                        "TA_FC"
+                    ],
+                    "amount_payable": [
+                        "TA_US"
+                    ],
+                    "amount_of_discount": [
+                        "TD_AS"
+                    ],
+                    "amount_outstanding": [
+                        "RI_AC"
+                    ],
+                    "amount_of_refund": [
+                        "TA_US"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "9": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "returned_damaged_yn": [],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [
+                        "RI_TC"
+                    ],
+                    "count_hired": [],
+                    "amount_payable": [
+                        "RI_MI"
+                    ],
+                    "amount_of_discount": [
+                        "TA_US"
+                    ],
+                    "amount_outstanding": [
+                        "TD_AS"
+                    ],
+                    "amount_of_refund": [
+                        "RI_AC"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "1": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "booking_status_code": [
+                        "TA_EM"
+                    ],
+                    "returned_damaged_yn": [
+                        "TA_EM"
+                    ],
+                    "booking_start_date": [
+                        "TA_FC"
+                    ],
+                    "booking_end_date": [],
+                    "count_hired": [
+                        "TA_FC"
+                    ],
+                    "amount_payable": [
+                        "RI_MI"
+                    ],
+                    "amount_of_discount": [
+                        "TA_US"
+                    ],
+                    "amount_outstanding": [
+                        "TD_AS"
+                    ],
+                    "amount_of_refund": [
+                        "TA_US"
+                    ],
+                    "customer_id": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "returned_damaged_yn": [],
+                    "booking_start_date": [],
+                    "booking_end_date": [],
+                    "count_hired": [],
+                    "amount_payable": [],
+                    "amount_of_discount": [],
+                    "amount_outstanding": [],
+                    "amount_of_refund": [],
+                    "customer_id": []
+                }
+            },
+            "1994": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "returned_damaged_yn": [],
+                    "booking_start_date": [],
+                    "booking_end_date": [],
+                    "count_hired": [],
+                    "amount_payable": [],
+                    "amount_of_discount": [],
+                    "amount_outstanding": [],
+                    "amount_of_refund": [],
+                    "customer_id": []
+                }
+            },
+            "1991": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "booking_status_code": [],
+                    "returned_damaged_yn": [],
+                    "booking_start_date": [],
+                    "booking_end_date": [],
+                    "count_hired": [],
+                    "amount_payable": [],
+                    "amount_of_discount": [],
+                    "amount_outstanding": [],
+                    "amount_of_refund": [],
+                    "customer_id": []
+                }
+            }
+        },
+        "Customers": {
+            "9": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "good_or_bad_customer": [],
+                    "first_name": [],
+                    "last_name": [
+                        "EF_RC"
+                    ],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [],
+                    "date_last_hire": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "7": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "good_or_bad_customer": [
+                        "TA_EM"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "gender_mf": [],
+                    "date_became_customer": [
+                        "TD_DF"
+                    ],
+                    "date_last_hire": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "13": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "good_or_bad_customer": [
+                        "RI_LD"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [],
+                    "date_last_hire": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "good_or_bad_customer": [
+                        "TD_CA"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [],
+                    "date_last_hire": [
+                        "TD_AS"
+                    ]
+                }
+            },
+            "1": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "good_or_bad_customer": [
+                        "TA_EM"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [],
+                    "date_last_hire": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "good_or_bad_customer": [
+                        "RI_LD"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [
+                        "TA_FC"
+                    ],
+                    "date_last_hire": []
+                }
+            },
+            "12": {
+                "row": [],
+                "col": {
+                    "good_or_bad_customer": [
+                        "TA_EM"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "gender_mf": [],
+                    "date_became_customer": [
+                        "TA_FC"
+                    ],
+                    "date_last_hire": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "10": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "good_or_bad_customer": [
+                        "TA_EM"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [],
+                    "date_last_hire": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "good_or_bad_customer": [],
+                    "first_name": [],
+                    "last_name": [
+                        "EF_RC"
+                    ],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [
+                        "TA_FC"
+                    ],
+                    "date_last_hire": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "11": {
+                "row": [],
+                "col": {
+                    "good_or_bad_customer": [
+                        "RI_MI"
+                    ],
+                    "first_name": [
+                        "EF_RC"
+                    ],
+                    "last_name": [],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [],
+                    "date_last_hire": []
+                }
+            },
+            "14": {
+                "row": [],
+                "col": {
+                    "good_or_bad_customer": [
+                        "TA_EM"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [
+                        "TD_AS"
+                    ],
+                    "date_last_hire": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "good_or_bad_customer": [
+                        "TA_EM"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "gender_mf": [],
+                    "date_became_customer": [
+                        "TA_FC"
+                    ],
+                    "date_last_hire": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "good_or_bad_customer": [
+                        "TD_CA"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [
+                        "TA_FC"
+                    ],
+                    "date_last_hire": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "good_or_bad_customer": [
+                        "RI_LD"
+                    ],
+                    "first_name": [],
+                    "last_name": [],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [
+                        "TD_DF"
+                    ],
+                    "date_last_hire": []
+                }
+            },
+            "6": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "good_or_bad_customer": [
+                        "RI_LD"
+                    ],
+                    "first_name": [
+                        "EF_RC"
+                    ],
+                    "last_name": [],
+                    "gender_mf": [
+                        "TA_EM"
+                    ],
+                    "date_became_customer": [],
+                    "date_last_hire": []
+                }
+            }
+        },
+        "Discount_Coupons": {
+            "1": {
+                "coupon_amount": [
+                    "TA_FC"
+                ]
+            },
+            "2": {
+                "coupon_amount": [
+                    "RI_AC"
+                ]
+            },
+            "3": {
+                "coupon_amount": [
+                    "RI_LD"
+                ]
+            },
+            "4": {
+                "coupon_amount": [
+                    "TD_DF"
+                ]
+            },
+            "5": {
+                "coupon_amount": [
+                    "TA_US"
+                ]
+            },
+            "6": {
+                "coupon_amount": [
+                    "RI_AC"
+                ]
+            },
+            "7": {
+                "coupon_amount": [
+                    "TD_CA"
+                ]
+            },
+            "8": {
+                "coupon_amount": []
+            },
+            "9": {
+                "coupon_amount": [
+                    "RI_LD"
+                ]
+            },
+            "10": {
+                "coupon_amount": []
+            },
+            "11": {
+                "coupon_amount": [
+                    "RI_AC"
+                ]
+            },
+            "12": {
+                "coupon_amount": []
+            },
+            "13": {
+                "coupon_amount": [
+                    "TA_FC"
+                ]
+            },
+            "14": {
+                "coupon_amount": [
+                    "TD_DF"
+                ]
+            },
+            "15": {
+                "coupon_amount": []
+            }
+        },
+        "Payments": {
+            "14": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "amount_paid": [
+                        "TA_US"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "8": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_MB",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "11": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "13": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_MB",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "10": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "9": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "amount_paid": [
+                        "TA_US"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "payment_type_code": [
+                        "TA_EM"
+                    ],
+                    "amount_paid_in_full_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "payment_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "amount_due": [
+                        "TA_US"
+                    ],
+                    "amount_paid": [
+                        "TA_US"
+                    ],
+                    "booking_id": [],
+                    "customer_id": []
+                }
+            }
+        },
+        "Products_Booked": {
+            "3, 5": {
+                "row": [
+                    "RL_MB",
+                    "IC_ME"
+                ],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "booked_count": [],
+                    "booked_amount": []
+                }
+            },
+            "4, 1": {
+                "row": [
+                    "RL_MI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "booked_count": [
+                        "RI_AC"
+                    ],
+                    "booked_amount": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "14, 1": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM"
+                    ],
+                    "booked_count": [],
+                    "booked_amount": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "2, 4": {
+                "row": [],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "booked_count": [
+                        "RI_AC"
+                    ],
+                    "booked_amount": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "15, 3": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM"
+                    ],
+                    "booked_count": [],
+                    "booked_amount": []
+                }
+            },
+            "11, 5": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "booked_count": [
+                        "RI_AC"
+                    ],
+                    "booked_amount": []
+                }
+            },
+            "14, 5": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "booked_count": [
+                        "RI_AC"
+                    ],
+                    "booked_amount": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "1, 2": {
+                "row": [],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM"
+                    ],
+                    "booked_count": [],
+                    "booked_amount": []
+                }
+            },
+            "13, 3": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM"
+                    ],
+                    "booked_count": [],
+                    "booked_amount": []
+                }
+            },
+            "10, 4": {
+                "row": [],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM"
+                    ],
+                    "booked_count": [
+                        "RI_AC"
+                    ],
+                    "booked_amount": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "15, 1": {
+                "row": [],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM"
+                    ],
+                    "booked_count": [],
+                    "booked_amount": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "11, 1": {
+                "row": [
+                    "RL_MI",
+                    "GR_TI"
+                ],
+                "col": {
+                    "returned_yn": [
+                        "TA_EM"
+                    ],
+                    "returned_late_yn": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "booked_count": [
+                        "RI_AC"
+                    ],
+                    "booked_amount": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "returned_yn": [],
+                    "returned_late_yn": [],
+                    "booked_count": [],
+                    "booked_amount": []
+                }
+            },
+            "1992": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "returned_yn": [],
+                    "returned_late_yn": [],
+                    "booked_count": [],
+                    "booked_amount": []
+                }
+            },
+            "1996": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "returned_yn": [],
+                    "returned_late_yn": [],
+                    "booked_count": [],
+                    "booked_amount": []
+                }
+            }
+        },
+        "Products_for_Hire": {
+            "1": {
+                "product_type_code": [],
+                "daily_hire_cost": [
+                    "RI_AC"
+                ],
+                "product_description": []
+            },
+            "2": {
+                "product_type_code": [
+                    "TA_EM"
+                ],
+                "daily_hire_cost": [],
+                "product_description": []
+            },
+            "3": {
+                "product_type_code": [],
+                "daily_hire_cost": [
+                    "TA_US"
+                ],
+                "product_description": []
+            },
+            "4": {
+                "product_type_code": [
+                    "RI_LD"
+                ],
+                "daily_hire_cost": [],
+                "product_description": []
+            },
+            "5": {
+                "product_type_code": [],
+                "daily_hire_cost": [],
+                "product_description": [
+                    "TD_DF"
+                ]
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/products_for_hire/tables"
+}

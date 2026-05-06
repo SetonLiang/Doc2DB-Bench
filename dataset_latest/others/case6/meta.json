@@ -1,0 +1,4454 @@
+{
+    "dataset_name": "world",
+    "if_primary_allowed": {
+        "Country": false,
+        "City": false,
+        "CountryLanguage": true
+    },
+    "type": {
+        "City": "1:1",
+        "CountryLanguage": "1:1"
+    },
+    "capability_assignments": {
+        "City": {
+            "2378": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "756": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2362": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "936": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "750": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "4055": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2839": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2080": {
+                "row": [
+                    "IDR_ED",
+                    "RL_MI"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2076": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "3346": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3031": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3428": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2837": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3798": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "24": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3824": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "1428": {
+                "row": [
+                    "RL_CL",
+                    "RL_MI"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3893": {
+                "row": [
+                    "RL_CL",
+                    "RL_MB"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2230": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2145": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2024": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "131": {
+                "row": [
+                    "GR_CTA",
+                    "RL_MB"
+                ],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2178": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3317": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3490": {
+                "row": [
+                    "IDR_ED",
+                    "IC_ME"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "1438": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "541": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2514": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3175": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3857": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3160": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3889": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3094": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "593": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "1398": {
+                "row": [
+                    "IC_RI",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3803": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "739": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3143": {
+                "row": [
+                    "IC_RI",
+                    "RL_MI"
+                ],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "1789": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "572": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "746": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "1966": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2340": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "1442": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "546": {
+                "row": [
+                    "RL_MI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3492": {
+                "row": [
+                    "RL_MI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2863": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2163": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3973": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "2135": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "1983": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3313": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "1967": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2048": {
+                "row": [
+                    "GR_TI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "3797": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3819": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "2072": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "2197": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "751": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3079": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2073": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3444": {
+                "row": [
+                    "GR_DC",
+                    "RL_MI"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "1407": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "1941": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3885": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "1969": {
+                "row": [
+                    "RL_MB",
+                    "GR_TI"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "1445": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "931": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3241": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2338": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "2027": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "181": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3862": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3116": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "1899": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "3238": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3121": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "2039": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2460": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3919": {
+                "row": [
+                    "IDR_ED",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "1400": {
+                "row": [
+                    "RL_MB",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3146": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3456": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "70": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "604": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "3928": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "3245": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3131": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_AS"
+                    ],
+                    "Population": [
+                        "RI_AC"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3970": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "552": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "2385": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "4053": {
+                "row": [
+                    "RL_MI",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3041": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Name": [
+                        "TA_FC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "TA_US"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3318": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "7": {
+                "row": [],
+                "col": {
+                    "Name": [
+                        "TD_DF"
+                    ],
+                    "District": [
+                        "EF_RC"
+                    ],
+                    "Population": [],
+                    "CountryCode": []
+                }
+            },
+            "2850": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "3249": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "4050": {
+                "row": [],
+                "col": {
+                    "Name": [],
+                    "District": [
+                        "TD_DF"
+                    ],
+                    "Population": [
+                        "TD_CA"
+                    ],
+                    "CountryCode": []
+                }
+            },
+            "4047": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "Name": [
+                        "EF_HC"
+                    ],
+                    "District": [],
+                    "Population": [
+                        "RI_LD"
+                    ],
+                    "CountryCode": []
+                }
+            }
+        },
+        "Country": {
+            "OMN": {
+                "Region": [
+                    "TA_EM"
+                ],
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Continent": [],
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "Code2": []
+            },
+            "BMU": {
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "TA_US"
+                ],
+                "LocalName": [],
+                "HeadOfState": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "ANT": {
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "Population": [
+                    "TA_FC"
+                ],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [
+                    "TD_AS"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "SJM": {
+                "Population": [],
+                "LifeExpectancy": [
+                    "EF_ND"
+                ],
+                "GNP": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [],
+                "HeadOfState": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "FJI": {
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [
+                    "TA_US"
+                ],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "GNP": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "ECU": {
+                "IndepYear": [],
+                "Population": [
+                    "TA_US"
+                ],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "DJI": {
+                "IndepYear": [
+                    "RI_TC"
+                ],
+                "LifeExpectancy": [],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "GNP": [],
+                "LocalName": [],
+                "Code2": []
+            },
+            "BWA": {
+                "Continent": [
+                    "TA_EM"
+                ],
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "IndepYear": [],
+                "LifeExpectancy": [
+                    "RI_MI"
+                ],
+                "GNP": [
+                    "TA_FC"
+                ],
+                "Region": [],
+                "Population": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "SHN": {
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "BLR": {
+                "Continent": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [],
+                "Capital": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "GNP": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Code2": []
+            },
+            "PRK": {
+                "IndepYear": [],
+                "Population": [
+                    "TA_US"
+                ],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "YUG": {
+                "Continent": [],
+                "IndepYear": [
+                    "TA_FC"
+                ],
+                "LifeExpectancy": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [
+                    "TA_EM"
+                ],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "GNP": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "MLT": {
+                "Region": [],
+                "IndepYear": [],
+                "Population": [
+                    "TA_FC"
+                ],
+                "LifeExpectancy": [],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "Capital": [],
+                "Continent": [],
+                "SurfaceArea": [],
+                "GNP": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Code2": []
+            },
+            "BGR": {
+                "IndepYear": [
+                    "RI_TC"
+                ],
+                "Population": [],
+                "LifeExpectancy": [
+                    "TA_US"
+                ],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "GNPOld": [],
+                "LocalName": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "NAM": {
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [
+                    "RI_LD"
+                ],
+                "GNP": [],
+                "GNPOld": [],
+                "Continent": [],
+                "Region": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "JOR": {
+                "Region": [],
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "ARG": {
+                "Continent": [],
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "IndepYear": [
+                    "RI_TC"
+                ],
+                "Population": [
+                    "TA_FC"
+                ],
+                "GNP": [
+                    "TA_US"
+                ],
+                "Region": [],
+                "LifeExpectancy": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "ARE": {
+                "Region": [],
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GovernmentForm": [
+                    "TA_EM"
+                ],
+                "Continent": [],
+                "GNP": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "BHR": {
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNPOld": [],
+                "GovernmentForm": [
+                    "TD_AS"
+                ],
+                "Continent": [],
+                "Region": [],
+                "GNP": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "CZE": {
+                "IndepYear": [],
+                "Population": [
+                    "TA_US"
+                ],
+                "LifeExpectancy": [
+                    "TA_FC"
+                ],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "DNK": {
+                "Region": [],
+                "SurfaceArea": [],
+                "IndepYear": [
+                    "EF_HC"
+                ],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GovernmentForm": [],
+                "Continent": [],
+                "GNP": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "MAC": {
+                "SurfaceArea": [
+                    "RI_AC"
+                ],
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "LifeExpectancy": [],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "Population": [],
+                "GNP": [],
+                "GNPOld": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "NFK": {
+                "Region": [],
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "Population": [
+                    "TA_FC"
+                ],
+                "LifeExpectancy": [
+                    "EF_ND"
+                ],
+                "GNP": [],
+                "GovernmentForm": [],
+                "Continent": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "ZAF": {
+                "Region": [],
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "Population": [],
+                "LifeExpectancy": [
+                    "RI_LD"
+                ],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "HeadOfState": [],
+                "Continent": [],
+                "IndepYear": [],
+                "GNP": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "MOZ": {
+                "Region": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "CRI": {
+                "IndepYear": [
+                    "TA_FC"
+                ],
+                "Population": [],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "SAU": {
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "IndepYear": [],
+                "Population": [
+                    "TA_US"
+                ],
+                "GNP": [],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "PCN": {
+                "Population": [],
+                "LifeExpectancy": [
+                    "EF_ND"
+                ],
+                "GNP": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [],
+                "HeadOfState": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "REU": {
+                "Continent": [],
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "GNPOld": [],
+                "HeadOfState": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "VCT": {
+                "IndepYear": [],
+                "Population": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [],
+                "HeadOfState": [
+                    "TD_DF"
+                ],
+                "Capital": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "LocalName": [],
+                "Code2": []
+            },
+            "JAM": {
+                "IndepYear": [],
+                "Population": [],
+                "GNP": [
+                    "TA_US"
+                ],
+                "GNPOld": [],
+                "GovernmentForm": [
+                    "TA_EM"
+                ],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "DEU": {
+                "IndepYear": [
+                    "RI_TC"
+                ],
+                "Population": [
+                    "TA_US"
+                ],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "TA_FC"
+                ],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "KIR": {
+                "Region": [
+                    "TA_EM"
+                ],
+                "IndepYear": [],
+                "Population": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [],
+                "Capital": [],
+                "Continent": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Code2": []
+            },
+            "MYT": {
+                "Region": [],
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "Population": [],
+                "GNP": [
+                    "RI_LD"
+                ],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "HeadOfState": [],
+                "Continent": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "FLK": {
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "Population": [],
+                "GNP": [],
+                "GovernmentForm": [
+                    "TD_AS"
+                ],
+                "HeadOfState": [],
+                "Capital": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "Code2": []
+            },
+            "AFG": {
+                "Region": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "SOM": {
+                "Continent": [],
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "TA_US"
+                ],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "CHL": {
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "TA_FC"
+                ],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "Population": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "QAT": {
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "GNPOld": [],
+                "GovernmentForm": [
+                    "TA_EM"
+                ],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "Population": [],
+                "GNP": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "USA": {
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "Population": [
+                    "TA_US"
+                ],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "RI_MI",
+                    "TA_US"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "IndepYear": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "GRL": {
+                "SurfaceArea": [],
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "GNP": [
+                    "RI_LD"
+                ],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "Continent": [],
+                "Region": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "TCA": {
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "Population": [
+                    "TA_FC"
+                ],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "HeadOfState": [],
+                "Capital": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "Code2": []
+            },
+            "CHE": {
+                "IndepYear": [],
+                "Population": [],
+                "GNP": [],
+                "GNPOld": [],
+                "LocalName": [
+                    "EF_RC"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "UGA": {
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "Population": [],
+                "LifeExpectancy": [
+                    "RI_LD"
+                ],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "IndepYear": [],
+                "GNP": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "GRD": {
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "VIR": {
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "GNP": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [
+                    "TD_AS"
+                ],
+                "HeadOfState": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "UKR": {
+                "IndepYear": [
+                    "TA_FC"
+                ],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "HUN": {
+                "IndepYear": [
+                    "RI_TC"
+                ],
+                "Population": [
+                    "TA_US"
+                ],
+                "LifeExpectancy": [
+                    "TA_US"
+                ],
+                "GNPOld": [],
+                "LocalName": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "GNP": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "BHS": {
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "GUY": {
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "GTM": {
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "IndepYear": [],
+                "Population": [
+                    "TA_US"
+                ],
+                "GNP": [],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "TUV": {
+                "Region": [],
+                "IndepYear": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [],
+                "HeadOfState": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "EST": {
+                "IndepYear": [],
+                "Population": [],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "Capital": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Code2": []
+            },
+            "ATA": {
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "Population": [],
+                "LifeExpectancy": [
+                    "EF_ND"
+                ],
+                "HeadOfState": [
+                    "EF_ND"
+                ],
+                "Capital": [
+                    "EF_ND"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "GNP": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "Code2": []
+            },
+            "KWT": {
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "Population": [],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "GovernmentForm": [
+                    "TD_AS"
+                ],
+                "Continent": [],
+                "Region": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "MKD": {
+                "Region": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "Continent": [],
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "Population": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "BRB": {
+                "SurfaceArea": [
+                    "RI_LD"
+                ],
+                "IndepYear": [],
+                "Population": [],
+                "GNP": [],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "HTI": {
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "TA_US"
+                ],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "BFA": {
+                "Continent": [],
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "HeadOfState": [],
+                "Region": [],
+                "GNP": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "MNG": {
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "IndepYear": [
+                    "TA_FC"
+                ],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "GNPOld": [],
+                "Continent": [],
+                "Region": [],
+                "Population": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "GAB": {
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "NPL": {
+                "IndepYear": [
+                    "EF_HC"
+                ],
+                "Population": [
+                    "TA_US"
+                ],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "NLD": {
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "HeadOfState": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "HKG": {
+                "SurfaceArea": [],
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "GNP": [
+                    "TA_US"
+                ],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "GovernmentForm": [
+                    "TA_EM"
+                ],
+                "Continent": [],
+                "Region": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNPOld": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "MUS": {
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "LifeExpectancy": [
+                    "TA_FC"
+                ],
+                "GNP": [],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "Population": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "CPV": {
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "BDI": {
+                "Region": [],
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [
+                    "RI_LD"
+                ],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "Continent": [],
+                "SurfaceArea": [],
+                "GNP": [],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "SEN": {
+                "IndepYear": [],
+                "Population": [],
+                "GNP": [],
+                "GNPOld": [],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "PLW": {
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "GNP": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "DMA": {
+                "Population": [],
+                "GNP": [],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "Code2": []
+            },
+            "FSM": {
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [
+                    "TA_EM"
+                ],
+                "HeadOfState": [],
+                "Capital": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "GNP": [],
+                "LocalName": [],
+                "Code2": []
+            },
+            "ROM": {
+                "IndepYear": [
+                    "RI_TC"
+                ],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "TZA": {
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "IndepYear": [],
+                "Population": [
+                    "TA_US"
+                ],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "Continent": [],
+                "Region": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "BIH": {
+                "IndepYear": [],
+                "Population": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [
+                    "TA_EM"
+                ],
+                "HeadOfState": [],
+                "Capital": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "LocalName": [],
+                "Code2": []
+            },
+            "SLE": {
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [
+                    "RI_MI"
+                ],
+                "GNP": [
+                    "TA_FC"
+                ],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "SUR": {
+                "Continent": [],
+                "IndepYear": [],
+                "Population": [],
+                "GNP": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "KOR": {
+                "SurfaceArea": [],
+                "IndepYear": [
+                    "TA_FC"
+                ],
+                "Population": [],
+                "GNP": [
+                    "TA_US"
+                ],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "Continent": [],
+                "Region": [],
+                "LifeExpectancy": [],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "HMD": {
+                "Region": [],
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "Population": [],
+                "LifeExpectancy": [
+                    "EF_ND"
+                ],
+                "GNP": [],
+                "Capital": [
+                    "EF_ND"
+                ],
+                "Continent": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Code2": []
+            },
+            "CHN": {
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "IndepYear": [
+                    "EF_HC"
+                ],
+                "Population": [
+                    "TA_US"
+                ],
+                "GNPOld": [],
+                "GovernmentForm": [
+                    "TA_EM"
+                ],
+                "Continent": [],
+                "Region": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "HND": {
+                "Region": [],
+                "IndepYear": [],
+                "Population": [],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "Continent": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "GUM": {
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "Population": [],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "GovernmentForm": [
+                    "TD_AS"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "CYM": {
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "TA_US"
+                ],
+                "GNPOld": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "ETH": {
+                "SurfaceArea": [
+                    "TA_US"
+                ],
+                "IndepYear": [
+                    "EF_HC"
+                ],
+                "Population": [
+                    "TA_FC"
+                ],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "Continent": [],
+                "Region": [],
+                "LifeExpectancy": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "BEL": {
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GovernmentForm": [
+                    "TD_AS"
+                ],
+                "Continent": [],
+                "Region": [],
+                "GNP": [],
+                "GNPOld": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "CMR": {
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "Continent": [],
+                "Region": [],
+                "Population": [],
+                "GNP": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "MHL": {
+                "IndepYear": [],
+                "Population": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "WSM": {
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "GovernmentForm": [
+                    "TA_EM"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "GNP": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "PYF": {
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "Population": [],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "LAO": {
+                "IndepYear": [],
+                "Population": [],
+                "GNP": [],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "PAK": {
+                "SurfaceArea": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "RI_MI"
+                ],
+                "GNPOld": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "IndepYear": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "FIN": {
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "Population": [],
+                "GNPOld": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "MNP": {
+                "IndepYear": [
+                    "EF_ND"
+                ],
+                "GNP": [],
+                "GNPOld": [
+                    "EF_ND"
+                ],
+                "GovernmentForm": [
+                    "TD_AS"
+                ],
+                "HeadOfState": [
+                    "TD_DF"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "THA": {
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "GNB": {
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [],
+                "GovernmentForm": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "AUS": {
+                "Region": [],
+                "IndepYear": [
+                    "RI_TC"
+                ],
+                "Population": [
+                    "TA_US"
+                ],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "Continent": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "PNG": {
+                "SurfaceArea": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "LocalName": [
+                    "TD_AS"
+                ],
+                "Continent": [],
+                "Region": [],
+                "IndepYear": [],
+                "GNP": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "URY": {
+                "IndepYear": [
+                    "TA_FC"
+                ],
+                "Population": [],
+                "GNP": [
+                    "RI_AC"
+                ],
+                "GNPOld": [],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LifeExpectancy": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "GIN": {
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "LifeExpectancy": [
+                    "RI_LD"
+                ],
+                "GNP": [],
+                "GNPOld": [],
+                "HeadOfState": [],
+                "Continent": [],
+                "Region": [],
+                "Population": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "IRN": {
+                "Population": [
+                    "TA_US"
+                ],
+                "LifeExpectancy": [],
+                "GNP": [
+                    "RI_MI"
+                ],
+                "GNPOld": [],
+                "GovernmentForm": [
+                    "TA_EM"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "IndepYear": [],
+                "LocalName": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            },
+            "NIC": {
+                "IndepYear": [],
+                "Population": [],
+                "LifeExpectancy": [],
+                "GNP": [],
+                "GNPOld": [
+                    "TD_CA"
+                ],
+                "Continent": [],
+                "Region": [],
+                "SurfaceArea": [],
+                "LocalName": [],
+                "GovernmentForm": [],
+                "HeadOfState": [],
+                "Capital": [],
+                "Code2": []
+            }
+        },
+        "CountryLanguage": {
+            "MNG, Mongolian": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "WSM, Samoan": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "PAK, Brahui": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "ETH, Oromo": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "TZA, Ha": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "UGA, Soga": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "BMU, English": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "CHL, Aimará": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "TD_AS"
+                    ]
+                }
+            },
+            "BFA, Dyula": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "RI_AC"
+                    ]
+                }
+            },
+            "MHL, Marshallese": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "BEL, Dutch": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "ANT, Papiamento": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "UGA, Nkole": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "USA, English": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM",
+                        "TD_AS"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "RI_AC"
+                    ]
+                }
+            },
+            "ETH, Gurage": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "DEU, Italian": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "ZAF, Zulu": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "TZA, Makonde": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "UGA, Kiga": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "UGA, Lugbara": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "ROM, Ukrainian": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "EF_HC"
+                    ]
+                }
+            },
+            "ZAF, Swazi": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "MKD, Romani": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "BFA, Busansi": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "BRB, Bajan": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "ARG, Indian Languages": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "MOZ, Makua": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "TA_FC"
+                    ]
+                }
+            },
+            "ZAF, Tswana": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "HUN, Hungarian": {
+                "row": [
+                    "RL_CL",
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "TA_FC"
+                    ]
+                }
+            },
+            "CMR, Tikar": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "VIR, English": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM",
+                        "TD_AS"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "AUS, German": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "SOM, Somali": {
+                "row": [
+                    "IDR_ED",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "CHN, Puyi": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "BLR, Russian": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "USA, Chinese": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "SJM, Norwegian": {
+                "row": [
+                    "IDR_ED",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "SOM, Arabic": {
+                "row": [
+                    "IDR_ED",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "SLE, Bullom-sherbro": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "HKG, English": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "BGR, Romani": {
+                "row": [
+                    "RL_MB",
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "USA, Tagalog": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "MAC, Portuguese": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "RI_AC"
+                    ]
+                }
+            },
+            "BFA, Dagara": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "SUR, Hindi": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "GNB, Ful": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "RI_AC"
+                    ]
+                }
+            },
+            "MYT, Mahoré": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "RI_AC"
+                    ]
+                }
+            },
+            "JAM, Creole English": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "NIC, Spanish": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM",
+                        "EF_HC"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "TA_FC"
+                    ]
+                }
+            },
+            "CZE, German": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "AFG, Turkmenian": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "CZE, Silesiana": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "SLE, Kuranko": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "SEN, Wolof": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "MNP, Chinese": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "HUN, Serbo-Croatian": {
+                "row": [
+                    "RL_CL",
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "UKR, Polish": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "PAK, Punjabi": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "RI_AC"
+                    ]
+                }
+            },
+            "USA, Polish": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "MKD, Turkish": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "DNK, Danish": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "RI_AC"
+                    ]
+                }
+            },
+            "CPV, Crioulo": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "EST, Estonian": {
+                "row": [
+                    "RL_MI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "BLR, Ukrainian": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "NIC, Creole English": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "TZA, Shambala": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM",
+                        "TD_DF"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "IRN, Balochi": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "NPL, Hindi": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "GUM, Japanese": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "GTM, Quiché": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "DNK, Turkish": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "NLD, Turkish": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "LAO, Thai": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "MNG, Dariganga": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "MOZ, Chuabo": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "JOR, Circassian": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "EST, Ukrainian": {
+                "row": [
+                    "RL_MI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "DMA, Creole English": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "CHN, Hui": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "BFA, Gurma": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "FSM, Pohnpei": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "BWA, Shona": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "AFG, Dari": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "DNK, Norwegian": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "UGA, Lango": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "MYT, Malagasy": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM",
+                        "EF_HC"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "KWT, English": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "BGR, Bulgariana": {
+                "row": [
+                    "RL_MB",
+                    "RL_MI"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "SJM, Russian": {
+                "row": [
+                    "IDR_ED",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "URY, Spanish": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "JOR, Arabic": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM",
+                        "EF_HC"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "TA_FC"
+                    ]
+                }
+            },
+            "TUV, English": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "EF_ND"
+                    ]
+                }
+            },
+            "IRN, Turkmenian": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "UKR, Romanian": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "UKR, Russian": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "IRN, Persian": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "TA_FC"
+                    ]
+                }
+            },
+            "VIR, Spanish": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US"
+                    ]
+                }
+            },
+            "BEL, German": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "CZE, Romani": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {
+                    "IsOfficial": [],
+                    "Percentage": []
+                }
+            },
+            "PLW, English": {
+                "row": [],
+                "col": {
+                    "IsOfficial": [
+                        "TA_EM"
+                    ],
+                    "Percentage": [
+                        "TA_US",
+                        "TA_FC"
+                    ]
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/world/tables"
+}

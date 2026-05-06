@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "name": "location",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "LocationID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "unique id of the location (data format: integer)"
+      },
+      {
+        "name": "Country",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the country (data format: text)"
+      },
+      {
+        "name": "State",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the state (data format: text)"
+      },
+      {
+        "name": "StateCode",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "state code (data format: text)"
+      },
+      {
+        "name": "City",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the city (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "user",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "UserID",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "the unique id of the user (data format: text)"
+      },
+      {
+        "name": "Gender",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "user's gender Male / Female / Unknown (data format: text)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "twitter",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "TweetID",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "the unique id of the tweet (data format: text)"
+      },
+      {
+        "name": "Weekday",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the weekday that the tweet has been posted (data format: text)"
+      },
+      {
+        "name": "Hour",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the hour that the tweet has been posted (data format: integer)"
+      },
+      {
+        "name": "Day",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the day that the tweet has been posted (data format: integer)"
+      },
+      {
+        "name": "Lang",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the language of the tweet (data format: text)"
+      },
+      {
+        "name": "IsReshare",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "whether the tweet is reshared commonsense evidence: A reshared tweet is when someone reshares or forwards a post to their own Twitter \ttrue: the tweet is reshared \tfalse: the tweet isn't reshared (data format: text)"
+      },
+      {
+        "name": "Reach",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the reach of the tweet commonsense evidence: reach counts the number of unique users who have seen your tweet (data format: integer)"
+      },
+      {
+        "name": "RetweetCount",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the retweet count (data format: integer)"
+      },
+      {
+        "name": "Likes",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the number of likes (data format: integer)"
+      },
+      {
+        "name": "Klout",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the klout of the tweet (data format: integer)"
+      },
+      {
+        "name": "Sentiment",
+        "type": "REAL",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the sentiment of the tweet commonsense evidence: \t>0: the sentiment of the tweet is positive. \t=0: the sentiment of the tweet is neutral. \t<0: the sentiment of the tweet is negative."
+      },
+      {
+        "name": "text",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the text of the tweet"
+      },
+      {
+        "name": "LocationID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "location",
+            "column": "LocationID"
+          }
+        },
+        "description": "the location id of the poster (data format: integer)"
+      },
+      {
+        "name": "UserID",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "user",
+            "column": "UserID"
+          }
+        },
+        "description": "the user id of the poster (data format: integer)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,250 @@
+[
+    {
+      "city_code": "BAL",
+      "city_name": "Baltimore",
+      "state": "MD",
+      "country": "USA",
+      "latitude": 39.288,
+      "longitude": -76.617
+    },
+    {
+      "city_code": "PIT",
+      "city_name": "Pittsburgh",
+      "state": "PA",
+      "country": "USA",
+      "latitude": 40.437,
+      "longitude": -80.0
+    },
+    {
+      "city_code": "PHL",
+      "city_name": "Philadelphia",
+      "state": "PA",
+      "country": "USA",
+      "latitude": 39.95,
+      "longitude": -75.15
+    },
+    {
+      "city_code": "WAS",
+      "city_name": "Washington",
+      "state": "DC",
+      "country": "USA",
+      "latitude": 38.892,
+      "longitude": -77.017
+    },
+    {
+      "city_code": "NYC",
+      "city_name": "New York",
+      "state": "NY",
+      "country": "USA",
+      "latitude": 40.849,
+      "longitude": -73.867
+    },
+    {
+      "city_code": "ATL",
+      "city_name": "Atlanta",
+      "state": "GA",
+      "country": "USA",
+      "latitude": 33.763,
+      "longitude": -84.317
+    },
+    {
+      "city_code": "EWR",
+      "city_name": "Newark",
+      "state": "NJ",
+      "country": "USA",
+      "latitude": 40.737,
+      "longitude": -74.167
+    },
+    {
+      "city_code": "FRE",
+      "city_name": "Frederick",
+      "state": "MD",
+      "country": "USA",
+      "latitude": 39.415,
+      "longitude": -77.417
+    },
+    {
+      "city_code": "NAR",
+      "city_name": "Newark",
+      "state": "DE",
+      "country": "USA",
+      "latitude": 39.683,
+      "longitude": -75.75
+    },
+    {
+      "city_code": "SAN",
+      "city_name": "San Diego",
+      "state": "CA",
+      "country": "USA",
+      "latitude": 32.713,
+      "longitude": -117.15
+    },
+    {
+      "city_code": "LOS",
+      "city_name": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "latitude": 34.058,
+      "longitude": -118.25
+    },
+    {
+      "city_code": "HON",
+      "city_name": "Honolulu",
+      "state": "HI",
+      "country": "USA",
+      "latitude": 21.313,
+      "longitude": -157.85
+    },
+    {
+      "city_code": "SFO",
+      "city_name": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "latitude": 37.775,
+      "longitude": -122.417
+    },
+    {
+      "city_code": "PVD",
+      "city_name": "Providence",
+      "state": "RI",
+      "country": "USA",
+      "latitude": 41.817,
+      "longitude": -71.4
+    },
+    {
+      "city_code": "BOS",
+      "city_name": "Boston",
+      "state": "MA",
+      "country": "USA",
+      "latitude": 42.362,
+      "longitude": -71.05
+    },
+    {
+      "city_code": "DET",
+      "city_name": "Detroit",
+      "state": "MI",
+      "country": "USA",
+      "latitude": 42.323,
+      "longitude": -83.167
+    },
+    {
+      "city_code": "CHI",
+      "city_name": "Chicago",
+      "state": "IL",
+      "country": "USA",
+      "latitude": 41.883,
+      "longitude": -87.617
+    },
+    {
+      "city_code": "ROC",
+      "city_name": "Rochester",
+      "state": "NY",
+      "country": "USA",
+      "latitude": 43.158,
+      "longitude": -77.6
+    },
+    {
+      "city_code": "DAL",
+      "city_name": "Dallas",
+      "state": "TX",
+      "country": "USA",
+      "latitude": 32.777,
+      "longitude": -96.8
+    },
+    {
+      "city_code": "HOU",
+      "city_name": "Houston",
+      "state": "TX",
+      "country": "USA",
+      "latitude": 29.834,
+      "longitude": -95.0
+    },
+    {
+      "city_code": "MIA",
+      "city_name": "Miami",
+      "state": "FL",
+      "country": "USA",
+      "latitude": 25.465,
+      "longitude": -80.15
+    },
+    {
+      "city_code": "CPK",
+      "city_name": "College Park",
+      "state": "MD",
+      "country": "USA",
+      "latitude": 38.987,
+      "longitude": -76.933
+    },
+    {
+      "city_code": "YYZ",
+      "city_name": "Toronto",
+      "state": "ON",
+      "country": "CANADA",
+      "latitude": 43.65,
+      "longitude": -79.333
+    },
+    {
+      "city_code": "DEL",
+      "city_name": "Delhi",
+      "state": "DE",
+      "country": "INDIA",
+      "latitude": 28.617,
+      "longitude": 77.217
+    },
+    {
+      "city_code": "PEK",
+      "city_name": "Beijing",
+      "state": "BE",
+      "country": "CHINA",
+      "latitude": 39.917,
+      "longitude": 116.417
+    },
+    {
+      "city_code": "HKG",
+      "city_name": "Hong Kong",
+      "state": "HK",
+      "country": "CHINA",
+      "latitude": 22.25,
+      "longitude": 114.167
+    },
+    {
+      "city_code": "TYO",
+      "city_name": "Tokyo",
+      "state": "XX",
+      "country": "JAPAN",
+      "latitude": 35.7,
+      "longitude": 139.767
+    },
+    {
+      "city_code": "LON",
+      "city_name": "London",
+      "state": "EN",
+      "country": "UK",
+      "latitude": 51.5,
+      "longitude": -0.167
+    },
+    {
+      "city_code": "PAR",
+      "city_name": "Paris",
+      "state": "XX",
+      "country": "FRANCE",
+      "latitude": 48.867,
+      "longitude": 2.333
+    },
+    {
+      "city_code": "JNB",
+      "city_name": "Johannesburg",
+      "state": "XX",
+      "country": "SAFRICA",
+      "latitude": -25.55,
+      "longitude": 28.0
+    },
+    {
+      "city_code": "BKK",
+      "city_name": "Bangkok",
+      "state": "XX",
+      "country": "THAILAND",
+      "latitude": 13.733,
+      "longitude": 100.5
+    }
+]

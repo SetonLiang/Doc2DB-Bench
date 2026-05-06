@@ -1,0 +1,366 @@
+[
+  {
+    "id": "1",
+    "name": "Discount_Coupons",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "coupon_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "date_issued",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "coupon_amount",
+        "type": "DECIMAL(19,4)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Customers",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "customer_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "coupon_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Discount_Coupons",
+            "column": "coupon_id"
+          }
+        }
+      },
+      {
+        "name": "good_or_bad_customer",
+        "type": "VARCHAR(4)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "first_name",
+        "type": "VARCHAR(80)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "last_name",
+        "type": "VARCHAR(80)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "gender_mf",
+        "type": "VARCHAR(1)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "date_became_customer",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "date_last_hire",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Bookings",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "booking_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "customer_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Customers",
+            "column": "customer_id"
+          }
+        }
+      },
+      {
+        "name": "booking_status_code",
+        "type": "VARCHAR(10)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "returned_damaged_yn",
+        "type": "VARCHAR(40)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "booking_start_date",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "booking_end_date",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "count_hired",
+        "type": "VARCHAR(40)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "amount_payable",
+        "type": "DECIMAL(19,4)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "amount_of_discount",
+        "type": "DECIMAL(19,4)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "amount_outstanding",
+        "type": "DECIMAL(19,4)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "amount_of_refund",
+        "type": "DECIMAL(19,4)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Products_for_Hire",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "product_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Products_Booked",
+            "column": "product_id"
+          }
+        }
+      },
+      {
+        "name": "product_type_code",
+        "type": "VARCHAR(15)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "daily_hire_cost",
+        "type": "DECIMAL(19,4)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "product_name",
+        "type": "VARCHAR(80)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "product_description",
+        "type": "VARCHAR(255)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Payments",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "payment_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        }
+      },
+      {
+        "name": "booking_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Bookings",
+            "column": "booking_id"
+          }
+        }
+      },
+      {
+        "name": "customer_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "foreign_key": {
+            "table": "Customers",
+            "column": "customer_id"
+          }
+        }
+      },
+      {
+        "name": "payment_type_code",
+        "type": "VARCHAR(15)",
+        "constraints": {
+          "nullable": false
+        }
+      },
+      {
+        "name": "amount_paid_in_full_yn",
+        "type": "VARCHAR(1)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "payment_date",
+        "type": "DATETIME",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "amount_due",
+        "type": "DECIMAL(19,4)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "amount_paid",
+        "type": "DECIMAL(19,4)",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Products_Booked",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "booking_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Bookings",
+            "column": "booking_id"
+          }
+        }
+      },
+      {
+        "name": "product_id",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": false,
+          "primary_key": true,
+          "foreign_key": {
+            "table": "Products_for_Hire",
+            "column": "product_id"
+          }
+        }
+      },
+      {
+        "name": "returned_yn",
+        "type": "VARCHAR(1)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "returned_late_yn",
+        "type": "VARCHAR(1)",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "booked_count",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "booked_amount",
+        "type": "FLOAT",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  }
+]

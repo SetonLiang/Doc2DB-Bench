@@ -1,0 +1,3381 @@
+{
+    "database_id": "retails",
+    "if_primary_allowed": {
+        "nation": false,
+        "part": false,
+        "supplier": false,
+        "customer": false,
+        "orders": false,
+        "partsupp": false,
+        "region": false
+    },
+    "type": {
+        "supplier": "1:1",
+        "nation": "1:1",
+        "customer": "1:1",
+        "orders": "1:1",
+        "partsupp": "1:2"
+    },
+    "capability_assignments": {
+        "customer": {
+            "18467": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "144673": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "112390": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "93181": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "c_mktsegment": [],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "2241": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "109608": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "107469": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "35536": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [
+                        "RI_LD"
+                    ],
+                    "c_nationkey": []
+                }
+            },
+            "32975": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "147662": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "37022": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "87129": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "103158": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "19016": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "76384": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [
+                        "RI_LD"
+                    ],
+                    "c_nationkey": []
+                }
+            },
+            "93962": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "122476": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "103752": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "101039": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "68473": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "23418": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "5129": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "6083": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "56486": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "99609": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "143643": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "116968": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [
+                        "RI_LD"
+                    ],
+                    "c_nationkey": []
+                }
+            },
+            "90419": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "59618": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [],
+                    "c_acctbal": [
+                        "RI_LD"
+                    ],
+                    "c_nationkey": []
+                }
+            },
+            "53122": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "99960": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "64391": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "40624": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "95388": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "38075": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "57648": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [
+                        "RI_LD"
+                    ],
+                    "c_nationkey": []
+                }
+            },
+            "88933": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "8734": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "37493": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "9190": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "35102": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "113043": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "39416": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "41254": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "3846": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [
+                        "RI_LD"
+                    ],
+                    "c_nationkey": []
+                }
+            },
+            "98925": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "12750": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [
+                        "TA_FC"
+                    ],
+                    "c_phone": [],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "69686": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "136502": {
+                "row": [],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            },
+            "91510": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "c_mktsegment": [
+                        "TA_EM"
+                    ],
+                    "c_name": [],
+                    "c_phone": [
+                        "TA_FC"
+                    ],
+                    "c_acctbal": [],
+                    "c_nationkey": []
+                }
+            }
+        },
+        "nation": {
+            "21": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "8": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "22": {
+                "row": [
+                    "IDR_CR",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "16": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "2": {
+                "row": [
+                    "GR_DC",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "7": {
+                "row": [
+                    "GR_TI",
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "19": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "18": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "10": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "6": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "14": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "1": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "11": {
+                "row": [
+                    "IC_ME",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "23": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "3": {
+                "row": [
+                    "IDR_CR",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "12": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "20": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "9": {
+                "row": [
+                    "RL_CL",
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "0": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "13": {
+                "row": [
+                    "GR_TI",
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "15": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "4": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "17": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "5": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "24": {
+                "row": [],
+                "col": {}
+            }
+        },
+        "orders": {
+            "893990": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "4278983": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "1038112": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "1829408": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD",
+                        "RI_AC"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "3417829": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "5329061": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "2319364": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "4212869": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "3982785": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD",
+                        "RI_AC"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "1133861": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "3019237": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "1150694": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [
+                        "TA_US"
+                    ],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "2416327": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "2499748": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "5233345": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "3625958": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD",
+                        "RI_AC"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "3699040": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "1414624": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD",
+                        "RI_AC"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "2013348": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD",
+                        "RI_AC"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "4299970": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "5270887": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "5063877": {
+                "row": [],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "3313319": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [
+                        "TA_US"
+                    ],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "345317": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "193250": {
+                "row": [],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "5132611": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD",
+                        "RI_AC"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [
+                        "TA_US"
+                    ],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "659233": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "2590726": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "3708934": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "1308870": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD",
+                        "RI_AC"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "5114018": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "3007303": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [
+                        "TA_US"
+                    ],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "5587392": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "5110915": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "5341922": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [
+                        "TA_US"
+                    ],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "4463332": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [
+                        "TA_US"
+                    ],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "1244866": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD",
+                        "RI_AC"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "1571713": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [
+                        "TA_US"
+                    ],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "4760292": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "4587840": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "3688738": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "757636": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "487777": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "3897252": {
+                "row": [],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "53057": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [
+                        "TA_EM"
+                    ],
+                    "o_totalprice": [
+                        "TA_US"
+                    ],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "5045697": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "4461251": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD",
+                        "RI_AC"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "743783": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "3215811": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "2034693": {
+                "row": [],
+                "col": {
+                    "o_orderdate": [
+                        "TA_FC"
+                    ],
+                    "o_orderpriority": [
+                        "RI_LD"
+                    ],
+                    "o_clerk": [],
+                    "o_totalprice": [
+                        "TA_US"
+                    ],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "o_orderdate": [],
+                    "o_orderpriority": [],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "1994": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "o_orderdate": [],
+                    "o_orderpriority": [],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            },
+            "1991": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "o_orderdate": [],
+                    "o_orderpriority": [],
+                    "o_clerk": [],
+                    "o_totalprice": [],
+                    "o_custkey": [],
+                    "o_orderstatus": []
+                }
+            }
+        },
+        "part": {
+            "33899": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [
+                    "TD_DF"
+                ],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [
+                    "TA_US"
+                ],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "36509": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "52712": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "58448": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [
+                    "TA_US"
+                ],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "65648": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [
+                    "TD_DF"
+                ],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "67690": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "69442": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "73560": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "74651": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [
+                    "TD_DF"
+                ],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "77589": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [
+                    "TA_US"
+                ],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "81726": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "96561": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [
+                    "TD_DF"
+                ],
+                "p_brand": [],
+                "p_retailprice": [
+                    "TA_US"
+                ],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "108105": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "114244": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "118892": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "132822": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [
+                    "TD_DF"
+                ],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "134430": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "136745": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "155463": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "155635": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [
+                    "TD_DF"
+                ],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "159142": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "165059": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "173304": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "180545": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "184678": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "193710": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [
+                    "TD_DF"
+                ],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "196918": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [
+                    "TA_US"
+                ],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "197440": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "197862": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            },
+            "198355": {
+                "p_type": [
+                    "TA_EM"
+                ],
+                "p_size": [],
+                "p_brand": [
+                    "TD_AS"
+                ],
+                "p_retailprice": [],
+                "p_container": [],
+                "p_mfgr": []
+            }
+        },
+        "partsupp": {
+            "165059, 7061": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_US"
+                    ],
+                    "ps_availqty": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "69442, 4481": {
+                "row": [],
+                "col": {
+                    "ps_supplycost": [],
+                    "ps_availqty": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "193710, 6924": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "RI_AC"
+                    ],
+                    "ps_availqty": []
+                }
+            },
+            "67690, 5730": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "RI_AC"
+                    ],
+                    "ps_availqty": []
+                }
+            },
+            "58448, 1440": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "RI_LD"
+                    ],
+                    "ps_availqty": []
+                }
+            },
+            "196918, 5133": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "ps_supplycost": [],
+                    "ps_availqty": [
+                        "TD_AS"
+                    ]
+                }
+            },
+            "36509, 7417": {
+                "row": [],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "ps_availqty": []
+                }
+            },
+            "197440, 9168": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "ps_supplycost": [],
+                    "ps_availqty": [
+                        "TD_AS"
+                    ]
+                }
+            },
+            "118892, 6359": {
+                "row": [],
+                "col": {
+                    "ps_supplycost": [
+                        "RI_AC"
+                    ],
+                    "ps_availqty": []
+                }
+            },
+            "33899, 2955": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_US"
+                    ],
+                    "ps_availqty": [
+                        "EF_ND"
+                    ]
+                }
+            },
+            "81726, 4931": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "RI_AC"
+                    ],
+                    "ps_availqty": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "134430, 1334": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_FC"
+                    ],
+                    "ps_availqty": [
+                        "RI_AC"
+                    ]
+                }
+            },
+            "108105, 978": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "ps_supplycost": [],
+                    "ps_availqty": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "65648, 2140": {
+                "row": [],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_US"
+                    ],
+                    "ps_availqty": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "173304, 6845": {
+                "row": [],
+                "col": {
+                    "ps_supplycost": [],
+                    "ps_availqty": [
+                        "RI_AC"
+                    ]
+                }
+            },
+            "52712, 644": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "RI_LD"
+                    ],
+                    "ps_availqty": [
+                        "EF_ND"
+                    ]
+                }
+            },
+            "114244, 7917": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_US"
+                    ],
+                    "ps_availqty": [
+                        "RI_AC"
+                    ]
+                }
+            },
+            "180545, 3587": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "ps_supplycost": [],
+                    "ps_availqty": [
+                        "RI_AC"
+                    ]
+                }
+            },
+            "77589, 775": {
+                "row": [],
+                "col": {
+                    "ps_supplycost": [],
+                    "ps_availqty": []
+                }
+            },
+            "74651, 8984": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_US"
+                    ],
+                    "ps_availqty": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "132822, 8925": {
+                "row": [],
+                "col": {
+                    "ps_supplycost": [],
+                    "ps_availqty": [
+                        "TD_AS"
+                    ]
+                }
+            },
+            "159142, 3641": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "ps_availqty": [
+                        "TD_AS"
+                    ]
+                }
+            },
+            "155635, 9603": {
+                "row": [],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_FC"
+                    ],
+                    "ps_availqty": []
+                }
+            },
+            "73560, 1108": {
+                "row": [],
+                "col": {
+                    "ps_supplycost": [],
+                    "ps_availqty": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "136745, 9827": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_FC"
+                    ],
+                    "ps_availqty": [
+                        "TD_AS"
+                    ]
+                }
+            },
+            "96561, 580": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_FC",
+                        "RI_LD"
+                    ],
+                    "ps_availqty": [
+                        "TD_AS"
+                    ]
+                }
+            },
+            "155463, 8523": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "RI_AC"
+                    ],
+                    "ps_availqty": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "197862, 4430": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_FC"
+                    ],
+                    "ps_availqty": []
+                }
+            },
+            "198355, 3760": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "RI_AC"
+                    ],
+                    "ps_availqty": []
+                }
+            },
+            "184678, 3777": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "ps_supplycost": [
+                        "TA_FC"
+                    ],
+                    "ps_availqty": []
+                }
+            }
+        },
+        "region": {
+            "0": {
+                "r_comment": [
+                    "TA_EM",
+                    "EF_HC"
+                ]
+            },
+            "1": {
+                "r_comment": [
+                    "TA_EM"
+                ]
+            },
+            "2": {
+                "r_comment": []
+            },
+            "3": {
+                "r_comment": [
+                    "TD_DF",
+                    "EF_HC"
+                ]
+            },
+            "4": {
+                "r_comment": [
+                    "TA_EM"
+                ]
+            }
+        },
+        "supplier": {
+            "1726": {
+                "row": [],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "6924": {
+                "row": [],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TD_AS",
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "7175": {
+                "row": [],
+                "col": {
+                    "s_name": [
+                        "EF_HC"
+                    ],
+                    "s_phone": [
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "2140": {
+                "row": [],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "3641": {
+                "row": [],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TD_AS"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "1553": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_HC"
+                    ],
+                    "s_phone": [
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "4931": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "9603": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_RC"
+                    ],
+                    "s_phone": [
+                        "TD_AS"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "3569": {
+                "row": [],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TA_FC",
+                        "TD_DF"
+                    ],
+                    "s_acctbal": [
+                        "TA_US"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "1527": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_RC"
+                    ],
+                    "s_phone": [
+                        "TD_AS"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "9382": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "5133": {
+                "row": [],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "8984": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [
+                        "TA_FC",
+                        "TD_AS"
+                    ],
+                    "s_acctbal": [
+                        "TA_US"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "3020": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TA_FC",
+                        "TD_DF"
+                    ],
+                    "s_acctbal": [
+                        "RI_AC"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "3777": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TD_DF"
+                    ],
+                    "s_acctbal": [
+                        "TA_US"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "644": {
+                "row": [],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [
+                        "TA_FC",
+                        "EF_RC"
+                    ],
+                    "s_acctbal": [
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "6845": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_RC"
+                    ],
+                    "s_phone": [
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [
+                        "RI_AC"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "7492": {
+                "row": [],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TD_AS",
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [
+                        "TA_US"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "9168": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_RC"
+                    ],
+                    "s_phone": [
+                        "TD_AS"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "5401": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_RC"
+                    ],
+                    "s_phone": [
+                        "TD_DF"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "5659": {
+                "row": [],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TA_FC",
+                        "TD_DF"
+                    ],
+                    "s_acctbal": [
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "978": {
+                "row": [],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [
+                        "TD_AS"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "7417": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_RC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "TA_US"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "3574": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TA_FC",
+                        "EF_HC"
+                    ],
+                    "s_acctbal": [
+                        "RI_AC",
+                        "EF_HC"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "8925": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TD_AS",
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [
+                        "RI_AC"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "6168": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_RC"
+                    ],
+                    "s_phone": [
+                        "TD_DF"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "580": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_HC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "RI_AC"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "3587": {
+                "row": [
+                    "RL_CL",
+                    "RL_MI"
+                ],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [
+                        "TD_DF"
+                    ],
+                    "s_acctbal": [
+                        "RI_LD",
+                        "EF_HC"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "8523": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [
+                        "RI_AC",
+                        "TA_US"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "1334": {
+                "row": [],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "3457": {
+                "row": [],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "322": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TD_AS",
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [
+                        "TA_US"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "2955": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "1108": {
+                "row": [],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "4032": {
+                "row": [],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TA_FC",
+                        "EF_HC"
+                    ],
+                    "s_acctbal": [
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "9827": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TA_FC",
+                        "EF_HC"
+                    ],
+                    "s_acctbal": [
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "4481": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [
+                        "TD_DF"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "4430": {
+                "row": [],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TD_DF"
+                    ],
+                    "s_acctbal": [
+                        "TA_US",
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "840": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_RC"
+                    ],
+                    "s_phone": [
+                        "TD_AS"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "1440": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_RC"
+                    ],
+                    "s_phone": [
+                        "TD_DF"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "6575": {
+                "row": [],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "8513": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "RI_AC",
+                        "RI_LD"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "1966": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "RI_LD",
+                        "EF_HC"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "6359": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_HC"
+                    ],
+                    "s_phone": [
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [],
+                    "s_nationkey": []
+                }
+            },
+            "7917": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_RC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "RI_AC"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "775": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "s_name": [
+                        "EF_HC"
+                    ],
+                    "s_phone": [
+                        "TA_FC"
+                    ],
+                    "s_acctbal": [
+                        "RI_AC",
+                        "TA_US"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "5730": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TA_FC",
+                        "EF_HC"
+                    ],
+                    "s_acctbal": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "8944": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "s_name": [
+                        "TA_FC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "RI_AC",
+                        "TA_US"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "3760": {
+                "row": [],
+                "col": {
+                    "s_name": [
+                        "EF_RC"
+                    ],
+                    "s_phone": [],
+                    "s_acctbal": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "s_nationkey": []
+                }
+            },
+            "7061": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "s_name": [],
+                    "s_phone": [
+                        "TA_FC",
+                        "TD_DF"
+                    ],
+                    "s_acctbal": [
+                        "RI_AC"
+                    ],
+                    "s_nationkey": []
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/retails/tables"
+}

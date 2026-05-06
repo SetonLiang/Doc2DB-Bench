@@ -1,0 +1,2123 @@
+{
+  "rows": [
+    {
+      "ID": 546,
+      "Name": "Sliven",
+      "CountryCode": "BGR",
+      "District": "Burgas",
+      "Population": 105530
+    },
+    {
+      "ID": 1966,
+      "Name": "Yingkou",
+      "CountryCode": "CHN",
+      "District": "Liaoning",
+      "Population": 421589
+    },
+    {
+      "ID": 3456,
+      "Name": "Lutsk",
+      "CountryCode": "UKR",
+      "District": "Volynia",
+      "Population": 217000
+    },
+    {
+      "ID": 4047,
+      "Name": "Richmond",
+      "CountryCode": "USA",
+      "District": "California",
+      "Population": 94100
+    },
+    {
+      "ID": 2178,
+      "Name": "Huaihua",
+      "CountryCode": "CHN",
+      "District": "Hunan",
+      "Population": 126785
+    },
+    {
+      "ID": 1969,
+      "Name": "Pingdingshan",
+      "CountryCode": "CHN",
+      "District": "Henan",
+      "Population": 410775
+    },
+    {
+      "ID": 3919,
+      "Name": "Tempe",
+      "CountryCode": "USA",
+      "District": "Arizona",
+      "Population": 158625
+    },
+    {
+      "ID": 3143,
+      "Name": "Moers",
+      "CountryCode": "DEU",
+      "District": "Nordrhein-Westfalen",
+      "Population": 106837
+    },
+    {
+      "ID": 2460,
+      "Name": "Skopje",
+      "CountryCode": "MKD",
+      "District": "Skopje",
+      "Population": 444299
+    },
+    {
+      "ID": 3893,
+      "Name": "Huntington Beach",
+      "CountryCode": "USA",
+      "District": "California",
+      "Population": 189594
+    },
+    {
+      "ID": 3041,
+      "Name": "Drobeta-Turnu Severin",
+      "CountryCode": "ROM",
+      "District": "Mehedinti",
+      "Population": 117865
+    },
+    {
+      "ID": 1407,
+      "Name": "Sari",
+      "CountryCode": "IRN",
+      "District": "Mazandaran",
+      "Population": 195882
+    },
+    {
+      "ID": 2076,
+      "Name": "Xinyang",
+      "CountryCode": "CHN",
+      "District": "Henan",
+      "Population": 192509
+    },
+    {
+      "ID": 1400,
+      "Name": "Bandar-e-Abbas",
+      "CountryCode": "IRN",
+      "District": "Hormozgan",
+      "Population": 273578
+    },
+    {
+      "ID": 2039,
+      "Name": "Huaiyin",
+      "CountryCode": "CHN",
+      "District": "Jiangsu",
+      "Population": 239675
+    },
+    {
+      "ID": 3444,
+      "Name": "Tšerkasy",
+      "CountryCode": "UKR",
+      "District": "Tšerkasy",
+      "Population": 309000
+    },
+    {
+      "ID": 3317,
+      "Name": "Odense",
+      "CountryCode": "DNK",
+      "District": "Fyn",
+      "Population": 183912
+    },
+    {
+      "ID": 2072,
+      "Name": "Zhaoqing",
+      "CountryCode": "CHN",
+      "District": "Guangdong",
+      "Population": 194784
+    },
+    {
+      "ID": 3492,
+      "Name": "Montevideo",
+      "CountryCode": "URY",
+      "District": "Montevideo",
+      "Population": 1236000
+    },
+    {
+      "ID": 2850,
+      "Name": "Chiniot",
+      "CountryCode": "PAK",
+      "District": "Punjab",
+      "Population": 169300
+    },
+    {
+      "ID": 3490,
+      "Name": "Kecskemét",
+      "CountryCode": "HUN",
+      "District": "Bács-Kiskun",
+      "Population": 105606
+    },
+    {
+      "ID": 2514,
+      "Name": "Mamoutzou",
+      "CountryCode": "MYT",
+      "District": "Mamoutzou",
+      "Population": 12000
+    },
+    {
+      "ID": 2338,
+      "Name": "Songnam",
+      "CountryCode": "KOR",
+      "District": "Kyonggi",
+      "Population": 869094
+    },
+    {
+      "ID": 1983,
+      "Name": "Guilin",
+      "CountryCode": "CHN",
+      "District": "Guangxi",
+      "Population": 364130
+    },
+    {
+      "ID": 1398,
+      "Name": "Zanjan",
+      "CountryCode": "IRN",
+      "District": "Zanjan",
+      "Population": 286295
+    },
+    {
+      "ID": 3175,
+      "Name": "Mekka",
+      "CountryCode": "SAU",
+      "District": "Mekka",
+      "Population": 965700
+    },
+    {
+      "ID": 3131,
+      "Name": "Heilbronn",
+      "CountryCode": "DEU",
+      "District": "Baden-Württemberg",
+      "Population": 119526
+    },
+    {
+      "ID": 604,
+      "Name": "Milagro",
+      "CountryCode": "ECU",
+      "District": "Guayas",
+      "Population": 124177
+    },
+    {
+      "ID": 131,
+      "Name": "Melbourne",
+      "CountryCode": "AUS",
+      "District": "Victoria",
+      "Population": 2865329
+    },
+    {
+      "ID": 746,
+      "Name": "Germiston",
+      "CountryCode": "ZAF",
+      "District": "Gauteng",
+      "Population": 164252
+    },
+    {
+      "ID": 1428,
+      "Name": "Saqqez",
+      "CountryCode": "IRN",
+      "District": "Kordestan",
+      "Population": 115394
+    },
+    {
+      "ID": 3862,
+      "Name": "Stockton",
+      "CountryCode": "USA",
+      "District": "California",
+      "Population": 243771
+    },
+    {
+      "ID": 1442,
+      "Name": "Torbat-e Heydariyeh",
+      "CountryCode": "IRN",
+      "District": "Khorasan",
+      "Population": 94600
+    },
+    {
+      "ID": 3970,
+      "Name": "Sioux Falls",
+      "CountryCode": "USA",
+      "District": "South Dakota",
+      "Population": 123975
+    },
+    {
+      "ID": 2837,
+      "Name": "Sheikhupura",
+      "CountryCode": "PAK",
+      "District": "Punjab",
+      "Population": 271875
+    },
+    {
+      "ID": 3798,
+      "Name": "Phoenix",
+      "CountryCode": "USA",
+      "District": "Arizona",
+      "Population": 1321045
+    },
+    {
+      "ID": 541,
+      "Name": "Varna",
+      "CountryCode": "BGR",
+      "District": "Varna",
+      "Population": 299801
+    },
+    {
+      "ID": 2385,
+      "Name": "Kongju",
+      "CountryCode": "KOR",
+      "District": "Chungchongnam",
+      "Population": 131229
+    },
+    {
+      "ID": 2378,
+      "Name": "Nonsan",
+      "CountryCode": "KOR",
+      "District": "Chungchongnam",
+      "Population": 146619
+    },
+    {
+      "ID": 3797,
+      "Name": "Philadelphia",
+      "CountryCode": "USA",
+      "District": "Pennsylvania",
+      "Population": 1517550
+    },
+    {
+      "ID": 3079,
+      "Name": "Hannover",
+      "CountryCode": "DEU",
+      "District": "Niedersachsen",
+      "Population": 514718
+    },
+    {
+      "ID": 3241,
+      "Name": "Oulu",
+      "CountryCode": "FIN",
+      "District": "Pohjois-Pohjanmaa",
+      "Population": 120753
+    },
+    {
+      "ID": 2048,
+      "Name": "Ganzhou",
+      "CountryCode": "CHN",
+      "District": "Jiangxi",
+      "Population": 220129
+    },
+    {
+      "ID": 3428,
+      "Name": "Dnipropetrovsk",
+      "CountryCode": "UKR",
+      "District": "Dnipropetrovsk",
+      "Population": 1103000
+    },
+    {
+      "ID": 24,
+      "Name": "Leiden",
+      "CountryCode": "NLD",
+      "District": "Zuid-Holland",
+      "Population": 117196
+    },
+    {
+      "ID": 4053,
+      "Name": "Gainesville",
+      "CountryCode": "USA",
+      "District": "Florida",
+      "Population": 92291
+    },
+    {
+      "ID": 756,
+      "Name": "Addis Abeba",
+      "CountryCode": "ETH",
+      "District": "Addis Abeba",
+      "Population": 2495000
+    },
+    {
+      "ID": 3973,
+      "Name": "Concord",
+      "CountryCode": "USA",
+      "District": "California",
+      "Population": 121780
+    },
+    {
+      "ID": 3313,
+      "Name": "Moshi",
+      "CountryCode": "TZA",
+      "District": "Kilimanjaro",
+      "Population": 96800
+    },
+    {
+      "ID": 2080,
+      "Name": "Ezhou",
+      "CountryCode": "CHN",
+      "District": "Hubei",
+      "Population": 190123
+    },
+    {
+      "ID": 3889,
+      "Name": "Spokane",
+      "CountryCode": "USA",
+      "District": "Washington",
+      "Population": 195629
+    },
+    {
+      "ID": 2230,
+      "Name": "Haining",
+      "CountryCode": "CHN",
+      "District": "Zhejiang",
+      "Population": 100478
+    },
+    {
+      "ID": 750,
+      "Name": "Paarl",
+      "CountryCode": "ZAF",
+      "District": "Western Cape",
+      "Population": 105768
+    },
+    {
+      "ID": 2135,
+      "Name": "Taonan",
+      "CountryCode": "CHN",
+      "District": "Jilin",
+      "Population": 150168
+    },
+    {
+      "ID": 2863,
+      "Name": "Bahawalnagar",
+      "CountryCode": "PAK",
+      "District": "Punjab",
+      "Population": 109600
+    },
+    {
+      "ID": 1438,
+      "Name": "Shahr-e Kord",
+      "CountryCode": "IRN",
+      "District": "Chaharmahal va Bakht",
+      "Population": 100477
+    },
+    {
+      "ID": 3031,
+      "Name": "Arad",
+      "CountryCode": "ROM",
+      "District": "Arad",
+      "Population": 184408
+    },
+    {
+      "ID": 7,
+      "Name": "Haag",
+      "CountryCode": "NLD",
+      "District": "Zuid-Holland",
+      "Population": 440900
+    },
+    {
+      "ID": 4055,
+      "Name": "Arden-Arcade",
+      "CountryCode": "USA",
+      "District": "California",
+      "Population": 92040
+    },
+    {
+      "ID": 4050,
+      "Name": "Roanoke",
+      "CountryCode": "USA",
+      "District": "Virginia",
+      "Population": 93357
+    },
+    {
+      "ID": 2073,
+      "Name": "Beipiao",
+      "CountryCode": "CHN",
+      "District": "Liaoning",
+      "Population": 194301
+    },
+    {
+      "ID": 3146,
+      "Name": "Hildesheim",
+      "CountryCode": "DEU",
+      "District": "Niedersachsen",
+      "Population": 104013
+    },
+    {
+      "ID": 1899,
+      "Name": "Nanking [Nanjing]",
+      "CountryCode": "CHN",
+      "District": "Jiangsu",
+      "Population": 2870300
+    },
+    {
+      "ID": 3160,
+      "Name": "Esslingen am Neckar",
+      "CountryCode": "DEU",
+      "District": "Baden-Württemberg",
+      "Population": 89667
+    },
+    {
+      "ID": 739,
+      "Name": "Chatsworth",
+      "CountryCode": "ZAF",
+      "District": "KwaZulu-Natal",
+      "Population": 189885
+    },
+    {
+      "ID": 3857,
+      "Name": "Anchorage",
+      "CountryCode": "USA",
+      "District": "Alaska",
+      "Population": 260283
+    },
+    {
+      "ID": 2145,
+      "Name": "Shuangcheng",
+      "CountryCode": "CHN",
+      "District": "Heilongjiang",
+      "Population": 142659
+    },
+    {
+      "ID": 3885,
+      "Name": "Des Moines",
+      "CountryCode": "USA",
+      "District": "Iowa",
+      "Population": 198682
+    },
+    {
+      "ID": 3824,
+      "Name": "Las Vegas",
+      "CountryCode": "USA",
+      "District": "Nevada",
+      "Population": 478434
+    },
+    {
+      "ID": 1941,
+      "Name": "Amoy [Xiamen]",
+      "CountryCode": "CHN",
+      "District": "Fujian",
+      "Population": 627500
+    },
+    {
+      "ID": 2362,
+      "Name": "Yong-in",
+      "CountryCode": "KOR",
+      "District": "Kyonggi",
+      "Population": 242643
+    },
+    {
+      "ID": 1445,
+      "Name": "Miandoab",
+      "CountryCode": "IRN",
+      "District": "West Azerbaidzan",
+      "Population": 90100
+    },
+    {
+      "ID": 3318,
+      "Name": "Aalborg",
+      "CountryCode": "DNK",
+      "District": "Nordjylland",
+      "Population": 161161
+    },
+    {
+      "ID": 3245,
+      "Name": "Zürich",
+      "CountryCode": "CHE",
+      "District": "Zürich",
+      "Population": 336800
+    },
+    {
+      "ID": 2,
+      "Name": "Qandahar",
+      "CountryCode": "AFG",
+      "District": "Qandahar",
+      "Population": 237500
+    },
+    {
+      "ID": 3803,
+      "Name": "San Jose",
+      "CountryCode": "USA",
+      "District": "California",
+      "Population": 894943
+    },
+    {
+      "ID": 2197,
+      "Name": "Qinzhou",
+      "CountryCode": "CHN",
+      "District": "Guangxi",
+      "Population": 114586
+    },
+    {
+      "ID": 3121,
+      "Name": "Paderborn",
+      "CountryCode": "DEU",
+      "District": "Nordrhein-Westfalen",
+      "Population": 137647
+    },
+    {
+      "ID": 70,
+      "Name": "La Matanza",
+      "CountryCode": "ARG",
+      "District": "Buenos Aires",
+      "Population": 1266461
+    },
+    {
+      "ID": 751,
+      "Name": "Potchefstroom",
+      "CountryCode": "ZAF",
+      "District": "North West",
+      "Population": 101817
+    },
+    {
+      "ID": 2340,
+      "Name": "Suwon",
+      "CountryCode": "KOR",
+      "District": "Kyonggi",
+      "Population": 755550
+    },
+    {
+      "ID": 2163,
+      "Name": "Wuwei",
+      "CountryCode": "CHN",
+      "District": "Gansu",
+      "Population": 133101
+    },
+    {
+      "ID": 2024,
+      "Name": "Luzhou",
+      "CountryCode": "CHN",
+      "District": "Sichuan",
+      "Population": 262892
+    },
+    {
+      "ID": 181,
+      "Name": "Schaerbeek",
+      "CountryCode": "BEL",
+      "District": "Bryssel",
+      "Population": 105692
+    },
+    {
+      "ID": 2027,
+      "Name": "Neijiang",
+      "CountryCode": "CHN",
+      "District": "Sichuan",
+      "Population": 256012
+    },
+    {
+      "ID": 572,
+      "Name": "La Serena",
+      "CountryCode": "CHL",
+      "District": "Coquimbo",
+      "Population": 137409
+    },
+    {
+      "ID": 593,
+      "Name": "Guayaquil",
+      "CountryCode": "ECU",
+      "District": "Guayas",
+      "Population": 2070040
+    },
+    {
+      "ID": 3116,
+      "Name": "Leverkusen",
+      "CountryCode": "DEU",
+      "District": "Nordrhein-Westfalen",
+      "Population": 160841
+    },
+    {
+      "ID": 552,
+      "Name": "Bujumbura",
+      "CountryCode": "BDI",
+      "District": "Bujumbura",
+      "Population": 300000
+    },
+    {
+      "ID": 3249,
+      "Name": "Lausanne",
+      "CountryCode": "CHE",
+      "District": "Vaud",
+      "Population": 114500
+    },
+    {
+      "ID": 931,
+      "Name": "Delmas",
+      "CountryCode": "HTI",
+      "District": "Ouest",
+      "Population": 240429
+    },
+    {
+      "ID": 936,
+      "Name": "Kowloon and New Kowloon",
+      "CountryCode": "HKG",
+      "District": "Kowloon and New Kowl",
+      "Population": 1987996
+    },
+    {
+      "ID": 3928,
+      "Name": "Tallahassee",
+      "CountryCode": "USA",
+      "District": "Florida",
+      "Population": 150624
+    },
+    {
+      "ID": 3094,
+      "Name": "Augsburg",
+      "CountryCode": "DEU",
+      "District": "Baijeri",
+      "Population": 254867
+    },
+    {
+      "ID": 3346,
+      "Name": "Hradec Králové",
+      "CountryCode": "CZE",
+      "District": "Východní Cechy",
+      "Population": 98080
+    },
+    {
+      "ID": 1789,
+      "Name": "al-Rusayfa",
+      "CountryCode": "JOR",
+      "District": "al-Zarqa",
+      "Population": 137247
+    },
+    {
+      "ID": 3238,
+      "Name": "Tampere",
+      "CountryCode": "FIN",
+      "District": "Pirkanmaa",
+      "Population": 195468
+    },
+    {
+      "ID": 3819,
+      "Name": "Fort Worth",
+      "CountryCode": "USA",
+      "District": "Texas",
+      "Population": 534694
+    },
+    {
+      "ID": 2839,
+      "Name": "Gujrat",
+      "CountryCode": "PAK",
+      "District": "Punjab",
+      "Population": 250121
+    },
+    {
+      "ID": 1967,
+      "Name": "Anyang",
+      "CountryCode": "CHN",
+      "District": "Henan",
+      "Population": 420332
+    }
+  ],
+  "capability_assignments": {
+    "2378": {
+      "row": [
+        "IC_ME"
+      ],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "756": {
+      "row": [
+        "IC_ME"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2362": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "936": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "750": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "4055": {
+      "row": [],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2839": {
+      "row": [],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2080": {
+      "row": [
+        "IDR_ED",
+        "RL_MI"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2076": {
+      "row": [
+        "IC_ME"
+      ],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "3346": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3031": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3428": {
+      "row": [
+        "IDR_ED"
+      ],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2837": {
+      "row": [
+        "GR_DC"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3798": {
+      "row": [
+        "RL_MI"
+      ],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "24": {
+      "row": [
+        "RL_MB"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3824": {
+      "row": [],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "1428": {
+      "row": [
+        "RL_CL",
+        "RL_MI"
+      ],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3893": {
+      "row": [
+        "RL_CL",
+        "RL_MB"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2230": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2145": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2024": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "131": {
+      "row": [
+        "GR_CTA",
+        "RL_MB"
+      ],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2178": {
+      "row": [
+        "RL_MI"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3317": {
+      "row": [
+        "IDR_ED"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3490": {
+      "row": [
+        "IDR_ED",
+        "IC_ME"
+      ],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "1438": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "541": {
+      "row": [
+        "RL_O2M",
+        "RL_CL"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2514": {
+      "row": [
+        "GR_TI"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3175": {
+      "row": [
+        "RL_CL"
+      ],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3857": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3160": {
+      "row": [],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3889": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3094": {
+      "row": [],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "593": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "1398": {
+      "row": [
+        "IC_RI",
+        "RL_O2M"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3803": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "739": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3143": {
+      "row": [
+        "IC_RI",
+        "RL_MI"
+      ],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "1789": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "572": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "746": {
+      "row": [
+        "IC_ME"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "1966": {
+      "row": [
+        "IDR_ED"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2340": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "1442": {
+      "row": [
+        "IC_RI"
+      ],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "546": {
+      "row": [
+        "RL_MI",
+        "RL_MB"
+      ],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3492": {
+      "row": [
+        "RL_MI",
+        "RL_MB"
+      ],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2863": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2163": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3973": {
+      "row": [
+        "RL_CL"
+      ],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "2135": {
+      "row": [],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "1983": {
+      "row": [
+        "RL_MB"
+      ],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3313": {
+      "row": [
+        "GR_CTA"
+      ],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "1967": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2048": {
+      "row": [
+        "GR_TI",
+        "RL_CL"
+      ],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "3797": {
+      "row": [
+        "RL_MB"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3819": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "2072": {
+      "row": [
+        "IC_RI"
+      ],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "2197": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "751": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3079": {
+      "row": [
+        "RL_MI"
+      ],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2073": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3444": {
+      "row": [
+        "GR_DC",
+        "RL_MI"
+      ],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "1407": {
+      "row": [
+        "IDR_ED"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "1941": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3885": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "1969": {
+      "row": [
+        "RL_MB",
+        "GR_TI"
+      ],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "1445": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "931": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3241": {
+      "row": [
+        "IC_RI"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2338": {
+      "row": [
+        "RL_MI"
+      ],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "2027": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "181": {
+      "row": [],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3862": {
+      "row": [
+        "IDR_ED"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3116": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "1899": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "3238": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3121": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "2039": {
+      "row": [
+        "RL_CL"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2460": {
+      "row": [
+        "GR_CTA"
+      ],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3919": {
+      "row": [
+        "IDR_ED",
+        "RL_O2M"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "1400": {
+      "row": [
+        "RL_MB",
+        "RL_O2M"
+      ],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3146": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3456": {
+      "row": [
+        "IC_RI"
+      ],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "70": {
+      "row": [],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "604": {
+      "row": [
+        "RL_MI"
+      ],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "3928": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "3245": {
+      "row": [],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3131": {
+      "row": [
+        "IDR_ED"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_AS"
+        ],
+        "Population": [
+          "RI_AC"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3970": {
+      "row": [
+        "RL_MB"
+      ],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "552": {
+      "row": [],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    },
+    "2385": {
+      "row": [
+        "IDR_ED"
+      ],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "4053": {
+      "row": [
+        "RL_MI",
+        "RL_O2M"
+      ],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3041": {
+      "row": [
+        "RL_MI"
+      ],
+      "col": {
+        "Name": [
+          "TA_FC"
+        ],
+        "District": [],
+        "Population": [
+          "TA_US"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3318": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "7": {
+      "row": [],
+      "col": {
+        "Name": [
+          "TD_DF"
+        ],
+        "District": [
+          "EF_RC"
+        ],
+        "Population": [],
+        "CountryCode": []
+      }
+    },
+    "2850": {
+      "row": [
+        "RL_CL"
+      ],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "3249": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "4050": {
+      "row": [],
+      "col": {
+        "Name": [],
+        "District": [
+          "TD_DF"
+        ],
+        "Population": [
+          "TD_CA"
+        ],
+        "CountryCode": []
+      }
+    },
+    "4047": {
+      "row": [
+        "RL_CL",
+        "IC_ME"
+      ],
+      "col": {
+        "Name": [
+          "EF_HC"
+        ],
+        "District": [],
+        "Population": [
+          "RI_LD"
+        ],
+        "CountryCode": []
+      }
+    }
+  }
+}

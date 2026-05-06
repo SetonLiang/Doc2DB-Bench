@@ -1,0 +1,1814 @@
+{
+    "database_id": "olympic",
+    "if_primary_allowed": {
+        "games_city": false,
+        "games_competitor": false,
+        "person_region": false,
+        "event": false,
+        "games": false,
+        "noc_region": false,
+        "person": false,
+        "city": false,
+        "sport": false
+    },
+    "type": {
+        "games_city": "1:2",
+        "games_competitor": "1:2",
+        "person_region": "1:2",
+        "comperitor_event": [
+            "1:2",
+            "2-hop"
+        ]
+    },
+    "capability_assignments": {
+        "city": {},
+        "competitor_event": {
+            "0": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "medal_name": [
+                        "EF_ND"
+                    ],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_MB",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "medal_name": [
+                        "TA_EM"
+                    ],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "4": {
+                "row": [],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_MI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "6": {
+                "row": [],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "medal_name": [
+                        "EF_ND",
+                        "EF_HC"
+                    ],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "8": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "9": {
+                "row": [],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "10": {
+                "row": [
+                    "GR_TI",
+                    "RL_MI"
+                ],
+                "col": {
+                    "medal_name": [
+                        "RI_LD"
+                    ],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "11": {
+                "row": [],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "13": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "14": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            },
+            "15": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "medal_name": [],
+                    "event_id": [],
+                    "competitor_id": []
+                }
+            }
+        },
+        "event": {
+            "10": {
+                "row": [
+                    "RL_O2M",
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "87": {
+                "row": [],
+                "col": {}
+            },
+            "266": {
+                "row": [],
+                "col": {}
+            },
+            "218": {
+                "row": [],
+                "col": {}
+            },
+            "655": {
+                "row": [
+                    "GR_CTA",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "50": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "24": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "382": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "164": {
+                "row": [],
+                "col": {}
+            },
+            "34": {
+                "row": [],
+                "col": {}
+            },
+            "44": {
+                "row": [],
+                "col": {}
+            },
+            "140": {
+                "row": [
+                    "GR_CTA",
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "488": {
+                "row": [
+                    "IDR_ED",
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "5": {
+                "row": [],
+                "col": {}
+            },
+            "666": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "372": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "293": {
+                "row": [],
+                "col": {}
+            },
+            "383": {
+                "row": [
+                    "IDR_ED",
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "135": {
+                "row": [],
+                "col": {}
+            },
+            "3": {
+                "row": [],
+                "col": {}
+            },
+            "566": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "118": {
+                "row": [],
+                "col": {}
+            },
+            "152": {
+                "row": [
+                    "IDR_ED",
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "62": {
+                "row": [
+                    "IDR_ED",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "179": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "23": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "281": {
+                "row": [
+                    "RL_O2M",
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "205": {
+                "row": [],
+                "col": {}
+            },
+            "326": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "151": {
+                "row": [
+                    "IDR_ED",
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "130": {
+                "row": [
+                    "RL_MI",
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "56": {
+                "row": [],
+                "col": {}
+            },
+            "385": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            },
+            "1994": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            },
+            "1991": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            }
+        },
+        "games": {
+            "31": {
+                "games_year": [
+                    "RI_LD"
+                ],
+                "season": [
+                    "TA_EM"
+                ]
+            },
+            "45": {
+                "games_year": [
+                    "RI_TC"
+                ],
+                "season": [
+                    "RI_LD"
+                ]
+            },
+            "5": {
+                "games_year": [],
+                "season": [
+                    "TA_EM",
+                    "TD_AS"
+                ]
+            },
+            "6": {
+                "games_year": [
+                    "RI_AC"
+                ],
+                "season": []
+            },
+            "43": {
+                "games_year": [
+                    "TA_FC"
+                ],
+                "season": [
+                    "RI_LD"
+                ]
+            },
+            "37": {
+                "games_year": [],
+                "season": [
+                    "TD_DF"
+                ]
+            },
+            "51": {
+                "games_year": [
+                    "RI_TC"
+                ],
+                "season": [
+                    "TA_EM"
+                ]
+            },
+            "11": {
+                "games_year": [],
+                "season": []
+            },
+            "35": {
+                "games_year": [
+                    "TA_FC"
+                ],
+                "season": []
+            },
+            "32": {
+                "games_year": [
+                    "RI_LD"
+                ],
+                "season": [
+                    "TD_DF"
+                ]
+            },
+            "14": {
+                "games_year": [],
+                "season": [
+                    "TA_EM"
+                ]
+            },
+            "16": {
+                "games_year": [
+                    "RI_TC"
+                ],
+                "season": []
+            },
+            "38": {
+                "games_year": [],
+                "season": []
+            },
+            "20": {
+                "games_year": [
+                    "TA_FC"
+                ],
+                "season": [
+                    "TD_AS"
+                ]
+            },
+            "46": {
+                "games_year": [],
+                "season": [
+                    "RI_LD"
+                ]
+            },
+            "24": {
+                "games_year": [
+                    "RI_AC"
+                ],
+                "season": []
+            },
+            "25": {
+                "games_year": [],
+                "season": []
+            },
+            "28": {
+                "games_year": [
+                    "RI_TC"
+                ],
+                "season": [
+                    "TA_EM"
+                ]
+            },
+            "29": {
+                "games_year": [],
+                "season": [
+                    "TD_DF"
+                ]
+            },
+            "2": {
+                "games_year": [
+                    "TA_FC"
+                ],
+                "season": []
+            },
+            "4": {
+                "games_year": [
+                    "RI_LD"
+                ],
+                "season": []
+            },
+            "12": {
+                "games_year": [],
+                "season": [
+                    "TA_EM"
+                ]
+            },
+            "13": {
+                "games_year": [],
+                "season": []
+            },
+            "15": {
+                "games_year": [
+                    "RI_AC"
+                ],
+                "season": [
+                    "TD_AS"
+                ]
+            },
+            "30": {
+                "games_year": [],
+                "season": []
+            },
+            "34": {
+                "games_year": [],
+                "season": []
+            },
+            "36": {
+                "games_year": [
+                    "RI_TC"
+                ],
+                "season": []
+            },
+            "39": {
+                "games_year": [],
+                "season": [
+                    "RI_LD"
+                ]
+            },
+            "40": {
+                "games_year": [
+                    "TA_FC"
+                ],
+                "season": []
+            },
+            "41": {
+                "games_year": [],
+                "season": [
+                    "TA_EM"
+                ]
+            }
+        },
+        "games_city": {
+            "0": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "19": {
+                "row": [],
+                "col": {}
+            },
+            "10": {
+                "row": [],
+                "col": {}
+            },
+            "29": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "18": {
+                "row": [
+                    "RL_O2M",
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "25": {
+                "row": [
+                    "IDR_ED",
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "28": {
+                "row": [],
+                "col": {}
+            },
+            "13": {
+                "row": [],
+                "col": {}
+            },
+            "2": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "24": {
+                "row": [],
+                "col": {}
+            },
+            "3": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "1": {
+                "row": [],
+                "col": {}
+            },
+            "8": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "11": {
+                "row": [],
+                "col": {}
+            },
+            "26": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "15": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "20": {
+                "row": [
+                    "RL_MI",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "27": {
+                "row": [],
+                "col": {}
+            },
+            "16": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "7": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "6": {
+                "row": [
+                    "GR_TI",
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "12": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "22": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "14": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "4": {
+                "row": [],
+                "col": {}
+            },
+            "9": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "17": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "23": {
+                "row": [],
+                "col": {}
+            },
+            "21": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "5": {
+                "row": [],
+                "col": {}
+            }
+        },
+        "games_competitor": {
+            "154303": {
+                "row": [],
+                "col": {}
+            },
+            "107840": {
+                "row": [],
+                "col": {}
+            },
+            "141891": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "82606": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "147239": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "52221": {
+                "row": [],
+                "col": {}
+            },
+            "52102": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "79911": {
+                "row": [],
+                "col": {}
+            },
+            "64493": {
+                "row": [
+                    "GR_TI",
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "64492": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "153103": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "61577": {
+                "row": [],
+                "col": {}
+            },
+            "159896": {
+                "row": [],
+                "col": {}
+            },
+            "92690": {
+                "row": [],
+                "col": {}
+            },
+            "140263": {
+                "row": [
+                    "IDR_ED",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "68293": {
+                "row": [
+                    "RL_MI",
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "74786": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "69701": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "158109": {
+                "row": [
+                    "GR_TI",
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "155016": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "172801": {
+                "row": [],
+                "col": {}
+            },
+            "47032": {
+                "row": [
+                    "RL_MI",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "43972": {
+                "row": [],
+                "col": {}
+            },
+            "61987": {
+                "row": [],
+                "col": {}
+            },
+            "70293": {
+                "row": [
+                    "RL_O2M",
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "27703": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "82513": {
+                "row": [],
+                "col": {}
+            },
+            "35383": {
+                "row": [
+                    "RL_O2M",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "106830": {
+                "row": [
+                    "RL_O2M",
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "177693": {
+                "row": [
+                    "RL_MI",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "71268": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "103749": {
+                "row": [
+                    "GR_CTA",
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "86187": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "17110": {
+                "row": [
+                    "RL_O2M",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "3498": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "116419": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "173770": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "116856": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "57693": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "67911": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "158108": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            },
+            "1990": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            }
+        },
+        "noc_region": {
+            "47": {
+                "region_name": []
+            },
+            "195": {
+                "region_name": [
+                    "TD_DF",
+                    "TA_FC"
+                ]
+            },
+            "228": {
+                "region_name": [
+                    "TD_DF"
+                ]
+            },
+            "210": {
+                "region_name": [
+                    "TA_FC"
+                ]
+            },
+            "155": {
+                "region_name": []
+            },
+            "135": {
+                "region_name": []
+            },
+            "181": {
+                "region_name": []
+            },
+            "165": {
+                "region_name": [
+                    "TA_EM",
+                    "TD_DF"
+                ]
+            },
+            "162": {
+                "region_name": [
+                    "TA_FC"
+                ]
+            },
+            "142": {
+                "region_name": [
+                    "TD_DF"
+                ]
+            },
+            "138": {
+                "region_name": []
+            },
+            "90": {
+                "region_name": []
+            },
+            "53": {
+                "region_name": []
+            },
+            "190": {
+                "region_name": []
+            },
+            "15": {
+                "region_name": []
+            },
+            "55": {
+                "region_name": [
+                    "TA_EM"
+                ]
+            },
+            "229": {
+                "region_name": []
+            },
+            "223": {
+                "region_name": [
+                    "TD_DF",
+                    "EF_RC",
+                    "TA_FC"
+                ]
+            },
+            "34": {
+                "region_name": [
+                    "TA_FC"
+                ]
+            },
+            "69": {
+                "region_name": []
+            },
+            "121": {
+                "region_name": []
+            },
+            "85": {
+                "region_name": []
+            },
+            "91": {
+                "region_name": []
+            },
+            "227": {
+                "region_name": [
+                    "TD_DF",
+                    "EF_HC"
+                ]
+            },
+            "167": {
+                "region_name": []
+            },
+            "26": {
+                "region_name": [
+                    "RI_LD"
+                ]
+            },
+            "27": {
+                "region_name": [
+                    "TD_DF",
+                    "EF_HC"
+                ]
+            },
+            "101": {
+                "region_name": []
+            },
+            "141": {
+                "region_name": []
+            },
+            "213": {
+                "region_name": [
+                    "RI_LD"
+                ]
+            },
+            "13": {
+                "region_name": []
+            },
+            "33": {
+                "region_name": []
+            },
+            "37": {
+                "region_name": []
+            },
+            "51": {
+                "region_name": [
+                    "RI_LD"
+                ]
+            },
+            "70": {
+                "region_name": []
+            },
+            "71": {
+                "region_name": [
+                    "TD_DF",
+                    "EF_HC"
+                ]
+            },
+            "75": {
+                "region_name": [
+                    "TA_EM",
+                    "TA_FC"
+                ]
+            },
+            "80": {
+                "region_name": [
+                    "TD_DF"
+                ]
+            },
+            "96": {
+                "region_name": []
+            },
+            "110": {
+                "region_name": [
+                    "TA_EM",
+                    "TD_DF"
+                ]
+            },
+            "132": {
+                "region_name": []
+            },
+            "146": {
+                "region_name": []
+            },
+            "151": {
+                "region_name": []
+            },
+            "158": {
+                "region_name": []
+            },
+            "172": {
+                "region_name": [
+                    "RI_LD"
+                ]
+            },
+            "191": {
+                "region_name": []
+            },
+            "194": {
+                "region_name": []
+            },
+            "198": {
+                "region_name": [
+                    "TD_DF",
+                    "EF_RC"
+                ]
+            },
+            "221": {
+                "region_name": [
+                    "EF_RC",
+                    "TD_DF"
+                ]
+            }
+        },
+        "person": {
+            "87878": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [
+                    "TA_US"
+                ]
+            },
+            "130784": {
+                "gender": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": []
+            },
+            "48883": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "height": [],
+                "weight": []
+            },
+            "13128": {
+                "gender": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [
+                    "RI_AC"
+                ]
+            },
+            "43731": {
+                "gender": [
+                    "RI_LD",
+                    "TA_EM"
+                ],
+                "height": [],
+                "weight": []
+            },
+            "88216": {
+                "gender": [],
+                "height": [
+                    "RI_LD"
+                ],
+                "weight": [
+                    "TA_US"
+                ]
+            },
+            "115373": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "height": [],
+                "weight": []
+            },
+            "60550": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": []
+            },
+            "106945": {
+                "gender": [],
+                "height": [],
+                "weight": [
+                    "TA_US"
+                ]
+            },
+            "119008": {
+                "gender": [],
+                "height": [
+                    "RI_AC"
+                ],
+                "weight": [
+                    "TA_US"
+                ]
+            },
+            "62518": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "height": [],
+                "weight": []
+            },
+            "130063": {
+                "gender": [],
+                "height": [
+                    "EF_ND"
+                ],
+                "weight": [
+                    "EF_ND"
+                ]
+            },
+            "70047": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [
+                    "TA_US"
+                ]
+            },
+            "33475": {
+                "gender": [],
+                "height": [
+                    "EF_ND"
+                ],
+                "weight": [
+                    "EF_ND"
+                ]
+            },
+            "62443": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": []
+            },
+            "116226": {
+                "gender": [],
+                "height": [],
+                "weight": [
+                    "RI_LD"
+                ]
+            },
+            "80626": {
+                "gender": [
+                    "RI_LD",
+                    "TA_EM"
+                ],
+                "height": [],
+                "weight": []
+            },
+            "116738": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": []
+            },
+            "39580": {
+                "gender": [],
+                "height": [],
+                "weight": [
+                    "TA_US"
+                ]
+            },
+            "21124": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "EF_ND"
+                ],
+                "weight": [
+                    "EF_ND"
+                ]
+            },
+            "39477": {
+                "gender": [],
+                "height": [],
+                "weight": [
+                    "RI_AC"
+                ]
+            },
+            "800": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "height": [],
+                "weight": [
+                    "TA_US"
+                ]
+            },
+            "4846": {
+                "gender": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": []
+            },
+            "8254": {
+                "gender": [],
+                "height": [
+                    "EF_ND"
+                ],
+                "weight": [
+                    "EF_ND"
+                ]
+            },
+            "9795": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": []
+            },
+            "14140": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [
+                    "RI_MI"
+                ]
+            },
+            "20869": {
+                "gender": [],
+                "height": [],
+                "weight": [
+                    "TA_US"
+                ]
+            },
+            "31471": {
+                "gender": [],
+                "height": [
+                    "RI_AC"
+                ],
+                "weight": []
+            },
+            "40023": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "height": [
+                    "EF_ND"
+                ],
+                "weight": [
+                    "EF_ND"
+                ]
+            },
+            "50033": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": []
+            },
+            "58823": {
+                "gender": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": []
+            },
+            "60358": {
+                "gender": [],
+                "height": [],
+                "weight": [
+                    "TA_US"
+                ]
+            },
+            "60496": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": []
+            },
+            "61938": {
+                "gender": [],
+                "height": [],
+                "weight": [
+                    "RI_MI"
+                ]
+            },
+            "69198": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": []
+            },
+            "70117": {
+                "gender": [],
+                "height": [],
+                "weight": [
+                    "TA_US"
+                ]
+            },
+            "71562": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": []
+            },
+            "77608": {
+                "gender": [],
+                "height": [],
+                "weight": []
+            },
+            "83328": {
+                "gender": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": []
+            },
+            "87670": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "height": [
+                    "EF_ND"
+                ],
+                "weight": [
+                    "EF_ND"
+                ]
+            },
+            "90251": {
+                "gender": [],
+                "height": [
+                    "EF_ND"
+                ],
+                "weight": [
+                    "EF_ND"
+                ]
+            },
+            "92495": {
+                "gender": [],
+                "height": [],
+                "weight": [
+                    "RI_AC"
+                ]
+            },
+            "97585": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "height": [],
+                "weight": []
+            },
+            "99124": {
+                "gender": [],
+                "height": [],
+                "weight": [
+                    "EF_ND"
+                ]
+            },
+            "104319": {
+                "gender": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": []
+            },
+            "108358": {
+                "gender": [],
+                "height": [],
+                "weight": [
+                    "RI_MI"
+                ]
+            },
+            "110150": {
+                "gender": [
+                    "TA_EM"
+                ],
+                "height": [],
+                "weight": []
+            },
+            "120103": {
+                "gender": [],
+                "height": [
+                    "EF_ND"
+                ],
+                "weight": [
+                    "EF_ND"
+                ]
+            },
+            "127730": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [
+                    "TA_US"
+                ]
+            },
+            "128358": {
+                "gender": [],
+                "height": [
+                    "EF_ND"
+                ],
+                "weight": [
+                    "EF_ND"
+                ]
+            },
+            "129441": {
+                "gender": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [
+                    "TA_US"
+                ]
+            }
+        },
+        "person_region": {
+            "9": {
+                "row": [],
+                "col": {}
+            },
+            "5": {
+                "row": [
+                    "RL_MI",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "18": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "11": {
+                "row": [],
+                "col": {}
+            },
+            "17": {
+                "row": [],
+                "col": {}
+            },
+            "26": {
+                "row": [
+                    "GR_CTA",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "7": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "8": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "1": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "15": {
+                "row": [],
+                "col": {}
+            },
+            "25": {
+                "row": [],
+                "col": {}
+            },
+            "19": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "29": {
+                "row": [],
+                "col": {}
+            },
+            "22": {
+                "row": [],
+                "col": {}
+            },
+            "24": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "4": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {}
+            },
+            "14": {
+                "row": [
+                    "IDR_CR",
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "28": {
+                "row": [],
+                "col": {}
+            },
+            "12": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "13": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "23": {
+                "row": [
+                    "GR_DC",
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "3": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "20": {
+                "row": [],
+                "col": {}
+            },
+            "21": {
+                "row": [],
+                "col": {}
+            },
+            "27": {
+                "row": [
+                    "RL_MB",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "16": {
+                "row": [],
+                "col": {}
+            },
+            "0": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "6": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "10": {
+                "row": [
+                    "GR_CTA",
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "2": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            },
+            "1999": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            }
+        },
+        "sport": {}
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/olympics/tables"
+}

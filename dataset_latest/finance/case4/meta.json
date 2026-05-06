@@ -1,0 +1,2608 @@
+{
+    "database_id": "sales",
+    "if_primary_allowed": {
+        "Sales": false,
+        "Products": false,
+        "Customers": false,
+        "Employees": false
+    },
+    "type": {
+        "Sales": "1:3"
+    },
+    "capability_assignments": {
+        "Customers": {
+            "3649": {
+                "MiddleInitial": []
+            },
+            "820": {
+                "MiddleInitial": []
+            },
+            "9013": {
+                "MiddleInitial": []
+            },
+            "8025": {
+                "MiddleInitial": []
+            },
+            "7315": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "4573": {
+                "MiddleInitial": []
+            },
+            "3359": {
+                "MiddleInitial": []
+            },
+            "17871": {
+                "MiddleInitial": []
+            },
+            "2849": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "19350": {
+                "MiddleInitial": []
+            },
+            "13826": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "1042": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "977": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "3071": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "7165": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "7624": {
+                "MiddleInitial": []
+            },
+            "16560": {
+                "MiddleInitial": []
+            },
+            "19727": {
+                "MiddleInitial": []
+            },
+            "870": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "18391": {
+                "MiddleInitial": []
+            },
+            "6516": {
+                "MiddleInitial": []
+            },
+            "17857": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "13747": {
+                "MiddleInitial": []
+            },
+            "7224": {
+                "MiddleInitial": []
+            },
+            "14720": {
+                "MiddleInitial": []
+            },
+            "19310": {
+                "MiddleInitial": []
+            },
+            "9116": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "213": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "5232": {
+                "MiddleInitial": []
+            },
+            "13849": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "11150": {
+                "MiddleInitial": []
+            },
+            "9106": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "5095": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "7056": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "11030": {
+                "MiddleInitial": []
+            },
+            "3350": {
+                "MiddleInitial": []
+            },
+            "3040": {
+                "MiddleInitial": []
+            },
+            "12450": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "3170": {
+                "MiddleInitial": []
+            },
+            "11764": {
+                "MiddleInitial": []
+            },
+            "11271": {
+                "MiddleInitial": []
+            },
+            "8668": {
+                "MiddleInitial": []
+            },
+            "1424": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "15055": {
+                "MiddleInitial": []
+            },
+            "17572": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "4091": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "12404": {
+                "MiddleInitial": []
+            },
+            "2583": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "18090": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "9607": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "11851": {
+                "MiddleInitial": [
+                    "TA_FC"
+                ]
+            },
+            "18919": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "6301": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "2280": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "1502": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "7468": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "9483": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "2615": {
+                "MiddleInitial": []
+            },
+            "7629": {
+                "MiddleInitial": []
+            },
+            "3310": {
+                "MiddleInitial": []
+            },
+            "12456": {
+                "MiddleInitial": []
+            },
+            "9109": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "14858": {
+                "MiddleInitial": []
+            },
+            "11955": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "5330": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "12131": {
+                "MiddleInitial": []
+            },
+            "11642": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "6866": {
+                "MiddleInitial": []
+            },
+            "8749": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "2340": {
+                "MiddleInitial": []
+            },
+            "5608": {
+                "MiddleInitial": []
+            },
+            "17503": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "8022": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "5355": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "15148": {
+                "MiddleInitial": []
+            },
+            "12434": {
+                "MiddleInitial": []
+            },
+            "8846": {
+                "MiddleInitial": []
+            },
+            "18251": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "7197": {
+                "MiddleInitial": []
+            },
+            "10627": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "1833": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "7506": {
+                "MiddleInitial": []
+            },
+            "1052": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "10337": {
+                "MiddleInitial": []
+            },
+            "13146": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "8774": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "2169": {
+                "MiddleInitial": []
+            },
+            "6914": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "18586": {
+                "MiddleInitial": []
+            },
+            "10312": {
+                "MiddleInitial": []
+            },
+            "6968": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "16359": {
+                "MiddleInitial": []
+            },
+            "12965": {
+                "MiddleInitial": []
+            },
+            "15036": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "4682": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "8680": {
+                "MiddleInitial": []
+            },
+            "4576": {
+                "MiddleInitial": []
+            },
+            "8082": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "18395": {
+                "MiddleInitial": []
+            },
+            "17662": {
+                "MiddleInitial": []
+            },
+            "6": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "240": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "320": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "720": {
+                "MiddleInitial": []
+            },
+            "960": {
+                "MiddleInitial": []
+            },
+            "1040": {
+                "MiddleInitial": []
+            },
+            "1200": {
+                "MiddleInitial": []
+            },
+            "1333": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "1600": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "1760": {
+                "MiddleInitial": []
+            },
+            "2000": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "2400": {
+                "MiddleInitial": []
+            },
+            "2800": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "3014": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "3200": {
+                "MiddleInitial": []
+            },
+            "3520": {
+                "MiddleInitial": []
+            },
+            "3680": {
+                "MiddleInitial": []
+            },
+            "3760": {
+                "MiddleInitial": []
+            },
+            "4160": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "4560": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "4800": {
+                "MiddleInitial": []
+            },
+            "4960": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "5040": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "5440": {
+                "MiddleInitial": []
+            },
+            "5600": {
+                "MiddleInitial": []
+            },
+            "5680": {
+                "MiddleInitial": []
+            },
+            "6080": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "6320": {
+                "MiddleInitial": []
+            },
+            "6480": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "6640": {
+                "MiddleInitial": []
+            },
+            "6800": {
+                "MiddleInitial": []
+            },
+            "6960": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "7360": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "7520": {
+                "MiddleInitial": []
+            },
+            "7600": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "8160": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "8240": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "8557": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "8560": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "8720": {
+                "MiddleInitial": []
+            },
+            "8960": {
+                "MiddleInitial": []
+            },
+            "9040": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "9200": {
+                "MiddleInitial": []
+            },
+            "9600": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "9760": {
+                "MiddleInitial": []
+            },
+            "10000": {
+                "MiddleInitial": []
+            },
+            "10320": {
+                "MiddleInitial": []
+            },
+            "10480": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "10960": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "11280": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "11360": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "11520": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "11920": {
+                "MiddleInitial": []
+            },
+            "12160": {
+                "MiddleInitial": []
+            },
+            "12640": {
+                "MiddleInitial": []
+            },
+            "13200": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "13280": {
+                "MiddleInitial": []
+            },
+            "13380": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "13627": {
+                "MiddleInitial": []
+            },
+            "14080": {
+                "MiddleInitial": []
+            },
+            "14240": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "14560": {
+                "MiddleInitial": []
+            },
+            "14800": {
+                "MiddleInitial": []
+            },
+            "14960": {
+                "MiddleInitial": []
+            },
+            "15840": {
+                "MiddleInitial": []
+            },
+            "16080": {
+                "MiddleInitial": []
+            },
+            "16400": {
+                "MiddleInitial": []
+            },
+            "16720": {
+                "MiddleInitial": []
+            },
+            "17200": {
+                "MiddleInitial": []
+            },
+            "17280": {
+                "MiddleInitial": []
+            },
+            "17360": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "17440": {
+                "MiddleInitial": []
+            },
+            "17680": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "17760": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "17840": {
+                "MiddleInitial": []
+            },
+            "18000": {
+                "MiddleInitial": []
+            },
+            "18320": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "18720": {
+                "MiddleInitial": []
+            },
+            "18800": {
+                "MiddleInitial": []
+            },
+            "19200": {
+                "MiddleInitial": []
+            },
+            "19280": {
+                "MiddleInitial": []
+            }
+        },
+        "Employees": {
+            "1": {
+                "MiddleInitial": []
+            },
+            "2": {
+                "MiddleInitial": [
+                    "TD_DF"
+                ]
+            },
+            "3": {
+                "MiddleInitial": []
+            },
+            "4": {
+                "MiddleInitial": [
+                    "RI_MI"
+                ]
+            },
+            "5": {
+                "MiddleInitial": []
+            },
+            "6": {
+                "MiddleInitial": [
+                    "RI_LD"
+                ]
+            },
+            "7": {
+                "MiddleInitial": [
+                    "TA_FC"
+                ]
+            },
+            "8": {
+                "MiddleInitial": []
+            },
+            "9": {
+                "MiddleInitial": [
+                    "RI_LD"
+                ]
+            },
+            "10": {
+                "MiddleInitial": []
+            },
+            "11": {
+                "MiddleInitial": []
+            },
+            "12": {
+                "MiddleInitial": [
+                    "TA_EM"
+                ]
+            },
+            "13": {
+                "MiddleInitial": []
+            },
+            "14": {
+                "MiddleInitial": [
+                    "TD_DF"
+                ]
+            },
+            "16": {
+                "MiddleInitial": []
+            },
+            "17": {
+                "MiddleInitial": []
+            },
+            "18": {
+                "MiddleInitial": []
+            },
+            "19": {
+                "MiddleInitial": [
+                    "TD_AS"
+                ]
+            },
+            "20": {
+                "MiddleInitial": [
+                    "EF_ND"
+                ]
+            },
+            "21": {
+                "MiddleInitial": []
+            },
+            "22": {
+                "MiddleInitial": [
+                    "RI_MI"
+                ]
+            },
+            "23": {
+                "MiddleInitial": [
+                    "TA_EM"
+                ]
+            }
+        },
+        "Products": {
+            "1": {
+                "Price": [
+                    "TA_US"
+                ],
+                "Name": []
+            },
+            "2": {
+                "Price": [
+                    "RI_AC"
+                ],
+                "Name": []
+            },
+            "6": {
+                "Price": [
+                    "TA_US"
+                ],
+                "Name": []
+            },
+            "9": {
+                "Price": [
+                    "EF_ND"
+                ],
+                "Name": []
+            },
+            "25": {
+                "Price": [
+                    "RI_LD"
+                ],
+                "Name": []
+            },
+            "59": {
+                "Price": [
+                    "TA_US"
+                ],
+                "Name": []
+            },
+            "71": {
+                "Price": [
+                    "RI_AC"
+                ],
+                "Name": []
+            },
+            "83": {
+                "Price": [
+                    "EF_ND"
+                ],
+                "Name": []
+            },
+            "113": {
+                "Name": [
+                    "TD_DF"
+                ],
+                "Price": []
+            },
+            "135": {
+                "Price": [
+                    "TA_US"
+                ],
+                "Name": []
+            },
+            "186": {
+                "Price": [
+                    "RI_LD"
+                ],
+                "Name": []
+            },
+            "192": {
+                "Name": [
+                    "TA_EM"
+                ],
+                "Price": []
+            },
+            "196": {
+                "Price": [
+                    "RI_AC"
+                ],
+                "Name": []
+            },
+            "220": {
+                "Name": [
+                    "TA_EM"
+                ],
+                "Price": []
+            },
+            "223": {
+                "Name": [
+                    "TA_EM"
+                ],
+                "Price": [
+                    "TD_DF"
+                ]
+            },
+            "233": {
+                "Price": [
+                    "TA_US"
+                ],
+                "Name": []
+            },
+            "240": {
+                "Name": [
+                    "RI_LD"
+                ],
+                "Price": []
+            },
+            "251": {
+                "Name": [
+                    "TA_EM"
+                ],
+                "Price": [
+                    "TA_FC"
+                ]
+            },
+            "257": {
+                "Price": [
+                    "RI_MI"
+                ],
+                "Name": []
+            },
+            "271": {
+                "Name": [
+                    "TD_DF"
+                ],
+                "Price": []
+            },
+            "275": {
+                "Price": [
+                    "RI_LD"
+                ],
+                "Name": []
+            },
+            "284": {
+                "Price": [
+                    "TA_FC",
+                    "TD_DF"
+                ],
+                "Name": []
+            },
+            "299": {
+                "Name": [
+                    "TA_EM"
+                ],
+                "Price": []
+            },
+            "300": {
+                "Price": [
+                    "TA_US"
+                ],
+                "Name": []
+            },
+            "306": {
+                "Price": [
+                    "RI_AC"
+                ],
+                "Name": []
+            },
+            "322": {
+                "Price": [
+                    "RI_AC"
+                ],
+                "Name": []
+            },
+            "349": {
+                "Name": [
+                    "TD_DF"
+                ],
+                "Price": []
+            },
+            "350": {
+                "Price": [
+                    "TA_US"
+                ],
+                "Name": []
+            },
+            "369": {
+                "Name": [
+                    "TA_EM",
+                    "TD_DF"
+                ],
+                "Price": []
+            },
+            "370": {
+                "Price": [
+                    "RI_LD"
+                ],
+                "Name": []
+            },
+            "375": {
+                "Price": [
+                    "TD_DF"
+                ],
+                "Name": []
+            },
+            "383": {
+                "Name": [
+                    "TA_EM"
+                ],
+                "Price": []
+            },
+            "385": {
+                "Name": [
+                    "TA_FC"
+                ],
+                "Price": []
+            },
+            "387": {
+                "Price": [
+                    "TD_DF"
+                ],
+                "Name": []
+            },
+            "394": {
+                "Price": [
+                    "RI_AC"
+                ],
+                "Name": []
+            },
+            "406": {
+                "Name": [
+                    "RI_LD"
+                ],
+                "Price": []
+            },
+            "441": {
+                "Name": [
+                    "TD_DF"
+                ],
+                "Price": []
+            },
+            "449": {
+                "Price": [
+                    "TA_US"
+                ],
+                "Name": []
+            },
+            "454": {
+                "Price": [
+                    "RI_AC"
+                ],
+                "Name": []
+            },
+            "460": {
+                "Price": [
+                    "RI_MI"
+                ],
+                "Name": []
+            },
+            "469": {
+                "Name": [
+                    "TA_EM"
+                ],
+                "Price": []
+            },
+            "481": {
+                "Price": [
+                    "RI_MI"
+                ],
+                "Name": []
+            },
+            "483": {
+                "Name": [
+                    "TD_DF"
+                ],
+                "Price": []
+            },
+            "487": {
+                "Name": [
+                    "TA_EM"
+                ],
+                "Price": [
+                    "TD_DF"
+                ]
+            },
+            "497": {
+                "Price": [
+                    "RI_AC"
+                ],
+                "Name": []
+            },
+            "504": {
+                "Price": [
+                    "TA_FC"
+                ],
+                "Name": []
+            },
+            "205": {
+                "Name": [],
+                "Price": []
+            },
+            "261": {
+                "Name": [],
+                "Price": []
+            },
+            "253": {
+                "Name": [],
+                "Price": []
+            },
+            "47": {
+                "Name": [],
+                "Price": []
+            },
+            "57": {
+                "Name": [],
+                "Price": []
+            },
+            "79": {
+                "Name": [],
+                "Price": []
+            },
+            "82": {
+                "Name": [],
+                "Price": []
+            },
+            "217": {
+                "Name": [],
+                "Price": []
+            },
+            "33": {
+                "Name": [],
+                "Price": []
+            },
+            "198": {
+                "Name": [],
+                "Price": []
+            },
+            "129": {
+                "Name": [],
+                "Price": []
+            },
+            "489": {
+                "Name": [],
+                "Price": []
+            },
+            "137": {
+                "Name": [],
+                "Price": []
+            },
+            "329": {
+                "Name": [],
+                "Price": []
+            },
+            "175": {
+                "Name": [],
+                "Price": []
+            },
+            "58": {
+                "Name": [],
+                "Price": []
+            },
+            "151": {
+                "Name": [],
+                "Price": []
+            },
+            "81": {
+                "Name": [],
+                "Price": []
+            },
+            "391": {
+                "Name": [],
+                "Price": []
+            },
+            "92": {
+                "Name": [],
+                "Price": []
+            },
+            "260": {
+                "Name": [],
+                "Price": []
+            },
+            "55": {
+                "Name": [],
+                "Price": []
+            },
+            "321": {
+                "Name": [],
+                "Price": []
+            },
+            "153": {
+                "Name": [],
+                "Price": []
+            },
+            "431": {
+                "Name": [],
+                "Price": []
+            },
+            "328": {
+                "Name": [],
+                "Price": []
+            },
+            "446": {
+                "Name": [],
+                "Price": []
+            },
+            "312": {
+                "Name": [],
+                "Price": []
+            },
+            "102": {
+                "Name": [],
+                "Price": []
+            },
+            "448": {
+                "Name": [],
+                "Price": []
+            },
+            "277": {
+                "Name": [],
+                "Price": []
+            },
+            "399": {
+                "Name": [],
+                "Price": []
+            },
+            "272": {
+                "Name": [],
+                "Price": []
+            },
+            "307": {
+                "Name": [],
+                "Price": []
+            },
+            "166": {
+                "Name": [],
+                "Price": []
+            },
+            "10": {
+                "Name": [],
+                "Price": []
+            },
+            "459": {
+                "Name": [],
+                "Price": []
+            },
+            "414": {
+                "Name": [],
+                "Price": []
+            },
+            "158": {
+                "Name": [],
+                "Price": []
+            },
+            "123": {
+                "Name": [],
+                "Price": []
+            },
+            "30": {
+                "Name": [],
+                "Price": []
+            },
+            "124": {
+                "Name": [],
+                "Price": []
+            },
+            "291": {
+                "Name": [],
+                "Price": []
+            },
+            "41": {
+                "Name": [],
+                "Price": []
+            },
+            "44": {
+                "Name": [],
+                "Price": []
+            },
+            "249": {
+                "Name": [],
+                "Price": []
+            },
+            "36": {
+                "Name": [],
+                "Price": []
+            },
+            "390": {
+                "Name": [],
+                "Price": []
+            },
+            "273": {
+                "Name": [],
+                "Price": []
+            },
+            "393": {
+                "Name": [],
+                "Price": []
+            },
+            "65": {
+                "Name": [],
+                "Price": []
+            },
+            "66": {
+                "Name": [],
+                "Price": []
+            },
+            "338": {
+                "Name": [],
+                "Price": []
+            },
+            "244": {
+                "Name": [],
+                "Price": []
+            },
+            "282": {
+                "Name": [],
+                "Price": []
+            },
+            "27": {
+                "Name": [],
+                "Price": []
+            },
+            "28": {
+                "Name": [],
+                "Price": []
+            },
+            "38": {
+                "Name": [],
+                "Price": []
+            },
+            "43": {
+                "Name": [],
+                "Price": []
+            },
+            "63": {
+                "Name": [],
+                "Price": []
+            },
+            "74": {
+                "Name": [],
+                "Price": []
+            },
+            "75": {
+                "Name": [],
+                "Price": []
+            },
+            "80": {
+                "Name": [],
+                "Price": []
+            },
+            "85": {
+                "Name": [],
+                "Price": []
+            },
+            "86": {
+                "Name": [],
+                "Price": []
+            },
+            "88": {
+                "Name": [],
+                "Price": []
+            },
+            "91": {
+                "Name": [],
+                "Price": []
+            },
+            "107": {
+                "Name": [],
+                "Price": []
+            },
+            "110": {
+                "Name": [],
+                "Price": []
+            },
+            "121": {
+                "Name": [],
+                "Price": []
+            },
+            "122": {
+                "Name": [],
+                "Price": []
+            },
+            "133": {
+                "Name": [],
+                "Price": []
+            },
+            "148": {
+                "Name": [],
+                "Price": []
+            },
+            "149": {
+                "Name": [],
+                "Price": []
+            },
+            "155": {
+                "Name": [],
+                "Price": []
+            },
+            "156": {
+                "Name": [],
+                "Price": []
+            },
+            "167": {
+                "Name": [],
+                "Price": []
+            },
+            "179": {
+                "Name": [],
+                "Price": []
+            },
+            "183": {
+                "Name": [],
+                "Price": []
+            },
+            "185": {
+                "Name": [],
+                "Price": []
+            },
+            "188": {
+                "Name": [],
+                "Price": []
+            },
+            "201": {
+                "Name": [],
+                "Price": []
+            },
+            "215": {
+                "Name": [],
+                "Price": []
+            },
+            "219": {
+                "Name": [],
+                "Price": []
+            },
+            "225": {
+                "Name": [],
+                "Price": []
+            },
+            "229": {
+                "Name": [],
+                "Price": []
+            },
+            "231": {
+                "Name": [],
+                "Price": []
+            },
+            "235": {
+                "Name": [],
+                "Price": []
+            },
+            "236": {
+                "Name": [],
+                "Price": []
+            },
+            "246": {
+                "Name": [],
+                "Price": []
+            },
+            "252": {
+                "Name": [],
+                "Price": []
+            },
+            "259": {
+                "Name": [],
+                "Price": []
+            },
+            "264": {
+                "Name": [],
+                "Price": []
+            },
+            "266": {
+                "Name": [],
+                "Price": []
+            },
+            "276": {
+                "Name": [],
+                "Price": []
+            },
+            "278": {
+                "Name": [],
+                "Price": []
+            },
+            "293": {
+                "Name": [],
+                "Price": []
+            },
+            "294": {
+                "Name": [],
+                "Price": []
+            },
+            "297": {
+                "Name": [],
+                "Price": []
+            },
+            "341": {
+                "Name": [],
+                "Price": []
+            },
+            "343": {
+                "Name": [],
+                "Price": []
+            },
+            "353": {
+                "Name": [],
+                "Price": []
+            },
+            "356": {
+                "Name": [],
+                "Price": []
+            },
+            "357": {
+                "Name": [],
+                "Price": []
+            },
+            "360": {
+                "Name": [],
+                "Price": []
+            },
+            "365": {
+                "Name": [],
+                "Price": []
+            },
+            "376": {
+                "Name": [],
+                "Price": []
+            },
+            "382": {
+                "Name": [],
+                "Price": []
+            },
+            "386": {
+                "Name": [],
+                "Price": []
+            },
+            "392": {
+                "Name": [],
+                "Price": []
+            },
+            "404": {
+                "Name": [],
+                "Price": []
+            },
+            "421": {
+                "Name": [],
+                "Price": []
+            },
+            "440": {
+                "Name": [],
+                "Price": []
+            },
+            "452": {
+                "Name": [],
+                "Price": []
+            },
+            "453": {
+                "Name": [],
+                "Price": []
+            },
+            "463": {
+                "Name": [],
+                "Price": []
+            },
+            "464": {
+                "Name": [],
+                "Price": []
+            },
+            "479": {
+                "Name": [],
+                "Price": []
+            },
+            "486": {
+                "Name": [],
+                "Price": []
+            },
+            "502": {
+                "Name": [],
+                "Price": []
+            },
+            "503": {
+                "Name": [],
+                "Price": []
+            }
+        },
+        "Sales": {
+            "1385188": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "5807496": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "1920505": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "782345": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "4498695": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "3880809": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "1884900": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "EF_RC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "2336610": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "TA_US"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "4790261": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "1847320": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "2095531": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "TD_DF"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "263511": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "3549542": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "Quantity": [
+                        "RI_LD"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "6090189": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "813115": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "6604621": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "4646635": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "3132482": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_LD"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "3917690": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "60322": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "6138199": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "1175936": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_MI"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "6343880": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "3615923": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "TD_CA"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "2614869": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "Quantity": [
+                        "EF_RC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "4935096": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "1776695": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "Quantity": [
+                        "TA_US"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "5294080": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "EF_RC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "565395": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_MI"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "1996530": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "791263": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "4833618": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_LD",
+                        "EF_RC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "2846280": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "493869": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "2836071": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "5477011": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "1982897": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "TA_US"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "2085883": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "1015057": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "EF_RC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "3675053": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "3414670": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "Quantity": [
+                        "TD_DF"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "424366": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_LD"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "3717254": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "4426453": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_LD"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "1607177": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "4071955": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "5488782": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "3967588": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "3539003": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "1930345": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "5958268": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "3346993": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "6130966": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "5088483": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "3553239": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "TA_US"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "1595590": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "632375": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "454421": {
+                "row": [
+                    "RL_CL",
+                    "RL_MB"
+                ],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "4341744": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "TA_US"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "176449": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "1797151": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "4616468": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "3787344": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "TD_CA"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "6358138": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "6001847": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_LD"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "1597277": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "3448579": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "EF_RC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "6145373": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "TD_DF"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "123798": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "916616": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "4936198": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "5538355": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "537089": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "2336040": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "TA_US"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "2972067": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "EF_RC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "1539212": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "825589": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "4534785": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "5665385": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "594395": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "1687380": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Quantity": [
+                        "TA_US"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "1395121": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "821318": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "TD_CA"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "5457112": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_LD"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "4523948": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "1109914": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "TD_DF"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "3965055": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "5650302": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "5626779": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "2079586": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "3763247": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "2038411": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "508456": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "4313058": {
+                "row": [],
+                "col": {
+                    "Quantity": [
+                        "RI_AC"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "3377436": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "4523427": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "2223460": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "Quantity": [
+                        "RI_LD"
+                    ],
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": []
+                }
+            },
+            "595534": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "5424594": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            },
+            "2771839": {
+                "row": [],
+                "col": {
+                    "SalesPersonID": [],
+                    "CustomerID": [],
+                    "ProductID": [],
+                    "Quantity": []
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/sales/tables"
+}

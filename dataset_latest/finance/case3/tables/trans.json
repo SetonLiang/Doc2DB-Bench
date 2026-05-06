@@ -1,0 +1,22 @@
+[
+{"trans_id": 193651, "account_id": 656, "date": "1998-06-03", "type": "VYDAJ", "operation": "VYBER", "amount": 11840, "balance": 35494, "k_symbol": null, "bank": null, "account": null},
+{"trans_id": 145021, "account_id": 485, "date": "1993-06-22", "type": "VYDAJ", "operation": "VYBER", "amount": 14400, "balance": 40518, "k_symbol": null, "bank": null, "account": null},
+{"trans_id": 1017314, "account_id": 3476, "date": "1997-01-29", "type": "VYDAJ", "operation": "VYBER KARTOU", "amount": 2000, "balance": 33498, "k_symbol": null, "bank": null, "account": 0},
+{"trans_id": 144983, "account_id": 485, "date": "1998-12-02", "type": "VYDAJ", "operation": "VYBER", "amount": 6000, "balance": 61546, "k_symbol": null, "bank": null, "account": null},
+{"trans_id": 537060, "account_id": 1828, "date": "1996-02-09", "type": "VYDAJ", "operation": "PREVOD NA UCET", "amount": 1613, "balance": 70787, "k_symbol": " ", "bank": "UV", "account": 98265254},
+{"trans_id": 2761806, "account_id": 9138, "date": "1998-05-06", "type": "PRIJEM", "operation": "VKLAD", "amount": 13372, "balance": 44615, "k_symbol": null, "bank": null, "account": null},
+{"trans_id": 3501293, "account_id": 8533, "date": "1996-12-31", "type": "PRIJEM", "operation": null, "amount": 372, "balance": 81201, "k_symbol": "UROK", "bank": null, "account": null},
+{"trans_id": 1017328, "account_id": 3476, "date": "1996-09-11", "type": "VYDAJ", "operation": "VYBER KARTOU", "amount": 2400, "balance": 37834, "k_symbol": null, "bank": null, "account": 0},
+{"trans_id": 982789, "account_id": 3354, "date": "1997-04-08", "type": "PRIJEM", "operation": "VKLAD", "amount": 10352, "balance": 22718, "k_symbol": null, "bank": null, "account": null},
+{"trans_id": 3590802, "account_id": 1828, "date": "1997-12-31", "type": "PRIJEM", "operation": null, "amount": 136, "balance": 33941, "k_symbol": "UROK", "bank": null, "account": null},
+{"trans_id": 915506, "account_id": 3121, "date": "1997-02-06", "type": "VYDAJ", "operation": "PREVOD NA UCET", "amount": 2902, "balance": 10549, "k_symbol": "SIPO", "bank": "CD", "account": 63130450},
+{"trans_id": 1519844, "account_id": 5181, "date": "1998-02-28", "type": "VYDAJ", "operation": "VYBER", "amount": 15, "balance": 49496, "k_symbol": "SLUZBY", "bank": null, "account": null},
+{"trans_id": 1017222, "account_id": 3476, "date": "1997-10-08", "type": "VYDAJ", "operation": "PREVOD NA UCET", "amount": 860, "balance": 32891, "k_symbol": "SIPO", "bank": "CD", "account": 45791339},
+{"trans_id": 996860, "account_id": 3402, "date": "1997-07-31", "type": "VYDAJ", "operation": "VYBER", "amount": 30, "balance": 29950, "k_symbol": "SLUZBY", "bank": null, "account": null},
+{"trans_id": 2761879, "account_id": 9138, "date": "1998-05-08", "type": "VYDAJ", "operation": "PREVOD NA UCET", "amount": 9519, "balance": 35096, "k_symbol": "SIPO", "bank": "IJ", "account": 72567075},
+{"trans_id": 560269, "account_id": 1906, "date": "1998-09-25", "type": "VYBER", "operation": "VYBER", "amount": 10939, "balance": 52393, "k_symbol": null, "bank": null, "account": null},
+{"trans_id": 568270, "account_id": 1934, "date": "1998-03-11", "type": "VYDAJ", "operation": "PREVOD NA UCET", "amount": 1167, "balance": 84313, "k_symbol": " ", "bank": "UV", "account": 50147646},
+{"trans_id": 2292694, "account_id": 7562, "date": "1998-01-31", "type": "VYDAJ", "operation": "VYBER", "amount": 30, "balance": 40840, "k_symbol": "SLUZBY", "bank": null, "account": null},
+{"trans_id": 1017471, "account_id": 3477, "date": "1994-05-08", "type": "PRIJEM", "operation": "PREVOD Z UCTU", "amount": 3199, "balance": 18029, "k_symbol": null, "bank": "UV", "account": 27869725},
+{"trans_id": 3652712, "account_id": 3702, "date": "1998-09-30", "type": "PRIJEM", "operation": null, "amount": 235, "balance": 59815, "k_symbol": "UROK", "bank": null, "account": null}
+]

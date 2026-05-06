@@ -1,0 +1,1194 @@
+{
+    "if_primary_allowed": {
+        "book": false,
+        "book_author": false,
+        "author": false,
+        "book_language": false,
+        "publisher": false
+    },
+    "type": {
+        "book": "1:2",
+        "book_author": "1:2"
+    },
+    "capability_assignments": {
+        "author": {},
+        "book": {
+            "9519": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "isbn13": [
+                        "TA_FC"
+                    ],
+                    "num_pages": [],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "1391": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [],
+                    "isbn13": [],
+                    "num_pages": [
+                        "TD_DF"
+                    ],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "6484": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "2768": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "EF_RC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "6690": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [
+                        "TD_AS"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "TD_DF"
+                    ],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "5947": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "796": {
+                "row": [],
+                "col": {
+                    "title": [
+                        "TD_DF"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "RI_AC"
+                    ],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "1882": {
+                "row": [],
+                "col": {
+                    "title": [
+                        "TA_EM"
+                    ],
+                    "isbn13": [
+                        "TD_DF"
+                    ],
+                    "num_pages": [
+                        "RI_AC"
+                    ],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "7604": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM"
+                    ],
+                    "isbn13": [
+                        "TD_DF"
+                    ],
+                    "num_pages": [
+                        "RI_AC"
+                    ],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "8446": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [
+                        "EF_HC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "1570": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [
+                        "TD_DF"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "3903": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "isbn13": [
+                        "TA_FC"
+                    ],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "4599": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "8264": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "isbn13": [
+                        "TA_FC"
+                    ],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "2213": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [
+                        "TD_AS",
+                        "TA_EM"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "6869": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "7590": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "title": [
+                        "TD_AS"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "6276": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [
+                        "TD_DF"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "RI_AC"
+                    ],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "6761": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [
+                        "EF_HC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "3935": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "isbn13": [],
+                    "num_pages": [
+                        "TD_DF"
+                    ],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "1412": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "EF_RC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "EF_HC"
+                    ],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "10451": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "TD_AS"
+                    ],
+                    "isbn13": [
+                        "TD_DF"
+                    ],
+                    "num_pages": [
+                        "EF_HC"
+                    ],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "130": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "6783": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "isbn13": [
+                        "TA_FC"
+                    ],
+                    "num_pages": [],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "5656": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "title": [
+                        "TD_AS"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "EF_HC"
+                    ],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "1031": {
+                "row": [],
+                "col": {
+                    "title": [
+                        "EF_RC"
+                    ],
+                    "isbn13": [
+                        "TA_FC"
+                    ],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "8471": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "TD_AS"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "9199": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [
+                        "TA_FC",
+                        "TA_EM"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "7386": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "RI_AC"
+                    ],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "3575": {
+                "row": [],
+                "col": {
+                    "title": [
+                        "TD_AS"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "7399": {
+                "row": [],
+                "col": {
+                    "title": [
+                        "TD_AS",
+                        "TA_EM"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "8296": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "isbn13": [],
+                    "num_pages": [
+                        "TD_DF"
+                    ],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "9794": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "EF_RC"
+                    ],
+                    "isbn13": [
+                        "TD_DF"
+                    ],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "3644": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [
+                        "EF_HC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "TD_DF"
+                    ],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "4639": {
+                "row": [],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "isbn13": [
+                        "TD_DF"
+                    ],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "427": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "EF_RC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "EF_ND"
+                    ],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "437": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "920": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "2742": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "433": {
+                "row": [],
+                "col": {
+                    "title": [
+                        "TD_AS"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "3720": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [
+                        "TD_AS"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "149": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [
+                        "TD_AS"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "RI_AC"
+                    ],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "5228": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "isbn13": [
+                        "TA_FC"
+                    ],
+                    "num_pages": [
+                        "EF_HC"
+                    ],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "7782": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "EF_RC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "10276": {
+                "row": [],
+                "col": {
+                    "title": [
+                        "TD_AS"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "6296": {
+                "row": [],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "RI_TC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "10612": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "title": [
+                        "TD_AS"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "RI_AC"
+                    ],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "8700": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [],
+                    "isbn13": [],
+                    "num_pages": [
+                        "TD_DF"
+                    ],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "9991": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "title": [
+                        "TD_DF"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "RI_AC"
+                    ],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "4436": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [
+                        "TD_DF"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "RI_AC"
+                    ],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "3731": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "title": [],
+                    "isbn13": [
+                        "TD_DF"
+                    ],
+                    "num_pages": [
+                        "RI_AC"
+                    ],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "4836": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [
+                        "TD_AS",
+                        "TA_EM"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "11104": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "RI_LD",
+                        "TA_FC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [
+                        "TD_DF"
+                    ],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "8532": {
+                "row": [],
+                "col": {
+                    "title": [
+                        "TA_FC",
+                        "EF_HC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "4426": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "title": [
+                        "EF_HC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "11077": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "title": [
+                        "TA_EM",
+                        "RI_LD",
+                        "TA_FC"
+                    ],
+                    "isbn13": [],
+                    "num_pages": [],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "10867": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "isbn13": [
+                        "TA_FC"
+                    ],
+                    "num_pages": [],
+                    "publication_date": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "6089": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "isbn13": [
+                        "TA_FC"
+                    ],
+                    "num_pages": [],
+                    "publication_date": [
+                        "RI_TC"
+                    ],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            },
+            "300": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [],
+                    "isbn13": [
+                        "TA_FC"
+                    ],
+                    "num_pages": [
+                        "TD_DF"
+                    ],
+                    "publication_date": [],
+                    "language_id": [],
+                    "publisher_id": []
+                }
+            }
+        },
+        "book_author": {
+            "3903, 7772": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "6089, 3318": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "6761, 7719": {
+                "row": [],
+                "col": {}
+            },
+            "11077, 8222": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "11104, 301": {
+                "row": [],
+                "col": {}
+            },
+            "7399, 4304": {
+                "row": [],
+                "col": {}
+            },
+            "3720, 3532": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "2742, 3967": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "4639, 3602": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "1882, 3789": {
+                "row": [
+                    "GR_TI",
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "10612, 3270": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "7782, 619": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "1412, 7388": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "7386, 5533": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "8471, 149": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "8446, 1018": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "8264, 1206": {
+                "row": [],
+                "col": {}
+            },
+            "3935, 2018": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "130, 7442": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "4436, 6135": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "8296, 7373": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "300, 3452": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "10867, 6842": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "4599, 6588": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "1570, 3998": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "4426, 1052": {
+                "row": [],
+                "col": {}
+            },
+            "433, 95": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "9794, 6382": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "5656, 4351": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            }
+        },
+        "book_language": {},
+        "publisher": {}
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/books/tables"
+}

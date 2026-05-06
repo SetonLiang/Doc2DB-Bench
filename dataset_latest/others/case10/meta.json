@@ -1,0 +1,1439 @@
+{
+    "database_name": "e_government",
+    "if_primary_allowed": {
+        "Addresses": false,
+        "Student": false,
+        "Direct_distance": false,
+        "Services": false,
+        "Forms": false,
+        "Individuals": false,
+        "Organization_Contact_Individuals": false,
+        "Organizations": false,
+        "Parties": false,
+        "Party_Addresses": false,
+        "Party_Forms": false,
+        "Party_Services": false
+    },
+    "type": {
+        "Direct_distance": "1:2",
+        "Forms": "1;1",
+        "Organization_Contact_Individuals": "1:2",
+        "Party_Addresses": "1:2",
+        "Party_Forms": "1:2",
+        "Party_Services": "1:2"
+    },
+    "capability_assignments": {
+        "Addresses": {
+            "1": {
+                "line_1_number_building": [],
+                "town_city": [],
+                "state_province_county": [],
+                "country": [
+                    "TA_EM"
+                ]
+            },
+            "2": {
+                "line_1_number_building": [
+                    "TD_DF"
+                ],
+                "town_city": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "3": {
+                "line_1_number_building": [],
+                "town_city": [
+                    "EF_HC"
+                ],
+                "state_province_county": [],
+                "country": [
+                    "TA_EM"
+                ]
+            },
+            "4": {
+                "line_1_number_building": [
+                    "EF_RC"
+                ],
+                "town_city": [],
+                "state_province_county": [],
+                "country": []
+            },
+            "5": {
+                "line_1_number_building": [],
+                "town_city": [
+                    "EF_HC"
+                ],
+                "state_province_county": [],
+                "country": [
+                    "TA_EM"
+                ]
+            },
+            "6": {
+                "line_1_number_building": [
+                    "TD_CA"
+                ],
+                "town_city": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "7": {
+                "line_1_number_building": [],
+                "town_city": [],
+                "state_province_county": [],
+                "country": []
+            },
+            "8": {
+                "line_1_number_building": [
+                    "TA_FC"
+                ],
+                "town_city": [
+                    "EF_HC"
+                ],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "9": {
+                "line_1_number_building": [],
+                "town_city": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "10": {
+                "line_1_number_building": [
+                    "EF_RC"
+                ],
+                "town_city": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "11": {
+                "line_1_number_building": [],
+                "town_city": [
+                    "EF_HC"
+                ],
+                "state_province_county": [],
+                "country": [
+                    "TA_EM"
+                ]
+            },
+            "12": {
+                "line_1_number_building": [],
+                "town_city": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "13": {
+                "line_1_number_building": [
+                    "TD_DF"
+                ],
+                "town_city": [],
+                "state_province_county": [],
+                "country": [
+                    "TA_EM"
+                ]
+            },
+            "14": {
+                "line_1_number_building": [],
+                "town_city": [
+                    "EF_HC"
+                ],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "15": {
+                "line_1_number_building": [
+                    "TD_DF"
+                ],
+                "town_city": [],
+                "state_province_county": [],
+                "country": []
+            }
+        },
+        "Forms": {
+            "3": {
+                "row": [
+                    "GR_DC",
+                    "IC_ME"
+                ],
+                "col": {
+                    "form_type_code": [
+                        "TA_EM"
+                    ],
+                    "form_number": [],
+                    "form_name": [],
+                    "form_description": [],
+                    "service_id": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_MI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "form_type_code": [
+                        "TA_EM"
+                    ],
+                    "form_number": [],
+                    "form_name": [],
+                    "form_description": [],
+                    "service_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "form_type_code": [
+                        "TA_EM"
+                    ],
+                    "form_number": [],
+                    "form_name": [],
+                    "form_description": [],
+                    "service_id": []
+                }
+            },
+            "4": {
+                "row": [],
+                "col": {
+                    "form_type_code": [],
+                    "form_number": [
+                        "TA_FC"
+                    ],
+                    "form_name": [],
+                    "form_description": [],
+                    "service_id": []
+                }
+            },
+            "1": {
+                "row": [
+                    "IDR_CR",
+                    "GR_TI"
+                ],
+                "col": {
+                    "form_type_code": [
+                        "TA_EM"
+                    ],
+                    "form_number": [
+                        "TA_FC"
+                    ],
+                    "form_name": [],
+                    "form_description": [],
+                    "service_id": []
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "form_type_code": [
+                        "TA_EM"
+                    ],
+                    "form_number": [
+                        "TA_FC"
+                    ],
+                    "form_name": [],
+                    "form_description": [],
+                    "service_id": []
+                }
+            }
+        },
+        "Individuals": {
+            "1": {
+                "inidividual_phone": [
+                    "TA_FC"
+                ],
+                "individual_email": [],
+                "individual_address": [
+                    "TD_AS"
+                ]
+            },
+            "2": {
+                "inidividual_phone": [
+                    "TA_FC"
+                ],
+                "individual_email": [
+                    "TD_DF"
+                ],
+                "individual_address": []
+            },
+            "3": {
+                "inidividual_phone": [],
+                "individual_email": [
+                    "TA_FC"
+                ],
+                "individual_address": [
+                    "TA_FC",
+                    "TD_AS"
+                ]
+            },
+            "4": {
+                "inidividual_phone": [
+                    "TA_FC",
+                    "TD_AS"
+                ],
+                "individual_email": [],
+                "individual_address": [
+                    "RI_LD"
+                ]
+            },
+            "5": {
+                "inidividual_phone": [],
+                "individual_email": [
+                    "EF_HC"
+                ],
+                "individual_address": []
+            },
+            "6": {
+                "inidividual_phone": [
+                    "TA_FC"
+                ],
+                "individual_email": [],
+                "individual_address": [
+                    "TD_DF"
+                ]
+            },
+            "7": {
+                "inidividual_phone": [
+                    "TA_FC"
+                ],
+                "individual_email": [
+                    "TD_AS"
+                ],
+                "individual_address": [
+                    "TA_FC"
+                ]
+            },
+            "8": {
+                "inidividual_phone": [
+                    "TA_FC"
+                ],
+                "individual_email": [],
+                "individual_address": []
+            },
+            "9": {
+                "inidividual_phone": [],
+                "individual_email": [
+                    "TA_FC"
+                ],
+                "individual_address": [
+                    "TA_FC"
+                ]
+            },
+            "10": {
+                "inidividual_phone": [
+                    "TA_FC"
+                ],
+                "individual_email": [
+                    "EF_HC"
+                ],
+                "individual_address": []
+            },
+            "11": {
+                "inidividual_phone": [],
+                "individual_email": [],
+                "individual_address": [
+                    "TA_FC",
+                    "RI_LD"
+                ]
+            },
+            "12": {
+                "inidividual_phone": [
+                    "TA_FC",
+                    "EF_HC"
+                ],
+                "individual_email": [],
+                "individual_address": []
+            },
+            "13": {
+                "inidividual_phone": [
+                    "TA_FC"
+                ],
+                "individual_email": [],
+                "individual_address": [
+                    "TD_AS"
+                ]
+            },
+            "14": {
+                "inidividual_phone": [],
+                "individual_email": [
+                    "TD_DF"
+                ],
+                "individual_address": []
+            },
+            "15": {
+                "inidividual_phone": [],
+                "individual_email": [],
+                "individual_address": [
+                    "TA_FC"
+                ]
+            }
+        },
+        "Organization_Contact_Individuals": {
+            "13, 2": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "date_contact_from": [
+                        "TA_FC"
+                    ],
+                    "date_contact_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "11, 5": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "date_contact_from": [],
+                    "date_contact_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "7, 2": {
+                "row": [],
+                "col": {
+                    "date_contact_from": [],
+                    "date_contact_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "11, 1": {
+                "row": [],
+                "col": {
+                    "date_contact_from": [],
+                    "date_contact_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "14, 5": {
+                "row": [],
+                "col": {
+                    "date_contact_from": [
+                        "TA_FC"
+                    ],
+                    "date_contact_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "6, 3": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "date_contact_from": [],
+                    "date_contact_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "10, 4": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "date_contact_from": [],
+                    "date_contact_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "10, 3": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "date_contact_from": [
+                        "TA_FC"
+                    ],
+                    "date_contact_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "9, 1": {
+                "row": [],
+                "col": {
+                    "date_contact_from": [
+                        "TA_FC"
+                    ],
+                    "date_contact_to": []
+                }
+            },
+            "9, 2": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "date_contact_from": [],
+                    "date_contact_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "6, 5": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "date_contact_from": [
+                        "TA_FC"
+                    ],
+                    "date_contact_to": []
+                }
+            },
+            "8, 3": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "date_contact_from": [
+                        "TA_FC"
+                    ],
+                    "date_contact_to": []
+                }
+            },
+            "5, 4": {
+                "row": [],
+                "col": {
+                    "date_contact_from": [],
+                    "date_contact_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "13, 1": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "date_contact_from": [
+                        "TA_FC"
+                    ],
+                    "date_contact_to": []
+                }
+            },
+            "13, 3": {
+                "row": [
+                    "RL_MI",
+                    "GR_DC"
+                ],
+                "col": {
+                    "date_contact_from": [
+                        "TA_FC"
+                    ],
+                    "date_contact_to": []
+                }
+            }
+        },
+        "Organizations": {
+            "1": {
+                "date_formed": [
+                    "TA_FC"
+                ],
+                "uk_vat_number": []
+            },
+            "2": {
+                "date_formed": [],
+                "uk_vat_number": [
+                    "EF_HC"
+                ]
+            },
+            "3": {
+                "date_formed": [
+                    "RI_TC"
+                ],
+                "uk_vat_number": []
+            },
+            "4": {
+                "date_formed": [],
+                "uk_vat_number": [
+                    "TD_DF"
+                ]
+            },
+            "5": {
+                "date_formed": [],
+                "uk_vat_number": []
+            }
+        },
+        "Parties": {
+            "1": {
+                "payment_method_code": [],
+                "party_phone": []
+            },
+            "2": {
+                "payment_method_code": [],
+                "party_phone": [
+                    "TA_FC"
+                ]
+            },
+            "3": {
+                "payment_method_code": [
+                    "TA_EM"
+                ],
+                "party_phone": []
+            },
+            "4": {
+                "payment_method_code": [],
+                "party_phone": []
+            },
+            "5": {
+                "payment_method_code": [],
+                "party_phone": []
+            },
+            "6": {
+                "payment_method_code": [
+                    "RI_LD"
+                ],
+                "party_phone": []
+            },
+            "7": {
+                "payment_method_code": [],
+                "party_phone": []
+            },
+            "8": {
+                "payment_method_code": [],
+                "party_phone": [
+                    "TA_FC",
+                    "TD_DF"
+                ]
+            },
+            "9": {
+                "payment_method_code": [],
+                "party_phone": []
+            },
+            "10": {
+                "payment_method_code": [],
+                "party_phone": [
+                    "TA_FC"
+                ]
+            },
+            "11": {
+                "payment_method_code": [],
+                "party_phone": []
+            },
+            "12": {
+                "payment_method_code": [],
+                "party_phone": []
+            },
+            "13": {
+                "payment_method_code": [
+                    "TA_EM"
+                ],
+                "party_phone": []
+            },
+            "14": {
+                "payment_method_code": [],
+                "party_phone": [
+                    "TA_FC"
+                ]
+            },
+            "15": {
+                "payment_method_code": [],
+                "party_phone": []
+            }
+        },
+        "Party_Addresses": {
+            "15, 5": {
+                "row": [],
+                "col": {
+                    "date_address_from": [],
+                    "address_type_code": [
+                        "TA_EM"
+                    ],
+                    "date_address_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "10, 8": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_address_from": [],
+                    "address_type_code": [],
+                    "date_address_to": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "5, 13": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MI"
+                ],
+                "col": {
+                    "date_address_from": [
+                        "TA_FC"
+                    ],
+                    "address_type_code": [],
+                    "date_address_to": [
+                        "RI_TC"
+                    ]
+                }
+            },
+            "10, 1": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_address_from": [
+                        "TA_FC"
+                    ],
+                    "address_type_code": [
+                        "TA_EM"
+                    ],
+                    "date_address_to": []
+                }
+            },
+            "6, 9": {
+                "row": [],
+                "col": {
+                    "date_address_from": [],
+                    "address_type_code": [
+                        "RI_LD"
+                    ],
+                    "date_address_to": []
+                }
+            },
+            "5, 10": {
+                "row": [
+                    "RL_O2M",
+                    "RL_MI"
+                ],
+                "col": {
+                    "date_address_from": [],
+                    "address_type_code": [],
+                    "date_address_to": []
+                }
+            },
+            "11, 5": {
+                "row": [],
+                "col": {
+                    "date_address_from": [],
+                    "address_type_code": [],
+                    "date_address_to": []
+                }
+            },
+            "4, 4": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_address_from": [
+                        "TA_FC"
+                    ],
+                    "address_type_code": [],
+                    "date_address_to": []
+                }
+            },
+            "15, 2": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "date_address_from": [],
+                    "address_type_code": [],
+                    "date_address_to": []
+                }
+            },
+            "5, 7": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "date_address_from": [],
+                    "address_type_code": [],
+                    "date_address_to": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "5, 4": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "date_address_from": [],
+                    "address_type_code": [
+                        "TA_EM"
+                    ],
+                    "date_address_to": []
+                }
+            },
+            "8, 7": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "date_address_from": [],
+                    "address_type_code": [],
+                    "date_address_to": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "3, 2": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "date_address_from": [],
+                    "address_type_code": [
+                        "RI_LD"
+                    ],
+                    "date_address_to": []
+                }
+            },
+            "4, 10": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_address_from": [],
+                    "address_type_code": [
+                        "TD_DF"
+                    ],
+                    "date_address_to": [
+                        "RI_LD"
+                    ]
+                }
+            },
+            "11, 2": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "date_address_from": [
+                        "RI_TC"
+                    ],
+                    "address_type_code": [],
+                    "date_address_to": []
+                }
+            }
+        },
+        "Party_Forms": {
+            "2, 5": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "15, 4": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "7, 2": {
+                "row": [
+                    "GR_DC",
+                    "IC_ME"
+                ],
+                "col": {
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "2, 4": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "date_completion_started": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_fully_completed": [
+                        "TA_FC",
+                        "RI_TC"
+                    ]
+                }
+            },
+            "6, 2": {
+                "row": [
+                    "GR_DC",
+                    "RL_CL"
+                ],
+                "col": {
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "8, 5": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "5, 6": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "9, 2": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "date_completion_started": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_fully_completed": [
+                        "TA_FC",
+                        "RI_TC"
+                    ]
+                }
+            },
+            "11, 3": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "8, 6": {
+                "row": [
+                    "RL_MI",
+                    "GR_DC"
+                ],
+                "col": {
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "13, 3": {
+                "row": [
+                    "RL_MI",
+                    "GR_DC"
+                ],
+                "col": {
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "11, 5": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "7, 6": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "form_status_code": [
+                        "TA_EM"
+                    ],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "form_status_code": [],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "form_status_code": [],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            },
+            "1999": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "form_status_code": [],
+                    "date_completion_started": [],
+                    "date_fully_completed": []
+                }
+            }
+        },
+        "Party_Services": {
+            "1": {
+                "row": [
+                    "RL_MB",
+                    "GR_DC"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "8": {
+                "row": [
+                    "RL_MB",
+                    "GR_DC"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_MB",
+                    "GR_DC"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "0": {
+                "row": [],
+                "col": {
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": [],
+                    "service_datetime": [],
+                    "booking_made_date": []
+                }
+            },
+            "13": {
+                "row": [
+                    "RL_MB",
+                    "GR_DC"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "14": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "10": {
+                "row": [
+                    "RL_MB",
+                    "GR_DC"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "11": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "9": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "15": {
+                "row": [
+                    "RL_MB",
+                    "GR_DC"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ]
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_MB",
+                    "GR_DC"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "service_datetime": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_made_date": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "service_datetime": [],
+                    "booking_made_date": [],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "service_datetime": [],
+                    "booking_made_date": [],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            },
+            "1999": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "service_datetime": [],
+                    "booking_made_date": [],
+                    "booking_id": [],
+                    "customer_id": [],
+                    "service_id": []
+                }
+            }
+        },
+        "Services": {
+            "1": {
+                "service_descriptio": [
+                    "RI_LD"
+                ]
+            },
+            "2": {
+                "service_descriptio": [
+                    "RI_LD"
+                ]
+            },
+            "3": {
+                "service_descriptio": [
+                    "TD_CA"
+                ]
+            },
+            "4": {
+                "service_descriptio": [
+                    "RI_LD"
+                ]
+            },
+            "5": {
+                "service_descriptio": []
+            },
+            "6": {
+                "service_descriptio": [
+                    "TD_CA"
+                ]
+            },
+            "7": {
+                "service_descriptio": []
+            },
+            "8": {
+                "service_descriptio": [
+                    "TD_DF"
+                ]
+            },
+            "9": {
+                "service_descriptio": [
+                    "TD_CA"
+                ]
+            },
+            "10": {
+                "service_descriptio": [
+                    "TD_CA"
+                ]
+            },
+            "11": {
+                "service_descriptio": [
+                    "RI_LD"
+                ]
+            },
+            "12": {
+                "service_descriptio": [
+                    "RI_LD"
+                ]
+            },
+            "13": {
+                "service_descriptio": [
+                    "TD_CA"
+                ]
+            },
+            "14": {
+                "service_descriptio": []
+            },
+            "15": {
+                "service_descriptio": [
+                    "RI_LD"
+                ]
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/e_government/tables"
+}

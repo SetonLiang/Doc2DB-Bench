@@ -1,0 +1,2573 @@
+{
+    "database_id": "movie_3",
+    "if_primary_allowed": {
+        "address": false,
+        "film": false,
+        "film_actor": false,
+        "film_category": false,
+        "inventory": false,
+        "actor": false,
+        "category": false,
+        "language": false,
+        "city": false
+    },
+    "type": {
+        "address": "1:1",
+        "film": "1:1",
+        "film_actor": "1:2",
+        "film_category": "1:2",
+        "inventory": "1:2"
+    },
+    "capability_assignments": {
+        "actor": {},
+        "address": {
+            "3": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [
+                        "EF_ND"
+                    ],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "204": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [],
+                    "postal_code": [
+                        "RI_LD"
+                    ],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "504": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "address": [
+                        "TD_AS"
+                    ],
+                    "district": [],
+                    "postal_code": [],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "134": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [],
+                    "postal_code": [
+                        "TA_FC"
+                    ],
+                    "phone": [
+                        "EF_RC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "376": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [
+                        "TA_FC"
+                    ],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "514": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [
+                        "TA_FC"
+                    ],
+                    "phone": [
+                        "EF_RC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "508": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "address": [
+                        "TD_AS"
+                    ],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [
+                        "TA_FC"
+                    ],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "604": {
+                "row": [],
+                "col": {
+                    "address": [],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "387": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [
+                        "TD_AS"
+                    ],
+                    "postal_code": [],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "208": {
+                "row": [
+                    "RL_CL",
+                    "GR_DC"
+                ],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [],
+                    "postal_code": [
+                        "TA_FC"
+                    ],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "151": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "address": [
+                        "TD_AS"
+                    ],
+                    "district": [],
+                    "postal_code": [],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "67": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "address": [
+                        "TD_DF"
+                    ],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "239": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [],
+                    "postal_code": [],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "433": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "543": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [
+                        "TA_FC"
+                    ],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "155": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [],
+                    "postal_code": [
+                        "TD_DF"
+                    ],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "154": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [
+                        "TA_FC"
+                    ],
+                    "postal_code": [],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "559": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [],
+                    "postal_code": [],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "462": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [
+                        "TD_AS"
+                    ],
+                    "postal_code": [
+                        "TA_FC"
+                    ],
+                    "phone": [
+                        "EF_RC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "159": {
+                "row": [],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [],
+                    "postal_code": [
+                        "TA_FC"
+                    ],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "602": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [],
+                    "postal_code": [],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "262": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "450": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "address": [
+                        "TD_AS"
+                    ],
+                    "district": [],
+                    "postal_code": [],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [
+                        "EF_ND"
+                    ],
+                    "phone": [
+                        "EF_ND"
+                    ],
+                    "city_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [
+                        "TA_FC"
+                    ],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "523": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [
+                        "RI_LD"
+                    ],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "179": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "address": [],
+                    "district": [
+                        "EF_HC"
+                    ],
+                    "postal_code": [
+                        "RI_LD"
+                    ],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "92": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [],
+                    "postal_code": [
+                        "TA_FC"
+                    ],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "136": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [],
+                    "postal_code": [],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [],
+                    "postal_code": [
+                        "EF_ND"
+                    ],
+                    "phone": [
+                        "EF_ND"
+                    ],
+                    "city_id": []
+                }
+            },
+            "267": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "address": [
+                        "TD_AS"
+                    ],
+                    "district": [],
+                    "postal_code": [],
+                    "phone": [
+                        "TA_FC"
+                    ],
+                    "city_id": []
+                }
+            },
+            "459": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "address": [
+                        "TD_AS"
+                    ],
+                    "district": [
+                        "TA_FC"
+                    ],
+                    "postal_code": [],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "address": [
+                        "TA_FC"
+                    ],
+                    "district": [],
+                    "postal_code": [
+                        "EF_ND"
+                    ],
+                    "phone": [],
+                    "city_id": []
+                }
+            },
+            "211": {
+                "row": [],
+                "col": {
+                    "address": [
+                        "TD_AS"
+                    ],
+                    "district": [],
+                    "postal_code": [
+                        "TA_FC"
+                    ],
+                    "phone": [],
+                    "city_id": []
+                }
+            }
+        },
+        "category": {},
+        "city": {},
+        "film": {
+            "355": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "special_features": []
+                }
+            },
+            "1": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_US",
+                        "TA_FC"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": [
+                        "TD_DF",
+                        "TA_FC"
+                    ]
+                }
+            },
+            "86": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [
+                        "RI_LD"
+                    ],
+                    "special_features": []
+                }
+            },
+            "484": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC",
+                        "TA_US"
+                    ],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": [
+                        "EF_RC"
+                    ]
+                }
+            },
+            "756": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [
+                        "TA_US"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [
+                        "TA_EM"
+                    ],
+                    "special_features": []
+                }
+            },
+            "616": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "912": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_FC"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [
+                        "TA_EM",
+                        "EF_ND"
+                    ],
+                    "special_features": []
+                }
+            },
+            "726": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [],
+                    "special_features": [
+                        "TA_FC",
+                        "TD_AS"
+                    ]
+                }
+            },
+            "769": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US",
+                        "TD_DF"
+                    ],
+                    "length": [
+                        "TA_US"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "529": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "RI_LD"
+                    ],
+                    "special_features": []
+                }
+            },
+            "287": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [],
+                    "special_features": [
+                        "EF_RC"
+                    ]
+                }
+            },
+            "72": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [
+                        "TA_US",
+                        "TA_FC"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [
+                        "TA_EM"
+                    ],
+                    "special_features": []
+                }
+            },
+            "360": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC",
+                        "TA_US"
+                    ],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "929": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "rating": [],
+                    "special_features": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "907": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [
+                        "TA_US"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "special_features": []
+                }
+            },
+            "486": {
+                "row": [
+                    "RL_CL",
+                    "GR_DC"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "43": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_FC",
+                        "TA_US"
+                    ],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [
+                        "TA_EM"
+                    ],
+                    "special_features": []
+                }
+            },
+            "996": {
+                "row": [
+                    "IDR_CR",
+                    "GR_DC"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "974": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "RI_LD"
+                    ],
+                    "special_features": [
+                        "EF_RC",
+                        "TA_FC"
+                    ]
+                }
+            },
+            "954": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_US"
+                    ],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "450": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US",
+                        "TD_DF"
+                    ],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "TA_EM"
+                    ],
+                    "special_features": []
+                }
+            },
+            "88": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC",
+                        "TA_US"
+                    ],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "84": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_US",
+                        "TA_FC"
+                    ],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "388": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "RI_LD"
+                    ],
+                    "special_features": []
+                }
+            },
+            "758": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_US"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": [
+                        "TA_FC",
+                        "EF_RC"
+                    ]
+                }
+            },
+            "235": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [
+                        "TA_EM"
+                    ],
+                    "special_features": []
+                }
+            },
+            "491": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [
+                        "TA_FC"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "354": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "RI_LD"
+                    ],
+                    "special_features": []
+                }
+            },
+            "237": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [],
+                    "special_features": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "932": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [
+                        "TA_US",
+                        "TA_FC"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "249": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC",
+                        "TA_US"
+                    ],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "TA_EM"
+                    ],
+                    "special_features": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "835": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "802": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [
+                        "TA_US"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "304": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "special_features": [
+                        "EF_RC"
+                    ]
+                }
+            },
+            "933": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_FC"
+                    ],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "443": {
+                "row": [
+                    "IDR_CR",
+                    "IC_ME"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "99": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC",
+                        "TA_US"
+                    ],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "TA_EM"
+                    ],
+                    "special_features": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "968": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_US"
+                    ],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "568": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US",
+                        "TD_DF"
+                    ],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "RI_LD"
+                    ],
+                    "special_features": []
+                }
+            },
+            "175": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": [
+                        "TD_DF",
+                        "TA_FC"
+                    ]
+                }
+            },
+            "825": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_US",
+                        "TA_FC"
+                    ],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "246": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "TA_EM"
+                    ],
+                    "special_features": []
+                }
+            },
+            "964": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_US"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": [
+                        "EF_RC"
+                    ]
+                }
+            },
+            "60": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US",
+                        "RI_AC"
+                    ],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "122": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [
+                        "RI_LD"
+                    ],
+                    "special_features": []
+                }
+            },
+            "469": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC",
+                        "TA_US"
+                    ],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_US",
+                        "TA_FC"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "636": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [
+                        "TA_EM"
+                    ],
+                    "special_features": []
+                }
+            },
+            "646": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "600": {
+                "row": [
+                    "IDR_CR",
+                    "GR_TI"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [
+                        "EF_HC"
+                    ],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [
+                        "TA_US"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "221": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "special_features": []
+                }
+            },
+            "599": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [
+                        "TA_FC"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "970": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": [
+                        "TA_FC",
+                        "EF_RC"
+                    ]
+                }
+            },
+            "829": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [
+                        "TA_EM"
+                    ],
+                    "special_features": []
+                }
+            },
+            "705": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [
+                        "TA_US",
+                        "TD_DF"
+                    ],
+                    "length": [
+                        "TA_US"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "789": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "685": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [
+                        "RI_LD"
+                    ],
+                    "special_features": []
+                }
+            },
+            "402": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [
+                        "RI_TC"
+                    ],
+                    "rental_rate": [
+                        "TA_US"
+                    ],
+                    "length": [
+                        "TA_US",
+                        "TA_FC"
+                    ],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            },
+            "297": {
+                "row": [],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [
+                        "TA_US"
+                    ],
+                    "rating": [
+                        "TA_EM"
+                    ],
+                    "special_features": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "50": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "title": [],
+                    "description": [],
+                    "release_year": [
+                        "TA_FC"
+                    ],
+                    "language_id": [],
+                    "rental_duration": [],
+                    "rental_rate": [],
+                    "length": [],
+                    "replacement_cost": [],
+                    "rating": [],
+                    "special_features": []
+                }
+            }
+        },
+        "film_actor": {
+            "172, 758": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "104, 600": {
+                "row": [
+                    "IDR_CR",
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "82, 954": {
+                "row": [
+                    "GR_DC",
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "131, 450": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "156, 646": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "125, 568": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "69, 88": {
+                "row": [],
+                "col": {}
+            },
+            "45, 484": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "103, 912": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "145, 402": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "34, 929": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "23, 235": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "124, 246": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "20, 1": {
+                "row": [],
+                "col": {}
+            },
+            "168, 685": {
+                "row": [],
+                "col": {}
+            },
+            "112, 829": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "54, 970": {
+                "row": [],
+                "col": {}
+            },
+            "80, 175": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "160, 469": {
+                "row": [],
+                "col": {}
+            },
+            "162, 636": {
+                "row": [],
+                "col": {}
+            },
+            "173, 529": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "85, 72": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "4, 616": {
+                "row": [
+                    "GR_TI",
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "157, 835": {
+                "row": [
+                    "IDR_CR",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "165, 360": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "15, 968": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "9, 964": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "48, 99": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "194, 86": {
+                "row": [],
+                "col": {}
+            },
+            "127, 354": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            }
+        },
+        "film_category": {
+            "1, 6": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "88, 16": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "968, 1": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "86, 12": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "954, 13": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "802, 1": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "246, 9": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "99, 5": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "756, 5": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "360, 1": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "996, 6": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "388, 5": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "84, 16": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "829, 8": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "60, 4": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "122, 11": {
+                "row": [],
+                "col": {}
+            },
+            "929, 9": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "769, 9": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "175, 8": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "304, 3": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "354, 3": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "297, 4": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "907, 7": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "237, 15": {
+                "row": [],
+                "col": {}
+            },
+            "402, 2": {
+                "row": [],
+                "col": {}
+            },
+            "636, 12": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "43, 8": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "450, 3": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "72, 6": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "50, 8": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            }
+        },
+        "inventory": {
+            "3": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "1386": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "4429": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "1407": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "4": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "2482": {
+                "row": [],
+                "col": {}
+            },
+            "1335": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "2249": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "193": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "1385": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "4412": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "380": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "1614": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "1999": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "3770": {
+                "row": [],
+                "col": {}
+            },
+            "4089": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "3393": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "4286": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "3448": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "379": {
+                "row": [
+                    "IDR_CR",
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "3030": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "2032": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "3985": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "576": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "2154": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "1847": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "3733": {
+                "row": [],
+                "col": {}
+            },
+            "2806": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "3321": {
+                "row": [],
+                "col": {}
+            },
+            "2945": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "4161": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "1650": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "4169": {
+                "row": [],
+                "col": {}
+            },
+            "4579": {
+                "row": [],
+                "col": {}
+            },
+            "325": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "2033": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "1014": {
+                "row": [],
+                "col": {}
+            },
+            "1787": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "2973": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "1066": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "566": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "2240": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "2693": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "3556": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "2034": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "2589": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "330": {
+                "row": [],
+                "col": {}
+            },
+            "1761": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "6": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "1845": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "4269": {
+                "row": [],
+                "col": {}
+            },
+            "2700": {
+                "row": [],
+                "col": {}
+            },
+            "2804": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "1710": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "695": {
+                "row": [],
+                "col": {}
+            },
+            "2681": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {}
+            },
+            "194": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "1848": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "2733": {
+                "row": [],
+                "col": {}
+            },
+            "2037": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            }
+        },
+        "language": {}
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/movie_3/tables"
+}

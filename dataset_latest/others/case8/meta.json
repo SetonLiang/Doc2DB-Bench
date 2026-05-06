@@ -1,0 +1,2021 @@
+{
+    "database_id": "address_1",
+    "if_primary_allowed": {
+        "City": false,
+        "Student": false,
+        "Direct_distance": false
+    },
+    "type": {
+        "Direct_distance": "1:2"
+    },
+    "capability_assignments": {
+        "City": {
+            "BAL": {
+                "state": [
+                    "TA_EM"
+                ],
+                "country": [],
+                "latitude": [],
+                "longitude": []
+            },
+            "PIT": {
+                "state": [],
+                "country": [],
+                "latitude": [
+                    "RI_LD"
+                ],
+                "longitude": []
+            },
+            "PHL": {
+                "state": [],
+                "country": [],
+                "latitude": [],
+                "longitude": [
+                    "TA_FC"
+                ]
+            },
+            "WAS": {
+                "state": [
+                    "RI_LD",
+                    "TD_DF"
+                ],
+                "country": [],
+                "latitude": [],
+                "longitude": []
+            },
+            "NYC": {
+                "state": [],
+                "country": [],
+                "latitude": [
+                    "TA_US"
+                ],
+                "longitude": [
+                    "RI_LD"
+                ]
+            },
+            "ATL": {
+                "state": [
+                    "TA_EM"
+                ],
+                "country": [],
+                "latitude": [],
+                "longitude": []
+            },
+            "EWR": {
+                "state": [
+                    "TD_DF"
+                ],
+                "country": [],
+                "latitude": [],
+                "longitude": [
+                    "EF_HC"
+                ]
+            },
+            "FRE": {
+                "state": [],
+                "country": [
+                    "RI_LD"
+                ],
+                "latitude": [],
+                "longitude": []
+            },
+            "NAR": {
+                "state": [
+                    "TD_DF",
+                    "EF_RC"
+                ],
+                "country": [],
+                "latitude": [],
+                "longitude": []
+            },
+            "SAN": {
+                "state": [],
+                "country": [],
+                "latitude": [
+                    "RI_LD"
+                ],
+                "longitude": [
+                    "TA_US"
+                ]
+            },
+            "LOS": {
+                "state": [],
+                "country": [
+                    "EF_HC"
+                ],
+                "latitude": [],
+                "longitude": []
+            },
+            "HON": {
+                "state": [
+                    "RI_LD"
+                ],
+                "country": [],
+                "latitude": [
+                    "TD_DF"
+                ],
+                "longitude": [
+                    "RI_LD"
+                ]
+            },
+            "SFO": {
+                "state": [],
+                "country": [],
+                "latitude": [
+                    "TA_FC"
+                ],
+                "longitude": []
+            },
+            "PVD": {
+                "state": [
+                    "TA_EM"
+                ],
+                "country": [],
+                "latitude": [],
+                "longitude": []
+            },
+            "BOS": {
+                "state": [],
+                "country": [],
+                "latitude": [],
+                "longitude": [
+                    "TA_FC"
+                ]
+            },
+            "DET": {
+                "state": [],
+                "country": [],
+                "latitude": [
+                    "RI_AC"
+                ],
+                "longitude": []
+            },
+            "CHI": {
+                "state": [],
+                "country": [
+                    "TA_EM"
+                ],
+                "latitude": [],
+                "longitude": [
+                    "TA_US"
+                ]
+            },
+            "ROC": {
+                "state": [],
+                "country": [],
+                "latitude": [],
+                "longitude": []
+            },
+            "DAL": {
+                "state": [
+                    "TA_EM"
+                ],
+                "country": [],
+                "latitude": [],
+                "longitude": [
+                    "RI_LD"
+                ]
+            },
+            "HOU": {
+                "state": [],
+                "country": [],
+                "latitude": [
+                    "TA_FC"
+                ],
+                "longitude": []
+            },
+            "MIA": {
+                "state": [],
+                "country": [],
+                "latitude": [
+                    "EF_HC"
+                ],
+                "longitude": []
+            },
+            "CPK": {
+                "state": [
+                    "RI_LD"
+                ],
+                "country": [],
+                "latitude": [],
+                "longitude": []
+            },
+            "YYZ": {
+                "state": [
+                    "TA_EM"
+                ],
+                "country": [
+                    "TA_FC"
+                ],
+                "latitude": [],
+                "longitude": []
+            },
+            "DEL": {
+                "state": [
+                    "TD_DF",
+                    "EF_HC"
+                ],
+                "country": [
+                    "TA_EM"
+                ],
+                "latitude": [],
+                "longitude": [
+                    "RI_LD"
+                ]
+            },
+            "PEK": {
+                "state": [
+                    "TA_EM"
+                ],
+                "country": [],
+                "latitude": [
+                    "RI_LD"
+                ],
+                "longitude": []
+            },
+            "HKG": {
+                "state": [],
+                "country": [
+                    "RI_LD"
+                ],
+                "latitude": [],
+                "longitude": [
+                    "TA_US"
+                ]
+            },
+            "TYO": {
+                "state": [
+                    "EF_ND"
+                ],
+                "country": [
+                    "TA_EM"
+                ],
+                "latitude": [],
+                "longitude": []
+            },
+            "LON": {
+                "state": [],
+                "country": [
+                    "TA_FC"
+                ],
+                "latitude": [
+                    "EF_HC"
+                ],
+                "longitude": [
+                    "TD_DF"
+                ]
+            },
+            "PAR": {
+                "state": [
+                    "EF_ND"
+                ],
+                "country": [],
+                "latitude": [],
+                "longitude": [
+                    "TA_FC"
+                ]
+            },
+            "JNB": {
+                "state": [
+                    "EF_ND"
+                ],
+                "country": [
+                    "TA_FC"
+                ],
+                "latitude": [
+                    "RI_LD"
+                ],
+                "longitude": []
+            },
+            "BKK": {
+                "state": [
+                    "EF_ND"
+                ],
+                "country": [],
+                "latitude": [
+                    "RI_LD"
+                ],
+                "longitude": []
+            }
+        },
+        "Direct_distance": {
+            "96": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "18": {
+                "row": [
+                    "RL_CL",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "116": {
+                "row": [],
+                "col": {
+                    "city1_code": [],
+                    "city2_code": [],
+                    "distance": []
+                }
+            },
+            "82": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "59": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_AC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "8": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "89": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "1": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_LD",
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "36": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "106": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "97": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "45": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "67": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "109": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "27": {
+                "row": [
+                    "RL_MI",
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "9": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_MI"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "80": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "61": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "37": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "86": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "65": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_MI"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "31": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "93": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "49": {
+                "row": [
+                    "RL_MI",
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "56": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_MI",
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "117": {
+                "row": [],
+                "col": {
+                    "city1_code": [],
+                    "city2_code": [],
+                    "distance": []
+                }
+            },
+            "73": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_AC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "11": {
+                "row": [
+                    "GR_TI",
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "99": {
+                "row": [],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "35": {
+                "row": [
+                    "RL_MB",
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_MI"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "118": {
+                "row": [],
+                "col": {
+                    "city1_code": [],
+                    "city2_code": [],
+                    "distance": []
+                }
+            },
+            "88": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "50": {
+                "row": [
+                    "IDR_CR",
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "57": {
+                "row": [],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "51": {
+                "row": [
+                    "IDR_ED",
+                    "IC_ME"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "12": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "112": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "28": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "62": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "26": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "58": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "25": {
+                "row": [],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "39": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "44": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_MI"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "102": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "79": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "53": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "0": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_LD"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "92": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "113": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "114": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "city1_code": [],
+                    "city2_code": [],
+                    "distance": []
+                }
+            },
+            "78": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "103": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "71": {
+                "row": [
+                    "IDR_CR",
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "16": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "111": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "101": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "115": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "city1_code": [],
+                    "city2_code": [],
+                    "distance": []
+                }
+            },
+            "105": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "54": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "14": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "40": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "68": {
+                "row": [
+                    "GR_TI",
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "32": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "85": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "46": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "10": {
+                "row": [
+                    "RL_CL",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "distance": [
+                        "TD_DF"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "43": {
+                "row": [],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "34": {
+                "row": [],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "72": {
+                "row": [
+                    "IDR_ED",
+                    "IC_ME"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "55": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "17": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "94": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "24": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "75": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "83": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "100": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "23": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_MI"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "70": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "91": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "21": {
+                "row": [
+                    "GR_TI",
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "69": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "90": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "74": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "104": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "52": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_MI"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "29": {
+                "row": [
+                    "RL_CL",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "distance": [
+                        "TD_DF"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "47": {
+                "row": [
+                    "RL_MB",
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_MI"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "19": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_MI"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "63": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "38": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "30": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "81": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "98": {
+                "row": [],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "7": {
+                "row": [
+                    "GR_TI",
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [
+                        "TA_US"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "33": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "42": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "108": {
+                "row": [],
+                "col": {
+                    "distance": [
+                        "TD_DF"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "20": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "60": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "84": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "distance": [
+                        "RI_MI"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "13": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "77": {
+                "row": [],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "64": {
+                "row": [],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "76": {
+                "row": [],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "87": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "95": {
+                "row": [],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "110": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "22": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "15": {
+                "row": [
+                    "RL_MI",
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "41": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "48": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "107": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "distance": [
+                        "EF_RC"
+                    ],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            },
+            "66": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "distance": [],
+                    "city1_code": [],
+                    "city2_code": []
+                }
+            }
+        },
+        "Student": {
+            "1001": {
+                "Age": [
+                    "RI_TC"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "Major": [],
+                "Advisor": [
+                    "TD_AS"
+                ],
+                "city_name": []
+            },
+            "1002": {
+                "Age": [],
+                "Sex": [],
+                "Major": [
+                    "TA_EM"
+                ],
+                "Advisor": [],
+                "city_name": [
+                    "TA_FC",
+                    "EF_HC"
+                ]
+            },
+            "1003": {
+                "Age": [
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [
+                    "TD_AS"
+                ],
+                "city_name": [
+                    "TD_DF"
+                ]
+            },
+            "1004": {
+                "Age": [],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "Major": [
+                    "TD_AS"
+                ],
+                "Advisor": [],
+                "city_name": [
+                    "EF_HC"
+                ]
+            },
+            "1005": {
+                "Age": [
+                    "RI_TC",
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [],
+                "city_name": [
+                    "TA_FC"
+                ]
+            },
+            "1006": {
+                "Age": [
+                    "RI_TC"
+                ],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [
+                    "TD_AS"
+                ],
+                "city_name": [
+                    "EF_RC"
+                ]
+            },
+            "1007": {
+                "Age": [],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "Major": [
+                    "TA_EM"
+                ],
+                "Advisor": [],
+                "city_name": []
+            },
+            "1008": {
+                "Age": [],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [
+                    "TD_DF"
+                ],
+                "city_name": [
+                    "EF_RC"
+                ]
+            },
+            "1009": {
+                "Age": [],
+                "Sex": [
+                    "TD_DF"
+                ],
+                "Major": [
+                    "TD_AS"
+                ],
+                "Advisor": [],
+                "city_name": [
+                    "EF_RC"
+                ]
+            },
+            "1010": {
+                "Age": [
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [],
+                "city_name": [
+                    "EF_HC"
+                ]
+            },
+            "1011": {
+                "Age": [
+                    "RI_TC"
+                ],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [
+                    "TD_AS"
+                ],
+                "city_name": []
+            },
+            "1012": {
+                "Age": [],
+                "Sex": [],
+                "Major": [
+                    "TA_EM"
+                ],
+                "Advisor": [
+                    "TD_DF"
+                ],
+                "city_name": [
+                    "EF_RC"
+                ]
+            },
+            "1014": {
+                "Age": [
+                    "RI_TC"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "Major": [],
+                "Advisor": [],
+                "city_name": []
+            },
+            "1015": {
+                "Age": [
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [],
+                "city_name": [
+                    "TA_FC"
+                ]
+            },
+            "1016": {
+                "Age": [
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "Major": [
+                    "TD_AS"
+                ],
+                "Advisor": [],
+                "city_name": []
+            },
+            "1017": {
+                "Age": [
+                    "RI_TC",
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [],
+                "city_name": [
+                    "EF_HC"
+                ]
+            },
+            "1018": {
+                "Age": [],
+                "Sex": [],
+                "Major": [
+                    "TA_EM"
+                ],
+                "Advisor": [
+                    "TD_AS"
+                ],
+                "city_name": [
+                    "EF_RC"
+                ]
+            },
+            "1019": {
+                "Age": [],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "Major": [],
+                "Advisor": [],
+                "city_name": [
+                    "TD_DF"
+                ]
+            },
+            "1020": {
+                "Age": [],
+                "Sex": [],
+                "Major": [
+                    "TA_EM",
+                    "TD_DF"
+                ],
+                "Advisor": [],
+                "city_name": []
+            },
+            "1021": {
+                "Age": [],
+                "Sex": [],
+                "Major": [
+                    "TA_EM"
+                ],
+                "Advisor": [
+                    "TD_AS"
+                ],
+                "city_name": [
+                    "EF_RC"
+                ]
+            },
+            "1022": {
+                "Age": [
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [],
+                "city_name": []
+            },
+            "1023": {
+                "Age": [],
+                "Sex": [],
+                "Major": [
+                    "TD_AS"
+                ],
+                "Advisor": [],
+                "city_name": [
+                    "EF_RC"
+                ]
+            },
+            "1024": {
+                "Age": [],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "Major": [
+                    "TA_EM"
+                ],
+                "Advisor": [],
+                "city_name": [
+                    "EF_RC"
+                ]
+            },
+            "1025": {
+                "Age": [],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [
+                    "TD_DF"
+                ],
+                "city_name": [
+                    "EF_RC"
+                ]
+            },
+            "1026": {
+                "Age": [],
+                "Sex": [],
+                "Major": [
+                    "TA_EM"
+                ],
+                "Advisor": [],
+                "city_name": [
+                    "TA_FC"
+                ]
+            },
+            "1027": {
+                "Age": [
+                    "RI_TC"
+                ],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [],
+                "city_name": []
+            },
+            "1028": {
+                "Age": [],
+                "Sex": [],
+                "Major": [
+                    "TA_EM"
+                ],
+                "Advisor": [
+                    "TD_AS"
+                ],
+                "city_name": []
+            },
+            "1029": {
+                "Age": [
+                    "RI_LD"
+                ],
+                "Sex": [],
+                "Major": [
+                    "TA_EM",
+                    "TD_DF"
+                ],
+                "Advisor": [],
+                "city_name": [
+                    "TA_FC",
+                    "EF_HC"
+                ]
+            },
+            "1030": {
+                "Age": [
+                    "RI_TC"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "Major": [],
+                "Advisor": [],
+                "city_name": []
+            },
+            "1031": {
+                "Age": [],
+                "Sex": [],
+                "Major": [
+                    "TA_EM"
+                ],
+                "Advisor": [],
+                "city_name": []
+            },
+            "1032": {
+                "Age": [],
+                "Sex": [
+                    "TD_DF"
+                ],
+                "Major": [],
+                "Advisor": [
+                    "TD_AS"
+                ],
+                "city_name": []
+            },
+            "1033": {
+                "Age": [
+                    "RI_TC"
+                ],
+                "Sex": [],
+                "Major": [],
+                "Advisor": [],
+                "city_name": [
+                    "EF_HC"
+                ]
+            },
+            "1034": {
+                "Age": [],
+                "Sex": [],
+                "Major": [
+                    "TA_EM",
+                    "TD_DF"
+                ],
+                "Advisor": [],
+                "city_name": [
+                    "EF_HC"
+                ]
+            },
+            "1035": {
+                "Age": [
+                    "RI_TC",
+                    "RI_LD"
+                ],
+                "Sex": [
+                    "TA_EM"
+                ],
+                "Major": [
+                    "TA_EM"
+                ],
+                "Advisor": [],
+                "city_name": [
+                    "TD_DF"
+                ]
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/address_1/tables"
+}

@@ -1,0 +1,273 @@
+[
+  {
+    "id": "1",
+    "name": "Air Carriers",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "Code",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "the code of the air carriers"
+      },
+      {
+        "name": "Description",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the description of air carriers"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Airports",
+    "type": "entity",
+    "fields": [
+      {
+        "name": "Code",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "primary_key": true
+        },
+        "description": "IATA code of the air airports"
+      },
+      {
+        "name": "Description",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "the description of airports"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Airlines",
+    "type": "relation",
+    "fields": [
+      {
+        "name": "FL_DATE",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "flight date"
+      },
+      {
+        "name": "OP_CARRIER_AIRLINE_ID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Air Carriers",
+            "column": "Code"
+          }
+        },
+        "description": "operator carrier airline id"
+      },
+      {
+        "name": "TAIL_NUM",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "plane's tail number"
+      },
+      {
+        "name": "OP_CARRIER_FL_NUM",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "operator carrier flight number"
+      },
+      {
+        "name": "ORIGIN_AIRPORT_ID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "origin airport id"
+      },
+      {
+        "name": "ORIGIN_AIRPORT_SEQ_ID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "origin airport sequence id"
+      },
+      {
+        "name": "ORIGIN_CITY_MARKET_ID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        },
+        "description": "origin city market id"
+      },
+      {
+        "name": "ORIGIN",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Airports",
+            "column": "Code"
+          }
+        },
+        "description": "airport of origin"
+      },
+      {
+        "name": "DEST_AIRPORT_ID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DEST_AIRPORT_SEQ_ID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DEST_CITY_MARKET_ID",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DEST",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true,
+          "foreign_key": {
+            "table": "Airports",
+            "column": "Code"
+          }
+        }
+      },
+      {
+        "name": "CRS_DEP_TIME",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DEP_TIME",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DEP_DELAY",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "DEP_DELAY_NEW",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "ARR_TIME",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "ARR_DELAY",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "ARR_DELAY_NEW",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "CANCELLED",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "CANCELLATION_CODE",
+        "type": "TEXT",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "CRS_ELAPSED_TIME",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "ACTUAL_ELAPSED_TIME",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "CARRIER_DELAY",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "WEATHER_DELAY",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "NAS_DELAY",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "SECURITY_DELAY",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      },
+      {
+        "name": "LATE_AIRCRAFT_DELAY",
+        "type": "INTEGER",
+        "constraints": {
+          "nullable": true
+        }
+      }
+    ]
+  }
+]

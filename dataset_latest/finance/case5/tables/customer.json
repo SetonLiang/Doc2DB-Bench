@@ -1,0 +1,402 @@
+[
+{
+"c_custkey": 57648,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 6,
+"c_name": "Customer#000057648",
+"c_phone": "515-993-1301",
+"c_acctbal": 4633.4
+},
+{
+"c_custkey": 6083,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 24,
+"c_name": "Customer#000006083",
+"c_phone": "588-240-1043",
+"c_acctbal": 3220.68
+},
+{
+"c_custkey": 116968,
+"c_mktsegment": "HOUSEHOLD",
+"c_nationkey": 24,
+"c_name": "Customer#000116968",
+"c_phone": "803-888-3199",
+"c_acctbal": -252.04
+},
+{
+"c_custkey": 112390,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 20,
+"c_name": "Customer#000112390",
+"c_phone": "728-316-1038",
+"c_acctbal": 7726.26
+},
+{
+"c_custkey": 2241,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 13,
+"c_name": "Customer#000002241",
+"c_phone": "631-137-8711",
+"c_acctbal": 968.62
+},
+{
+"c_custkey": 56486,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 23,
+"c_name": "Customer#000056486",
+"c_phone": "823-798-8656",
+"c_acctbal": 2757.96
+},
+{
+"c_custkey": 93181,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 9,
+"c_name": "Customer#000093181",
+"c_phone": "167-254-7715",
+"c_acctbal": 1708.91
+},
+{
+"c_custkey": 88933,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 13,
+"c_name": "Customer#000088933",
+"c_phone": "652-709-1036",
+"c_acctbal": 3483.44
+},
+{
+"c_custkey": 23418,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 24,
+"c_name": "Customer#000023418",
+"c_phone": "953-610-9851",
+"c_acctbal": 4216.52
+},
+{
+"c_custkey": 90419,
+"c_mktsegment": "HOUSEHOLD",
+"c_nationkey": 24,
+"c_name": "Customer#000090419",
+"c_phone": "324-621-3939",
+"c_acctbal": 3605.46
+},
+{
+"c_custkey": 3846,
+"c_mktsegment": "FURNITURE",
+"c_nationkey": 6,
+"c_name": "Customer#000003846",
+"c_phone": "227-685-2411",
+"c_acctbal": -436.84
+},
+{
+"c_custkey": 136502,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 19,
+"c_name": "Customer#000136502",
+"c_phone": "781-512-5964",
+"c_acctbal": 5955.2
+},
+{
+"c_custkey": 40624,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 15,
+"c_name": "Customer#000040624",
+"c_phone": "225-787-3824",
+"c_acctbal": 3498.3
+},
+{
+"c_custkey": 144673,
+"c_mktsegment": "HOUSEHOLD",
+"c_nationkey": 22,
+"c_name": "Customer#000144673",
+"c_phone": "688-966-4472",
+"c_acctbal": 5246.86
+},
+{
+"c_custkey": 64391,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 18,
+"c_name": "Customer#000064391",
+"c_phone": "125-177-5924",
+"c_acctbal": 6205.86
+},
+{
+"c_custkey": 53122,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 9,
+"c_name": "Customer#000053122",
+"c_phone": "811-205-6049",
+"c_acctbal": 7266.12
+},
+{
+"c_custkey": 37493,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 17,
+"c_name": "Customer#000037493",
+"c_phone": "569-176-1996",
+"c_acctbal": 607.4
+},
+{
+"c_custkey": 87129,
+"c_mktsegment": "HOUSEHOLD",
+"c_nationkey": 22,
+"c_name": "Customer#000087129",
+"c_phone": "769-598-5440",
+"c_acctbal": 1700.27
+},
+{
+"c_custkey": 98925,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 1,
+"c_name": "Customer#000098925",
+"c_phone": "713-276-2615",
+"c_acctbal": 5141.24
+},
+{
+"c_custkey": 103752,
+"c_mktsegment": "HOUSEHOLD",
+"c_nationkey": 1,
+"c_name": "Customer#000103752",
+"c_phone": "365-828-2298",
+"c_acctbal": 2425.34
+},
+{
+"c_custkey": 99609,
+"c_mktsegment": "HOUSEHOLD",
+"c_nationkey": 7,
+"c_name": "Customer#000099609",
+"c_phone": "678-701-9509",
+"c_acctbal": 2529.5
+},
+{
+"c_custkey": 103158,
+"c_mktsegment": "AUTOMOBILE",
+"c_nationkey": 9,
+"c_name": "Customer#000103158",
+"c_phone": "463-353-3368",
+"c_acctbal": 3780.4
+},
+{
+"c_custkey": 69686,
+"c_mktsegment": "HOUSEHOLD",
+"c_nationkey": 4,
+"c_name": "Customer#000069686",
+"c_phone": "161-135-9665",
+"c_acctbal": 7346.55
+},
+{
+"c_custkey": 9190,
+"c_mktsegment": "HOUSEHOLD",
+"c_nationkey": 10,
+"c_name": "Customer#000009190",
+"c_phone": "127-613-3015",
+"c_acctbal": 4953.63
+},
+{
+"c_custkey": 147662,
+"c_mktsegment": "AUTOMOBILE",
+"c_nationkey": 1,
+"c_name": "Customer#000147662",
+"c_phone": "799-523-9996",
+"c_acctbal": 8076.5
+},
+{
+"c_custkey": 8734,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 15,
+"c_name": "Customer#000008734",
+"c_phone": "370-105-7336",
+"c_acctbal": 7357.32
+},
+{
+"c_custkey": 76384,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 17,
+"c_name": "Customer#000076384",
+"c_phone": "671-309-5708",
+"c_acctbal": -266.99
+},
+{
+"c_custkey": 39416,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 7,
+"c_name": "Customer#000039416",
+"c_phone": "456-875-3685",
+"c_acctbal": 2374.73
+},
+{
+"c_custkey": 59618,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 21,
+"c_name": "Customer#000059618",
+"c_phone": "580-276-7069",
+"c_acctbal": -528.51
+},
+{
+"c_custkey": 32975,
+"c_mktsegment": "AUTOMOBILE",
+"c_nationkey": 12,
+"c_name": "Customer#000032975",
+"c_phone": "694-778-8627",
+"c_acctbal": 8020.22
+},
+{
+"c_custkey": 91510,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 24,
+"c_name": "Customer#000091510",
+"c_phone": "452-674-2652",
+"c_acctbal": 4537.16
+},
+{
+"c_custkey": 101039,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 14,
+"c_name": "Customer#000101039",
+"c_phone": "751-192-9776",
+"c_acctbal": 2514.75
+},
+{
+"c_custkey": 35102,
+"c_mktsegment": "FURNITURE",
+"c_nationkey": 20,
+"c_name": "Customer#000035102",
+"c_phone": "565-553-9823",
+"c_acctbal": 5096.87
+},
+{
+"c_custkey": 12750,
+"c_mktsegment": "FURNITURE",
+"c_nationkey": 11,
+"c_name": "Customer#000012750",
+"c_phone": "787-633-1831",
+"c_acctbal": 7850.32
+},
+{
+"c_custkey": 18467,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 17,
+"c_name": "Customer#000018467",
+"c_phone": "357-551-1517",
+"c_acctbal": 506.57
+},
+{
+"c_custkey": 122476,
+"c_mktsegment": "HOUSEHOLD",
+"c_nationkey": 21,
+"c_name": "Customer#000122476",
+"c_phone": "307-108-9709",
+"c_acctbal": 1802.29
+},
+{
+"c_custkey": 68473,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 8,
+"c_name": "Customer#000068473",
+"c_phone": "244-226-9268",
+"c_acctbal": 8113.96
+},
+{
+"c_custkey": 93962,
+"c_mktsegment": "AUTOMOBILE",
+"c_nationkey": 9,
+"c_name": "Customer#000093962",
+"c_phone": "124-474-1396",
+"c_acctbal": 1641.59
+},
+{
+"c_custkey": 107469,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 7,
+"c_name": "Customer#000107469",
+"c_phone": "852-994-1977",
+"c_acctbal": 5473.13
+},
+{
+"c_custkey": 113043,
+"c_mktsegment": "AUTOMOBILE",
+"c_nationkey": 0,
+"c_name": "Customer#000113043",
+"c_phone": "576-150-6345",
+"c_acctbal": 430.17
+},
+{
+"c_custkey": 19016,
+"c_mktsegment": "FURNITURE",
+"c_nationkey": 13,
+"c_name": "Customer#000019016",
+"c_phone": "579-884-8764",
+"c_acctbal": 5511.79
+},
+{
+"c_custkey": 37022,
+"c_mktsegment": "MACHINERY",
+"c_nationkey": 16,
+"c_name": "Customer#000037022",
+"c_phone": "388-152-3063",
+"c_acctbal": 6231.38
+},
+{
+"c_custkey": 99960,
+"c_mktsegment": "AUTOMOBILE",
+"c_nationkey": 12,
+"c_name": "Customer#000099960",
+"c_phone": "146-217-5921",
+"c_acctbal": 3346.53
+},
+{
+"c_custkey": 35536,
+"c_mktsegment": "AUTOMOBILE",
+"c_nationkey": 8,
+"c_name": "Customer#000035536",
+"c_phone": "296-796-3087",
+"c_acctbal": -729.57
+},
+{
+"c_custkey": 143643,
+"c_mktsegment": "HOUSEHOLD",
+"c_nationkey": 2,
+"c_name": "Customer#000143643",
+"c_phone": "839-877-5607",
+"c_acctbal": 6282.29
+},
+{
+"c_custkey": 38075,
+"c_mktsegment": "BUILDING",
+"c_nationkey": 24,
+"c_name": "Customer#000038075",
+"c_phone": "667-623-8656",
+"c_acctbal": 5678.64
+},
+{
+"c_custkey": 95388,
+"c_mktsegment": "AUTOMOBILE",
+"c_nationkey": 7,
+"c_name": "Customer#000095388",
+"c_phone": "272-323-1295",
+"c_acctbal": 8048.32
+},
+{
+"c_custkey": 5129,
+"c_mktsegment": "AUTOMOBILE",
+"c_nationkey": 4,
+"c_name": "Customer#000005129",
+"c_phone": "285-963-7627",
+"c_acctbal": 2923.01
+},
+{
+"c_custkey": 41254,
+"c_mktsegment": "FURNITURE",
+"c_nationkey": 2,
+"c_name": "Customer#000041254",
+"c_phone": "422-545-2476",
+"c_acctbal": 3596.85
+},
+{
+"c_custkey": 109608,
+"c_mktsegment": "HOUSEHOLD",
+"c_nationkey": 3,
+"c_name": "Customer#000109608",
+"c_phone": "428-712-3396",
+"c_acctbal": 4552.54
+}
+]

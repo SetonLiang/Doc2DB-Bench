@@ -1,0 +1,945 @@
+{
+    "database_name": "college_1",
+    "if_primary_allowed": {
+        "PROFESSOR": false,
+        "STUDENT": false,
+        "CLASS": false,
+        "ENROLL": false,
+        "DEPARTMENT": false,
+        "EMPLOYEE": false
+    },
+    "type": {
+        "ENROLL": "1:2",
+        "CLASS": "1:2",
+        "PROFESSOR": "1:2",
+        "STUDENT": "1:2",
+        "COURSE": "1:1"
+    },
+    "capability_assignments": {
+        "CLASS": {
+            "10019": {
+                "row": [],
+                "col": {
+                    "CLASS_SECTION": [],
+                    "CLASS_TIME": [],
+                    "CLASS_ROOM": [
+                        "EF_RC"
+                    ],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10024": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "CLASS_SECTION": [],
+                    "CLASS_TIME": [
+                        "TD_AS"
+                    ],
+                    "CLASS_ROOM": [],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10012": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "CLASS_SECTION": [],
+                    "CLASS_TIME": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "CLASS_ROOM": [],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10017": {
+                "row": [
+                    "GR_TI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "CLASS_SECTION": [],
+                    "CLASS_TIME": [],
+                    "CLASS_ROOM": [
+                        "TA_FC"
+                    ],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10020": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "CLASS_SECTION": [
+                        "EF_HC"
+                    ],
+                    "CLASS_TIME": [
+                        "RI_TC"
+                    ],
+                    "CLASS_ROOM": [],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10016": {
+                "row": [],
+                "col": {
+                    "CLASS_SECTION": [],
+                    "CLASS_TIME": [
+                        "RI_TC"
+                    ],
+                    "CLASS_ROOM": [],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10013": {
+                "row": [],
+                "col": {
+                    "CLASS_SECTION": [],
+                    "CLASS_TIME": [
+                        "RI_TC"
+                    ],
+                    "CLASS_ROOM": [
+                        "TA_FC"
+                    ],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10022": {
+                "row": [],
+                "col": {
+                    "CLASS_SECTION": [],
+                    "CLASS_TIME": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "CLASS_ROOM": [],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10014": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "CLASS_SECTION": [
+                        "TA_EM"
+                    ],
+                    "CLASS_TIME": [
+                        "TA_FC"
+                    ],
+                    "CLASS_ROOM": [],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10023": {
+                "row": [],
+                "col": {
+                    "CLASS_SECTION": [],
+                    "CLASS_TIME": [],
+                    "CLASS_ROOM": [],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10015": {
+                "row": [],
+                "col": {
+                    "CLASS_SECTION": [],
+                    "CLASS_TIME": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "CLASS_ROOM": [],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10021": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "CLASS_SECTION": [],
+                    "CLASS_TIME": [
+                        "TA_FC"
+                    ],
+                    "CLASS_ROOM": [],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "10018": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {
+                    "CLASS_SECTION": [
+                        "TD_DF"
+                    ],
+                    "CLASS_TIME": [
+                        "EF_RC"
+                    ],
+                    "CLASS_ROOM": [],
+                    "CRS_CODE": [],
+                    "PROF_NUM": []
+                }
+            }
+        },
+        "COURSE": {
+            "CIS-220": {
+                "row": [],
+                "col": {
+                    "CRS_DESCRIPTION": [
+                        "TA_FC"
+                    ],
+                    "CRS_CREDIT": [],
+                    "DEPT_CODE": []
+                }
+            },
+            "QM-261": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "CRS_DESCRIPTION": [
+                        "TA_FC"
+                    ],
+                    "CRS_CREDIT": [],
+                    "DEPT_CODE": []
+                }
+            },
+            "CIS-420": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "CRS_DESCRIPTION": [
+                        "EF_HC"
+                    ],
+                    "CRS_CREDIT": [
+                        "RI_AC"
+                    ],
+                    "DEPT_CODE": []
+                }
+            },
+            "ACCT-212": {
+                "row": [],
+                "col": {
+                    "CRS_DESCRIPTION": [
+                        "TD_AS"
+                    ],
+                    "CRS_CREDIT": [
+                        "TA_US"
+                    ],
+                    "DEPT_CODE": []
+                }
+            },
+            "ACCT-211": {
+                "row": [],
+                "col": {
+                    "CRS_DESCRIPTION": [
+                        "TD_AS"
+                    ],
+                    "CRS_CREDIT": [],
+                    "DEPT_CODE": []
+                }
+            },
+            "QM-362": {
+                "row": [
+                    "IDR_ED",
+                    "RL_CL"
+                ],
+                "col": {
+                    "CRS_DESCRIPTION": [],
+                    "CRS_CREDIT": [
+                        "TA_US"
+                    ],
+                    "DEPT_CODE": []
+                }
+            }
+        },
+        "DEPARTMENT": {
+            "ACCT": {
+                "SCHOOL_CODE": [
+                    "TA_EM"
+                ],
+                "DEPT_ADDRESS": [
+                    "TA_FC"
+                ],
+                "DEPT_EXTENSION": []
+            },
+            "ART": {
+                "SCHOOL_CODE": [
+                    "TA_EM"
+                ],
+                "DEPT_ADDRESS": [],
+                "DEPT_EXTENSION": [
+                    "TD_AS"
+                ]
+            },
+            "BIOL": {
+                "SCHOOL_CODE": [
+                    "RI_LD"
+                ],
+                "DEPT_ADDRESS": [
+                    "TA_FC"
+                ],
+                "DEPT_EXTENSION": []
+            },
+            "CIS": {
+                "SCHOOL_CODE": [],
+                "DEPT_ADDRESS": [
+                    "TA_FC",
+                    "TD_AS"
+                ],
+                "DEPT_EXTENSION": [
+                    "EF_HC"
+                ]
+            },
+            "ECON/FIN": {
+                "SCHOOL_CODE": [
+                    "TA_EM"
+                ],
+                "DEPT_ADDRESS": [],
+                "DEPT_EXTENSION": []
+            },
+            "ENG": {
+                "SCHOOL_CODE": [],
+                "DEPT_ADDRESS": [],
+                "DEPT_EXTENSION": [
+                    "EF_HC"
+                ]
+            },
+            "HIST": {
+                "SCHOOL_CODE": [
+                    "RI_LD"
+                ],
+                "DEPT_ADDRESS": [
+                    "TA_FC"
+                ],
+                "DEPT_EXTENSION": []
+            },
+            "MATH": {
+                "SCHOOL_CODE": [],
+                "DEPT_ADDRESS": [],
+                "DEPT_EXTENSION": [
+                    "TD_AS"
+                ]
+            },
+            "MKT/MGT": {
+                "SCHOOL_CODE": [
+                    "TA_EM"
+                ],
+                "DEPT_ADDRESS": [
+                    "TA_FC"
+                ],
+                "DEPT_EXTENSION": []
+            },
+            "PSYCH": {
+                "SCHOOL_CODE": [],
+                "DEPT_ADDRESS": [
+                    "TD_AS"
+                ],
+                "DEPT_EXTENSION": []
+            },
+            "SOC": {
+                "SCHOOL_CODE": [
+                    "RI_LD"
+                ],
+                "DEPT_ADDRESS": [],
+                "DEPT_EXTENSION": [
+                    "EF_HC"
+                ]
+            }
+        },
+        "EMPLOYEE": {
+            "108": {
+                "EMP_INITIAL": [
+                    "TA_FC"
+                ],
+                "EMP_JOBCODE": [
+                    "TA_EM"
+                ],
+                "EMP_HIREDATE": [
+                    "TA_FC"
+                ],
+                "EMP_DOB": []
+            },
+            "101": {
+                "EMP_INITIAL": [],
+                "EMP_JOBCODE": [
+                    "TA_EM",
+                    "TD_DF"
+                ],
+                "EMP_HIREDATE": [],
+                "EMP_DOB": [
+                    "TA_FC"
+                ]
+            },
+            "162": {
+                "EMP_INITIAL": [
+                    "EF_ND"
+                ],
+                "EMP_JOBCODE": [],
+                "EMP_HIREDATE": [
+                    "TA_FC",
+                    "TD_AS"
+                ],
+                "EMP_DOB": [
+                    "RI_TC"
+                ]
+            },
+            "160": {
+                "EMP_INITIAL": [
+                    "TD_AS"
+                ],
+                "EMP_JOBCODE": [
+                    "TA_EM"
+                ],
+                "EMP_HIREDATE": [],
+                "EMP_DOB": [
+                    "TA_FC"
+                ]
+            },
+            "155": {
+                "EMP_INITIAL": [
+                    "EF_ND"
+                ],
+                "EMP_JOBCODE": [
+                    "TA_EM"
+                ],
+                "EMP_HIREDATE": [
+                    "TA_FC"
+                ],
+                "EMP_DOB": []
+            },
+            "110": {
+                "EMP_INITIAL": [],
+                "EMP_JOBCODE": [],
+                "EMP_HIREDATE": [
+                    "TD_AS"
+                ],
+                "EMP_DOB": [
+                    "TA_FC",
+                    "TD_AS"
+                ]
+            },
+            "209": {
+                "EMP_INITIAL": [
+                    "TA_FC"
+                ],
+                "EMP_JOBCODE": [
+                    "TD_DF"
+                ],
+                "EMP_HIREDATE": [],
+                "EMP_DOB": []
+            },
+            "103": {
+                "EMP_INITIAL": [],
+                "EMP_JOBCODE": [],
+                "EMP_HIREDATE": [
+                    "TA_FC"
+                ],
+                "EMP_DOB": [
+                    "RI_TC"
+                ]
+            },
+            "191": {
+                "EMP_INITIAL": [],
+                "EMP_JOBCODE": [
+                    "TA_EM"
+                ],
+                "EMP_HIREDATE": [],
+                "EMP_DOB": [
+                    "TA_FC"
+                ]
+            },
+            "335": {
+                "EMP_INITIAL": [
+                    "TA_FC"
+                ],
+                "EMP_JOBCODE": [],
+                "EMP_HIREDATE": [
+                    "RI_TC"
+                ],
+                "EMP_DOB": []
+            },
+            "412": {
+                "EMP_INITIAL": [],
+                "EMP_JOBCODE": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "EMP_HIREDATE": [
+                    "TA_FC"
+                ],
+                "EMP_DOB": []
+            },
+            "102": {
+                "EMP_INITIAL": [],
+                "EMP_JOBCODE": [
+                    "TA_EM"
+                ],
+                "EMP_HIREDATE": [],
+                "EMP_DOB": []
+            },
+            "165": {
+                "EMP_INITIAL": [],
+                "EMP_JOBCODE": [],
+                "EMP_HIREDATE": [
+                    "TA_FC"
+                ],
+                "EMP_DOB": [
+                    "TD_AS"
+                ]
+            },
+            "126": {
+                "EMP_INITIAL": [
+                    "EF_HC"
+                ],
+                "EMP_JOBCODE": [],
+                "EMP_HIREDATE": [],
+                "EMP_DOB": [
+                    "TA_FC"
+                ]
+            },
+            "425": {
+                "EMP_INITIAL": [],
+                "EMP_JOBCODE": [
+                    "TA_EM"
+                ],
+                "EMP_HIREDATE": [
+                    "RI_TC",
+                    "TA_FC"
+                ],
+                "EMP_DOB": []
+            }
+        },
+        "ENROLL": {
+            "10014, 321452": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "ENROLL_GRADE": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "10021, 324257": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "ENROLL_GRADE": []
+                }
+            },
+            "10021, 321452": {
+                "row": [],
+                "col": {
+                    "ENROLL_GRADE": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "10018, 324257": {
+                "row": [],
+                "col": {
+                    "ENROLL_GRADE": []
+                }
+            },
+            "10018, 321452": {
+                "row": [
+                    "RL_MI",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "ENROLL_GRADE": [
+                        "RI_LD",
+                        "TD_DF"
+                    ]
+                }
+            },
+            "10014, 324257": {
+                "row": [],
+                "col": {
+                    "ENROLL_GRADE": []
+                }
+            }
+        },
+        "PROFESSOR": {
+            "0": {
+                "row": [],
+                "col": {
+                    "PROF_OFFICE": [
+                        "TA_FC"
+                    ],
+                    "PROF_EXTENSION": [],
+                    "PROF_HIGH_DEGREE": [
+                        "TA_EM"
+                    ],
+                    "EMP_NUM": [],
+                    "DEPT_CODE": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "PROF_OFFICE": [
+                        "TD_AS"
+                    ],
+                    "PROF_EXTENSION": [],
+                    "PROF_HIGH_DEGREE": [
+                        "TA_EM",
+                        "TD_DF"
+                    ],
+                    "EMP_NUM": [],
+                    "DEPT_CODE": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "PROF_OFFICE": [],
+                    "PROF_EXTENSION": [],
+                    "PROF_HIGH_DEGREE": [
+                        "TA_EM",
+                        "EF_HC"
+                    ],
+                    "EMP_NUM": [],
+                    "DEPT_CODE": []
+                }
+            },
+            "6": {
+                "row": [],
+                "col": {
+                    "PROF_OFFICE": [
+                        "TA_FC"
+                    ],
+                    "PROF_EXTENSION": [
+                        "EF_HC"
+                    ],
+                    "PROF_HIGH_DEGREE": [],
+                    "EMP_NUM": [],
+                    "DEPT_CODE": []
+                }
+            },
+            "1": {
+                "row": [],
+                "col": {
+                    "PROF_OFFICE": [],
+                    "PROF_EXTENSION": [
+                        "TD_AS"
+                    ],
+                    "PROF_HIGH_DEGREE": [],
+                    "EMP_NUM": [],
+                    "DEPT_CODE": []
+                }
+            },
+            "2": {
+                "row": [],
+                "col": {
+                    "PROF_OFFICE": [
+                        "TA_FC",
+                        "TD_AS"
+                    ],
+                    "PROF_EXTENSION": [],
+                    "PROF_HIGH_DEGREE": [
+                        "EF_HC"
+                    ],
+                    "EMP_NUM": [],
+                    "DEPT_CODE": []
+                }
+            },
+            "3": {
+                "row": [],
+                "col": {
+                    "PROF_OFFICE": [],
+                    "PROF_EXTENSION": [
+                        "TA_FC"
+                    ],
+                    "PROF_HIGH_DEGREE": [],
+                    "EMP_NUM": [],
+                    "DEPT_CODE": []
+                }
+            },
+            "8": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "PROF_OFFICE": [
+                        "EF_HC"
+                    ],
+                    "PROF_EXTENSION": [
+                        "TA_FC"
+                    ],
+                    "PROF_HIGH_DEGREE": [
+                        "TA_EM"
+                    ],
+                    "EMP_NUM": [],
+                    "DEPT_CODE": []
+                }
+            },
+            "7": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "PROF_OFFICE": [],
+                    "PROF_EXTENSION": [],
+                    "PROF_HIGH_DEGREE": [
+                        "TD_DF"
+                    ],
+                    "EMP_NUM": [],
+                    "DEPT_CODE": []
+                }
+            }
+        },
+        "STUDENT": {
+            "324258": {
+                "row": [],
+                "col": {
+                    "STU_LNAME": [],
+                    "STU_FNAME": [],
+                    "STU_INIT": [
+                        "EF_ND"
+                    ],
+                    "STU_DOB": [
+                        "TA_FC"
+                    ],
+                    "STU_HRS": [],
+                    "STU_CLASS": [
+                        "RI_LD",
+                        "TA_EM"
+                    ],
+                    "STU_GPA": [],
+                    "STU_TRANSFER": [],
+                    "STU_PHONE": [
+                        "TA_FC"
+                    ],
+                    "DEPT_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "324273": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "STU_LNAME": [
+                        "TD_AS",
+                        "EF_RC"
+                    ],
+                    "STU_FNAME": [
+                        "TD_AS",
+                        "EF_RC"
+                    ],
+                    "STU_INIT": [],
+                    "STU_DOB": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "STU_HRS": [],
+                    "STU_CLASS": [
+                        "RI_LD"
+                    ],
+                    "STU_GPA": [],
+                    "STU_TRANSFER": [],
+                    "STU_PHONE": [],
+                    "DEPT_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "324257": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "STU_LNAME": [],
+                    "STU_FNAME": [
+                        "TD_AS"
+                    ],
+                    "STU_INIT": [],
+                    "STU_DOB": [
+                        "TA_FC",
+                        "RI_TC"
+                    ],
+                    "STU_HRS": [
+                        "RI_AC"
+                    ],
+                    "STU_CLASS": [
+                        "RI_LD"
+                    ],
+                    "STU_GPA": [
+                        "TD_DF"
+                    ],
+                    "STU_TRANSFER": [
+                        "TA_EM"
+                    ],
+                    "STU_PHONE": [],
+                    "DEPT_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "324269": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "STU_LNAME": [
+                        "TA_FC"
+                    ],
+                    "STU_FNAME": [],
+                    "STU_INIT": [],
+                    "STU_DOB": [],
+                    "STU_HRS": [],
+                    "STU_CLASS": [
+                        "RI_LD"
+                    ],
+                    "STU_GPA": [
+                        "TD_DF"
+                    ],
+                    "STU_TRANSFER": [
+                        "TA_EM"
+                    ],
+                    "STU_PHONE": [],
+                    "DEPT_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "324299": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "STU_LNAME": [
+                        "TD_AS",
+                        "EF_RC"
+                    ],
+                    "STU_FNAME": [
+                        "TD_AS",
+                        "EF_RC"
+                    ],
+                    "STU_INIT": [
+                        "TD_DF"
+                    ],
+                    "STU_DOB": [
+                        "TA_FC"
+                    ],
+                    "STU_HRS": [],
+                    "STU_CLASS": [
+                        "RI_LD"
+                    ],
+                    "STU_GPA": [],
+                    "STU_TRANSFER": [
+                        "TA_EM"
+                    ],
+                    "STU_PHONE": [],
+                    "DEPT_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "321452": {
+                "row": [],
+                "col": {
+                    "STU_LNAME": [],
+                    "STU_FNAME": [
+                        "TD_AS"
+                    ],
+                    "STU_INIT": [],
+                    "STU_DOB": [
+                        "TA_FC"
+                    ],
+                    "STU_HRS": [],
+                    "STU_CLASS": [
+                        "RI_LD",
+                        "TA_EM"
+                    ],
+                    "STU_GPA": [],
+                    "STU_TRANSFER": [
+                        "TA_EM"
+                    ],
+                    "STU_PHONE": [
+                        "TA_FC"
+                    ],
+                    "DEPT_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "324274": {
+                "row": [
+                    "GR_CTA",
+                    "RL_CL"
+                ],
+                "col": {
+                    "STU_LNAME": [],
+                    "STU_FNAME": [],
+                    "STU_INIT": [],
+                    "STU_DOB": [
+                        "TA_FC"
+                    ],
+                    "STU_HRS": [
+                        "RI_AC"
+                    ],
+                    "STU_CLASS": [
+                        "RI_LD",
+                        "RI_MI"
+                    ],
+                    "STU_GPA": [],
+                    "STU_TRANSFER": [
+                        "TA_EM"
+                    ],
+                    "STU_PHONE": [],
+                    "DEPT_CODE": [],
+                    "PROF_NUM": []
+                }
+            },
+            "324291": {
+                "row": [],
+                "col": {
+                    "STU_LNAME": [],
+                    "STU_FNAME": [],
+                    "STU_INIT": [],
+                    "STU_DOB": [
+                        "TA_FC"
+                    ],
+                    "STU_HRS": [],
+                    "STU_CLASS": [
+                        "RI_LD"
+                    ],
+                    "STU_GPA": [
+                        "TD_DF"
+                    ],
+                    "STU_TRANSFER": [],
+                    "STU_PHONE": [
+                        "TA_FC"
+                    ],
+                    "DEPT_CODE": [],
+                    "PROF_NUM": []
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/college_1/tables"
+}

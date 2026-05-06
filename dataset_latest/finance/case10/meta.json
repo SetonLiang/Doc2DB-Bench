@@ -1,0 +1,1159 @@
+{
+    "database_id": "customer_deliveries",
+    "if_primary_allowed": {
+        "Actual_Order_Products": false,
+        "Customers": false,
+        "Addresses": false,
+        "Customer_Addresses": false,
+        "Employees": false,
+        "Trucks": false,
+        "Actual_Orders": false,
+        "Order_Deliveries": false,
+        "Delivery_Route_Locations": true,
+        "Delivery_Routes": false
+    },
+    "type": {
+        "Customer_Addresses": "1:2",
+        "Employees": "1:1",
+        "Order_Deliveries": "1:4",
+        "Delivery_Route_Locations": "1:2"
+    },
+    "capability_assignments": {
+        "Actual_Orders": {
+            "1": {
+                "order_status_code": []
+            },
+            "2": {
+                "order_status_code": [
+                    "TA_EM"
+                ]
+            },
+            "3": {
+                "order_status_code": []
+            },
+            "4": {
+                "order_status_code": [
+                    "RI_LD"
+                ]
+            },
+            "5": {
+                "order_status_code": []
+            },
+            "6": {
+                "order_status_code": [
+                    "TA_EM"
+                ]
+            },
+            "7": {
+                "order_status_code": []
+            },
+            "8": {
+                "order_status_code": []
+            },
+            "9": {
+                "order_status_code": []
+            },
+            "10": {
+                "order_status_code": [
+                    "RI_LD"
+                ]
+            },
+            "11": {
+                "order_status_code": []
+            },
+            "12": {
+                "order_status_code": [
+                    "TD_DF"
+                ]
+            },
+            "13": {
+                "order_status_code": []
+            },
+            "14": {
+                "order_status_code": []
+            },
+            "15": {
+                "order_status_code": [
+                    "RI_LD"
+                ]
+            }
+        },
+        "Addresses": {
+            "1": {
+                "city": [
+                    "TA_FC"
+                ],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "2": {
+                "city": [],
+                "zip_postcode": [
+                    "TA_FC"
+                ],
+                "state_province_county": [],
+                "country": [
+                    "TA_EM"
+                ]
+            },
+            "3": {
+                "city": [
+                    "TD_DF"
+                ],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "4": {
+                "city": [],
+                "zip_postcode": [
+                    "TA_FC"
+                ],
+                "state_province_county": [
+                    "TA_FC"
+                ],
+                "country": []
+            },
+            "5": {
+                "city": [
+                    "TA_FC"
+                ],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": [
+                    "RI_LD"
+                ]
+            },
+            "6": {
+                "city": [],
+                "zip_postcode": [
+                    "RI_LD"
+                ],
+                "state_province_county": [],
+                "country": []
+            },
+            "7": {
+                "city": [],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "8": {
+                "city": [],
+                "zip_postcode": [
+                    "TD_DF"
+                ],
+                "state_province_county": [],
+                "country": [
+                    "TA_EM"
+                ]
+            },
+            "9": {
+                "city": [],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": [
+                    "TA_FC"
+                ]
+            },
+            "10": {
+                "city": [
+                    "TD_DF"
+                ],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "RI_LD"
+                ],
+                "country": []
+            },
+            "11": {
+                "city": [],
+                "zip_postcode": [
+                    "TA_FC"
+                ],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "12": {
+                "city": [],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "RI_LD"
+                ],
+                "country": []
+            },
+            "13": {
+                "city": [
+                    "TA_FC"
+                ],
+                "zip_postcode": [
+                    "TD_DF"
+                ],
+                "state_province_county": [],
+                "country": []
+            },
+            "14": {
+                "city": [],
+                "zip_postcode": [
+                    "RI_LD"
+                ],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "15": {
+                "city": [],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": [
+                    "RI_LD"
+                ]
+            }
+        },
+        "Customer_Addresses": {
+            "3": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "date_from": [],
+                    "address_type": [],
+                    "date_to": [
+                        "RI_TC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "date_from": [],
+                    "address_type": [
+                        "TD_AS"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "9": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "address_type": [],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "address_type": [],
+                    "date_to": [
+                        "RI_TC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "6": {
+                "row": [],
+                "col": {
+                    "date_from": [],
+                    "address_type": [
+                        "TA_EM"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "14": {
+                "row": [
+                    "GR_DC",
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_from": [],
+                    "address_type": [],
+                    "date_to": [
+                        "TD_DF"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "13": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_from": [],
+                    "address_type": [
+                        "RI_LD"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "0": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "address_type": [],
+                    "date_to": [
+                        "RI_TC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "10": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "date_from": [],
+                    "address_type": [
+                        "TA_EM"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "5": {
+                "row": [
+                    "IC_ME",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_from": [],
+                    "address_type": [],
+                    "date_to": [
+                        "TA_FC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_from": [
+                        "TD_DF"
+                    ],
+                    "address_type": [
+                        "RI_LD"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "7": {
+                "row": [],
+                "col": {
+                    "date_from": [],
+                    "address_type": [],
+                    "date_to": [
+                        "RI_MI"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "11": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_from": [],
+                    "address_type": [],
+                    "date_to": [
+                        "RI_TC"
+                    ],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "date_from": [],
+                    "address_type": [
+                        "TA_EM"
+                    ],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_from": [
+                        "TA_FC"
+                    ],
+                    "address_type": [],
+                    "date_to": [],
+                    "customer_id": [],
+                    "address_id": []
+                }
+            }
+        },
+        "Customers": {
+            "1": {
+                "payment_method": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": [
+                    "RI_TC"
+                ]
+            },
+            "2": {
+                "payment_method": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": [
+                    "TA_FC"
+                ]
+            },
+            "3": {
+                "payment_method": [
+                    "TA_EM"
+                ],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": []
+            },
+            "4": {
+                "payment_method": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": [
+                    "RI_MI"
+                ]
+            },
+            "5": {
+                "payment_method": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": [
+                    "RI_TC"
+                ]
+            },
+            "6": {
+                "payment_method": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": [
+                    "RI_TC"
+                ]
+            },
+            "7": {
+                "payment_method": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": [
+                    "TA_FC"
+                ]
+            },
+            "8": {
+                "payment_method": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": [
+                    "RI_TC"
+                ]
+            },
+            "9": {
+                "payment_method": [
+                    "RI_LD"
+                ],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": []
+            },
+            "10": {
+                "payment_method": [],
+                "customer_phone": [],
+                "customer_email": [],
+                "date_became_customer": [
+                    "RI_TC"
+                ]
+            },
+            "11": {
+                "payment_method": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": [
+                    "RI_TC"
+                ]
+            },
+            "12": {
+                "payment_method": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": [
+                    "RI_TC"
+                ]
+            },
+            "13": {
+                "payment_method": [
+                    "TA_EM"
+                ],
+                "customer_phone": [],
+                "customer_email": [],
+                "date_became_customer": [
+                    "TA_FC"
+                ]
+            },
+            "14": {
+                "payment_method": [],
+                "customer_phone": [
+                    "TA_FC"
+                ],
+                "customer_email": [],
+                "date_became_customer": [
+                    "RI_TC"
+                ]
+            },
+            "15": {
+                "payment_method": [],
+                "customer_phone": [],
+                "customer_email": [],
+                "date_became_customer": [
+                    "RI_TC"
+                ]
+            }
+        },
+        "Delivery_Route_Locations": {
+            "15 Sixth Av": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {}
+            },
+            "27 City Rd": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "68 Denny St": {
+                "row": [],
+                "col": {}
+            },
+            "30 Sam Rd": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {}
+            },
+            "79 Square St": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {}
+            },
+            "34 Benz St": {
+                "row": [],
+                "col": {}
+            },
+            "04 Elm Rd": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "84 Temple Rd": {
+                "row": [
+                    "IC_ME",
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "76 David St": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "58 Roof Av": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {}
+            },
+            "84 OE Av": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {}
+            },
+            "73 Nancy Av": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {}
+            },
+            "64 Kate Rd": {
+                "row": [],
+                "col": {}
+            },
+            "38 Enisner Av": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {}
+            },
+            "67 LV Rd": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {}
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            },
+            "1999": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {}
+            }
+        },
+        "Delivery_Routes": {},
+        "Employees": {
+            "14": {
+                "row": [],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [],
+                    "employee_address_id": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [
+                        "RI_LD"
+                    ],
+                    "employee_address_id": []
+                }
+            },
+            "9": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "employee_name": [
+                        "TD_DF"
+                    ],
+                    "employee_phone": [],
+                    "employee_address_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "employee_name": [
+                        "TA_EM"
+                    ],
+                    "employee_phone": [],
+                    "employee_address_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [
+                        "TA_FC",
+                        "RI_LD"
+                    ],
+                    "employee_address_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [
+                        "TA_FC"
+                    ],
+                    "employee_address_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [
+                        "TA_FC"
+                    ],
+                    "employee_address_id": []
+                }
+            },
+            "8": {
+                "row": [
+                    "GR_TI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [
+                        "TA_FC",
+                        "RI_LD"
+                    ],
+                    "employee_address_id": []
+                }
+            },
+            "13": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [
+                        "TA_FC"
+                    ],
+                    "employee_address_id": []
+                }
+            },
+            "5": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [
+                        "TA_FC"
+                    ],
+                    "employee_address_id": []
+                }
+            },
+            "15": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [
+                        "TA_FC"
+                    ],
+                    "employee_address_id": []
+                }
+            },
+            "1": {
+                "row": [
+                    "IDR_CR",
+                    "GR_TI"
+                ],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [],
+                    "employee_address_id": []
+                }
+            },
+            "11": {
+                "row": [],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [
+                        "TA_FC"
+                    ],
+                    "employee_address_id": []
+                }
+            },
+            "10": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [
+                        "TA_FC"
+                    ],
+                    "employee_address_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "employee_name": [],
+                    "employee_phone": [
+                        "TA_FC"
+                    ],
+                    "employee_address_id": []
+                }
+            }
+        },
+        "Order_Deliveries": {
+            "2": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "delivery_status_code": [],
+                    "delivery_date": [
+                        "TA_FC"
+                    ],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "13": {
+                "row": [
+                    "GR_TI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "delivery_status_code": [],
+                    "delivery_date": [],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "14": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "delivery_status_code": [],
+                    "delivery_date": [
+                        "RI_TC",
+                        "TA_FC"
+                    ],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "1": {
+                "row": [],
+                "col": {
+                    "delivery_status_code": [
+                        "TA_EM"
+                    ],
+                    "delivery_date": [],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "delivery_status_code": [],
+                    "delivery_date": [
+                        "TA_FC"
+                    ],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "10": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "delivery_status_code": [],
+                    "delivery_date": [],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "11": {
+                "row": [
+                    "IC_ME",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "delivery_status_code": [],
+                    "delivery_date": [
+                        "RI_TC"
+                    ],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "delivery_status_code": [
+                        "TA_EM"
+                    ],
+                    "delivery_date": [],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "0": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "delivery_status_code": [],
+                    "delivery_date": [
+                        "RI_TC"
+                    ],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "delivery_status_code": [],
+                    "delivery_date": [],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "GR_DC",
+                    "RL_CL"
+                ],
+                "col": {
+                    "delivery_status_code": [
+                        "RI_LD"
+                    ],
+                    "delivery_date": [],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "delivery_status_code": [],
+                    "delivery_date": [
+                        "TD_DF"
+                    ],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "delivery_status_code": [],
+                    "delivery_date": [],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "delivery_status_code": [
+                        "TA_EM"
+                    ],
+                    "delivery_date": [],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            },
+            "9": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "delivery_status_code": [
+                        "RI_LD"
+                    ],
+                    "delivery_date": [],
+                    "location_code": [],
+                    "actual_order_id": [],
+                    "driver_employee_id": [],
+                    "truck_id": []
+                }
+            }
+        },
+        "Trucks": {
+            "1": {
+                "truck_licence_number": []
+            },
+            "2": {
+                "truck_licence_number": [
+                    "TA_FC"
+                ]
+            },
+            "3": {
+                "truck_licence_number": []
+            },
+            "4": {
+                "truck_licence_number": [
+                    "TD_DF"
+                ]
+            },
+            "5": {
+                "truck_licence_number": []
+            },
+            "6": {
+                "truck_licence_number": [
+                    "RI_AC"
+                ]
+            },
+            "7": {
+                "truck_licence_number": []
+            },
+            "8": {
+                "truck_licence_number": []
+            },
+            "9": {
+                "truck_licence_number": [
+                    "RI_MI"
+                ]
+            },
+            "10": {
+                "truck_licence_number": []
+            },
+            "11": {
+                "truck_licence_number": []
+            },
+            "12": {
+                "truck_licence_number": [
+                    "RI_LD"
+                ]
+            },
+            "13": {
+                "truck_licence_number": []
+            },
+            "14": {
+                "truck_licence_number": []
+            },
+            "15": {
+                "truck_licence_number": [
+                    "EF_RC"
+                ]
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/customer_deliveries/tables"
+}

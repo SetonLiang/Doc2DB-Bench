@@ -1,0 +1,1207 @@
+{
+    "database_id": "driving_school",
+    "if_primary_allowed": {
+        "Addresses": false,
+        "Customer_Payments": false,
+        "Customers": false,
+        "Lessons": false,
+        "Staff": false
+    },
+    "type": {
+        "Customers": "1:2",
+        "Lessons": "1:2",
+        "Staff": "1:1"
+    },
+    "capability_assignments": {
+        "Addresses": {
+            "1": {
+                "city": [],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": [
+                    "RI_LD"
+                ]
+            },
+            "2": {
+                "city": [],
+                "zip_postcode": [
+                    "TD_DF"
+                ],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "3": {
+                "city": [
+                    "TD_DF"
+                ],
+                "zip_postcode": [
+                    "TA_FC"
+                ],
+                "state_province_county": [],
+                "country": []
+            },
+            "4": {
+                "city": [],
+                "zip_postcode": [
+                    "TA_FC"
+                ],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": [
+                    "TA_EM"
+                ]
+            },
+            "5": {
+                "city": [
+                    "TD_AS"
+                ],
+                "zip_postcode": [],
+                "state_province_county": [],
+                "country": [
+                    "EF_ND"
+                ]
+            },
+            "6": {
+                "city": [],
+                "zip_postcode": [
+                    "TD_DF"
+                ],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": []
+            },
+            "7": {
+                "city": [
+                    "EF_RC"
+                ],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "TD_DF"
+                ],
+                "country": []
+            },
+            "8": {
+                "city": [],
+                "zip_postcode": [
+                    "RI_LD"
+                ],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": [
+                    "RI_LD"
+                ]
+            },
+            "9": {
+                "city": [
+                    "TD_AS"
+                ],
+                "zip_postcode": [
+                    "EF_ND"
+                ],
+                "state_province_county": [],
+                "country": []
+            },
+            "10": {
+                "city": [],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": [
+                    "TA_EM"
+                ]
+            },
+            "11": {
+                "city": [],
+                "zip_postcode": [
+                    "TA_FC"
+                ],
+                "state_province_county": [],
+                "country": [
+                    "RI_LD",
+                    "TD_DF"
+                ]
+            },
+            "12": {
+                "city": [],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": [
+                    "RI_LD"
+                ]
+            },
+            "13": {
+                "city": [
+                    "TD_AS"
+                ],
+                "zip_postcode": [
+                    "TD_DF"
+                ],
+                "state_province_county": [],
+                "country": []
+            },
+            "14": {
+                "city": [],
+                "zip_postcode": [],
+                "state_province_county": [
+                    "TA_EM"
+                ],
+                "country": [
+                    "TD_DF"
+                ]
+            },
+            "15": {
+                "city": [],
+                "zip_postcode": [
+                    "TA_FC"
+                ],
+                "state_province_county": [
+                    "TD_DF"
+                ],
+                "country": []
+            }
+        },
+        "Customer_Payments": {
+            "11, 2018-02-05 18:44:46": {
+                "payment_method_code": [
+                    "TA_EM"
+                ],
+                "amount_payment": [
+                    "RI_AC"
+                ]
+            },
+            "2, 2018-02-24 10:07:05": {
+                "payment_method_code": [],
+                "amount_payment": [
+                    "TA_FC"
+                ]
+            },
+            "14, 2018-02-27 20:08:53": {
+                "payment_method_code": [
+                    "RI_LD"
+                ],
+                "amount_payment": []
+            },
+            "6, 2018-03-12 08:41:47": {
+                "payment_method_code": [],
+                "amount_payment": [
+                    "TD_DF"
+                ]
+            },
+            "3, 2018-02-06 13:35:58": {
+                "payment_method_code": [
+                    "TA_EM"
+                ],
+                "amount_payment": []
+            },
+            "14, 2018-03-12 13:31:36": {
+                "payment_method_code": [],
+                "amount_payment": [
+                    "RI_MI"
+                ]
+            },
+            "4, 2018-02-03 15:04:36": {
+                "payment_method_code": [],
+                "amount_payment": [
+                    "TA_FC"
+                ]
+            },
+            "7, 2018-02-15 16:38:49": {
+                "payment_method_code": [],
+                "amount_payment": []
+            },
+            "13, 2018-02-21 05:28:49": {
+                "payment_method_code": [
+                    "RI_LD"
+                ],
+                "amount_payment": [
+                    "RI_AC"
+                ]
+            },
+            "6, 2018-02-19 09:06:29": {
+                "payment_method_code": [],
+                "amount_payment": []
+            },
+            "2, 2018-03-20 21:38:41": {
+                "payment_method_code": [
+                    "TD_DF"
+                ],
+                "amount_payment": []
+            },
+            "10, 2018-02-01 06:15:31": {
+                "payment_method_code": [],
+                "amount_payment": []
+            },
+            "1, 2018-03-18 13:48:13": {
+                "payment_method_code": [],
+                "amount_payment": [
+                    "RI_AC"
+                ]
+            },
+            "14, 2018-02-19 01:49:59": {
+                "payment_method_code": [
+                    "TA_EM"
+                ],
+                "amount_payment": [
+                    "TA_US"
+                ]
+            },
+            "12, 2018-03-06 21:36:41": {
+                "payment_method_code": [],
+                "amount_payment": []
+            }
+        },
+        "Customers": {
+            "15": {
+                "row": [
+                    "IC_ME",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "customer_status_code": [
+                        "RI_MI"
+                    ],
+                    "date_became_customer": [
+                        "TA_FC"
+                    ],
+                    "phone_number": [
+                        "TD_AS"
+                    ],
+                    "cell_mobile_phone_number": [
+                        "TD_AS"
+                    ],
+                    "customer_address_id": [],
+                    "date_of_birth": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "amount_outstanding": [],
+                    "email_address": []
+                }
+            },
+            "6": {
+                "row": [
+                    "GR_TI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_of_birth": [
+                        "TA_FC"
+                    ],
+                    "amount_outstanding": [
+                        "TA_FC"
+                    ],
+                    "phone_number": [
+                        "TA_FC"
+                    ],
+                    "cell_mobile_phone_number": [
+                        "TA_FC"
+                    ],
+                    "customer_address_id": [],
+                    "customer_status_code": [],
+                    "date_became_customer": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "email_address": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "customer_status_code": [
+                        "RI_LD"
+                    ],
+                    "date_of_birth": [
+                        "RI_TC"
+                    ],
+                    "amount_outstanding": [
+                        "TA_FC"
+                    ],
+                    "phone_number": [
+                        "TA_FC"
+                    ],
+                    "customer_address_id": [],
+                    "date_became_customer": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "email_address": [],
+                    "cell_mobile_phone_number": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "amount_outstanding": [
+                        "RI_AC"
+                    ],
+                    "email_address": [
+                        "TD_DF"
+                    ],
+                    "phone_number": [
+                        "TA_FC"
+                    ],
+                    "customer_address_id": [],
+                    "customer_status_code": [],
+                    "date_became_customer": [],
+                    "date_of_birth": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "cell_mobile_phone_number": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "customer_status_code": [
+                        "TA_EM"
+                    ],
+                    "amount_outstanding": [
+                        "TA_US"
+                    ],
+                    "phone_number": [
+                        "TA_FC"
+                    ],
+                    "cell_mobile_phone_number": [
+                        "TD_AS"
+                    ],
+                    "customer_address_id": [],
+                    "date_became_customer": [],
+                    "date_of_birth": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "email_address": []
+                }
+            },
+            "8": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "customer_status_code": [
+                        "RI_LD"
+                    ],
+                    "amount_outstanding": [
+                        "RI_AC"
+                    ],
+                    "phone_number": [
+                        "TA_FC"
+                    ],
+                    "customer_address_id": [],
+                    "date_became_customer": [],
+                    "date_of_birth": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "email_address": [],
+                    "cell_mobile_phone_number": []
+                }
+            },
+            "7": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "customer_status_code": [
+                        "TD_DF"
+                    ],
+                    "date_became_customer": [
+                        "RI_TC"
+                    ],
+                    "amount_outstanding": [
+                        "TA_US"
+                    ],
+                    "cell_mobile_phone_number": [
+                        "TD_AS"
+                    ],
+                    "customer_address_id": [],
+                    "date_of_birth": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "email_address": [],
+                    "phone_number": []
+                }
+            },
+            "10": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_became_customer": [
+                        "RI_TC"
+                    ],
+                    "amount_outstanding": [
+                        "TA_US"
+                    ],
+                    "phone_number": [
+                        "TD_AS"
+                    ],
+                    "cell_mobile_phone_number": [
+                        "TD_AS"
+                    ],
+                    "customer_address_id": [],
+                    "customer_status_code": [],
+                    "date_of_birth": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "email_address": []
+                }
+            },
+            "12": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "date_of_birth": [
+                        "TA_FC"
+                    ],
+                    "amount_outstanding": [
+                        "RI_AC"
+                    ],
+                    "phone_number": [
+                        "TD_AS"
+                    ],
+                    "customer_address_id": [],
+                    "customer_status_code": [],
+                    "date_became_customer": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "email_address": [],
+                    "cell_mobile_phone_number": []
+                }
+            },
+            "11": {
+                "row": [
+                    "GR_TI",
+                    "RL_CL"
+                ],
+                "col": {
+                    "customer_status_code": [
+                        "TA_EM"
+                    ],
+                    "amount_outstanding": [
+                        "RI_AC"
+                    ],
+                    "phone_number": [
+                        "TA_FC"
+                    ],
+                    "cell_mobile_phone_number": [
+                        "TA_FC"
+                    ],
+                    "customer_address_id": [],
+                    "date_became_customer": [],
+                    "date_of_birth": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "email_address": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_CL",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "date_became_customer": [
+                        "TA_FC"
+                    ],
+                    "date_of_birth": [
+                        "RI_TC"
+                    ],
+                    "amount_outstanding": [
+                        "TA_US"
+                    ],
+                    "email_address": [
+                        "TD_DF"
+                    ],
+                    "customer_address_id": [],
+                    "customer_status_code": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "phone_number": [],
+                    "cell_mobile_phone_number": []
+                }
+            },
+            "13": {
+                "row": [],
+                "col": {
+                    "date_became_customer": [
+                        "RI_TC"
+                    ],
+                    "date_of_birth": [
+                        "TA_FC"
+                    ],
+                    "amount_outstanding": [
+                        "TA_US"
+                    ],
+                    "cell_mobile_phone_number": [
+                        "TA_FC"
+                    ],
+                    "customer_address_id": [],
+                    "customer_status_code": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "email_address": [],
+                    "phone_number": []
+                }
+            },
+            "14": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "customer_status_code": [
+                        "TA_EM"
+                    ],
+                    "amount_outstanding": [
+                        "TA_FC"
+                    ],
+                    "phone_number": [
+                        "TA_FC"
+                    ],
+                    "cell_mobile_phone_number": [
+                        "TA_FC"
+                    ],
+                    "customer_address_id": [],
+                    "date_became_customer": [],
+                    "date_of_birth": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "email_address": []
+                }
+            },
+            "9": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "last_name": [
+                        "TD_DF"
+                    ],
+                    "amount_outstanding": [
+                        "TA_US"
+                    ],
+                    "email_address": [
+                        "TD_DF"
+                    ],
+                    "phone_number": [
+                        "TA_FC"
+                    ],
+                    "customer_address_id": [],
+                    "customer_status_code": [],
+                    "date_became_customer": [],
+                    "date_of_birth": [],
+                    "first_name": [],
+                    "cell_mobile_phone_number": []
+                }
+            },
+            "5": {
+                "row": [
+                    "GR_DC",
+                    "IC_ME"
+                ],
+                "col": {
+                    "customer_status_code": [
+                        "RI_MI"
+                    ],
+                    "date_became_customer": [
+                        "RI_TC"
+                    ],
+                    "phone_number": [
+                        "TD_AS"
+                    ],
+                    "cell_mobile_phone_number": [
+                        "TD_AS"
+                    ],
+                    "customer_address_id": [],
+                    "date_of_birth": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "amount_outstanding": [],
+                    "email_address": []
+                }
+            }
+        },
+        "Lessons": {
+            "6": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "lesson_status_code": [],
+                    "vehicle": [
+                        "TA_EM"
+                    ],
+                    "lesson_date": [],
+                    "lesson_time": [
+                        "RI_TC"
+                    ],
+                    "price": [],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "8": {
+                "row": [],
+                "col": {
+                    "lesson_status_code": [
+                        "TD_CA"
+                    ],
+                    "vehicle": [],
+                    "lesson_date": [],
+                    "lesson_time": [
+                        "TA_FC"
+                    ],
+                    "price": [],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "9": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "lesson_status_code": [],
+                    "vehicle": [
+                        "RI_LD"
+                    ],
+                    "lesson_date": [],
+                    "lesson_time": [],
+                    "price": [
+                        "TA_FC"
+                    ],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "5": {
+                "row": [],
+                "col": {
+                    "lesson_status_code": [],
+                    "vehicle": [],
+                    "lesson_date": [
+                        "RI_TC"
+                    ],
+                    "lesson_time": [],
+                    "price": [
+                        "RI_AC"
+                    ],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "lesson_status_code": [],
+                    "vehicle": [
+                        "TD_DF"
+                    ],
+                    "lesson_date": [],
+                    "lesson_time": [],
+                    "price": [
+                        "RI_MI"
+                    ],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "lesson_status_code": [
+                        "TA_EM"
+                    ],
+                    "vehicle": [],
+                    "lesson_date": [],
+                    "lesson_time": [
+                        "TA_FC"
+                    ],
+                    "price": [],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "lesson_status_code": [
+                        "RI_LD"
+                    ],
+                    "vehicle": [],
+                    "lesson_date": [],
+                    "lesson_time": [],
+                    "price": [
+                        "TA_US"
+                    ],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "RL_CL",
+                    "GR_DC"
+                ],
+                "col": {
+                    "lesson_status_code": [],
+                    "vehicle": [],
+                    "lesson_date": [],
+                    "lesson_time": [],
+                    "price": [
+                        "RI_AC"
+                    ],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "GR_DC",
+                    "IC_ME"
+                ],
+                "col": {
+                    "lesson_status_code": [],
+                    "vehicle": [],
+                    "lesson_date": [],
+                    "lesson_time": [],
+                    "price": [
+                        "TA_US"
+                    ],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "13": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "lesson_status_code": [],
+                    "vehicle": [],
+                    "lesson_date": [],
+                    "lesson_time": [],
+                    "price": [],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "lesson_status_code": [],
+                    "vehicle": [],
+                    "lesson_date": [
+                        "TA_FC"
+                    ],
+                    "lesson_time": [],
+                    "price": [
+                        "RI_AC"
+                    ],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "lesson_status_code": [],
+                    "vehicle": [],
+                    "lesson_date": [
+                        "RI_TC"
+                    ],
+                    "lesson_time": [],
+                    "price": [
+                        "RI_AC"
+                    ],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "14": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL",
+                    "GR_DC"
+                ],
+                "col": {
+                    "lesson_status_code": [],
+                    "vehicle": [],
+                    "lesson_date": [],
+                    "lesson_time": [],
+                    "price": [
+                        "TA_US"
+                    ],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "10": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "lesson_status_code": [
+                        "TA_EM"
+                    ],
+                    "vehicle": [],
+                    "lesson_date": [
+                        "RI_TC"
+                    ],
+                    "lesson_time": [],
+                    "price": [],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            },
+            "11": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "lesson_status_code": [],
+                    "vehicle": [
+                        "TD_DF"
+                    ],
+                    "lesson_date": [],
+                    "lesson_time": [],
+                    "price": [],
+                    "customer_id": [],
+                    "staff_id": []
+                }
+            }
+        },
+        "Staff": {
+            "12": {
+                "row": [],
+                "col": {
+                    "last_name": [
+                        "TD_CA"
+                    ],
+                    "date_joined_staff": [
+                        "RI_TC"
+                    ],
+                    "date_left_staff": [
+                        "TA_FC"
+                    ],
+                    "staff_address_id": [],
+                    "nickname": [],
+                    "first_name": [],
+                    "middle_name": [],
+                    "date_of_birth": []
+                }
+            },
+            "8": {
+                "row": [
+                    "IDR_CR",
+                    "GR_TI"
+                ],
+                "col": {
+                    "nickname": [
+                        "TA_EM"
+                    ],
+                    "middle_name": [
+                        "TD_AS"
+                    ],
+                    "date_joined_staff": [
+                        "TA_FC"
+                    ],
+                    "staff_address_id": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "date_of_birth": [],
+                    "date_left_staff": []
+                }
+            },
+            "9": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "first_name": [
+                        "TA_EM"
+                    ],
+                    "date_of_birth": [
+                        "RI_TC"
+                    ],
+                    "date_joined_staff": [
+                        "TA_FC"
+                    ],
+                    "staff_address_id": [],
+                    "nickname": [],
+                    "middle_name": [],
+                    "last_name": [],
+                    "date_left_staff": []
+                }
+            },
+            "2": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "nickname": [
+                        "TD_DF"
+                    ],
+                    "date_joined_staff": [
+                        "TA_FC"
+                    ],
+                    "date_left_staff": [
+                        "RI_TC"
+                    ],
+                    "staff_address_id": [],
+                    "first_name": [],
+                    "middle_name": [],
+                    "last_name": [],
+                    "date_of_birth": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "last_name": [
+                        "TD_DF"
+                    ],
+                    "date_joined_staff": [
+                        "TA_FC"
+                    ],
+                    "date_left_staff": [
+                        "RI_TC"
+                    ],
+                    "staff_address_id": [],
+                    "nickname": [],
+                    "first_name": [],
+                    "middle_name": [],
+                    "date_of_birth": []
+                }
+            },
+            "10": {
+                "row": [],
+                "col": {
+                    "nickname": [
+                        "TD_DF"
+                    ],
+                    "last_name": [
+                        "EF_RC"
+                    ],
+                    "date_left_staff": [
+                        "RI_LD"
+                    ],
+                    "staff_address_id": [],
+                    "first_name": [],
+                    "middle_name": [],
+                    "date_of_birth": [],
+                    "date_joined_staff": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "first_name": [
+                        "TA_EM"
+                    ],
+                    "date_joined_staff": [
+                        "TA_FC"
+                    ],
+                    "date_left_staff": [
+                        "RI_MI"
+                    ],
+                    "staff_address_id": [],
+                    "nickname": [],
+                    "middle_name": [],
+                    "last_name": [],
+                    "date_of_birth": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "first_name": [
+                        "TA_EM"
+                    ],
+                    "last_name": [
+                        "EF_RC"
+                    ],
+                    "date_left_staff": [
+                        "RI_LD"
+                    ],
+                    "staff_address_id": [],
+                    "nickname": [],
+                    "middle_name": [],
+                    "date_of_birth": [],
+                    "date_joined_staff": []
+                }
+            },
+            "6": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "nickname": [
+                        "TD_AS"
+                    ],
+                    "middle_name": [
+                        "TD_DF"
+                    ],
+                    "date_of_birth": [
+                        "RI_TC"
+                    ],
+                    "staff_address_id": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "date_joined_staff": [],
+                    "date_left_staff": []
+                }
+            },
+            "13": {
+                "row": [],
+                "col": {
+                    "first_name": [
+                        "TD_AS"
+                    ],
+                    "date_of_birth": [
+                        "TA_FC"
+                    ],
+                    "date_joined_staff": [
+                        "RI_TC"
+                    ],
+                    "staff_address_id": [],
+                    "nickname": [],
+                    "middle_name": [],
+                    "last_name": [],
+                    "date_left_staff": []
+                }
+            },
+            "14": {
+                "row": [],
+                "col": {
+                    "nickname": [
+                        "TD_DF"
+                    ],
+                    "middle_name": [
+                        "TD_AS"
+                    ],
+                    "date_left_staff": [
+                        "RI_TC"
+                    ],
+                    "staff_address_id": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "date_of_birth": [],
+                    "date_joined_staff": []
+                }
+            },
+            "11": {
+                "row": [],
+                "col": {
+                    "first_name": [
+                        "TA_EM"
+                    ],
+                    "date_of_birth": [
+                        "TA_FC"
+                    ],
+                    "date_left_staff": [
+                        "RI_MI"
+                    ],
+                    "staff_address_id": [],
+                    "nickname": [],
+                    "middle_name": [],
+                    "last_name": [],
+                    "date_joined_staff": []
+                }
+            },
+            "15": {
+                "row": [],
+                "col": {
+                    "middle_name": [
+                        "EF_RC"
+                    ],
+                    "date_joined_staff": [
+                        "TA_FC"
+                    ],
+                    "date_left_staff": [
+                        "RI_MI"
+                    ],
+                    "staff_address_id": [],
+                    "nickname": [],
+                    "first_name": [],
+                    "last_name": [],
+                    "date_of_birth": []
+                }
+            },
+            "1": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "first_name": [
+                        "TD_AS"
+                    ],
+                    "date_of_birth": [
+                        "TA_FC"
+                    ],
+                    "date_left_staff": [
+                        "RI_TC"
+                    ],
+                    "staff_address_id": [],
+                    "nickname": [],
+                    "middle_name": [],
+                    "last_name": [],
+                    "date_joined_staff": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "last_name": [
+                        "TD_CA"
+                    ],
+                    "date_of_birth": [
+                        "RI_TC"
+                    ],
+                    "date_joined_staff": [
+                        "TA_FC"
+                    ],
+                    "staff_address_id": [],
+                    "nickname": [],
+                    "first_name": [],
+                    "middle_name": [],
+                    "date_left_staff": []
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/driving_school/tables"
+}

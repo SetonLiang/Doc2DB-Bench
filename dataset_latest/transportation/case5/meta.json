@@ -1,0 +1,2194 @@
+{
+    "database_id": "shipping",
+    "if_primary_allowed": {
+        "Shipment": false,
+        "customer": false,
+        "city": false,
+        "driver": false,
+        "truck": false
+    },
+    "type": {
+        "Shipment": "1:4"
+    },
+    "capability_assignments": {
+        "city": {
+            "106": {
+                "state": [
+                    "TA_EM"
+                ],
+                "population": [
+                    "RI_LD"
+                ],
+                "area": [
+                    "TA_US"
+                ]
+            },
+            "112": {
+                "state": [
+                    "TA_FC"
+                ],
+                "population": [
+                    "TA_FC"
+                ],
+                "area": []
+            },
+            "116": {
+                "state": [],
+                "population": [
+                    "TD_DF"
+                ],
+                "area": [
+                    "RI_AC"
+                ]
+            },
+            "125": {
+                "state": [],
+                "population": [],
+                "area": [
+                    "TA_US"
+                ]
+            },
+            "140": {
+                "state": [],
+                "population": [
+                    "RI_AC"
+                ],
+                "area": []
+            },
+            "165": {
+                "state": [
+                    "TA_EM"
+                ],
+                "population": [
+                    "TA_FC"
+                ],
+                "area": []
+            },
+            "189": {
+                "state": [],
+                "population": [
+                    "RI_LD"
+                ],
+                "area": [
+                    "TA_US"
+                ]
+            },
+            "212": {
+                "state": [],
+                "population": [
+                    "TA_FC"
+                ],
+                "area": []
+            },
+            "237": {
+                "state": [
+                    "TA_EM"
+                ],
+                "population": [],
+                "area": [
+                    "RI_AC"
+                ]
+            },
+            "244": {
+                "state": [],
+                "population": [
+                    "TD_DF"
+                ],
+                "area": []
+            },
+            "258": {
+                "state": [],
+                "population": [
+                    "RI_AC"
+                ],
+                "area": []
+            },
+            "298": {
+                "state": [
+                    "TA_EM"
+                ],
+                "population": [],
+                "area": [
+                    "TA_US"
+                ]
+            },
+            "322": {
+                "state": [],
+                "population": [
+                    "TA_FC"
+                ],
+                "area": []
+            },
+            "362": {
+                "state": [],
+                "population": [
+                    "RI_LD"
+                ],
+                "area": []
+            },
+            "368": {
+                "state": [],
+                "population": [],
+                "area": [
+                    "RI_MI"
+                ]
+            },
+            "432": {
+                "state": [
+                    "TA_EM"
+                ],
+                "population": [
+                    "TD_DF"
+                ],
+                "area": []
+            },
+            "443": {
+                "state": [],
+                "population": [],
+                "area": [
+                    "TA_US"
+                ]
+            },
+            "457": {
+                "state": [],
+                "population": [
+                    "TA_FC"
+                ],
+                "area": []
+            },
+            "473": {
+                "state": [],
+                "population": [
+                    "RI_AC"
+                ],
+                "area": []
+            },
+            "480": {
+                "state": [
+                    "TA_FC"
+                ],
+                "population": [],
+                "area": []
+            },
+            "501": {
+                "state": [],
+                "population": [],
+                "area": [
+                    "RI_AC",
+                    "TA_FC"
+                ]
+            },
+            "523": {
+                "state": [],
+                "population": [
+                    "RI_LD"
+                ],
+                "area": []
+            },
+            "531": {
+                "state": [],
+                "population": [],
+                "area": [
+                    "TA_US"
+                ]
+            },
+            "555": {
+                "state": [
+                    "TA_EM"
+                ],
+                "population": [],
+                "area": []
+            },
+            "566": {
+                "state": [],
+                "population": [
+                    "TD_DF"
+                ],
+                "area": []
+            },
+            "572": {
+                "state": [],
+                "population": [
+                    "RI_AC"
+                ],
+                "area": []
+            },
+            "589": {
+                "state": [],
+                "population": [],
+                "area": [
+                    "TA_US"
+                ]
+            },
+            "631": {
+                "state": [],
+                "population": [
+                    "TA_FC"
+                ],
+                "area": []
+            },
+            "636": {
+                "state": [],
+                "population": [],
+                "area": [
+                    "RI_LD"
+                ]
+            },
+            "639": {
+                "state": [],
+                "population": [
+                    "RI_AC"
+                ],
+                "area": []
+            },
+            "664": {
+                "state": [],
+                "population": [],
+                "area": [
+                    "TA_US",
+                    "RI_LD"
+                ]
+            },
+            "666": {
+                "state": [
+                    "TA_EM"
+                ],
+                "population": [
+                    "TD_DF"
+                ],
+                "area": []
+            },
+            "681": {
+                "state": [],
+                "population": [
+                    "RI_LD"
+                ],
+                "area": []
+            },
+            "686": {
+                "state": [],
+                "population": [
+                    "TA_FC"
+                ],
+                "area": [
+                    "RI_AC"
+                ]
+            },
+            "691": {
+                "state": [],
+                "population": [],
+                "area": [
+                    "TA_US"
+                ]
+            },
+            "115": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "136": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "162": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "184": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "188": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "206": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "214": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "230": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "239": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "246": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "249": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "255": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "273": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "284": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "296": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "307": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "328": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "344": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "345": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "360": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "394": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "400": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "429": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "438": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "444": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "453": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "458": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "468": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "484": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "491": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "497": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "500": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "508": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "518": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "520": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "537": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "554": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "556": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "559": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "568": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "570": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "574": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "577": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "586": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "591": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "597": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "614": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "635": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "638": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "649": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "665": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "671": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "673": {
+                "state": [],
+                "population": [],
+                "area": []
+            },
+            "680": {
+                "state": [],
+                "population": [],
+                "area": []
+            }
+        },
+        "customer": {
+            "314": {
+                "annual_revenue": [
+                    "TA_US"
+                ],
+                "phone": [
+                    "TA_FC"
+                ],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": []
+            },
+            "381": {
+                "annual_revenue": [
+                    "RI_AC"
+                ],
+                "cust_type": [
+                    "TA_EM"
+                ],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "493": {
+                "zip": [
+                    "TA_FC"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "phone": []
+            },
+            "600": {
+                "address": [
+                    "TD_DF"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "615": {
+                "annual_revenue": [
+                    "RI_MI"
+                ],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "618": {
+                "state": [
+                    "TA_FC"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "zip": [],
+                "phone": []
+            },
+            "626": {
+                "cust_type": [
+                    "RI_LD"
+                ],
+                "annual_revenue": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "721": {
+                "annual_revenue": [
+                    "TA_US"
+                ],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "738": {
+                "address": [
+                    "TD_CA"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "770": {
+                "phone": [
+                    "TA_FC"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": []
+            },
+            "896": {
+                "city": [
+                    "TD_AS"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "931": {
+                "annual_revenue": [
+                    "TA_US"
+                ],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "989": {
+                "cust_type": [
+                    "TA_EM"
+                ],
+                "annual_revenue": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "1092": {
+                "phone": [
+                    "TD_DF"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": []
+            },
+            "1391": {
+                "annual_revenue": [
+                    "RI_AC"
+                ],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "1591": {
+                "address": [
+                    "TA_FC"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "1724": {
+                "annual_revenue": [
+                    "TA_US"
+                ],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "1769": {
+                "address": [
+                    "TD_DF"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "1775": {
+                "cust_type": [
+                    "RI_LD"
+                ],
+                "annual_revenue": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "2001": {
+                "zip": [
+                    "TA_FC"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "phone": []
+            },
+            "2131": {
+                "phone": [
+                    "TA_FC"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": []
+            },
+            "2388": {
+                "annual_revenue": [
+                    "RI_AC"
+                ],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "2420": {
+                "state": [
+                    "TA_FC"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "zip": [],
+                "phone": []
+            },
+            "2503": {
+                "address": [
+                    "TD_AS"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "2799": {
+                "annual_revenue": [
+                    "TA_US"
+                ],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "3161": {
+                "cust_type": [
+                    "TA_EM"
+                ],
+                "annual_revenue": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "3288": {
+                "phone": [
+                    "TD_CA"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": []
+            },
+            "3354": {
+                "city": [
+                    "TD_DF"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "3447": {
+                "annual_revenue": [
+                    "RI_MI"
+                ],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "3786": {
+                "phone": [
+                    "TA_FC"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": []
+            },
+            "3876": {
+                "zip": [
+                    "RI_LD"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "phone": []
+            },
+            "4112": {
+                "annual_revenue": [
+                    "RI_AC"
+                ],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "4347": {
+                "city": [
+                    "TD_AS"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "4353": {
+                "cust_type": [
+                    "TD_DF"
+                ],
+                "annual_revenue": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "4469": {
+                "phone": [
+                    "TA_FC"
+                ],
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": []
+            },
+            "4767": {
+                "annual_revenue": [
+                    "TA_US"
+                ],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "2265": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "2348": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "2593": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "2906": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "3023": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "3174": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "3346": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "3360": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "3537": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "3622": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "4145": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            },
+            "4154": {
+                "annual_revenue": [],
+                "cust_type": [],
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip": [],
+                "phone": []
+            }
+        },
+        "driver": {
+            "20": {
+                "address": [
+                    "TA_FC"
+                ],
+                "city": [],
+                "state": [],
+                "zip_code": [],
+                "phone": [
+                    "TA_FC"
+                ]
+            },
+            "21": {
+                "address": [
+                    "TA_FC"
+                ],
+                "city": [],
+                "state": [
+                    "TA_EM"
+                ],
+                "zip_code": [],
+                "phone": []
+            },
+            "22": {
+                "address": [
+                    "TA_FC",
+                    "TD_DF"
+                ],
+                "city": [],
+                "state": [],
+                "zip_code": [],
+                "phone": []
+            },
+            "23": {
+                "address": [
+                    "TA_FC"
+                ],
+                "city": [],
+                "state": [],
+                "zip_code": [],
+                "phone": [
+                    "TA_FC"
+                ]
+            },
+            "24": {
+                "address": [
+                    "TD_AS"
+                ],
+                "city": [],
+                "state": [
+                    "TA_EM"
+                ],
+                "zip_code": [],
+                "phone": []
+            },
+            "25": {
+                "address": [
+                    "TA_FC"
+                ],
+                "city": [],
+                "state": [],
+                "zip_code": [
+                    "TA_FC"
+                ],
+                "phone": []
+            },
+            "26": {
+                "address": [],
+                "city": [],
+                "state": [],
+                "zip_code": [],
+                "phone": [
+                    "TD_DF"
+                ]
+            },
+            "27": {
+                "address": [
+                    "TA_FC"
+                ],
+                "city": [],
+                "state": [
+                    "TA_EM"
+                ],
+                "zip_code": [],
+                "phone": []
+            },
+            "28": {
+                "address": [
+                    "TA_FC",
+                    "TD_AS"
+                ],
+                "city": [],
+                "state": [],
+                "zip_code": [],
+                "phone": [
+                    "TA_FC"
+                ]
+            },
+            "29": {
+                "address": [
+                    "TA_FC"
+                ],
+                "city": [],
+                "state": [],
+                "zip_code": [],
+                "phone": [
+                    "TD_DF"
+                ]
+            },
+            "30": {
+                "address": [
+                    "TA_FC"
+                ],
+                "city": [],
+                "state": [
+                    "TA_EM"
+                ],
+                "zip_code": [],
+                "phone": [
+                    "TA_FC"
+                ]
+            }
+        },
+        "shipment": {
+            "1654": {
+                "weight": [
+                    "TD_DF"
+                ],
+                "ship_date": [
+                    "TA_FC"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1114": {
+                "weight": [
+                    "TA_US"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1025": {
+                "weight": [
+                    "RI_AC"
+                ],
+                "driver_id": [
+                    "RI_LD"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1759": {
+                "weight": [
+                    "TD_CA"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1281": {
+                "ship_date": [
+                    "RI_TC"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1250": {
+                "weight": [
+                    "EF_RC"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1228": {
+                "weight": [
+                    "RI_MI"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1142": {
+                "driver_id": [
+                    "TD_AS"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1754": {
+                "truck_id": [
+                    "RI_LD"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1104": {
+                "ship_date": [
+                    "RI_TC"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1692": {
+                "weight": [
+                    "TA_US"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1758": {
+                "weight": [
+                    "TD_DF"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1913": {
+                "city_id": [
+                    "TD_DF"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "ship_date": []
+            },
+            "1558": {
+                "weight": [
+                    "RI_AC"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1089": {
+                "ship_date": [
+                    "TA_FC"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1604": {
+                "weight": [
+                    "TA_FC",
+                    "TA_US"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1432": {
+                "driver_id": [
+                    "RI_LD"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1032": {
+                "cust_id": [
+                    "EF_RC"
+                ],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1030": {
+                "ship_date": [
+                    "RI_TC"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1095": {
+                "weight": [
+                    "TA_US"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1223": {
+                "weight": [
+                    "TD_DF"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1238": {
+                "truck_id": [
+                    "TD_AS"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1517": {
+                "weight": [
+                    "RI_AC"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1616": {
+                "cust_id": [
+                    "TD_DF"
+                ],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1027": {
+                "ship_date": [
+                    "RI_TC"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1574": {
+                "weight": [
+                    "TD_CA"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1733": {
+                "weight": [
+                    "TA_US"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1718": {
+                "ship_date": [
+                    "TA_FC"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1429": {
+                "weight": [
+                    "RI_AC"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1459": {
+                "weight": [
+                    "RI_MI"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1603": {
+                "weight": [
+                    "TD_AS"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1828": {
+                "weight": [
+                    "TA_FC"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1006": {
+                "ship_date": [
+                    "TA_FC"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1777": {
+                "weight": [
+                    "RI_AC"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1163": {
+                "weight": [
+                    "TA_US"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1714": {
+                "weight": [
+                    "TD_DF"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1943": {
+                "ship_date": [
+                    "RI_TC"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1348": {
+                "driver_id": [
+                    "TD_CA"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1159": {
+                "weight": [
+                    "EF_RC"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1950": {
+                "ship_date": [
+                    "RI_LD"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1099": {
+                "city_id": [
+                    "TD_AS"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "ship_date": []
+            },
+            "1867": {
+                "driver_id": [
+                    "RI_LD"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1352": {
+                "weight": [
+                    "RI_LD"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1826": {
+                "cust_id": [
+                    "TD_DF"
+                ],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1387": {
+                "ship_date": [
+                    "RI_TC"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1849": {
+                "weight": [
+                    "TA_US"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1882": {
+                "weight": [
+                    "TD_CA"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1370": {
+                "weight": [
+                    "TD_AS"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1046": {
+                "truck_id": [
+                    "RI_LD"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1233": {
+                "weight": [
+                    "RI_AC"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1296": {
+                "city_id": [
+                    "EF_RC"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "ship_date": []
+            },
+            "1875": {
+                "weight": [
+                    "TD_DF"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1914": {
+                "city_id": [
+                    "TD_AS"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "ship_date": []
+            },
+            "1854": {
+                "ship_date": [
+                    "TA_FC"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": []
+            },
+            "1373": {
+                "driver_id": [
+                    "TD_CA"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1686": {
+                "weight": [
+                    "RI_MI"
+                ],
+                "cust_id": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1930": {
+                "truck_id": [
+                    "RI_LD"
+                ],
+                "cust_id": [],
+                "weight": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1203": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1665": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1946": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1225": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1284": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1890": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1825": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1924": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1220": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1781": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1344": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1094": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1389": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1367": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1618": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1270": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1044": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1747": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1470": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1549": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1127": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1080": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1565": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1300": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1643": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1633": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1591": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1196": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1721": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1071": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1677": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1791": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1081": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1938": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1103": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1907": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1464": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1650": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1166": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1379": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1363": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1214": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            },
+            "1273": {
+                "cust_id": [],
+                "weight": [],
+                "truck_id": [],
+                "driver_id": [],
+                "city_id": [],
+                "ship_date": []
+            }
+        },
+        "truck": {
+            "1": {
+                "make": [],
+                "model_year": [
+                    "RI_TC"
+                ]
+            },
+            "2": {
+                "make": [
+                    "TA_EM"
+                ],
+                "model_year": [
+                    "TA_FC"
+                ]
+            },
+            "3": {
+                "make": [
+                    "EF_RC"
+                ],
+                "model_year": [
+                    "RI_LD"
+                ]
+            },
+            "4": {
+                "make": [
+                    "TD_DF"
+                ],
+                "model_year": []
+            },
+            "5": {
+                "make": [],
+                "model_year": [
+                    "RI_AC"
+                ]
+            },
+            "6": {
+                "make": [
+                    "TD_CA"
+                ],
+                "model_year": []
+            },
+            "7": {
+                "make": [],
+                "model_year": [
+                    "TD_DF"
+                ]
+            },
+            "8": {
+                "make": [
+                    "TA_EM"
+                ],
+                "model_year": []
+            },
+            "9": {
+                "make": [],
+                "model_year": [
+                    "RI_LD",
+                    "TD_DF"
+                ]
+            },
+            "10": {
+                "make": [
+                    "EF_RC"
+                ],
+                "model_year": [
+                    "TA_FC"
+                ]
+            },
+            "11": {
+                "make": [],
+                "model_year": [
+                    "RI_TC"
+                ]
+            },
+            "12": {
+                "make": [
+                    "TD_DF"
+                ],
+                "model_year": [
+                    "RI_AC"
+                ]
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/shipping/tables"
+}

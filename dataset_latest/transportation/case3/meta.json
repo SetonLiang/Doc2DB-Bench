@@ -1,0 +1,1362 @@
+{
+    "database_id": "flight_4",
+    "if_primary_allowed": {
+        "airlines": false,
+        "airports": false,
+        "routes": false
+    },
+    "type": {
+        "routes": "1:3"
+    },
+    "capability_assignments": {
+        "airlines": {
+            "5251": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [
+                    "TD_AS"
+                ],
+                "callsign": [
+                    "TA_FC"
+                ],
+                "country": [
+                    "EF_HC"
+                ],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "912": {
+                "iata": [
+                    "EF_ND"
+                ],
+                "icao": [
+                    "TD_DF"
+                ],
+                "callsign": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "204": {
+                "iata": [
+                    "EF_ND"
+                ],
+                "icao": [],
+                "callsign": [
+                    "TD_DF"
+                ],
+                "country": [
+                    "EF_HC"
+                ],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "20074": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [
+                    "TD_AS"
+                ],
+                "callsign": [
+                    "EF_ND"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "2254": {
+                "iata": [
+                    "EF_ND"
+                ],
+                "icao": [
+                    "TD_DF"
+                ],
+                "callsign": [
+                    "EF_ND"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "2007": {
+                "iata": [
+                    "EF_ND"
+                ],
+                "icao": [],
+                "callsign": [
+                    "TA_FC"
+                ],
+                "country": [
+                    "TD_DF"
+                ],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "1829": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [],
+                "callsign": [
+                    "RI_LD"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "1144": {
+                "iata": [
+                    "EF_ND"
+                ],
+                "icao": [
+                    "TD_AS"
+                ],
+                "callsign": [
+                    "TA_FC"
+                ],
+                "country": [
+                    "TD_DF"
+                ],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "19805": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [
+                    "TD_AS"
+                ],
+                "callsign": [
+                    "EF_ND"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "839": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [],
+                "callsign": [
+                    "EF_RC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "9344": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [],
+                "callsign": [
+                    "EF_ND"
+                ],
+                "country": [
+                    "EF_HC"
+                ],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "19986": {
+                "iata": [
+                    "RI_LD"
+                ],
+                "icao": [
+                    "EF_ND"
+                ],
+                "callsign": [
+                    "EF_ND"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "4475": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [],
+                "callsign": [
+                    "RI_LD"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "712": {
+                "iata": [
+                    "EF_ND"
+                ],
+                "icao": [
+                    "TD_DF"
+                ],
+                "callsign": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "4845": {
+                "iata": [
+                    "EF_ND"
+                ],
+                "icao": [],
+                "callsign": [
+                    "EF_RC"
+                ],
+                "country": [
+                    "EF_HC"
+                ],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "35": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [],
+                "callsign": [
+                    "EF_RC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "596": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [
+                    "TD_DF"
+                ],
+                "callsign": [
+                    "EF_RC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "1925": {
+                "iata": [],
+                "icao": [],
+                "callsign": [
+                    "RI_LD"
+                ],
+                "country": [
+                    "EF_HC"
+                ],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "2009": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [
+                    "TD_DF"
+                ],
+                "callsign": [
+                    "EF_RC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "2297": {
+                "iata": [],
+                "icao": [],
+                "callsign": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "2353": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [],
+                "callsign": [
+                    "EF_RC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "3090": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [
+                    "EF_RC"
+                ],
+                "callsign": [
+                    "EF_RC"
+                ],
+                "country": [
+                    "EF_HC"
+                ],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "3721": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [
+                    "EF_ND"
+                ],
+                "callsign": [
+                    "EF_ND"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "4248": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [],
+                "callsign": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "4319": {
+                "iata": [],
+                "icao": [],
+                "callsign": [
+                    "TA_FC"
+                ],
+                "country": [
+                    "RI_LD"
+                ],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "4608": {
+                "iata": [],
+                "icao": [],
+                "callsign": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "5265": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [
+                    "TD_DF"
+                ],
+                "callsign": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            },
+            "18732": {
+                "iata": [
+                    "TD_AS"
+                ],
+                "icao": [],
+                "callsign": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "active": [
+                    "TA_EM"
+                ]
+            }
+        },
+        "airports": {
+            "3671": {
+                "city": [
+                    "TD_DF"
+                ],
+                "country": [
+                    "TD_DF"
+                ],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "263": {
+                "city": [],
+                "country": [
+                    "TA_FC"
+                ],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [
+                    "TA_EM"
+                ],
+                "icao": []
+            },
+            "247": {
+                "city": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "x": [],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": [
+                    "TA_EM"
+                ]
+            },
+            "784": {
+                "city": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "1849": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [
+                    "TA_EM"
+                ],
+                "icao": []
+            },
+            "1973": {
+                "city": [],
+                "country": [
+                    "TA_FC"
+                ],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "5453": {
+                "city": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "6327": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [
+                    "TA_EM"
+                ],
+                "icao": []
+            },
+            "219": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [
+                    "EF_ND"
+                ],
+                "icao": []
+            },
+            "5961": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "1672": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [
+                    "EF_ND"
+                ],
+                "icao": []
+            },
+            "8054": {
+                "city": [
+                    "TD_DF"
+                ],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [
+                    "EF_ND"
+                ],
+                "icao": []
+            },
+            "7079": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US",
+                    "RI_AC"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "7809": {
+                "city": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "5801": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "1074": {
+                "city": [],
+                "country": [],
+                "x": [],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [
+                    "TA_EM"
+                ],
+                "icao": []
+            },
+            "1187": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "1208": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "1212": {
+                "city": [],
+                "country": [],
+                "x": [],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "1335": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "2179": {
+                "city": [],
+                "country": [
+                    "TA_FC"
+                ],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3273": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [
+                    "TA_EM"
+                ],
+                "icao": []
+            },
+            "3473": {
+                "city": [],
+                "country": [],
+                "x": [],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3520": {
+                "city": [
+                    "TD_DF"
+                ],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3682": {
+                "city": [],
+                "country": [],
+                "x": [],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3728": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3830": {
+                "city": [],
+                "country": [],
+                "x": [],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3940": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "6400": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "EF_ND"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "666": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "1075": {
+                "city": [],
+                "country": [],
+                "x": [],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [
+                    "TA_EM"
+                ],
+                "icao": []
+            },
+            "1165": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "1203": {
+                "city": [],
+                "country": [],
+                "x": [],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "1273": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3304": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3339": {
+                "city": [
+                    "TD_CA"
+                ],
+                "country": [
+                    "TD_CA"
+                ],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [
+                    "EF_RC"
+                ],
+                "icao": [
+                    "EF_RC"
+                ]
+            },
+            "3388": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3408": {
+                "city": [
+                    "TD_DF"
+                ],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3484": {
+                "city": [],
+                "country": [],
+                "x": [],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3488": {
+                "city": [
+                    "TA_FC"
+                ],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3550": {
+                "city": [],
+                "country": [],
+                "x": [],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "3775": {
+                "city": [],
+                "country": [],
+                "x": [
+                    "TD_AS"
+                ],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            },
+            "4292": {
+                "city": [],
+                "country": [],
+                "x": [],
+                "y": [
+                    "TD_AS"
+                ],
+                "elevation": [
+                    "TA_US"
+                ],
+                "iata": [],
+                "icao": []
+            }
+        },
+        "routes": {
+            "50173": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "dst_ap": [],
+                    "src_ap": [
+                        "TD_AS"
+                    ],
+                    "airline": [
+                        "TD_DF"
+                    ],
+                    "codeshare": [
+                        "EF_ND"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "44877": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "dst_ap": [
+                        "TA_EM"
+                    ],
+                    "src_ap": [],
+                    "airline": [],
+                    "codeshare": [
+                        "EF_ND"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "20538": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "dst_ap": [
+                        "TD_DF"
+                    ],
+                    "src_ap": [],
+                    "airline": [],
+                    "codeshare": [],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "44398": {
+                "row": [
+                    "IDR_ED",
+                    "IC_ME"
+                ],
+                "col": {
+                    "dst_ap": [
+                        "TD_AS"
+                    ],
+                    "src_ap": [],
+                    "airline": [],
+                    "codeshare": [
+                        "EF_ND"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "29079": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "dst_ap": [],
+                    "src_ap": [
+                        "TD_AS"
+                    ],
+                    "airline": [
+                        "TA_EM"
+                    ],
+                    "codeshare": [
+                        "EF_ND"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "892": {
+                "row": [
+                    "IDR_ED",
+                    "IC_RI"
+                ],
+                "col": {
+                    "dst_ap": [],
+                    "src_ap": [
+                        "TA_EM"
+                    ],
+                    "airline": [
+                        "TD_DF"
+                    ],
+                    "codeshare": [
+                        "EF_ND"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "21085": {
+                "row": [
+                    "RL_CL",
+                    "RL_MB"
+                ],
+                "col": {
+                    "dst_ap": [
+                        "TD_AS"
+                    ],
+                    "src_ap": [],
+                    "airline": [],
+                    "codeshare": [
+                        "RI_LD"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "59281": {
+                "row": [
+                    "RL_CL",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "dst_ap": [
+                        "TD_DF"
+                    ],
+                    "src_ap": [],
+                    "airline": [],
+                    "codeshare": [
+                        "RI_LD"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "36683": {
+                "row": [
+                    "RL_CL",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "dst_ap": [],
+                    "src_ap": [
+                        "TD_AS"
+                    ],
+                    "airline": [
+                        "TD_DF"
+                    ],
+                    "codeshare": [
+                        "RI_LD"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "12307": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "dst_ap": [
+                        "TA_EM"
+                    ],
+                    "src_ap": [],
+                    "airline": [
+                        "TD_AS"
+                    ],
+                    "codeshare": [
+                        "EF_ND"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "13547": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "dst_ap": [],
+                    "src_ap": [
+                        "TD_DF"
+                    ],
+                    "airline": [
+                        "TA_EM"
+                    ],
+                    "codeshare": [
+                        "RI_LD"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "28405": {
+                "row": [],
+                "col": {
+                    "dst_ap": [],
+                    "src_ap": [
+                        "TA_EM"
+                    ],
+                    "airline": [
+                        "TD_AS"
+                    ],
+                    "codeshare": [
+                        "EF_ND"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "55386": {
+                "row": [
+                    "RL_MB",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "dst_ap": [
+                        "TD_AS"
+                    ],
+                    "src_ap": [
+                        "TA_EM"
+                    ],
+                    "airline": [
+                        "TD_DF"
+                    ],
+                    "codeshare": [
+                        "EF_ND"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "55791": {
+                "row": [],
+                "col": {
+                    "dst_ap": [],
+                    "src_ap": [
+                        "TD_DF"
+                    ],
+                    "airline": [
+                        "TA_EM"
+                    ],
+                    "codeshare": [
+                        "EF_ND"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            },
+            "36725": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "dst_ap": [
+                        "TA_EM"
+                    ],
+                    "src_ap": [
+                        "TD_AS"
+                    ],
+                    "airline": [],
+                    "codeshare": [
+                        "RI_LD"
+                    ],
+                    "dst_apid": [],
+                    "src_apid": [],
+                    "alid": []
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/flight_4/tables"
+}
