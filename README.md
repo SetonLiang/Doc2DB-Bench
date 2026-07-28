@@ -1,4 +1,5 @@
-# Beyond Tables: Doc2DB-Bench for Relationally Faithful Document-to-Database Construction
+<img src="assets/logo.png" alt="Doc2DB-Bench" width="120" align="left"><div align="center"><h1>&nbsp; Beyond Tables: Doc2DB-Bench for Relationally Faithful Document-to-Database Construction</h1></div>
+
 
 <div align="center">
 
@@ -114,6 +115,13 @@ The paper evaluates a range of proprietary and open-source LLMs on Doc2DB-Bench.
 <p align="center">
   <img src="assets/capability.png" alt="Fine-grained capability-level performance breakdown." />
 </p>
+
+### Capability Findings
+
+- Capability-annotated documents are consistently harder than unlabeled ones, especially at the entity level.
+- **GPT-5.4** performs best across the fine-grained capability categories.
+- Implicit evidence aggregation and multi-step structural reasoning create the largest gaps between strong and weak models.
+- Integrity-constraint verification remains weak across models, especially for referential integrity and mutual exclusion.
 
 
 ## 🗂️Repository Structure
