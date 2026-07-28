@@ -3,8 +3,8 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2603.29232-red)](https://arxiv.org/abs/2603.29232)
-[![Model](https://img.shields.io/badge/🤗-Model-orange)](https://huggingface.co/SetonLiang2/LiteCoST/)
+[![arXiv](https://img.shields.io/badge/arXiv-2603.29232-red)](https://github.com/SetonLiang/Doc2DB-Bench)
+[![Model](https://img.shields.io/badge/🤗-Model-orange)](https://github.com/SetonLiang/Doc2DB-Bench)
 [![Python](https://img.shields.io/badge/Python-3.11.10-3776AB.svg?style=flat)](https://www.python.org/downloads/release/python-31110/)
 
 </div>
