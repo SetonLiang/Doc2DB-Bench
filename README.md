@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    <img src="assets/logo.png" alt="Doc2DB-Bench" width="140" align="absmiddle">
+    <img src="assets/logo.png" alt="Doc2DB-Bench" width="120" align="absmiddle">
     Beyond Tables: Doc2DB-Bench for Relationally Faithful Document-to-Database Construction
   </h1>
 </div>
