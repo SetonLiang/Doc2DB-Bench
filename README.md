@@ -1,5 +1,5 @@
-<img src="assets/logo.png" alt="Doc2DB-Bench" width="120" align="left"><div align="center"><h1>&nbsp; Beyond Tables: Doc2DB-Bench for Relationally Faithful Document-to-Database Construction</h1></div>
-
+<img src="assets/logo.png" alt="Doc2DB-Bench" width="120" align="left" hspace="10"><h1>&nbsp; Beyond Tables: Doc2DB-Bench for Relationally Faithful Document-to-Database Construction</h1>
+<br clear="all">
 
 <div align="center">
 
