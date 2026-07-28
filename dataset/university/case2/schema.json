@@ -1,332 +1,149 @@
 [
   {
     "id": "1",
-    "name": "Addresses",
+    "name": "course",
     "type": "entity",
     "fields": [
       {
-        "name": "address_id",
+        "name": "course_id",
         "type": "INTEGER",
         "constraints": {
           "nullable": true,
           "primary_key": true
-        }
+        },
+        "description": "unique id number identifying courses (data format: integer)"
       },
       {
-        "name": "line_1_number_building",
-        "type": "VARCHAR(80)",
+        "name": "courseLevel",
+        "type": "TEXT",
         "constraints": {
           "nullable": true
-        }
-      },
-      {
-        "name": "city",
-        "type": "VARCHAR(50)",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "zip_postcode",
-        "type": "VARCHAR(20)",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "state_province_county",
-        "type": "VARCHAR(50)",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "country",
-        "type": "VARCHAR(50)",
-        "constraints": {
-          "nullable": true
-        }
+        },
+        "description": "course level commonsense evidence:  Level_300: basic or medium undergraduate courses.  Level_400: high-level or harder undergraduate course.  Level_500: professional or master/graduate courses (data format: text)"
       }
     ]
   },
   {
     "id": "2",
-    "name": "Staff",
-    "type": "relation",
+    "name": "person",
+    "type": "entity",
     "fields": [
       {
-        "name": "staff_id",
+        "name": "p_id",
         "type": "INTEGER",
         "constraints": {
           "nullable": true,
           "primary_key": true
-        }
+        },
+        "description": "the unique number identifying each person (data format: integer)"
       },
       {
-        "name": "staff_address_id",
+        "name": "professor",
         "type": "INTEGER",
         "constraints": {
-          "nullable": false,
-          "foreign_key": {
-            "table": "Addresses",
-            "column": "address_id"
-          }
-        }
+          "nullable": true
+        },
+        "description": "whether the person is a professor 0: professor 1: student (data format: integer)"
       },
       {
-        "name": "nickname",
-        "type": "VARCHAR(80)",
+        "name": "student",
+        "type": "INTEGER",
         "constraints": {
           "nullable": true
-        }
+        },
+        "description": "whether the person is a student 0: professor 1: student (data format: integer)"
       },
       {
-        "name": "first_name",
-        "type": "VARCHAR(80)",
+        "name": "hasPosition",
+        "type": "TEXT",
         "constraints": {
           "nullable": true
-        }
+        },
+        "description": "whether the person has a position in the faculty 0: the person is not a faculty member Common Sense evidence: faculty_aff: affiliated faculty faculty_eme: faculty employee (data format: text)"
       },
       {
-        "name": "middle_name",
-        "type": "VARCHAR(80)",
+        "name": "inPhase",
+        "type": "TEXT",
         "constraints": {
           "nullable": true
-        }
+        },
+        "enum": ["0", "Post_Quals", "Pre_Quals", "Post_Generals"],
+        "description": "the phase of qualification the person is undergoing 0: the person is not undergoing the phase of qualification (data format: text)"
       },
       {
-        "name": "last_name",
-        "type": "VARCHAR(80)",
+        "name": "yearsInProgram",
+        "type": "TEXT",
         "constraints": {
           "nullable": true
-        }
-      },
-      {
-        "name": "date_of_birth",
-        "type": "DATETIME",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "date_joined_staff",
-        "type": "DATETIME",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "date_left_staff",
-        "type": "DATETIME",
-        "constraints": {
-          "nullable": true
-        }
+        },
+        "pattern": "^(0|Year_\\d+)$",
+        "description": "the year of the program the person is at 0: the person is not in any programs Common Sense evidence: Year_X means the person is on the Xth year of the program (data format: text)"
       }
     ]
   },
   {
     "id": "3",
-    "name": "Customers",
+    "name": "advisedBy",
     "type": "relation",
     "fields": [
       {
-        "name": "customer_id",
+        "name": "p_id",
         "type": "INTEGER",
         "constraints": {
           "nullable": true,
           "primary_key": true,
           "foreign_key": {
-            "table": "Customer_Payments",
-            "column": "customer_id"
+            "table": "person",
+            "column": "p_id"
           }
-        }
+        },
+        "description": "id number identifying each person (data format: integer)"
       },
       {
-        "name": "customer_address_id",
+        "name": "p_id_dummy",
         "type": "INTEGER",
         "constraints": {
-          "nullable": false,
+          "nullable": true,
+          "primary_key": true,
           "foreign_key": {
-            "table": "Addresses",
-            "column": "address_id"
+            "table": "person",
+            "column": "p_id"
           }
-        }
-      },
-      {
-        "name": "customer_status_code",
-        "type": "VARCHAR(15)",
-        "constraints": {
-          "nullable": false
-        }
-      },
-      {
-        "name": "date_became_customer",
-        "type": "DATETIME",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "date_of_birth",
-        "type": "DATETIME",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "first_name",
-        "type": "VARCHAR(80)",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "last_name",
-        "type": "VARCHAR(80)",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "amount_outstanding",
-        "type": "DOUBLE",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "email_address",
-        "type": "VARCHAR(250)",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "phone_number",
-        "type": "VARCHAR(255)",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "cell_mobile_phone_number",
-        "type": "VARCHAR(255)",
-        "constraints": {
-          "nullable": true
-        }
+        },
+        "description": "the id number identifying the advisor (data format: integer)"
       }
     ]
   },
   {
     "id": "4",
-    "name": "Customer_Payments",
-    "type": "entity",
-    "fields": [
-      {
-        "name": "customer_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": false,
-          "primary_key": true,
-          "foreign_key": {
-            "table": "Customers",
-            "column": "customer_id"
-          }
-        }
-      },
-      {
-        "name": "datetime_payment",
-        "type": "DATETIME",
-        "constraints": {
-          "nullable": false,
-          "primary_key": true
-        }
-      },
-      {
-        "name": "payment_method_code",
-        "type": "VARCHAR(10)",
-        "constraints": {
-          "nullable": false
-        }
-      },
-      {
-        "name": "amount_payment",
-        "type": "DOUBLE",
-        "constraints": {
-          "nullable": true
-        }
-      }
-    ]
-  },
-  {
-    "id": "5",
-    "name": "Lessons",
+    "name": "taughtBy",
     "type": "relation",
     "fields": [
       {
-        "name": "lesson_id",
+        "name": "course_id",
         "type": "INTEGER",
         "constraints": {
           "nullable": true,
-          "primary_key": true
-        }
-      },
-      {
-        "name": "customer_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": false,
+          "primary_key": true,
           "foreign_key": {
-            "table": "Customers",
-            "column": "customer_id"
+            "table": "course",
+            "column": "course_id"
           }
-        }
+        },
+        "description": "the identification number identifying each course (data format: integer)"
       },
       {
-        "name": "lesson_status_code",
-        "type": "VARCHAR(15)",
-        "constraints": {
-          "nullable": false
-        }
-      },
-      {
-        "name": "staff_id",
+        "name": "p_id",
         "type": "INTEGER",
         "constraints": {
           "nullable": true,
+          "primary_key": true,
           "foreign_key": {
-            "table": "Staff",
-            "column": "staff_id"
+            "table": "person",
+            "column": "p_id"
           }
-        }
-      },
-      {
-        "name": "vehicle",
-        "type": "VARCHAR(10)",
-        "constraints": {
-          "nullable": false
-        }
-      },
-      {
-        "name": "lesson_date",
-        "type": "DATETIME",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "lesson_time",
-        "type": "VARCHAR(10)",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "price",
-        "type": "DOUBLE",
-        "constraints": {
-          "nullable": true
-        }
+        },
+        "description": "the identification number identifying each person (data format: integer)"
       }
     ]
   }

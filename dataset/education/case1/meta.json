@@ -1,15 +1,1857 @@
 {
-  "database_id": "law_episode",
-  "if_primary_allowed": {
-    "Award": false,
-    "Credit": false,
-    "Episode": false,
-    "Person": false,
-    "Vote": false
-  },
-  "type": {
-    "Award": "1:2",
-    "Credit": "1:2",
-    "Vote": "1:1"
-  }
+    "database_id": "law_episode",
+    "if_primary_allowed": {
+        "Award": false,
+        "Credit": false,
+        "Episode": false,
+        "Person": false,
+        "Vote": false
+    },
+    "type": {
+        "Award": "1:2",
+        "Credit": "1:2",
+        "Vote": "1:1"
+    },
+    "capability_assignments": {
+        "Award": {
+            "287": {
+                "row": [],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [
+                        "RI_LD"
+                    ],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "271": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "organization": [],
+                    "year": [
+                        "TA_FC"
+                    ],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [],
+                    "result": [
+                        "RI_LD"
+                    ],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "347": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "organization": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "award_category": [
+                        "TD_AS"
+                    ],
+                    "award": [],
+                    "series": [],
+                    "role": [],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "317": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [],
+                    "result": [
+                        "RI_MI"
+                    ],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "262": {
+                "row": [],
+                "col": {
+                    "organization": [
+                        "EF_RC"
+                    ],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "295": {
+                "row": [],
+                "col": {
+                    "organization": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [
+                        "RI_LD"
+                    ],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "312": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "organization": [
+                        "TA_EM"
+                    ],
+                    "year": [
+                        "RI_TC"
+                    ],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "313": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [
+                        "TA_EM"
+                    ],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "260": {
+                "row": [],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [
+                        "EF_ND"
+                    ],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "348": {
+                "row": [],
+                "col": {
+                    "organization": [],
+                    "year": [
+                        "TA_FC"
+                    ],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [
+                        "TA_EM"
+                    ],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "284": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [
+                        "TA_EM"
+                    ],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "288": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [
+                        "EF_RC"
+                    ],
+                    "series": [],
+                    "role": [],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "349": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [
+                        "EF_ND"
+                    ],
+                    "result": [
+                        "RI_LD"
+                    ],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "286": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [
+                        "TA_EM"
+                    ],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "297": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [
+                        "EF_ND"
+                    ],
+                    "result": [
+                        "RI_LD"
+                    ],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "270": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "organization": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "award_category": [],
+                    "award": [
+                        "RI_LD"
+                    ],
+                    "series": [],
+                    "role": [],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "314": {
+                "row": [],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [
+                        "TD_AS"
+                    ],
+                    "series": [],
+                    "role": [],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "258": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "organization": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "award_category": [],
+                    "award": [
+                        "TA_EM"
+                    ],
+                    "series": [],
+                    "role": [],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "296": {
+                "row": [],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [
+                        "RI_LD"
+                    ],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "272": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "organization": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "award_category": [],
+                    "award": [
+                        "EF_RC"
+                    ],
+                    "series": [],
+                    "role": [],
+                    "result": [],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            },
+            "259": {
+                "row": [],
+                "col": {
+                    "organization": [],
+                    "year": [],
+                    "award_category": [],
+                    "award": [],
+                    "series": [],
+                    "role": [],
+                    "result": [
+                        "RI_LD"
+                    ],
+                    "episode_id": [],
+                    "person_id": []
+                }
+            }
+        },
+        "Credit": {
+            "tt0629204, nm0001832": {
+                "row": [
+                    "IDR_CR",
+                    "GR_TI"
+                ],
+                "col": {
+                    "category": [],
+                    "role": [
+                        "TD_DF"
+                    ],
+                    "credited": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "tt0629487, nm0696463": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "category": [
+                        "RI_LD"
+                    ],
+                    "role": [],
+                    "credited": []
+                }
+            },
+            "tt0629149, nm0937725": {
+                "row": [
+                    "GR_TI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "category": [
+                        "TA_EM"
+                    ],
+                    "role": [],
+                    "credited": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "tt0629228, nm0049569": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "category": [],
+                    "role": [
+                        "TD_DF"
+                    ],
+                    "credited": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "tt0629239, nm0937725": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "category": [
+                        "RI_LD"
+                    ],
+                    "role": [],
+                    "credited": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "tt0629149, nm0000973": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "category": [],
+                    "role": [],
+                    "credited": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "tt0629477, nm0949292": {
+                "row": [],
+                "col": {
+                    "category": [],
+                    "role": [
+                        "TD_CA"
+                    ],
+                    "credited": []
+                }
+            },
+            "tt0629204, nm0580924": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "category": [
+                        "RI_LD"
+                    ],
+                    "role": [
+                        "TA_FC"
+                    ],
+                    "credited": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "tt0629397, nm0001832": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "category": [
+                        "RI_LD"
+                    ],
+                    "role": [
+                        "TA_FC"
+                    ],
+                    "credited": []
+                }
+            },
+            "tt0629422, nm0000973": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "category": [],
+                    "role": [
+                        "TD_CA"
+                    ],
+                    "credited": []
+                }
+            },
+            "tt0629266, nm0937725": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "category": [
+                        "RI_LD"
+                    ],
+                    "role": [
+                        "TA_FC"
+                    ],
+                    "credited": []
+                }
+            },
+            "tt0629248, nm0580924": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "category": [
+                        "RI_LD"
+                    ],
+                    "role": [],
+                    "credited": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "tt0629204, nm0799777": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "category": [
+                        "RI_LD"
+                    ],
+                    "role": [
+                        "TA_FC"
+                    ],
+                    "credited": []
+                }
+            },
+            "tt0629448, nm0000973": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "category": [
+                        "RI_LD"
+                    ],
+                    "role": [],
+                    "credited": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "tt0629306, nm0937725": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "category": [
+                        "TA_EM"
+                    ],
+                    "role": [
+                        "TA_FC"
+                    ],
+                    "credited": []
+                }
+            },
+            "tt0629149, nm0001832": {
+                "row": [],
+                "col": {
+                    "category": [
+                        "TA_EM"
+                    ],
+                    "role": [
+                        "TA_FC"
+                    ],
+                    "credited": []
+                }
+            },
+            "tt0629448, nm0580924": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "category": [
+                        "TA_EM"
+                    ],
+                    "role": [],
+                    "credited": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "tt0629420, nm0937725": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "category": [],
+                    "role": [
+                        "TD_DF"
+                    ],
+                    "credited": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "tt0629487, nm0580924": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "category": [],
+                    "role": [
+                        "TA_FC"
+                    ],
+                    "credited": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "tt0629228, nm0001832": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "category": [],
+                    "role": [
+                        "TA_FC"
+                    ],
+                    "credited": [
+                        "TD_DF"
+                    ]
+                }
+            },
+            "tt0629391, nm0937725": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "category": [
+                        "RI_LD"
+                    ],
+                    "role": [
+                        "TA_FC"
+                    ],
+                    "credited": []
+                }
+            },
+            "tt0629397, nm0937725": {
+                "row": [],
+                "col": {
+                    "category": [
+                        "TA_EM"
+                    ],
+                    "role": [],
+                    "credited": [
+                        "TA_FC"
+                    ]
+                }
+            },
+            "tt0629420, nm0000973": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "category": [],
+                    "role": [],
+                    "credited": [
+                        "TA_EM"
+                    ]
+                }
+            },
+            "tt0629306, nm0000973": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "category": [],
+                    "role": [
+                        "TD_CA"
+                    ],
+                    "credited": [
+                        "TA_EM"
+                    ]
+                }
+            }
+        },
+        "Episode": {
+            "tt0629204": {
+                "number_in_series": [],
+                "title": [],
+                "air_date": [
+                    "TA_FC"
+                ],
+                "rating": [],
+                "votes": [
+                    "RI_AC"
+                ]
+            },
+            "tt0629228": {
+                "number_in_series": [
+                    "RI_AC"
+                ],
+                "title": [],
+                "air_date": [],
+                "rating": [
+                    "TD_DF"
+                ],
+                "votes": []
+            },
+            "tt0629170": {
+                "number_in_series": [],
+                "title": [],
+                "air_date": [
+                    "RI_TC"
+                ],
+                "rating": [],
+                "votes": [
+                    "TA_FC"
+                ]
+            },
+            "tt0629266": {
+                "number_in_series": [
+                    "RI_AC"
+                ],
+                "title": [],
+                "air_date": [],
+                "rating": [
+                    "RI_LD"
+                ],
+                "votes": []
+            },
+            "tt0629149": {
+                "number_in_series": [],
+                "title": [
+                    "TA_EM"
+                ],
+                "air_date": [],
+                "rating": [
+                    "RI_AC"
+                ],
+                "votes": []
+            },
+            "tt0629409": {
+                "number_in_series": [
+                    "TD_DF"
+                ],
+                "title": [],
+                "air_date": [
+                    "RI_TC"
+                ],
+                "rating": [],
+                "votes": []
+            },
+            "tt0629487": {
+                "number_in_series": [],
+                "title": [],
+                "air_date": [],
+                "rating": [
+                    "TD_DF"
+                ],
+                "votes": [
+                    "RI_LD"
+                ]
+            },
+            "tt0629391": {
+                "number_in_series": [],
+                "title": [
+                    "TA_EM"
+                ],
+                "air_date": [],
+                "rating": [
+                    "RI_LD"
+                ],
+                "votes": [
+                    "TA_FC"
+                ]
+            },
+            "tt0629477": {
+                "number_in_series": [
+                    "RI_AC"
+                ],
+                "title": [],
+                "air_date": [
+                    "TA_FC"
+                ],
+                "rating": [],
+                "votes": []
+            },
+            "tt0629291": {
+                "number_in_series": [],
+                "title": [],
+                "air_date": [
+                    "RI_TC"
+                ],
+                "rating": [],
+                "votes": [
+                    "RI_AC"
+                ]
+            },
+            "tt0629394": {
+                "number_in_series": [],
+                "title": [],
+                "air_date": [],
+                "rating": [
+                    "RI_AC"
+                ],
+                "votes": [
+                    "TD_DF"
+                ]
+            },
+            "tt0629292": {
+                "number_in_series": [],
+                "title": [],
+                "air_date": [
+                    "TA_FC"
+                ],
+                "rating": [
+                    "TD_DF"
+                ],
+                "votes": [
+                    "RI_AC"
+                ]
+            },
+            "tt0629306": {
+                "number_in_series": [
+                    "RI_LD"
+                ],
+                "title": [],
+                "air_date": [
+                    "RI_LD"
+                ],
+                "rating": [],
+                "votes": []
+            },
+            "tt0629422": {
+                "number_in_series": [],
+                "title": [],
+                "air_date": [
+                    "RI_TC"
+                ],
+                "rating": [
+                    "TA_FC"
+                ],
+                "votes": []
+            },
+            "tt0629239": {
+                "number_in_series": [],
+                "title": [],
+                "air_date": [],
+                "rating": [
+                    "RI_AC"
+                ],
+                "votes": [
+                    "TD_DF"
+                ]
+            },
+            "tt0629289": {
+                "number_in_series": [
+                    "TD_DF"
+                ],
+                "title": [],
+                "air_date": [
+                    "TA_FC"
+                ],
+                "rating": [],
+                "votes": []
+            },
+            "tt0629420": {
+                "number_in_series": [],
+                "title": [
+                    "TA_EM"
+                ],
+                "air_date": [],
+                "rating": [],
+                "votes": [
+                    "RI_AC"
+                ]
+            },
+            "tt0629321": {
+                "number_in_series": [],
+                "title": [],
+                "air_date": [
+                    "RI_TC"
+                ],
+                "rating": [
+                    "RI_LD"
+                ],
+                "votes": []
+            },
+            "tt0629448": {
+                "number_in_series": [
+                    "RI_LD"
+                ],
+                "title": [
+                    "TA_EM"
+                ],
+                "air_date": [],
+                "rating": [],
+                "votes": [
+                    "RI_AC"
+                ]
+            },
+            "tt0629248": {
+                "number_in_series": [],
+                "title": [],
+                "air_date": [
+                    "TA_FC"
+                ],
+                "rating": [
+                    "TD_DF"
+                ],
+                "votes": [
+                    "RI_LD"
+                ]
+            },
+            "tt0629153": {
+                "number_in_series": [
+                    "RI_AC"
+                ],
+                "title": [],
+                "air_date": [
+                    "RI_TC"
+                ],
+                "rating": [],
+                "votes": []
+            },
+            "tt0629146": {
+                "number_in_series": [],
+                "title": [],
+                "air_date": [],
+                "rating": [],
+                "votes": [
+                    "TD_DF"
+                ]
+            },
+            "tt0629397": {
+                "number_in_series": [],
+                "title": [
+                    "RI_LD"
+                ],
+                "air_date": [],
+                "rating": [
+                    "RI_AC"
+                ],
+                "votes": []
+            },
+            "tt0629398": {
+                "number_in_series": [],
+                "title": [
+                    "RI_LD"
+                ],
+                "air_date": [
+                    "RI_LD"
+                ],
+                "rating": [
+                    "RI_AC"
+                ],
+                "votes": [
+                    "RI_AC"
+                ]
+            }
+        },
+        "Person": {
+            "nm0001938": {
+                "birthdate": [
+                    "RI_TC"
+                ],
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birth_place": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0898634": {
+                "birthdate": [
+                    "TA_FC"
+                ],
+                "birth_place": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birth_name": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0875696": {
+                "birth_name": [
+                    "TD_AS"
+                ],
+                "birth_region": [
+                    "TA_EM"
+                ],
+                "height_meters": [
+                    "RI_AC",
+                    "TA_US"
+                ],
+                "birthdate": [],
+                "birth_place": [],
+                "birth_country": []
+            },
+            "nm0175814": {
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_place": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birthdate": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0715327": {
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_region": [
+                    "TA_EM"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birthdate": [],
+                "birth_place": [],
+                "birth_country": []
+            },
+            "nm0176689": {
+                "birthdate": [
+                    "RI_TC"
+                ],
+                "birth_name": [
+                    "TD_AS"
+                ],
+                "birth_place": [
+                    "TA_EM"
+                ],
+                "birth_region": [],
+                "birth_country": [],
+                "height_meters": []
+            },
+            "nm0262771": {
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_region": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "RI_AC"
+                ],
+                "birthdate": [],
+                "birth_place": [],
+                "birth_country": []
+            },
+            "nm0000210": {
+                "birthdate": [
+                    "TA_FC"
+                ],
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_country": [
+                    "EF_HC"
+                ],
+                "birth_place": [],
+                "birth_region": [],
+                "height_meters": []
+            },
+            "nm0001346": {
+                "birth_place": [
+                    "TA_EM"
+                ],
+                "birth_region": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "TA_US",
+                    "RI_AC"
+                ],
+                "birthdate": [],
+                "birth_name": [],
+                "birth_country": []
+            },
+            "nm0696463": {
+                "birth_name": [
+                    "EF_ND"
+                ],
+                "birth_region": [
+                    "TA_EM"
+                ],
+                "birth_country": [
+                    "TA_EM"
+                ],
+                "birthdate": [],
+                "birth_place": [],
+                "height_meters": []
+            },
+            "nm0799777": {
+                "birthdate": [
+                    "RI_TC"
+                ],
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "height_meters": [
+                    "RI_AC"
+                ],
+                "birth_place": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0187460": {
+                "birth_name": [
+                    "TD_AS"
+                ],
+                "birth_place": [
+                    "TA_EM"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birthdate": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0133597": {
+                "birthdate": [
+                    "TA_FC"
+                ],
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_region": [
+                    "RI_MI"
+                ],
+                "birth_place": [],
+                "birth_country": [],
+                "height_meters": []
+            },
+            "nm0660884": {
+                "birth_name": [
+                    "TD_AS"
+                ],
+                "birth_place": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birthdate": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0308651": {
+                "birthdate": [
+                    "RI_TC"
+                ],
+                "birth_place": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birth_name": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0580924": {
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_region": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birthdate": [],
+                "birth_place": [],
+                "birth_country": []
+            },
+            "nm0937725": {
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_place": [
+                    "TA_EM"
+                ],
+                "height_meters": [
+                    "RI_AC"
+                ],
+                "birthdate": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0367176": {
+                "birthdate": [
+                    "TA_FC"
+                ],
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birth_place": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0914209": {
+                "birthdate": [
+                    "RI_TC"
+                ],
+                "birth_name": [
+                    "TD_AS"
+                ],
+                "birth_place": [
+                    "RI_MI"
+                ],
+                "birth_region": [],
+                "birth_country": [],
+                "height_meters": []
+            },
+            "nm0082454": {
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_region": [
+                    "TA_EM"
+                ],
+                "height_meters": [
+                    "TA_US",
+                    "RI_AC"
+                ],
+                "birthdate": [],
+                "birth_place": [],
+                "birth_country": []
+            },
+            "nm0001832": {
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_place": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birthdate": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0654369": {
+                "birthdate": [
+                    "TA_FC"
+                ],
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birth_place": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0303013": {
+                "birth_name": [
+                    "TD_AS"
+                ],
+                "birth_place": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "RI_AC"
+                ],
+                "birthdate": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0203370": {
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_region": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birthdate": [],
+                "birth_place": [],
+                "birth_country": []
+            },
+            "nm1140817": {
+                "birthdate": [
+                    "RI_TC"
+                ],
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birth_place": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0308399": {
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_region": [
+                    "TA_EM"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birthdate": [],
+                "birth_place": [],
+                "birth_country": []
+            },
+            "nm0949292": {
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_place": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "RI_AC"
+                ],
+                "birthdate": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0164680": {
+                "birthdate": [
+                    "TA_FC"
+                ],
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birth_place": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0508844": {
+                "birth_name": [
+                    "TD_AS"
+                ],
+                "birth_place": [
+                    "RI_MI"
+                ],
+                "height_meters": [
+                    "TA_US",
+                    "RI_AC"
+                ],
+                "birthdate": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0000973": {
+                "birthdate": [
+                    "RI_TC"
+                ],
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "height_meters": [
+                    "TA_US"
+                ],
+                "birth_place": [],
+                "birth_region": [],
+                "birth_country": []
+            },
+            "nm0049569": {
+                "birth_name": [
+                    "RI_LD"
+                ],
+                "birth_country": [
+                    "TA_EM"
+                ],
+                "height_meters": [
+                    "EF_ND"
+                ],
+                "birthdate": [],
+                "birth_place": [],
+                "birth_region": []
+            }
+        },
+        "Vote": {
+            "17": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "RI_LD"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "23": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "stars": [
+                        "TA_EM"
+                    ],
+                    "votes": [
+                        "TD_AS"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "1": {
+                "row": [],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "RI_AC"
+                    ],
+                    "percent": [
+                        "TD_AS"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "11": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "TA_FC"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "26": {
+                "row": [],
+                "col": {
+                    "stars": [
+                        "TA_EM"
+                    ],
+                    "votes": [
+                        "TA_FC"
+                    ],
+                    "percent": [
+                        "RI_AC"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "25": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "RI_AC"
+                    ],
+                    "percent": [
+                        "RI_MI"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "5": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "TD_DF"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "8": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "stars": [
+                        "TA_EM"
+                    ],
+                    "votes": [
+                        "TD_AS"
+                    ],
+                    "percent": [
+                        "TD_AS"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "29": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "RI_LD"
+                    ],
+                    "percent": [
+                        "RI_MI"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "0": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "stars": [
+                        "TA_EM"
+                    ],
+                    "votes": [
+                        "TD_AS"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "16": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [],
+                    "percent": [
+                        "RI_MI"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "9": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "RI_AC"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "27": {
+                "row": [],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "RI_AC"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "13": {
+                "row": [],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "TD_DF"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "12": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "RI_LD"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "15": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "TD_AS"
+                    ],
+                    "percent": [
+                        "TD_AS"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "7": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [],
+                    "percent": [
+                        "RI_AC"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "3": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "RI_LD"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "22": {
+                "row": [],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "TD_DF"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "19": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "RI_AC"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "24": {
+                "row": [
+                    "IDR_CR",
+                    "RL_CL"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "RI_AC"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "18": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "stars": [
+                        "TA_EM"
+                    ],
+                    "votes": [
+                        "TA_FC"
+                    ],
+                    "percent": [
+                        "RI_AC"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "10": {
+                "row": [],
+                "col": {
+                    "stars": [],
+                    "votes": [],
+                    "percent": [
+                        "RI_AC"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "21": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [],
+                    "percent": [
+                        "RI_MI"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "20": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "stars": [
+                        "TA_EM"
+                    ],
+                    "votes": [
+                        "TA_FC"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "28": {
+                "row": [],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "TA_FC"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            },
+            "6": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "stars": [
+                        "TA_EM"
+                    ],
+                    "votes": [
+                        "RI_LD"
+                    ],
+                    "percent": [
+                        "RI_AC"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "2": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "stars": [
+                        "TA_EM"
+                    ],
+                    "votes": [
+                        "TA_FC"
+                    ],
+                    "percent": [
+                        "RI_AC"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "14": {
+                "row": [],
+                "col": {
+                    "stars": [],
+                    "votes": [],
+                    "percent": [
+                        "RI_AC"
+                    ],
+                    "episode_id": []
+                }
+            },
+            "4": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "stars": [],
+                    "votes": [
+                        "TA_FC"
+                    ],
+                    "percent": [],
+                    "episode_id": []
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/law_episode/tables"
 }

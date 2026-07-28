@@ -1,16 +1,3069 @@
 {
-    "database_name": "financ",
+    "database_name": "financial",
     "if_primary_allowed": {
-      "account": false,
-      "client": false,
-      "disp": false,
-      "order": false,
-      "district": false
+        "account": false,
+        "client": false,
+        "disp": false,
+        "order": false,
+        "district": false
     },
     "type": {
-      "account": ["2:1", "1:1"],
-      "disp": "1:2",
-      "client": "1:1",
-      "order": "1:1"
-    }
-  }
+        "account": [
+            "2:1",
+            "1:1"
+        ],
+        "disp": "1:2",
+        "client": "1:1",
+        "order": "1:1"
+    },
+    "capability_assignments": {
+        "account": {
+            "3909": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "5267": {
+                "row": [],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "3939": {
+                "row": [],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "6512": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3989": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "1600": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3628": {
+                "row": [],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "2243": {
+                "row": [],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "997": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1750": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1669": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "10404": {
+                "row": [],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "3754": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "1349": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3854": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3378": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "894": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "1145": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "1888": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "5428": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "405": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1567": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3020": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "4346": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "3214": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2826": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "9883": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1504": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1399": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "308": {
+                "row": [],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "10134": {
+                "row": [],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "48": {
+                "row": [],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "1979": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2411": {
+                "row": [],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "230": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "2721": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "738": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "4109": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "2713": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "8026": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "736": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "614": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2574": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2289": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "416": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "1581": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "674": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "803": {
+                "row": [],
+                "col": {
+                    "frequency": [
+                        "TA_EM"
+                    ],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "5290": {
+                "row": [],
+                "col": {
+                    "frequency": [],
+                    "date": [],
+                    "district_id": []
+                }
+            },
+            "1423": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "frequency": [],
+                    "date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            }
+        },
+        "client": {
+            "2019": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "884": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD",
+                        "TD_CA"
+                    ],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "4647": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TD_DF"
+                    ],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1077": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_TC",
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3105": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "962": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TD_DF"
+                    ],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1201": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "835": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "TD_AS",
+                        "TD_DF"
+                    ],
+                    "district_id": []
+                }
+            },
+            "276": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [
+                        "TA_FC",
+                        "TD_DF"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2976": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1377": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TD_DF"
+                    ],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "4723": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "TD_DF"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1939": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [
+                        "TD_DF"
+                    ],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "797": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [
+                        "RI_TC",
+                        "RI_MI"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1914": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "TD_DF"
+                    ],
+                    "district_id": []
+                }
+            },
+            "231": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "gender": [
+                        "TD_DF"
+                    ],
+                    "birth_date": [
+                        "TD_AS"
+                    ],
+                    "district_id": []
+                }
+            },
+            "13404": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "gender": [
+                        "TD_DF"
+                    ],
+                    "birth_date": [
+                        "RI_AC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "4726": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "RI_AC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2405": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TD_DF"
+                    ],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "745": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM",
+                        "TD_DF"
+                    ],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "4376": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3654": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "6551": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "3888": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_AC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "375": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "260": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "RI_AC",
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3648": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "809": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "6474": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TD_DF"
+                    ],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2913": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "57": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2380": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "12163": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2291": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [
+                        "TD_AS"
+                    ],
+                    "district_id": []
+                }
+            },
+            "4949": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1899": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [],
+                    "district_id": []
+                }
+            },
+            "3286": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "TD_DF"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3975": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [
+                        "TD_AS"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2403": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "217": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "7864": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [
+                        "TD_AS"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1725": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3628": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TD_DF"
+                    ],
+                    "birth_date": [
+                        "RI_TC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "8130": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "TA_FC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2945": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "TD_AS"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1871": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_AC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "3274": {
+                "row": [],
+                "col": {
+                    "gender": [],
+                    "birth_date": [
+                        "RI_AC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "886": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "RI_AC"
+                    ],
+                    "district_id": []
+                }
+            },
+            "1339": {
+                "row": [],
+                "col": {
+                    "gender": [
+                        "RI_LD"
+                    ],
+                    "birth_date": [
+                        "TD_AS"
+                    ],
+                    "district_id": []
+                }
+            },
+            "2122": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "gender": [
+                        "TA_EM"
+                    ],
+                    "birth_date": [
+                        "RI_AC"
+                    ],
+                    "district_id": []
+                }
+            }
+        },
+        "disp": {
+            "809": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1377": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "type": [
+                        "RI_LD"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "886": {
+                "row": [
+                    "GR_DC",
+                    "RL_MB"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "2405": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "type": [
+                        "TD_DF"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "3648": {
+                "row": [
+                    "IC_ME",
+                    "RL_CL"
+                ],
+                "col": {
+                    "type": [
+                        "TD_CA"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "2122": {
+                "row": [
+                    "RL_CL",
+                    "RL_MI"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "6551": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "3274": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1725": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "type": [
+                        "EF_HC"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "57": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "11855": {
+                "row": [
+                    "RL_MB",
+                    "RL_MI"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1939": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "7864": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "2291": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "276": {
+                "row": [
+                    "RL_MI",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "3888": {
+                "row": [
+                    "RL_O2M",
+                    "RL_CL"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM",
+                        "RI_LD"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "375": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "type": [
+                        "RI_LD"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1201": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "type": [
+                        "RI_LD",
+                        "TD_DF"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "3105": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "4647": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "4949": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "2913": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "type": [],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1899": {
+                "row": [
+                    "IDR_ED",
+                    "RL_MI"
+                ],
+                "col": {
+                    "type": [
+                        "RI_LD"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "3286": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "type": [
+                        "TD_DF"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "884": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM",
+                        "TD_CA"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1077": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "type": [
+                        "TD_DF"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "4376": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "type": [
+                        "TD_DF"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "1914": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "type": [
+                        "TA_EM"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            },
+            "962": {
+                "row": [
+                    "RL_MB",
+                    "RL_O2M"
+                ],
+                "col": {
+                    "type": [
+                        "TD_DF"
+                    ],
+                    "client_id": [],
+                    "account_id": []
+                }
+            }
+        },
+        "district": {
+            "1": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [
+                    "TA_FC"
+                ],
+                "A10": [
+                    "TA_US",
+                    "RI_AC"
+                ],
+                "A11": [
+                    "TA_FC"
+                ],
+                "A12": [
+                    "TA_US"
+                ],
+                "A16": [
+                    "RI_AC"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A13": [],
+                "A14": [],
+                "A15": []
+            },
+            "2": {
+                "A3": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "A4": [
+                    "RI_AC"
+                ],
+                "A10": [
+                    "TA_US"
+                ],
+                "A11": [
+                    "TA_US"
+                ],
+                "A14": [
+                    "RI_LD"
+                ],
+                "A15": [
+                    "TA_FC"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A12": [],
+                "A13": [],
+                "A16": []
+            },
+            "14": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [
+                    "TA_FC",
+                    "TA_US"
+                ],
+                "A10": [
+                    "TD_AS"
+                ],
+                "A11": [
+                    "RI_AC"
+                ],
+                "A15": [
+                    "RI_LD"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A16": []
+            },
+            "54": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [
+                    "TA_FC"
+                ],
+                "A10": [
+                    "TA_US"
+                ],
+                "A11": [
+                    "TA_US",
+                    "TA_FC"
+                ],
+                "A16": [
+                    "RI_AC"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": []
+            },
+            "69": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [
+                    "TA_FC"
+                ],
+                "A12": [
+                    "EF_ND"
+                ],
+                "A13": [
+                    "TA_US"
+                ],
+                "A15": [
+                    "EF_ND"
+                ],
+                "A16": [
+                    "TA_FC"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A14": []
+            },
+            "70": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [
+                    "TA_FC"
+                ],
+                "A10": [
+                    "TA_US",
+                    "TD_AS"
+                ],
+                "A11": [
+                    "RI_AC"
+                ],
+                "A13": [
+                    "TD_AS"
+                ],
+                "A16": [
+                    "TA_FC"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A12": [],
+                "A14": [],
+                "A15": []
+            },
+            "74": {
+                "A3": [
+                    "TA_EM"
+                ],
+                "A4": [
+                    "TA_US",
+                    "RI_AC"
+                ],
+                "A10": [
+                    "TA_US"
+                ],
+                "A11": [
+                    "TA_FC"
+                ],
+                "A16": [
+                    "RI_AC"
+                ],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": []
+            },
+            "3": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "4": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "5": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "6": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "7": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "8": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "9": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "10": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "11": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "12": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "13": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "15": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "16": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "17": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "18": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "19": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "20": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "21": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "22": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "23": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "24": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "25": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "26": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "27": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "28": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "29": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "30": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "31": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "32": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "33": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "34": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "35": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "36": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "37": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "38": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "39": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "40": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "41": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "42": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "43": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "44": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "45": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "46": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "47": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "48": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "49": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "50": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "51": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "52": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "53": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "55": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "56": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "57": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "58": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "59": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "60": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "61": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "62": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "63": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "64": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "65": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "66": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "67": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "68": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "71": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "72": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "73": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "75": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "76": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            },
+            "77": {
+                "A3": [],
+                "A4": [],
+                "A5": [],
+                "A6": [],
+                "A7": [],
+                "A8": [],
+                "A9": [],
+                "A10": [],
+                "A11": [],
+                "A12": [],
+                "A13": [],
+                "A14": [],
+                "A15": [],
+                "A16": []
+            }
+        },
+        "order": {
+            "35785": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "44838": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "34935": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "31389": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "31462": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "30854": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "41316": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "37215": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "RI_LD"
+                    ],
+                    "account_id": []
+                }
+            },
+            "30036": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "31619": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "37173": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "RI_AC"
+                    ],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "34403": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "30294": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "35164": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "35276": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "35210": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "30021": {
+                "row": [
+                    "IC_RI"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [
+                        "TA_US"
+                    ],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            },
+            "32768": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "TA_EM"
+                    ],
+                    "account_id": []
+                }
+            },
+            "44413": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "31850": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "33584": {
+                "row": [
+                    "RL_O2M"
+                ],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [],
+                    "account_id": []
+                }
+            },
+            "32698": {
+                "row": [],
+                "col": {
+                    "bank_to": [],
+                    "account_to": [],
+                    "amount": [],
+                    "k_symbol": [
+                        "EF_ND"
+                    ],
+                    "account_id": []
+                }
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/finance/tables"
+}

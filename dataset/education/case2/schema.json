@@ -1,6 +1,6 @@
 [
   {
-    "id": "2",
+    "id": "1",
     "name": "author",
     "type": "entity",
     "fields": [
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": "2",
     "name": "book_language",
     "type": "entity",
     "fields": [
@@ -56,180 +56,7 @@
     ]
   },
   {
-    "id": "4",
-    "name": "country",
-    "type": "entity",
-    "fields": [
-      {
-        "name": "country_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "primary_key": true
-        },
-        "description": "the unique identifier of the country (data format: integer)"
-      },
-      {
-        "name": "country_name",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the country name (data format: text)"
-      }
-    ]
-  },
-  {
-    "id": "5",
-    "name": "address",
-    "type": "relation",
-    "fields": [
-      {
-        "name": "address_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "primary_key": true
-        },
-        "description": "the unique identifier of the address (data format: integer)"
-      },
-      {
-        "name": "street_number",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the street number of the address commonsense evidence: The street number is typically used to identify a specific building or residence on a street, with higher numbers generally indicating a location further down the street from the starting point. For example, if a street starts at number 1 and goes up to number 100, a building with the number 50 would be closer to the starting point than a building with the number 75. (data format: text)"
-      },
-      {
-        "name": "street_name",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the street name (data format: text)"
-      },
-      {
-        "name": "city",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the city where the address belongs (data format: text)"
-      },
-      {
-        "name": "country_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "foreign_key": {
-            "table": "country",
-            "column": "country_id"
-          }
-        },
-        "description": "the id of the country where the address belongs commonsense evidence: Maps to the country (country id). The full address of the customer is 'No.street_number street_name, city, country' (data format: integer)"
-      }
-    ]
-  },
-  {
-    "id": "6",
-    "name": "customer",
-    "type": "entity",
-    "fields": [
-      {
-        "name": "customer_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "primary_key": true
-        },
-        "description": "the unique identifier of the customer (data format: integer)"
-      },
-      {
-        "name": "first_name",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the first name of the customer (data format: text)"
-      },
-      {
-        "name": "last_name",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the last name of the customer commonsense evidence: A person's full name is the first name, middle name (if applicable), and last name. (data format: text)"
-      },
-      {
-        "name": "email",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the email of the customer (data format: text)"
-      }
-    ]
-  },
-  {
-    "id": "7",
-    "name": "customer_address",
-    "type": "relation",
-    "fields": [
-      {
-        "name": "customer_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "primary_key": true,
-          "foreign_key": {
-            "table": "customer",
-            "column": "customer_id"
-          }
-        },
-        "description": "the id of the customer Maps to customer(customer_id) (data format: integer)"
-      },
-      {
-        "name": "address_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "primary_key": true,
-          "foreign_key": {
-            "table": "address",
-            "column": "address_id"
-          }
-        },
-        "description": "the id of the address Maps to address(address_id) (data format: integer)"
-      }
-    ]
-  },
-  {
-    "id": "8",
-    "name": "order_status",
-    "type": "entity",
-    "fields": [
-      {
-        "name": "status_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "primary_key": true
-        },
-        "description": "the unique identifier of the order status (data format: integer)"
-      },
-      {
-        "name": "status_value",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the status value commonsense evidence: The order statuses include order received, pending delivery, delivery in progress, delivered, canceled, and returned. (data format: text)"
-      }
-    ]
-  },
-  {
-    "id": "9",
+    "id": "3",
     "name": "publisher",
     "type": "entity",
     "fields": [
@@ -253,7 +80,7 @@
     ]
   },
   {
-    "id": "10",
+    "id": "4",
     "name": "book",
     "type": "relation",
     "fields": [
@@ -325,7 +152,7 @@
     ]
   },
   {
-    "id": "11",
+    "id": "5",
     "name": "book_author",
     "type": "relation",
     "fields": [
@@ -354,194 +181,6 @@
           }
         },
         "description": "the id of the author Maps to author(author_id) commonsense evidence: Books with the same author id are written by the same author. (data format: integer)"
-      }
-    ]
-  },
-  {
-    "id": "12",
-    "name": "shipping_method",
-    "type": "entity",
-    "fields": [
-      {
-        "name": "method_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "primary_key": true
-        },
-        "description": "the unique identifier of the method (data format: integer)"
-      },
-      {
-        "name": "method_name",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the method name (data format: text)"
-      },
-      {
-        "name": "cost",
-        "type": "REAL",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the cost of the shipping method commonsense evidence: The main difference between the various shipping methods, such as standard, priority, express, and international, is the speed at which the item is delivered. Standard shipping is the slowest and least expensive option, while express and priority shipping are faster and more expensive. International shipping is for items that are being shipped to a destination outside of the country where they originated. (data format: real)"
-      }
-    ]
-  },
-  {
-    "id": "13",
-    "name": "cust_order",
-    "type": "relation",
-    "fields": [
-      {
-        "name": "order_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "primary_key": true
-        },
-        "description": "the unique identifier of the customer order (data format: integer)"
-      },
-      {
-        "name": "order_date",
-        "type": "DATETIME",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the date of the order"
-      },
-      {
-        "name": "customer_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "foreign_key": {
-            "table": "customer",
-            "column": "customer_id"
-          }
-        },
-        "description": "the id of the customer Maps to customer(customer_Id) commonsense evidence: The number of orders ordered by the customer = the show-up times of the relative customer id in the table"
-      },
-      {
-        "name": "shipping_method_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "foreign_key": {
-            "table": "shipping_method",
-            "column": "method_id"
-          }
-        },
-        "description": "the id of the shipping method Maps to shipping_method(method_id) (data format: integer)"
-      },
-      {
-        "name": "dest_address_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "foreign_key": {
-            "table": "address",
-            "column": "address_id"
-          }
-        },
-        "description": "the id of the destination address Maps to address(address_id) (data format: integer)"
-      }
-    ]
-  },
-  {
-    "id": "14",
-    "name": "order_history",
-    "type": "relation",
-    "fields": [
-      {
-        "name": "history_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "primary_key": true
-        },
-        "description": "the unique identifier of the order history (data format: integer)"
-      },
-      {
-        "name": "order_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "foreign_key": {
-            "table": "cust_order",
-            "column": "order_id"
-          }
-        },
-        "description": "the id of the order Maps to cust_order(order_id) (data format: integer)"
-      },
-      {
-        "name": "status_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "foreign_key": {
-            "table": "order_status",
-            "column": "status_id"
-          }
-        },
-        "description": "the id of the order Maps to order_status(status_id) commonsense evidence: The order statuses include order received, pending delivery, delivery in progress, delivered, canceled, and returned. (data format: integer)"
-      },
-      {
-        "name": "status_date",
-        "type": "DATETIME",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the date of the status updated"
-      }
-    ]
-  },
-  {
-    "id": "15",
-    "name": "order_line",
-    "type": "relation",
-    "fields": [
-      {
-        "name": "line_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "primary_key": true
-        },
-        "description": "the unique identifier of the order line (data format: integer)"
-      },
-      {
-        "name": "order_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "foreign_key": {
-            "table": "cust_order",
-            "column": "order_id"
-          }
-        },
-        "description": "the id of the order Maps to cust_order(order_id) (data format: integer)"
-      },
-      {
-        "name": "book_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true,
-          "foreign_key": {
-            "table": "book",
-            "column": "book_id"
-          }
-        },
-        "description": "the id of the book Maps to book(book_id) (data format: integer)"
-      },
-      {
-        "name": "price",
-        "type": "REAL",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the price of the order commonsense evidence: Even though the customer ordered the book with the same book id, the price could be different. The price of the order may be influenced by the shipping method, seasonal discount, and the number of books the customer ordered. (data format: real)"
       }
     ]
   }

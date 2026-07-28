@@ -1,193 +1,270 @@
-[
+{
+  "tables": [
     {
       "id": "1",
-      "name": "country",
+      "name": "student",
       "type": "entity",
       "fields": [
         {
-          "name": "id",
+          "name": "student_id",
           "type": "INTEGER",
           "constraints": {
-            "nullable": false,
-            "primary_key": true
+            "primary_key": true,
+            "nullable": true
           },
-          "description": "unique id number identifying country"
+          "description": "the unique id to identify students"
         },
         {
-          "name": "country_name",
+          "name": "f_name",
           "type": "TEXT",
           "constraints": {
             "nullable": true
           },
-          "description": "the name of the country"
+          "description": "the first name of the student"
+        },
+        {
+          "name": "l_name",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "the last name of the student"
+        },
+        {
+          "name": "phone_number",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "email",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "intelligence",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "gpa",
+          "type": "REAL",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "type",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": true
+          }
         }
       ]
     },
     {
       "id": "2",
-      "name": "ranking_criteria",
-      "type": "entity",
+      "name": "registration",
+      "type": "relation",
       "fields": [
         {
-          "name": "id",
+          "name": "course_id",
           "type": "INTEGER",
           "constraints": {
-            "nullable": false,
-            "primary_key": true
+            "primary_key": true,
+            "nullable": true,
+            "foreign_key": {
+              "table": "course",
+              "column": "course_id"
+            }
           },
-          "description": "unique id number identifying ranking criteria"
+          "description": "the id of courses"
         },
         {
-          "name": "ranking_system_id",
+          "name": "student_id",
           "type": "INTEGER",
           "constraints": {
-            "nullable": true
+            "primary_key": true,
+            "nullable": true,
+            "foreign_key": {
+              "table": "student",
+              "column": "student_id"
+            }
           },
-          "description": "name of the ranking system"
+          "description": "the id of students"
         },
         {
-          "name": "criteria_name",
+          "name": "grade",
           "type": "TEXT",
           "constraints": {
             "nullable": true
           },
-          "description": "name of the criteria"
+          "description": "the grades that the students acquire in this course"
+        },
+        {
+          "name": "sat",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": true
+          }
         }
       ]
     },
     {
       "id": "3",
-      "name": "university",
-      "type": "relation",
+      "name": "course",
+      "type": "entity",
       "fields": [
         {
-          "name": "id",
+          "name": "course_id",
           "type": "INTEGER",
           "constraints": {
-            "nullable": false,
-            "primary_key": true
+            "primary_key": true,
+            "nullable": true
           },
-          "description": "unique id number identifying university"
+          "description": "unique id representing the course"
         },
         {
-          "name": "country_id",
-          "type": "INTEGER",
-          "constraints": {
-            "nullable": true,
-            "foreign_key": {
-              "table": "country",
-              "column": "id"
-            }
-          },
-          "description": "the country where the university locates"
-        },
-        {
-          "name": "university_name",
+          "name": "name",
           "type": "TEXT",
           "constraints": {
             "nullable": true
           },
-          "description": "name of the university"
+          "description": "name of the course"
+        },
+        {
+          "name": "credit",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "credit of the course"
+        },
+        {
+          "name": "diff",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": true
+          }
         }
       ]
     },
     {
       "id": "4",
-      "name": "university_ranking_year",
-      "type": "relation",
+      "name": "prof",
+      "type": "entity",
       "fields": [
         {
-          "name": "university_id",
+          "name": "prof_id",
           "type": "INTEGER",
           "constraints": {
-            "nullable": true,
-            "foreign_key": {
-              "table": "university",
-              "column": "id"
-            }
+            "primary_key": true,
+            "nullable": true
           },
-          "description": "the id of the university"
+          "description": "unique id for professors"
         },
         {
-          "name": "ranking_criteria_id",
-          "type": "INTEGER",
-          "constraints": {
-            "nullable": true,
-            "foreign_key": {
-              "table": "ranking_criteria",
-              "column": "id"
-            }
-          },
-          "description": "the id of the ranking criteria"
-        },
-        {
-          "name": "year",
-          "type": "INTEGER",
+          "name": "gender",
+          "type": "TEXT",
           "constraints": {
             "nullable": true
           },
-          "description": "ranking year"
+          "description": "gender of the professor"
         },
         {
-          "name": "score",
-          "type": "INTEGER",
+          "name": "first_name",
+          "type": "TEXT",
           "constraints": {
             "nullable": true
           },
-          "description": "ranking score"
+          "description": "the first name of the professor"
+        },
+        {
+          "name": "last_name",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": true
+          },
+          "description": "the last name of the professor"
+        },
+        {
+          "name": "email",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "popularity",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "teachingability",
+          "type": "INTEGER",
+          "constraints": {
+            "nullable": true
+          }
+        },
+        {
+          "name": "graduate_from",
+          "type": "TEXT",
+          "constraints": {
+            "nullable": true
+          }
         }
       ]
     },
     {
       "id": "5",
-      "name": "university_year",
+      "name": "RA",
       "type": "relation",
       "fields": [
         {
-          "name": "university_id",
+          "name": "student_id",
           "type": "INTEGER",
           "constraints": {
+            "primary_key": true,
             "nullable": true,
             "foreign_key": {
-              "table": "university",
-              "column": "id"
+              "table": "student",
+              "column": "student_id"
             }
           },
-          "description": "id of the university"
+          "description": "the id numbe representing each student"
         },
         {
-          "name": "year",
-          "type": "INTEGER",
-          "constraints": {
-            "nullable": true
-          }
-        },
-        {
-          "name": "num_students",
+          "name": "capability",
           "type": "INTEGER",
           "constraints": {
             "nullable": true
           },
-          "description": "the total number of students for the year"
+          "description": "the capability of student on research\n(Evaluated by the professor)"
         },
         {
-          "name": "student_staff_ratio",
-          "type": "REAL",
+          "name": "prof_id",
+          "type": "INTEGER",
           "constraints": {
-            "nullable": true
+            "primary_key": true,
+            "nullable": true,
+            "foreign_key": {
+              "table": "prof",
+              "column": "prof_id"
+            }
           },
-          "description": "student staff ratio"
+          "description": "professor who advises this student"
         },
         {
-          "name": "pct_international_students",
-          "type": "INTEGER",
-          "constraints": {
-            "nullable": true
-          }
-        },
-        {
-          "name": "pct_female_students",
-          "type": "INTEGER",
+          "name": "salary",
+          "type": "TEXT",
+          "enum": ["free", "low", "med", "high"],
           "constraints": {
             "nullable": true
           }
@@ -195,3 +272,4 @@
       ]
     }
   ]
+}

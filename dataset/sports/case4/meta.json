@@ -1,13 +1,3772 @@
 {
-  "database_id": "professional_basketball",
-  "if_primary_allowed": {
-    "players": false,
-    "players_teams": false,
-    "series_post": false,
-    "teams": false
-  },
-  "type": {
-    "players_teams": "1:2",
-    "series_post": "1:2"
-  }
+    "database_id": "professional_basketball",
+    "if_primary_allowed": {
+        "players": false,
+        "players_teams": false,
+        "series_post": false,
+        "teams": false
+    },
+    "type": {
+        "players_teams": "1:2",
+        "series_post": "1:2"
+    },
+    "capability_assignments": {
+        "players": {
+            "rivasra01": {
+                "lastName": [
+                    "TA_FC",
+                    "EF_RC"
+                ],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "TA_FC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "webbech01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_FC"
+                ],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "stewade01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [
+                    "EF_ND"
+                ],
+                "highSchool": [
+                    "TA_FC"
+                ],
+                "race": []
+            },
+            "bateeme01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_DF"
+                ],
+                "pos": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [
+                    "TA_EM",
+                    "EF_ND"
+                ],
+                "birthDate": [],
+                "birthCity": [
+                    "TA_FC"
+                ],
+                "highSchool": [
+                    "EF_ND"
+                ],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "hollies01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "jonessa01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [
+                    "TA_FC"
+                ],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "greense01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_FC",
+                    "EF_RC"
+                ],
+                "race": []
+            },
+            "dawsoto01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [
+                    "TD_DF"
+                ],
+                "highSchool": [
+                    "TD_DF"
+                ],
+                "race": []
+            },
+            "maxeyma01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [
+                    "TA_EM"
+                ],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_FC"
+                ],
+                "race": []
+            },
+            "johnstr01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_FC"
+                ],
+                "race": []
+            },
+            "princta01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "TA_FC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "barnhjo01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_DF"
+                ],
+                "pos": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "stoutma01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "EF_ND"
+                ],
+                "birthCity": [
+                    "EF_ND"
+                ],
+                "highSchool": [
+                    "EF_ND"
+                ],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "deejo01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "pos": [
+                    "EF_ND"
+                ],
+                "height": [
+                    "EF_ND"
+                ],
+                "weight": [
+                    "EF_ND"
+                ],
+                "college": [
+                    "TA_FC"
+                ],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": [
+                    "EF_ND"
+                ]
+            },
+            "bradldu01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "grantho01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "roberri01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "boothca01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_FC"
+                ],
+                "race": []
+            },
+            "foyera01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "wingoha01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_DF"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [
+                    "TA_FC"
+                ],
+                "birthDate": [],
+                "birthCity": [
+                    "TD_DF"
+                ],
+                "highSchool": [
+                    "TD_DF"
+                ],
+                "race": []
+            },
+            "lanebi01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "EF_ND"
+                ],
+                "birthCity": [
+                    "EF_ND"
+                ],
+                "highSchool": [],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "crompge01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_RC",
+                    "TA_FC"
+                ],
+                "pos": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_FC"
+                ],
+                "race": []
+            },
+            "howarju01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_EM"
+                ],
+                "race": []
+            },
+            "lieboba01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [
+                    "TA_EM"
+                ],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "duffeik01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [
+                    "EF_ND"
+                ],
+                "height": [
+                    "EF_ND"
+                ],
+                "weight": [
+                    "EF_ND"
+                ],
+                "college": [
+                    "EF_ND"
+                ],
+                "birthDate": [
+                    "EF_ND"
+                ],
+                "birthCity": [
+                    "EF_ND"
+                ],
+                "highSchool": [
+                    "EF_ND"
+                ],
+                "race": [
+                    "EF_ND"
+                ]
+            },
+            "smithto02": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TD_DF"
+                ],
+                "race": []
+            },
+            "steppbr01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "clarkar01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "oldhaja01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "blounma01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_FC",
+                    "EF_RC"
+                ],
+                "race": []
+            },
+            "barklch01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_RC",
+                    "TA_FC"
+                ],
+                "pos": [],
+                "height": [
+                    "TA_US",
+                    "RI_AC"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TD_DF"
+                ],
+                "race": []
+            },
+            "birdla01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "bryanko01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [
+                    "TA_EM",
+                    "EF_ND"
+                ],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "chrisdo01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "daviebo01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_RC",
+                    "TA_FC"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "daviswa03": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_RC",
+                    "TA_EM"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "debusda01": {
+                "lastName": [
+                    "TA_FC"
+                ],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [
+                    "TD_DF"
+                ],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "evansty01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "farieke01": {
+                "lastName": [
+                    "TA_FC",
+                    "EF_RC"
+                ],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_EM"
+                ],
+                "race": []
+            },
+            "gervige01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_RC",
+                    "TA_EM"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "hayesel01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_FC"
+                ],
+                "race": []
+            },
+            "johnsgu01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_DF"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US",
+                    "TA_FC"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "jonesla01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TD_DF"
+                ],
+                "race": []
+            },
+            "kingbe01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "leverfa01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_DF"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "lovelcl01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_RC",
+                    "TA_FC"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "malonka01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TD_DF"
+                ],
+                "race": []
+            },
+            "moncrsi01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_RC",
+                    "TA_EM"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "olajuha01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM"
+                ],
+                "pos": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [
+                    "TA_FC"
+                ],
+                "highSchool": [
+                    "TA_FC"
+                ],
+                "race": []
+            },
+            "paytoga01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            },
+            "phillbo01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [
+                    "TA_FC"
+                ],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_FC"
+                ],
+                "race": []
+            },
+            "pricema01": {
+                "lastName": [],
+                "nameNick": [
+                    "TD_AS",
+                    "RI_MI"
+                ],
+                "pos": [],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TD_DF"
+                ],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "sharmbi01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [
+                    "TA_EM"
+                ],
+                "birthDate": [
+                    "RI_TC"
+                ],
+                "birthCity": [],
+                "highSchool": [
+                    "TA_FC",
+                    "EF_RC"
+                ],
+                "race": []
+            },
+            "sloanje01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_RC",
+                    "TD_AS"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TD_DF"
+                ],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "wallabe01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [
+                    "TD_DF"
+                ],
+                "race": []
+            },
+            "waltobi01": {
+                "lastName": [],
+                "nameNick": [
+                    "TA_EM",
+                    "TD_AS"
+                ],
+                "pos": [
+                    "RI_LD"
+                ],
+                "height": [
+                    "TA_US"
+                ],
+                "weight": [],
+                "college": [
+                    "TA_EM"
+                ],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": [
+                    "TA_EM"
+                ]
+            },
+            "westbru01": {
+                "lastName": [],
+                "nameNick": [
+                    "EF_ND"
+                ],
+                "pos": [],
+                "height": [],
+                "weight": [],
+                "college": [
+                    "TA_EM"
+                ],
+                "birthDate": [],
+                "birthCity": [],
+                "highSchool": [],
+                "race": []
+            }
+        },
+        "players_teams": {
+            "1737": {
+                "row": [
+                    "RL_CL",
+                    "GR_TI"
+                ],
+                "col": {
+                    "GP": [
+                        "TA_EM"
+                    ],
+                    "minutes": [
+                        "TA_FC"
+                    ],
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "12415": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "rebounds": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "assists": [
+                        "RI_MI"
+                    ],
+                    "steals": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "8004": {
+                "row": [],
+                "col": {
+                    "minutes": [
+                        "TA_FC"
+                    ],
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "17073": {
+                "row": [
+                    "RL_MI",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "assists": [
+                        "RI_MI"
+                    ],
+                    "PF": [
+                        "RI_LD"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "5147": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "turnovers": [
+                        "EF_ND"
+                    ],
+                    "ftMade": [
+                        "RI_AC"
+                    ],
+                    "oRebounds": [
+                        "EF_ND"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "11050": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "points": [
+                        "TA_FC"
+                    ],
+                    "steals": [
+                        "EF_ND"
+                    ],
+                    "blocks": [
+                        "EF_ND"
+                    ],
+                    "fgMade": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "rebounds": [],
+                    "assists": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "21899": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "minutes": [
+                        "RI_LD"
+                    ],
+                    "points": [
+                        "RI_LD"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "threeMade": [
+                        "EF_ND"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": []
+                }
+            },
+            "19770": {
+                "row": [],
+                "col": {
+                    "minutes": [
+                        "TA_FC"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "steals": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "points": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "21987": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "GP": [
+                        "TA_EM"
+                    ],
+                    "rebounds": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "blocks": [
+                        "RI_AC"
+                    ],
+                    "turnovers": [
+                        "EF_ND"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "minutes": [],
+                    "points": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "3830": {
+                "row": [],
+                "col": {
+                    "minutes": [
+                        "RI_AC"
+                    ],
+                    "ftMade": [
+                        "RI_AC"
+                    ],
+                    "GP": [
+                        "TA_EM"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "points": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "rebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "16693": {
+                "row": [],
+                "col": {
+                    "points": [
+                        "TA_FC"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "steals": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "11526": {
+                "row": [],
+                "col": {
+                    "minutes": [
+                        "TA_FC"
+                    ],
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "11052": {
+                "row": [
+                    "GR_DC",
+                    "IDR_CR"
+                ],
+                "col": {
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "steals": [
+                        "EF_ND"
+                    ],
+                    "fgMade": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "rebounds": [],
+                    "assists": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "1043": {
+                "row": [
+                    "GR_CTA",
+                    "GR_DC"
+                ],
+                "col": {
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "ftMade": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "22233": {
+                "row": [
+                    "GR_DC",
+                    "RL_MI"
+                ],
+                "col": {
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "assists": [
+                        "RI_AC"
+                    ],
+                    "blocks": [
+                        "RI_MI"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "steals": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "2045": {
+                "row": [],
+                "col": {
+                    "GP": [
+                        "TA_EM"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "assists": [
+                        "EF_ND"
+                    ],
+                    "ftMade": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "minutes": [],
+                    "points": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "1041": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "fgMade": [
+                        "RI_MI"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "11524": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "GP": [
+                        "TA_EM"
+                    ],
+                    "rebounds": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "assists": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "minutes": [],
+                    "points": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "17098": {
+                "row": [],
+                "col": {
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "turnovers": [
+                        "RI_LD"
+                    ],
+                    "threeMade": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": []
+                }
+            },
+            "17075": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "stint": [
+                        "TA_FC"
+                    ],
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "threeMade": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": []
+                }
+            },
+            "5149": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "rebounds": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "PF": [
+                        "RI_AC"
+                    ],
+                    "dRebounds": [
+                        "EF_ND"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "oRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "2805": {
+                "row": [
+                    "RL_CL",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "GP": [
+                        "TA_EM"
+                    ],
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "steals": [
+                        "RI_MI"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "14681": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "GP": [
+                        "TA_FC"
+                    ],
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "19773": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "rebounds": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "assists": [
+                        "RI_AC"
+                    ],
+                    "points": [
+                        "RI_MI"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "2044": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "minutes": [
+                        "TA_FC"
+                    ],
+                    "points": [
+                        "EF_ND"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "assists": [
+                        "EF_ND"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "22232": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "GP": [
+                        "TA_EM"
+                    ],
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "ftMade": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "16695": {
+                "row": [
+                    "GR_DC"
+                ],
+                "col": {
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "turnovers": [
+                        "TA_FC"
+                    ],
+                    "threeMade": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": []
+                }
+            },
+            "5154": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "blocks": [
+                        "EF_ND"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "21905": {
+                "row": [
+                    "GR_DC",
+                    "RL_CL"
+                ],
+                "col": {
+                    "points": [
+                        "RI_LD"
+                    ],
+                    "dRebounds": [
+                        "TD_AS"
+                    ],
+                    "rebounds": [
+                        "RI_AC"
+                    ],
+                    "blocks": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "22239": {
+                "row": [
+                    "GR_CTA"
+                ],
+                "col": {
+                    "points": [
+                        "RI_AC"
+                    ],
+                    "rebounds": [
+                        "RI_AC",
+                        "TD_AS"
+                    ],
+                    "assists": [
+                        "RI_MI"
+                    ],
+                    "fgMade": [
+                        "RI_AC"
+                    ],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "GP": [],
+                    "minutes": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "2000": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "rebounds": [],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "1991": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "rebounds": [],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "1993": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "rebounds": [],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "1998": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "rebounds": [],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "1992": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "rebounds": [],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "1990": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "rebounds": [],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "1999": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "rebounds": [],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "1996": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "rebounds": [],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "1995": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "rebounds": [],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            },
+            "1994": {
+                "row": [
+                    "IC_NR"
+                ],
+                "col": {
+                    "GP": [],
+                    "minutes": [],
+                    "points": [],
+                    "rebounds": [],
+                    "playerID": [],
+                    "year": [],
+                    "stint": [],
+                    "tmID": [],
+                    "oRebounds": [],
+                    "dRebounds": [],
+                    "assists": [],
+                    "steals": [],
+                    "blocks": [],
+                    "turnovers": [],
+                    "PF": [],
+                    "fgAttempted": [],
+                    "fgMade": [],
+                    "ftAttempted": [],
+                    "ftMade": [],
+                    "threeAttempted": [],
+                    "threeMade": []
+                }
+            }
+        },
+        "series_post": {
+            "650": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "L": []
+                }
+            },
+            "656": {
+                "row": [
+                    "IDR_CR",
+                    "GR_DC"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "472": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "L": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": []
+                }
+            },
+            "684": {
+                "row": [
+                    "RL_O2M",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "412": {
+                "row": [
+                    "RL_CL",
+                    "IC_ME"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "230": {
+                "row": [],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "L": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": []
+                }
+            },
+            "168": {
+                "row": [
+                    "RL_MI"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "229": {
+                "row": [
+                    "RL_MI",
+                    "GR_DC"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "369": {
+                "row": [
+                    "RL_MI",
+                    "IDR_ED"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "378": {
+                "row": [],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "425": {
+                "row": [
+                    "RL_CL",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "396": {
+                "row": [
+                    "IC_ME"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "L": []
+                }
+            },
+            "156": {
+                "row": [
+                    "RL_MB"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "L": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": []
+                }
+            },
+            "206": {
+                "row": [
+                    "GR_TI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "L": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": []
+                }
+            },
+            "564": {
+                "row": [
+                    "RL_MB",
+                    "GR_DC"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "243": {
+                "row": [],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "L": []
+                }
+            },
+            "207": {
+                "row": [
+                    "GR_TI"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "L": []
+                }
+            },
+            "242": {
+                "row": [],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "L": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": []
+                }
+            },
+            "562": {
+                "row": [
+                    "RL_O2M",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "L": []
+                }
+            },
+            "437": {
+                "row": [
+                    "RL_CL"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "135": {
+                "row": [
+                    "IDR_ED"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "165": {
+                "row": [
+                    "GR_TI",
+                    "RL_MI"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "L": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": []
+                }
+            },
+            "657": {
+                "row": [
+                    "GR_TI",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "L": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": []
+                }
+            },
+            "166": {
+                "row": [
+                    "GR_TI",
+                    "RL_MB"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "368": {
+                "row": [
+                    "RL_MI",
+                    "IC_ME"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "566": {
+                "row": [
+                    "RL_MB",
+                    "GR_CTA"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "L": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": []
+                }
+            },
+            "408": {
+                "row": [],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "L": []
+                }
+            },
+            "264": {
+                "row": [],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "W": [
+                        "RI_LD"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "L": []
+                }
+            },
+            "117": {
+                "row": [
+                    "IDR_CR",
+                    "RL_MI"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            },
+            "136": {
+                "row": [
+                    "IDR_CR"
+                ],
+                "col": {
+                    "round": [
+                        "TA_EM"
+                    ],
+                    "year": [],
+                    "series": [],
+                    "tmIDWinner": [],
+                    "tmIDLoser": [],
+                    "W": [],
+                    "L": []
+                }
+            }
+        },
+        "teams": {
+            "1979, DEN": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "EF_ND"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [
+                    "RI_AC"
+                ],
+                "games": [
+                    "RI_AC"
+                ],
+                "arena": []
+            },
+            "2010, OKC": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [
+                    "TD_AS"
+                ],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [],
+                "lost": [],
+                "games": [
+                    "EF_HC"
+                ],
+                "arena": [
+                    "EF_ND"
+                ]
+            },
+            "1981, ATL": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM",
+                    "RI_LD"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_AC"
+                ],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "1971, UTS": {
+                "lgID": [
+                    "TD_DF"
+                ],
+                "rank": [],
+                "playoff": [
+                    "TA_EM"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [
+                    "TD_AS"
+                ],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [
+                    "RI_AC"
+                ],
+                "games": [],
+                "arena": []
+            },
+            "2011, CLE": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "EF_ND",
+                    "RI_LD"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [
+                    "TD_AS"
+                ],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [],
+                "lost": [],
+                "games": [
+                    "EF_HC"
+                ],
+                "arena": [
+                    "EF_ND"
+                ]
+            },
+            "1964, NYK": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "EF_ND"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "1978, PHI": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [
+                    "RI_AC"
+                ],
+                "games": [],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "1966, LAL": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM",
+                    "RI_LD"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_MI"
+                ],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "1996, BOS": {
+                "lgID": [],
+                "rank": [
+                    "RI_LD"
+                ],
+                "playoff": [
+                    "EF_ND",
+                    "RI_LD"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_AC"
+                ],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "1978, NJN": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [
+                    "RI_AC"
+                ],
+                "games": [],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "2008, GSW": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "EF_ND"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [],
+                "arena": []
+            },
+            "1976, SEA": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "EF_ND"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [
+                    "TD_AS"
+                ],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_AC"
+                ],
+                "arena": []
+            },
+            "1991, ORL": {
+                "lgID": [],
+                "rank": [
+                    "RI_LD"
+                ],
+                "playoff": [
+                    "EF_ND",
+                    "RI_LD"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [],
+                "lost": [
+                    "RI_AC"
+                ],
+                "games": [],
+                "arena": []
+            },
+            "1965, LAL": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM",
+                    "RI_LD"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_MI"
+                ],
+                "arena": [
+                    "TD_DF"
+                ]
+            },
+            "2000, PHO": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [
+                    "RI_AC"
+                ],
+                "games": [],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "1970, POR": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "EF_ND"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [
+                    "TD_AS"
+                ],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_AC"
+                ],
+                "arena": []
+            },
+            "1993, WSB": {
+                "lgID": [],
+                "rank": [
+                    "RI_LD"
+                ],
+                "playoff": [
+                    "EF_ND"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [],
+                "arena": [
+                    "TA_FC",
+                    "TD_DF"
+                ]
+            },
+            "1989, MIL": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [],
+                "arena": []
+            },
+            "1995, SAC": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM",
+                    "RI_LD"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [
+                    "RI_AC"
+                ],
+                "games": [],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "1948, FTW": {
+                "lgID": [
+                    "TD_DF",
+                    "EF_HC"
+                ],
+                "rank": [],
+                "playoff": [
+                    "EF_ND"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_MI"
+                ],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "1967, LAL": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM",
+                    "RI_LD"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_AC"
+                ],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "2000, MIN": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [],
+                "arena": []
+            },
+            "1970, DET": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "EF_ND"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [
+                    "TD_AS"
+                ],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [],
+                "arena": []
+            },
+            "2002, IND": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [
+                    "TD_AS"
+                ],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "2000, ORL": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM",
+                    "RI_LD"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [
+                    "RI_AC"
+                ],
+                "games": [],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "1938, OSH": {
+                "lgID": [
+                    "TD_DF",
+                    "EF_HC"
+                ],
+                "rank": [],
+                "playoff": [
+                    "TA_EM",
+                    "RI_LD"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_MI"
+                ],
+                "arena": [
+                    "EF_ND"
+                ]
+            },
+            "1950, WAT": {
+                "lgID": [
+                    "TD_DF",
+                    "EF_HC"
+                ],
+                "rank": [],
+                "playoff": [
+                    "EF_ND"
+                ],
+                "o_fgm": [
+                    "EF_HC"
+                ],
+                "o_ftm": [
+                    "EF_HC"
+                ],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_MI"
+                ],
+                "arena": []
+            },
+            "1992, CHH": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_AC"
+                ],
+                "arena": [
+                    "TA_FC"
+                ]
+            },
+            "2002, MIL": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "TA_EM"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [
+                    "RI_AC"
+                ],
+                "games": [],
+                "arena": [
+                    "TD_DF"
+                ]
+            },
+            "1978, BOS": {
+                "lgID": [],
+                "rank": [],
+                "playoff": [
+                    "EF_ND",
+                    "RI_LD"
+                ],
+                "o_fgm": [],
+                "o_ftm": [],
+                "o_pts": [
+                    "RI_AC"
+                ],
+                "d_pts": [],
+                "homeWon": [],
+                "homeLost": [],
+                "awayWon": [],
+                "awayLost": [],
+                "won": [
+                    "RI_AC"
+                ],
+                "lost": [],
+                "games": [
+                    "RI_AC"
+                ],
+                "arena": [
+                    "TA_FC",
+                    "TD_DF"
+                ]
+            }
+        }
+    },
+    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/professional_basketball/tables"
 }
