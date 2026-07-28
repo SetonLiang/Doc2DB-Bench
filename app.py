@@ -939,7 +939,7 @@ with tab1:
             st.markdown("### Database Path")
             db_path_view = st.text_input(
                 "Database Path",
-                value="/data/liangzhuowen/projects/doc2db/benchmark/data_construction/output/D1_financial/phase_0/tables",
+                value="data_construction/output/example/phase_0/tables",
                 key="db_view_path"
             )
         
@@ -947,7 +947,7 @@ with tab1:
             st.markdown("### Schema Path")
             schema_path_view = st.text_input(
                 "Schema Path",
-                value="/data/liangzhuowen/projects/doc2db/benchmark/data_construction/output/D1_financial/phase_0/schema.json",
+                value="data_construction/output/example/phase_0/schema.json",
                 key="schema_view_path"
             )
         
@@ -1007,7 +1007,7 @@ with tab2:
             st.markdown("Enter path to SQLite file OR folder containing JSON table files.")
             db_path_input = st.text_input(
                 "Database Path",
-                value="/data/liangzhuowen/projects/doc2db/benchmark/data_construction/output/D1_financial/phase_0/tables",
+                value="data_construction/output/example/phase_0/tables",
                 help="Path to SQLite file (.sqlite/.db) or folder containing .json table files"
             )
             
@@ -1045,7 +1045,7 @@ with tab2:
             st.markdown("Enter path to Schema JSON file.")
             schema_path_input = st.text_input(
                 "Schema Path",
-                value="/data/liangzhuowen/projects/doc2db/benchmark/data_construction/output/D1_financial/phase_0/schema.json",
+                value="data_construction/output/example/phase_0/schema.json",
                 help="Path to schema.json file"
             )
             
@@ -1072,7 +1072,7 @@ with tab2:
     st.subheader("2. Output Path")
     output_path_input = st.text_input(
         "Output Document Path",
-        value="/data/liangzhuowen/projects/doc2db/benchmark/data_construction/output/D1_financial/phase_0/document.md",
+        value="data_construction/output/example/phase_0/document.md",
         help="Path where the generated document will be saved (e.g., /path/to/document.md)",
         key="output_path_input"
     )
@@ -1246,7 +1246,7 @@ with tab3:
     else:  # Path Input
         doc_path_input = st.text_input(
             "Document Path",
-            value="/data/liangzhuowen/projects/doc2db/benchmark/data_construction/output/D1_financial/phase_0/document_gemini-2.5-pro.md",
+            value="data_construction/output/example/phase_0/document_gemini-2.5-pro.md",
             help="Path to the generated document file (.md, .txt, .markdown)",
             key="doc_path_input"
         )
@@ -1503,7 +1503,7 @@ with tab3:
         with val_col1:
             validation_db_path = st.text_input(
                 "Database Path (for validation)",
-                value="/data/liangzhuowen/projects/doc2db/benchmark/data_construction/output/D1_financial/phase_0/tables",
+                value="data_construction/output/example/phase_0/tables",
                 help="Path to SQLite file (.sqlite/.db) or folder containing .json table files",
                 key="validation_db_path"
             )
@@ -1511,7 +1511,7 @@ with tab3:
         with val_col2:
             validation_schema_path = st.text_input(
                 "Schema Path (for validation)",
-                value="/data/liangzhuowen/projects/doc2db/benchmark/data_construction/output/D1_financial/phase_0/schema.json",
+                value="data_construction/output/example/phase_0/schema.json",
                 help="Path to schema.json file (required for Full Database mode, optional for Single Table mode to enable anchor table processing)",
                 key="validation_schema_path"
             )

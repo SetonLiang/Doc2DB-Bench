@@ -27,9 +27,9 @@
 
 整数据集（--input/--output 指向根目录即可）：
   python clean_baseline_result.py \\
-    --input /data/liangzhuowen/projects/doc2db/benchmark/dataset/case/base_latest_output/result \\
-    --output /data/liangzhuowen/projects/doc2db/benchmark/dataset/case/base_latest_output/llamaextract \\
-    --schema /data/liangzhuowen/projects/doc2db/benchmark/dataset/case/base_latest
+    --input dataset/case/base_latest_output/result \\
+    --output dataset/case/base_latest_output/llamaextract \\
+    --schema dataset/case/base_latest
 """
 
 from __future__ import annotations

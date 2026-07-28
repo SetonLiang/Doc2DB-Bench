@@ -840,12 +840,12 @@ def shuffle_inplace(lst):
     return lst
 
 if __name__ == "__main__":
-    # extract_id_text("/data/liangzhuowen/dataset/sports/LiveSum/data/test.json", "/data/liangzhuowen/projects/doc2db/Experiment/datasets/livesum/processed/text.json")
-    # extract_text_to_txt("/data/liangzhuowen/dataset/sports/LiveSum/data/test.json", "/data/liangzhuowen/dataset/sports/LiveSum/data/test/")
+    # extract_id_text("dataset/livesum/test.json", "dataset/livesum/processed/text.json")
+    # extract_text_to_txt("dataset/livesum/test.json", "dataset/livesum/test/")
 
 
     # 使用固定数量采样50条
-    split_train_valid("/data/liangzhuowen/projects/doc2db/Experiment/datasets/rotowire/valid_with_schema.json", "/data/liangzhuowen/projects/doc2db/Experiment/datasets/rotowire/valid_50_with_schema2.json", valid_size=50, seed=42)
+    split_train_valid("dataset/rotowire/valid_with_schema.json", "dataset/rotowire/valid_50_with_schema2.json", valid_size=50, seed=42)
     
     # 或者使用比例采样（如果注释掉上面一行，取消注释下面一行）
-    # split_train_valid("/data/liangzhuowen/dataset/sports/LiveSum/data/train.json", "/data/liangzhuowen/projects/doc2db/Experiment/datasets/livesum/valid2.json", valid_ratio=0.05, seed=42)
+    # split_train_valid("dataset/livesum/train.json", "dataset/livesum/valid2.json", valid_ratio=0.05, seed=42)
