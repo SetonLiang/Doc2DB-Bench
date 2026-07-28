@@ -1,0 +1,42 @@
+{
+  "table_id": "demo_employee_table",
+  "schema": {
+    "table_name": "employees",
+    "columns": [
+      {
+        "name": "employee_id",
+        "dtype": "string",
+        "nullable": false,
+        "description": "Unique employee key"
+      },
+      {
+        "name": "name",
+        "dtype": "string",
+        "nullable": false,
+        "description": "Employee full name"
+      },
+      {
+        "name": "email",
+        "dtype": "string",
+        "nullable": true,
+        "description": "Primary contact email"
+      }
+    ],
+    "primary_key": [
+      "employee_id"
+    ],
+    "foreign_keys": {}
+  },
+  "rows": [
+    {
+      "employee_id": "E-001",
+      "name": "Alice Smith",
+      "email": "alice@old.example.com"
+    },
+    {
+      "employee_id": "E-002",
+      "name": "Bob Lee",
+      "email": null
+    }
+  ]
+}
