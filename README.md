@@ -48,8 +48,6 @@ Doc2DB-Bench is designed to measure exactly those requirements.
   <img src="assets/taxonomy.png" alt="Doc2DB-Bench capability taxonomy." />
 </p>
 
-The vector version is available at [`assets/taxonomy.pdf`](./assets/taxonomy.pdf).
-
 Doc2DB-Bench is organized around two top-level capability pillars.
 
 ### 1. Intra-Table Capabilities
@@ -147,9 +145,7 @@ Doc2DB-Bench/
 
 ## 🧩What Each Module Does
 
-1. [`data_construction/`](./data_construction/)
-
-Implements the benchmark construction pipeline:
+1. [`data_construction/`](./data_construction/): Implements the benchmark construction pipeline:
 
 - preprocess Spider / BIRD databases
 - assign capability labels
@@ -161,9 +157,7 @@ Implements the benchmark construction pipeline:
 
 See [`data_construction/README.md`](./data_construction/README.md) for the detailed pipeline, configuration, supported input formats, and scripts.
 
-2. [`evaluation/`](./evaluation/)
-
-Implements structured extraction baselines and evaluation:
+2. [`evaluation/`](./evaluation/): Implements structured extraction baselines and evaluation:
 
 - run extraction baselines
 - score outputs against ground-truth database tables
