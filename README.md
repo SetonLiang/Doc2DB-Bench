@@ -37,7 +37,7 @@ Doc2DB-Bench/
 
 ## 🧩What Each Module Does
 
-1. [`data_construction/`](./data_construction/): Implements the benchmark construction pipeline:
+1. data_construction/: Implements the benchmark construction pipeline:
 
 - preprocess Spider / BIRD databases
 - assign capability labels
@@ -47,23 +47,20 @@ Doc2DB-Bench/
 - validate document-to-database faithfulness
 - run OCR for reference documents
 
-See [`data_construction/README.md`](./data_construction/README.md) for the detailed pipeline, configuration, supported input formats, and scripts.
-
-2. [`evaluation/`](./evaluation/): Implements structured extraction baselines and evaluation:
+2. evaluation/: Implements structured extraction baselines and evaluation:
 
 - run extraction baselines
 - score outputs against ground-truth database tables
 - produce fine-grained analysis notebooks
 - run DocQA-style evaluation for generated documents
 
-See [`evaluation/README.md`](./evaluation/README.md) for baseline usage, metric definitions, output files, and notebook-based analysis.
 
 ## 🚀Getting Started
 
 If you want to work from the benchmark implementation, the practical entry points are:
 
-1. read [`data_construction/README.md`](./data_construction/README.md) to understand the DB2Doc synthesis pipeline
-2. read [`evaluation/README.md`](./evaluation/README.md) to understand the extraction baselines and evaluation workflow
+1. read ``data_construction/README.md'' to understand the DB2Doc synthesis pipeline
+2. read ``evaluation/README.md'' to understand the extraction baselines and evaluation workflow
 
 
 <!-- ## Paper and Assets -->
