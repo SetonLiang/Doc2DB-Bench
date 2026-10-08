@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2603.29232-red)](https://github.com/SetonLiang/Doc2DB-Bench)
+[![arXiv](https://img.shields.io/badge/arXiv-2608.08459-red)](https://arxiv.org/abs/2608.08459)
 [![Model](https://img.shields.io/badge/🤗-Model-orange)](https://github.com/SetonLiang/Doc2DB-Bench)
 [![Python](https://img.shields.io/badge/Python-3.11.10-3776AB.svg?style=flat)](https://www.python.org/downloads/release/python-31110/)
 
