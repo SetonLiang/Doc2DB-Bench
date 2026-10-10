@@ -181,7 +181,7 @@ If you want to work from the benchmark implementation, the practical entry point
 
 We thank the teams behind [Spider](https://yale-lily.github.io/spider) and [BIRD](https://bird-bench.github.io/) for providing the source datasets used in this work.
 
-## 🖋Citation
+## 📝Citation
 
 If you find this repository useful, please cite:
 
