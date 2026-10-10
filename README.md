@@ -15,6 +15,10 @@ $\color{#2F5F8F}\mathbf{Doc2DB{-}Bench}$ is a benchmark for evaluating **documen
 
 The benchmark is built with a controllable **DB2Doc reverse-synthesis** pipeline grounded in real relational databases, and it is organized by a two-pillar capability taxonomy covering both **intra-table extraction** and **inter-table relational reasoning**. The current release contains **203 long-document instances** across **42 schemas** and **7 domains**, with **117 entity tables**, **132 relationship tables**, **7,341 rows**, and **41,935 cells**.
 
+<p align="center">
+  <img src="assets/dataset.png" alt="Dataset statistics across domains and schemas." />
+</p>
+
 ### ❓Why Doc2DB-Bench
 
 Most existing document extraction benchmarks stop at a single flattened table. That is insufficient for downstream systems that need:
@@ -84,14 +88,6 @@ The benchmark instances are generated from real databases through a controllable
 This pipeline is implemented in [`data_construction/`](./data_construction/), where the codebase provides preprocessing, synthesis, validation, OCR utilities, and runtime configuration.
 
 
-
-## 📊Dataset Statistics
-
-<p align="center">
-  <img src="assets/dataset.png" alt="Dataset statistics across domains and schemas." />
-</p>
-
-Doc2DB-Bench contains **203** long-document instances built from **42** databases across **7** domains, covering **117** entity tables, **132** relationship tables, **7,341** rows, **1,475** columns, and **41,935** cells, with an average document length of **43,326** tokens and fine-grained capability annotations on **11,205** cells and **3,129** rows.
 
 ## 🏆Leaderboard
 
@@ -180,6 +176,23 @@ If you want to work from the benchmark implementation, the practical entry point
 
 1. read [`data_construction/README.md`](./data_construction/README.md) to understand the DB2Doc synthesis pipeline
 2. read [`evaluation/README.md`](./evaluation/README.md) to understand the extraction baselines and evaluation workflow
+
+## 🤝Acknowledgement
+
+We thank the teams behind [Spider](https://yale-lily.github.io/spider) and [BIRD](https://bird-bench.github.io/) for providing the source datasets used in this work.
+
+## 🖋Citation
+
+If you find this repository useful, please cite:
+
+```bibtex
+@article{liang2026beyond,
+  title={Beyond Tables: Doc2DB-Bench for Relationally Faithful Document-to-Database Construction},
+  author={Liang, Zhuowen and Zhang, Zhengxuan and Wang, Jiayang and Chen, Jiazhuo and Tang, Nan},
+  journal={arXiv preprint arXiv:2608.08459},
+  year={2026}
+}
+```
 
 
 <!-- ## Paper and Assets -->
