@@ -218,11 +218,12 @@
         }
       },
       {
-        "name": "parent_product_id",
-        "type": "INTEGER",
+        "name": "production_type_code",
+        "type": "TEXT",
         "constraints": {
           "nullable": true
-        }
+        },
+        "description": "Product category, such as Food, Books, DVDs or Electronics."
       },
       {
         "name": "unit_price",

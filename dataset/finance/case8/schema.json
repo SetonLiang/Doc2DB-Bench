@@ -42,17 +42,6 @@
         }
       },
       {
-        "name": "coupon_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": false,
-          "foreign_key": {
-            "table": "Discount_Coupons",
-            "column": "coupon_id"
-          }
-        }
-      },
-      {
         "name": "good_or_bad_customer",
         "type": "VARCHAR(4)",
         "constraints": {

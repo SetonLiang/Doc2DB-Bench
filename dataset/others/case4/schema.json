@@ -282,14 +282,6 @@
         "description": "the page number (data format: integer)"
       },
       {
-        "name": "image_id",
-        "type": "REAL",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the id of the image (data format: real)"
-      },
-      {
         "name": "full_height",
         "type": "INTEGER",
         "constraints": {
@@ -304,14 +296,6 @@
           "nullable": true
         },
         "description": "full width of the menu page (mm) (data format: integer)"
-      },
-      {
-        "name": "uuid",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "data format: text"
       }
     ]
   },

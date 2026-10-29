@@ -24,20 +24,6 @@
         }
       },
       {
-        "name": "Hanzi",
-        "type": "text",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
-        "name": "Hanyu_Pinyin",
-        "type": "text",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
         "name": "Regional_Population",
         "type": "int",
         "constraints": {

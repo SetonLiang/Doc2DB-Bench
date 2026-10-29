@@ -14,12 +14,12 @@
         "description": "the id of the account (data format: integer)"
       },
       {
-        "name": "district_name",
+        "name": "district_id",
         "type": "TEXT",
         "constraints": {
           "nullable": false
         },
-        "description": "district_name (data format: text)"
+        "description": "Name of the district associated with the account (data format: text)"
       },
       {
         "name": "frequency",
@@ -36,50 +36,6 @@
           "nullable": false
         },
         "description": "the creation date of the account in the form YYMMDD"
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "name": "card",
-    "type": "relation",
-    "fields": [
-      {
-        "name": "card_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": false,
-          "primary_key": true
-        },
-        "description": "id number of credit card (data format: integer)"
-      },
-      {
-        "name": "disp_id",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": false,
-          "foreign_key": {
-            "table": "disp",
-            "column": "disp_id"
-          }
-        },
-        "description": "disposition id (data format: integer)"
-      },
-      {
-        "name": "type",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": false
-        },
-        "description": "type of credit card \"junior\": junior class of credit card; \"classic\": standard class of credit card; \"gold\": high-level credit card (data format: text)"
-      },
-      {
-        "name": "issued",
-        "type": "DATE",
-        "constraints": {
-          "nullable": false
-        },
-        "description": "the date when the credit card issued in the form YYMMDD"
       }
     ]
   },

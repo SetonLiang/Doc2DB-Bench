@@ -42,14 +42,6 @@
         "description": "name of the customer (data format: text)"
       },
       {
-        "name": "c_address",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "address of the customer (data format: text)"
-      },
-      {
         "name": "c_phone",
         "type": "TEXT",
         "constraints": {
@@ -64,14 +56,6 @@
           "nullable": true
         },
         "description": "account balance if c_acctbal < 0: this account is in debt (data format: real)"
-      },
-      {
-        "name": "c_comment",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "comment of the customer (data format: text)"
       }
     ]
   },
@@ -162,14 +146,6 @@
         "description": "priority rate of order A smaller number means a higher priority: 0-Urgent (data format: text)"
       },
       {
-        "name": "o_shippriority",
-        "type": "INTEGER",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "ship priority of order NOT USEFUL (data format: integer)"
-      },
-      {
         "name": "o_clerk",
         "type": "TEXT",
         "constraints": {
@@ -192,14 +168,6 @@
           "nullable": true
         },
         "description": "total price of the order (data format: real)"
-      },
-      {
-        "name": "o_comment",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "comment description of order (data format: text)"
       }
     ]
   },
@@ -329,14 +297,6 @@
           "nullable": true
         },
         "description": "available quantity of the part supply if ps_availqty < 10 --> closer to OOS (out of stock) (data format: integer)"
-      },
-      {
-        "name": "ps_comment",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "comment description of the part supply. (data format: text)"
       }
     ]
   },
@@ -361,14 +321,6 @@
           "nullable": true
         },
         "description": "name of the region (data format: text)"
-      },
-      {
-        "name": "r_comment",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "comment description of the region (data format: text)"
       }
     ]
   },
@@ -399,28 +351,12 @@
         "description": "nation key of the supply (data format: integer)"
       },
       {
-        "name": "s_comment",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "comment description of the comment (data format: text)"
-      },
-      {
         "name": "s_name",
         "type": "TEXT",
         "constraints": {
           "nullable": true
         },
         "description": "name of the supplier (data format: text)"
-      },
-      {
-        "name": "s_address",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "address of the supplier (data format: text)"
       },
       {
         "name": "s_phone",

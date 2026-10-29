@@ -38,14 +38,6 @@
         "description": "the unique identifier of the language (data format: integer)"
       },
       {
-        "name": "language_code",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the language code commonsense evidence: A language code is a unique identifier for a specific language. It is typically used to identify a language in computing and other technical contexts. Some common language codes include \"en\" for English, \"fr\" for French, and \"es\" for Spanish. The specific codes used for each language can vary depending on the context and the system in which they are being used."
-      },
-      {
         "name": "language_name",
         "type": "TEXT",
         "constraints": {
@@ -378,14 +370,6 @@
           "nullable": true
         },
         "description": "the method name (data format: text)"
-      },
-      {
-        "name": "cost",
-        "type": "REAL",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the cost of the shipping method commonsense evidence: The main difference between the various shipping methods, such as standard, priority, express, and international, is the speed at which the item is delivered. Standard shipping is the slowest and least expensive option, while express and priority shipping are faster and more expensive. International shipping is for items that are being shipped to a destination outside of the country where they originated. (data format: real)"
       }
     ]
   },

@@ -197,13 +197,6 @@
         "constraints": {
           "nullable": true
         }
-      },
-      {
-        "name": "other_route_details",
-        "type": "VARCHAR(255)",
-        "constraints": {
-          "nullable": true
-        }
       }
     ]
   },

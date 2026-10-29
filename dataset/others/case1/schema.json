@@ -166,14 +166,6 @@
         "description": "the sentiment of the tweet commonsense evidence: \t>0: the sentiment of the tweet is positive. \t=0: the sentiment of the tweet is neutral. \t<0: the sentiment of the tweet is negative."
       },
       {
-        "name": "text",
-        "type": "TEXT",
-        "constraints": {
-          "nullable": true
-        },
-        "description": "the text of the tweet"
-      },
-      {
         "name": "LocationID",
         "type": "INTEGER",
         "constraints": {

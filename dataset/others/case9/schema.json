@@ -13,13 +13,6 @@
         }
       },
       {
-        "name": "building_short_name",
-        "type": "CHAR(15)",
-        "constraints": {
-          "nullable": true
-        }
-      },
-      {
         "name": "building_full_name",
         "type": "VARCHAR(80)",
         "constraints": {
