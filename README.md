@@ -4,7 +4,7 @@
 <div align="center">
 
 [![arXiv](https://img.shields.io/badge/arXiv-2608.08459-red)](https://arxiv.org/abs/2608.08459)
-[![Dataset](https://img.shields.io/badge/Dataset-203%20Documents-blue)](./dataset)
+[![Dataset](https://img.shields.io/badge/Dataset-203%20Documents-green)](./dataset)
 [![Python](https://img.shields.io/badge/Python-3.11.10-3776AB.svg?style=flat)](https://www.python.org/downloads/release/python-31110/)
 
 </div>
