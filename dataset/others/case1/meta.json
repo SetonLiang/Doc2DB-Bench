@@ -6,7 +6,9 @@
         "location": false
     },
     "type": {
-        "twitter": "1:2"
+        "twitter": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "location": {

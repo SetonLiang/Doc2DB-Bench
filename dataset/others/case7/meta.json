@@ -7,8 +7,12 @@
         "city": false
     },
     "type": {
-        "hosting_city": "1:2",
-        "temperature": "1:1"
+        "hosting_city": [
+            "1:2"
+        ],
+        "temperature": [
+            "1:1"
+        ]
     },
     "capability_assignments": {
         "city": {
@@ -158,27 +162,21 @@
                 }
             },
             "2000": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "Match_ID": [],
                     "Host_City": []
                 }
             },
             "1993": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "Match_ID": [],
                     "Host_City": []
                 }
             },
             "1999": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "Match_ID": [],
                     "Host_City": []
@@ -505,9 +503,7 @@
                 }
             },
             "6": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "Jan": [
                         "TA_US"

@@ -9,9 +9,15 @@
         "Products_for_Hire": false
     },
     "type": {
-        "Bookings": "1:1",
-        "Payments": "1:2",
-        "Products_Booked": "1:2"
+        "Bookings": [
+            "1:1"
+        ],
+        "Payments": [
+            "1:2"
+        ],
+        "Products_Booked": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "Bookings": {
@@ -675,9 +681,7 @@
                 }
             },
             "10": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "good_or_bad_customer": [
                         "TA_EM"

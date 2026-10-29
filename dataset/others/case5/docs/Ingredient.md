@@ -15,39 +15,21 @@ Chicken Noodle Soup—Our classic, comforting recipe made from a slow-simmered c
 
 A Note on Beverages—We offer a full selection of fountain drinks and other beverages to accompany your meal. Popular carbonated choices include Lemon-lime soda is classified under the beverages category. Similarly, for inventory purposes, Orange soda is classified under the general grouping of items meant for drinking. All our fountain sodas are served over crushed ice, which our customers prefer for its quick-chilling properties.
 
-History Context: category: fresh herbs
-Chrysanthemum is classified under the category of Oriental products.
-Taco shells are categorized as Mexican products.
-The Granny Smith apple is categorized as a fresh fruit.
-Lemon-lime soda is classified under the beverages category.
-For culinary classification, serrano or jalapeno chiles fall into a specific group.
-This group is designated as 'fresh vegetables'.
-Our internal product catalog uses the designation 'Dressing/Condiment Group' for items categorized as salad dressings.
-Wish-Bone Healthy Sensation! Honey Dijon is filed under the 'Dressing/Condiment Group' designation.
-category: meat/poultry
-Beef kidney is classified within the meat/poultry category.
-Orange soda is classified under the general grouping of items meant for drinking.
-Green apples are classified under the fresh fruit category.
-In the restaurant's ingredient classification system, egg pastina is assigned the category code CAT_PN.
-The system's key indicates that the code CAT_PN corresponds to the 'pasta/noodles' category.
-Poppyseed dressing is classified under the general grouping of salad dressings.
-Salt is classified under the spices and seasonings category.
-On the inventory sheet, the red onion was listed under the 'produce' classification.
-This classification specifically designates items that have not been canned, frozen, or otherwise preserved.
-For food grouping purposes, margarine is classified alongside items derived from milk.
-The pantry's digital inventory system uses the code 'S_S_01' for items belonging to the 'spices and seasonings' category.
-In this system, the entry for oregano is tagged with the classification code 'S_S_01'.
-For organizational purposes, black pepper is assigned to a specific culinary group.
-This group is officially designated as 'spices and seasonings'.
-Giblets are classified within the meat/poultry category.
-Quick-cooking hominy grits are classified in the cereals category.
-category: fresh vegetables
-Sugar is a key ingredient within the group of items designated for making cakes, breads, and pastries.
-Internally, this group is cataloged under the 'baking products' classification.
-Sesame oil is classified under the category of Oriental products.
-Our store's inventory system has a mapping rule where any item labeled 'produce' is assigned to the 'fresh vegetables' category.
-The shipping manifest for the red bell pepper listed its item type as 'produce'.
-Paprika is classified under the category of spices and seasonings.
+## Ingredient Classification Notes
+
+The ingredient catalog includes a category for fresh herbs. Chrysanthemum is classified under the category of Oriental products. Taco shells are categorized as Mexican products. The Granny Smith apple is categorized as a fresh fruit. Lemon-lime soda is classified under the beverages category.
+
+For culinary classification, serrano or jalapeno chiles fall into a specific group. This group is designated as 'fresh vegetables'. Our internal product catalog uses the designation 'Dressing/Condiment Group' for items categorized as salad dressings. Wish-Bone Healthy Sensation! Honey Dijon is filed under the 'Dressing/Condiment Group' designation.
+
+The classification scheme also includes a meat/poultry category. Beef kidney is classified within the meat/poultry category. Orange soda is classified under the general grouping of items meant for drinking. Green apples are classified under the fresh fruit category.
+
+In the restaurant's ingredient classification system, egg pastina is assigned the category code CAT_PN. The system's key indicates that the code CAT_PN corresponds to the 'pasta/noodles' category. Poppyseed dressing is classified under the general grouping of salad dressings. Salt is classified under the spices and seasonings category.
+
+On the inventory sheet, the red onion was listed under the 'produce' classification. This classification specifically designates items that have not been canned, frozen, or otherwise preserved. For food grouping purposes, margarine is classified alongside items derived from milk. The pantry's digital inventory system uses the code 'S_S_01' for items belonging to the 'spices and seasonings' category. In this system, the entry for oregano is tagged with the classification code 'S_S_01'.
+
+For organizational purposes, black pepper is assigned to a specific culinary group. This group is officially designated as 'spices and seasonings'. Giblets are classified within the meat/poultry category. Quick-cooking hominy grits are classified in the cereals category. The inventory also uses the fresh vegetables category.
+
+Sugar is a key ingredient within the group of items designated for making cakes, breads, and pastries. Internally, this group is cataloged under the 'baking products' classification. Sesame oil is classified under the category of Oriental products. Our store's inventory system has a mapping rule where any item labeled 'produce' is assigned to the 'fresh vegetables' category. The shipping manifest for the red bell pepper listed its item type as 'produce'. Paprika is classified under the category of spices and seasonings.
 
 Our Commitment to Quality
 

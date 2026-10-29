@@ -11,15 +11,25 @@
         "Products": false
     },
     "type": {
-        "Accounts": "1:1",
-        "Financial_Transactions": "1:2",
-        "Invoice_Line_Items": "1:3",
-        "Invoices": "1:1",
+        "Accounts": [
+            "1:1"
+        ],
+        "Financial_Transactions": [
+            "1:2"
+        ],
+        "Invoice_Line_Items": [
+            "1:3"
+        ],
+        "Invoices": [
+            "1:1"
+        ],
         "Order_Items": [
             "1:3",
             "2-hop"
         ],
-        "Orders": "1:1"
+        "Orders": [
+            "1:1"
+        ]
     },
     "capability_assignments": {
         "Accounts": {

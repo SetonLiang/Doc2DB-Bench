@@ -15,12 +15,24 @@
         "Party_Services": false
     },
     "type": {
-        "Direct_distance": "1:2",
-        "Forms": "1;1",
-        "Organization_Contact_Individuals": "1:2",
-        "Party_Addresses": "1:2",
-        "Party_Forms": "1:2",
-        "Party_Services": "1:2"
+        "Direct_distance": [
+            "1:2"
+        ],
+        "Forms": [
+            "1:1"
+        ],
+        "Organization_Contact_Individuals": [
+            "1:2"
+        ],
+        "Party_Addresses": [
+            "1:2"
+        ],
+        "Party_Forms": [
+            "1:2"
+        ],
+        "Party_Services": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "Addresses": {

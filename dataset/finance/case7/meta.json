@@ -10,12 +10,16 @@
         "Contacts": false
     },
     "type": {
-        "Customer_Address_History": "1:2",
+        "Customer_Address_History": [
+            "1:2"
+        ],
         "Customer_Orders": [
             "1:1",
             "2-hop"
         ],
-        "Order_Items": "many2one"
+        "Order_Items": [
+            "many-to-one"
+        ]
     },
     "capability_assignments": {
         "Addresses": {
@@ -940,9 +944,7 @@
                 }
             },
             "4": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "order_quantity": [
                         "EF_ND"

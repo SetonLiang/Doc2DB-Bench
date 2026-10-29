@@ -13,10 +13,18 @@
         "Delivery_Routes": false
     },
     "type": {
-        "Customer_Addresses": "1:2",
-        "Employees": "1:1",
-        "Order_Deliveries": "1:4",
-        "Delivery_Route_Locations": "1:2"
+        "Customer_Addresses": [
+            "1:2"
+        ],
+        "Employees": [
+            "1:1"
+        ],
+        "Order_Deliveries": [
+            "1:4"
+        ],
+        "Delivery_Route_Locations": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "Actual_Orders": {

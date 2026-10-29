@@ -6,9 +6,15 @@
         "Patient": false
     },
     "type": {
-        "Examination": "1:1",
-        "Laboratory": "1:1",
-        "Patient": "2:1"
+        "Examination": [
+            "1:1"
+        ],
+        "Laboratory": [
+            "1:1"
+        ],
+        "Patient": [
+            "2:1"
+        ]
     },
     "capability_assignments": {
         "Examination": {
@@ -205,9 +211,7 @@
                 }
             },
             "770487": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "ANA": [],
                     "Diagnosis": [],
@@ -224,9 +228,7 @@
                 }
             },
             "126225": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "ANA": [],
                     "Diagnosis": [],
@@ -243,9 +245,7 @@
                 }
             },
             "356787": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "ANA": [],
                     "Diagnosis": [],
@@ -764,8 +764,7 @@
             },
             "1610433": {
                 "row": [
-                    "RL_MI",
-                    "IC_RI"
+                    "RL_MI"
                 ],
                 "col": {
                     "Date": [],

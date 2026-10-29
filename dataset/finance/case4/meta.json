@@ -7,7 +7,9 @@
         "Employees": false
     },
     "type": {
-        "Sales": "1:3"
+        "Sales": [
+            "1:3"
+        ]
     },
     "capability_assignments": {
         "Customers": {
@@ -2494,9 +2496,7 @@
                 }
             },
             "2079586": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "Quantity": [
                         "RI_AC"

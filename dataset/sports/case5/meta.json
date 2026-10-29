@@ -12,9 +12,15 @@
         "sport": false
     },
     "type": {
-        "games_city": "1:2",
-        "games_competitor": "1:2",
-        "person_region": "1:2",
+        "games_city": [
+            "1:2"
+        ],
+        "games_competitor": [
+            "1:2"
+        ],
+        "person_region": [
+            "1:2"
+        ],
         "comperitor_event": [
             "1:2",
             "2-hop"

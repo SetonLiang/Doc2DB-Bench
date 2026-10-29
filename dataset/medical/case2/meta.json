@@ -6,9 +6,15 @@
         "Patient": false
     },
     "type": {
-        "Examination": "1:1",
-        "Laboratory": "1:1",
-        "Patient": "2:1"
+        "Examination": [
+            "1:1"
+        ],
+        "Laboratory": [
+            "1:1"
+        ],
+        "Patient": [
+            "2:1"
+        ]
     },
     "capability_assignments": {
         "Examination": {
@@ -707,8 +713,7 @@
             },
             "1610433": {
                 "row": [
-                    "RL_MI",
-                    "IC_RI"
+                    "RL_MI"
                 ],
                 "col": {
                     "Date": [],

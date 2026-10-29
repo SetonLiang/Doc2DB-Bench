@@ -12,9 +12,15 @@
             "2:1",
             "1:1"
         ],
-        "disp": "1:2",
-        "client": "1:1",
-        "order": "1:1"
+        "disp": [
+            "1:2"
+        ],
+        "client": [
+            "1:1"
+        ],
+        "order": [
+            "1:1"
+        ]
     },
     "capability_assignments": {
         "account": {
@@ -277,9 +283,7 @@
                 }
             },
             "9883": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "frequency": [],
                     "date": [
@@ -828,9 +832,7 @@
                 }
             },
             "260": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "gender": [
                         "TA_EM"
@@ -1205,9 +1207,7 @@
                 }
             },
             "6551": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "type": [],
                     "client_id": [],
@@ -1239,9 +1239,7 @@
                 }
             },
             "57": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "type": [
                         "TA_EM"
@@ -2992,9 +2990,7 @@
                 }
             },
             "30021": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "bank_to": [],
                     "account_to": [],

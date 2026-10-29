@@ -6,7 +6,9 @@
         "Direct_distance": false
     },
     "type": {
-        "Direct_distance": "1:2"
+        "Direct_distance": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "City": {

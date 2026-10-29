@@ -10,10 +10,18 @@
         "Student": false
     },
     "type": {
-        "Course": "1:2",
-        "Enrolled_in": "1:2",
-        "Member_of": "1:2",
-        "Minor_in": "1:2"
+        "Course": [
+            "1:2"
+        ],
+        "Enrolled_in": [
+            "1:2"
+        ],
+        "Member_of": [
+            "1:2"
+        ],
+        "Minor_in": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "Course": {

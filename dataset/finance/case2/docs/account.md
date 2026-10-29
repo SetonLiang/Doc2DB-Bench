@@ -100,50 +100,21 @@ However, the audit also highlighted several necessary deviations and corrections
 
 Following the examination of these exceptions, the review returned to accounts conforming to the standard 'POPLATEK MESICNE' cycle. This group included account 2208, where the statement frequency associated with account 2208 is designated as 'POPLATEK MESICNE', and account 2597, for which for account 2597, the statement frequency is designated as 'POPLATEK MESICNE'. These accounts are monitored by the automated compliance-checking software suite implemented last year. The same monthly frequency was confirmed for account number 2739, the statement issuance frequency is set to POPLATEK MESICNE, and the frequency associated with account 2811 is designated as POPLATEK MESICNE. Finally, it was verified that for account number 2964, the statements are issued on a monthly basis and that the statement frequency associated with account 3325 is 'POPLATEK MESICNE', concluding this phase of the account settings audit.
 
-History Context: on a weekly basis.
-For account number 2109, the designated statement frequency is POPLATEK MESICNE.
-For account 10451, the frequency of issuance is designated as POPLATEK MESICNE.
-Account 3175 is set up with a statement issuance frequency of POPLATEK MESICNE.
-For account number 3248, the frequency of issuance is listed as POPLATEK MESICNE.
-The statement frequency associated with account ID 89 is designated as 'POPLATEK MESICNE'.
-For account number 787, the frequency of issuance is 'POPLATEK MESICNE'.
-The statement frequency for account 315 is listed as POPLATEK MESICNE.
-For account 96, the statements are issued on a monthly basis.
-For account number 659, the statement frequency is listed as POPLATEK MESICNE.
+## CONTINUED STATEMENT REVIEW
 
-The statement frequency for account 952 is listed as 'POPLATEK MESICNE'.
-For account number 2359, the statement frequency is designated as 'POPLATEK MESICNE'.
-The statement issuance for account 1819 is set to a weekly frequency.
-The statement issuance for account number 1427 is set to a frequency of 'POPLATEK MESICNE'.
-The statement frequency for account 1884 is designated as 'POPLATEK MESICNE'.
-For account 2211, the billing cycle is not set to a standard interval like monthly or weekly.
-Instead, its statement is issued after a turnover event occurs.
-The setup for account 1106 was initially miscategorized with a monthly issuance cycle.
-This was incorrect; the actual statement frequency for the account is weekly.
-The statement frequency associated with account ID 1706 is 'POPLATEK MESICNE'.
-For account 2597, the statement frequency is designated as 'POPLATEK MESICNE'.
-The frequency associated with account 2811 is designated as POPLATEK MESICNE.
-The statement frequency associated with account 2208 is designated as 'POPLATEK MESICNE'.
-For account number 2739, the statement issuance frequency is set to POPLATEK MESICNE.
-The statement frequency associated with account 3325 is 'POPLATEK MESICNE'.
-For account number 2964, the statements are issued on a monthly basis.
-For account 9548, the frequency of statement issuance is specified as 'POPLATEK MESICNE'.
-For account 3512, the frequency of issuance is designated as POPLATEK MESICNE.
-The statement issuance for account number 2187 is set to a specific frequency.
-The established frequency for this account is weekly.
-For account ID 1284, the designated frequency is POPLATEK MESICNE.
-The statement frequency for account 226 is designated as 'POPLATEK MESICNE'.
-The statement issuance for account 1407 is triggered immediately following a completed transaction.
-Initial setup documentation for account 7713 suggested a monthly statement frequency.
-This setup was later noted as incorrect and voided.
-The correct and current issuance frequency is weekly.
-For account 1071, payments are scheduled on a weekly basis.
-The statement issuance frequency for account number 9093 is listed as 'POPLATEK MESICNE'.
-Account 8982 has a frequency designated as 'POPLATEK MESICNE'.
-For account number 3565, the statement frequency is designated as 'POPLATEK MESICNE'.
-The issuance frequency for account number 3618 is specified as POPLATEK MESICNE.
-The statement frequency associated with account 4618 is categorized as 'POPLATEK MESICNE'.
-The statement frequency for account 9138 is designated as 'POPLATEK MESICNE'.
+The earlier account notes also refer to statements issued on a weekly basis. For account number 2109, the designated statement frequency is POPLATEK MESICNE. For account 10451, the frequency of issuance is designated as POPLATEK MESICNE. Account 3175 is set up with a statement issuance frequency of POPLATEK MESICNE. For account number 3248, the frequency of issuance is listed as POPLATEK MESICNE. The statement frequency associated with account ID 89 is designated as 'POPLATEK MESICNE'. For account number 787, the frequency of issuance is 'POPLATEK MESICNE'. The statement frequency for account 315 is listed as POPLATEK MESICNE. For account 96, the statements are issued on a monthly basis. For account number 659, the statement frequency is listed as POPLATEK MESICNE.
+
+The statement frequency for account 952 is listed as 'POPLATEK MESICNE'. For account number 2359, the statement frequency is designated as 'POPLATEK MESICNE'. The statement issuance for account 1819 is set to a weekly frequency. The statement issuance for account number 1427 is set to a frequency of 'POPLATEK MESICNE'. The statement frequency for account 1884 is designated as 'POPLATEK MESICNE'.
+
+For account 2211, the billing cycle is not set to a standard interval like monthly or weekly. Instead, its statement is issued after a turnover event occurs. The setup for account 1106 was initially miscategorized with a monthly issuance cycle. This was incorrect; the actual statement frequency for the account is weekly.
+
+The statement frequency associated with account ID 1706 is 'POPLATEK MESICNE'. For account 2597, the statement frequency is designated as 'POPLATEK MESICNE'. The frequency associated with account 2811 is designated as POPLATEK MESICNE. The statement frequency associated with account 2208 is designated as 'POPLATEK MESICNE'. For account number 2739, the statement issuance frequency is set to POPLATEK MESICNE. The statement frequency associated with account 3325 is 'POPLATEK MESICNE'. For account number 2964, the statements are issued on a monthly basis.
+
+For account 9548, the frequency of statement issuance is specified as 'POPLATEK MESICNE'. For account 3512, the frequency of issuance is designated as POPLATEK MESICNE. The statement issuance for account number 2187 is set to a specific frequency. The established frequency for this account is weekly.
+
+For account ID 1284, the designated frequency is POPLATEK MESICNE. The statement frequency for account 226 is designated as 'POPLATEK MESICNE'. The statement issuance for account 1407 is triggered immediately following a completed transaction. Initial setup documentation for account 7713 suggested a monthly statement frequency. This setup was later noted as incorrect and voided. The correct and current issuance frequency is weekly. For account 1071, payments are scheduled on a weekly basis.
+
+The statement issuance frequency for account number 9093 is listed as 'POPLATEK MESICNE'. Account 8982 has a frequency designated as 'POPLATEK MESICNE'. For account number 3565, the statement frequency is designated as 'POPLATEK MESICNE'. The issuance frequency for account number 3618 is specified as POPLATEK MESICNE. The statement frequency associated with account 4618 is categorized as 'POPLATEK MESICNE'. The statement frequency for account 9138 is designated as 'POPLATEK MESICNE'.
 
 ## Further Examination of Statement Issuance Parameters
 

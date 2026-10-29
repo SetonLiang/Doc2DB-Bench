@@ -7,8 +7,12 @@
         "publisher": false
     },
     "type": {
-        "book": "1:2",
-        "book_author": "1:2"
+        "book": [
+            "1:2"
+        ],
+        "book_author": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "author": {},

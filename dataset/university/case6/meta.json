@@ -8,9 +8,15 @@
         "Staff": false
     },
     "type": {
-        "Customers": "1:2",
-        "Lessons": "1:2",
-        "Staff": "1:1"
+        "Customers": [
+            "1:2"
+        ],
+        "Lessons": [
+            "1:2"
+        ],
+        "Staff": [
+            "1:1"
+        ]
     },
     "capability_assignments": {
         "Addresses": {

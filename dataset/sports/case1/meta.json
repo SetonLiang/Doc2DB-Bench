@@ -7,8 +7,12 @@
         "stadium": false
     },
     "type": {
-        "event": "1:1",
-        "record": "1:2"
+        "event": [
+            "1:1"
+        ],
+        "record": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "event": {
@@ -90,9 +94,7 @@
                 }
             },
             "7": {
-                "row": [
-                    "IDR_NR"
-                ],
+                "row": [],
                 "col": {
                     "Name": [],
                     "Year": [],

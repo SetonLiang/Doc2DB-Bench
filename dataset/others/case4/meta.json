@@ -7,8 +7,12 @@
         "Menu": false
     },
     "type": {
-        "MenuPage": "1:1",
-        "MenuItem": "1:2"
+        "MenuPage": [
+            "1:1"
+        ],
+        "MenuItem": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "Dish": {
@@ -1117,9 +1121,7 @@
         },
         "MenuItem": {
             "583317": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "price": [
                         "EF_ND"
@@ -1334,8 +1336,7 @@
             },
             "412966": {
                 "row": [
-                    "GR_DC",
-                    "IC_RI"
+                    "GR_DC"
                 ],
                 "col": {
                     "price": [
@@ -1359,7 +1360,6 @@
             },
             "375361": {
                 "row": [
-                    "IC_RI",
                     "RL_CL"
                 ],
                 "col": {
@@ -1665,9 +1665,7 @@
                 }
             },
             "770487": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "page_number": [],
                     "full_height": [],
@@ -1676,9 +1674,7 @@
                 }
             },
             "216739": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "page_number": [],
                     "full_height": [],
@@ -1687,9 +1683,7 @@
                 }
             },
             "126225": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "page_number": [],
                     "full_height": [],
@@ -1803,9 +1797,7 @@
                 }
             },
             "46523": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "page_number": [],
                     "full_height": [
@@ -1908,9 +1900,7 @@
                 }
             },
             "48848": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "page_number": [],
                     "full_height": [
@@ -1923,9 +1913,7 @@
                 }
             },
             "770487": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "page_number": [],
                     "full_height": [],
@@ -1934,9 +1922,7 @@
                 }
             },
             "388389": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "page_number": [],
                     "full_height": [],
@@ -1945,9 +1931,7 @@
                 }
             },
             "872246": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "page_number": [],
                     "full_height": [],

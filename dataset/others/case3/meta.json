@@ -7,8 +7,12 @@
         "Recipe": false
     },
     "type": {
-        "Nutrition": "1:1",
-        "Quantity": "1:2"
+        "Nutrition": [
+            "1:1"
+        ],
+        "Quantity": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "Ingredient": {

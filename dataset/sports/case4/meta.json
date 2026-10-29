@@ -7,8 +7,12 @@
         "teams": false
     },
     "type": {
-        "players_teams": "1:2",
-        "series_post": "1:2"
+        "players_teams": [
+            "1:2"
+        ],
+        "series_post": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "players": {

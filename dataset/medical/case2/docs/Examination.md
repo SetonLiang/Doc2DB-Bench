@@ -2,35 +2,35 @@
 
 Review of historical patient data initiated for specific autoimmune cohort. A clinical follow-up was scheduled on April 7, 1997, for the specific patient cohort presenting with a combination of SLE, SjS, and ITP. Donna Jackson's medical file confirms she belongs to this diagnostic group. On April 7, 1997, Donna Jackson underwent evaluation for a complex of autoimmune conditions, including SLE, Sjögren's syndrome, and ITP. As part of the diagnostic process for patients with these conditions, antiphospholipid antibody testing was indicated. Her profile confirmed the presence of Lupus Anticoagulant (LAC), a conclusion derived from positive results in both the Kaolin Clotting Time (KCT) and Russell Viper Venom Time (RVVT) assays. The same panel also returned a specific anti-Cardiolipin IgG concentration of 19.3. Records indicate referral from primary care physician Dr. Evans. Another case file reviewed was for Betty Lopez. Of Betty Lopez's various medical evaluations throughout her history, the only examination pertinent to her SLE and abnormal liver disease diagnosis was conducted on the thirtieth of September, 1993; no subsequent tests related to this specific diagnostic event were recorded. A review of the anti-Cardiolipin antibody panel for Betty Lopez on September 30, 1993, indicated that while the aCL IgM and aCL IgA concentrations were 2.0 and 3.0 respectively, the aCL IgG concentration was only 1.3. Follow-up appointments were noted as missed in the subsequent quarter. The file for Pamela Green was also pulled for analysis. A clinical assessment for Pamela Green on October 5, 1993, supported diagnoses of both SLE and Sjögren's syndrome (SjS), with key findings including an ANA of 1024 (S pattern), an aCL IgA level of 2, and an aCL IgM of 3.1. An examination of Pamela Green on October 5, 1993, related to her diagnoses of SLE and SjS, found her anti-Cardiolipin antibody (aCL) concentrations to be 0.0 for IgG, 3.1 for IgM, and 2 for IgA. Patient reported compliance with prescribed medication regimen at the time. Additional files provided supporting data points. Laura Clark underwent an examination on 1995-04-20. Laura Clark's anti-Cardiolipin antibody (IgG) concentration was measured to be 2.3. File flagged for incomplete demographic information. An examination for the patient Sarah Brooks was recorded on the date 1996-05-07. During this visit, a test for Sarah Brooks measured her anti-Cardiolipin antibody (IgG) concentration, and the result for the aCL IgG test was 1.0. No significant comorbidities were listed in the intake forms for this individual. Melissa Thompson's examination took place on January 19, 1996. Melissa Thompson had an anti-Cardiolipin antibody (IgG) concentration of 0.8. Lab work was processed by an external facility, with results faxed to the main office. An examination for Margaret Gonzalez was recorded on the date 1997-01-27. The anti-Cardiolipin antibody (IgG) concentration for Margaret Gonzalez was 1.1. Patient history notes a mild allergy to penicillin. Christopher Morris had an examination on November 18, 1996. This was the final patient file reviewed in the series for this particular data pull.
 
-History Context: Of Betty Lopez's various medical evaluations throughout her history, the only examination pertinent to her SLE and abnormal liver disease diagnosis was conducted on the thirtieth of September, 1993; no subsequent tests related to this specific diagnostic event were recorded.
+## ADDITIONAL SEROLOGY NOTES
+
+Of Betty Lopez's various medical evaluations throughout her history, the only examination pertinent to her SLE and abnormal liver disease diagnosis was conducted on the thirtieth of September, 1993; no subsequent tests related to this specific diagnostic event were recorded.
+
 A clinical follow-up was scheduled on April 7, 1997, for the specific patient cohort presenting with a combination of SLE, SjS, and ITP. Donna Jackson's medical file confirms she belongs to this diagnostic group.
-A test for Sarah Brooks measured her anti-Cardiolipin antibody (IgG) concentration.
-The result for the aCL IgG test was 1.0.
+
+A test for Sarah Brooks measured her anti-Cardiolipin antibody (IgG) concentration. The result for the aCL IgG test was 1.0.
+
 On April 7, 1997, Donna Jackson underwent evaluation for a complex of autoimmune conditions, including SLE, Sjögren's syndrome, and ITP. As part of the diagnostic process for patients with these conditions, antiphospholipid antibody testing was indicated. Her profile confirmed the presence of Lupus Anticoagulant (LAC), a conclusion derived from positive results in both the Kaolin Clotting Time (KCT) and Russell Viper Venom Time (RVVT) assays. The same panel also returned a specific anti-Cardiolipin IgG concentration of 19.3.
-The anti-Cardiolipin antibody (IgG) concentration for Margaret Gonzalez was 1.1.
-Laura Clark's anti-Cardiolipin antibody (IgG) concentration was measured to be 2.3.
-An examination of Pamela Green on October 5, 1993, related to her diagnoses of SLE and SjS, found her anti-Cardiolipin antibody (aCL) concentrations to be 0.0 for IgG, 3.1 for IgM, and 2 for IgA.
-A clinical assessment for Pamela Green on October 5, 1993, supported diagnoses of both SLE and Sjögren's syndrome (SjS), with key findings including an ANA of 1024 (S pattern), an aCL IgA level of 2, and an aCL IgM of 3.1.
-An examination for Margaret Gonzalez was recorded on the date 1997-01-27.
-Melissa Thompson had an anti-Cardiolipin antibody (IgG) concentration of 0.8.
-Laura Clark underwent an examination on 1995-04-20.
-Christopher Morris had an examination on November 18, 1996.
-For the patient Christopher Morris, the anti-Cardiolipin antibody (IgM) concentration was recorded as 1.1.
+
+The anti-Cardiolipin antibody (IgG) concentration for Margaret Gonzalez was 1.1. Laura Clark's anti-Cardiolipin antibody (IgG) concentration was measured to be 2.3.
+
+An examination of Pamela Green on October 5, 1993, related to her diagnoses of SLE and SjS, found her anti-Cardiolipin antibody (aCL) concentrations to be 0.0 for IgG, 3.1 for IgM, and 2 for IgA. A clinical assessment for Pamela Green on October 5, 1993, supported diagnoses of both SLE and Sjögren's syndrome (SjS), with key findings including an ANA of 1024 (S pattern), an aCL IgA level of 2, and an aCL IgM of 3.1.
+
+An examination for Margaret Gonzalez was recorded on the date 1997-01-27. Melissa Thompson had an anti-Cardiolipin antibody (IgG) concentration of 0.8. Laura Clark underwent an examination on 1995-04-20.
+
+Christopher Morris had an examination on November 18, 1996. For the patient Christopher Morris, the anti-Cardiolipin antibody (IgM) concentration was recorded as 1.1.
+
 On April 7, 1997, Donna Jackson was diagnosed with SLE, Sjögren's syndrome (SjS), and Immune thrombocytopenic purpura (ITP), with no reported thrombosis. Her serology showed an aCL IgG of 19.3, aCL IgM of 2.1, and aCL IgA of 5. A specific diagnostic protocol is followed for patients presenting with this particular triad of diagnoses who also test positive for Lupus Anticoagulant (LAC), as confirmed by her positive KCT and RVVT results. This protocol mandates that the anti-nucleus antibody (ANA) concentration is to be recorded at a value of 64, exhibiting a peripheral and speckled pattern.
-Betty Lopez's serological evaluation on September 30, 1993, revealed a uniform anti-Cardiolipin antibody concentration of 2.0 across all isotypes, with the specific exceptions of the IgG and IgA antibodies.
-On October 5, 1993, a panel of tests was conducted for Pamela Green, who carries diagnoses of SLE and SjS. Her anti-Cardiolipin antibody results were notable, with an IgG concentration of 0.0, an IgM of 3.1, and an IgA of 2. A concurrent ANA test was highly positive with a titer of 1024 and a speckled pattern.
-The anti-Cardiolipin antibody (IgM) concentration for Margaret Gonzalez was 1.5.
-For patient Christopher Morris, the anti-Cardiolipin antibody (IgG) concentration was measured to be 0.0.
-Laura Clark's anti-Cardiolipin antibody (IgM) concentration was 2.5.
-In the context of her dual diagnoses of SLE and Sjögren's syndrome, Pamela Green's lab work revealed a significant anti-nucleus antibody (ANA) concentration, with a measured titer four times the level of a 1:256 dilution.
-The patient in this case is Sarah Brooks.
-A test for anti-nucleus antibody (ANA) concentration was administered to Ms. Brooks.
-A comprehensive serological workup for Donna Jackson on April 7, 1997, confirmed her complex autoimmune profile, including SLE, SjS, and ITP. While tests for lupus anticoagulant (KCT and RVVT) were positive, her antiphospholipid antibody panel revealed varied results: an aCL IgG of 19.3, an aCL IgA of 5, and a specific anti-Cardiolipin antibody (IgM) concentration of 2.1.
-As part of a broader diagnostic panel for Betty Lopez on September 30, 1993, her anti-nucleus antibody (ANA) concentration was determined to be 64, a value considered positive as it exceeds the negative threshold of 40. However, specific confirmatory tests for lupus anticoagulant, such as KCT or RVVT, were not performed during this evaluation.
-Laura Clark's test for anti-nucleus antibody (ANA) concentration yielded a result of 0.
-Melissa Thompson's test for anti-Cardiolipin antibody (IgM) concentration yielded a result of 1.6.
-Sarah Brooks's anti-Cardiolipin antibody (IgM) concentration was 1.8.
-For patient Margaret Gonzalez, the anti-nucleus antibody (ANA) concentration was 16.
+
+Betty Lopez's serological evaluation on September 30, 1993, revealed a uniform anti-Cardiolipin antibody concentration of 2.0 across all isotypes, with the specific exceptions of the IgG and IgA antibodies. On October 5, 1993, a panel of tests was conducted for Pamela Green, who carries diagnoses of SLE and SjS. Her anti-Cardiolipin antibody results were notable, with an IgG concentration of 0.0, an IgM of 3.1, and an IgA of 2. A concurrent ANA test was highly positive with a titer of 1024 and a speckled pattern.
+
+The anti-Cardiolipin antibody (IgM) concentration for Margaret Gonzalez was 1.5. For patient Christopher Morris, the anti-Cardiolipin antibody (IgG) concentration was measured to be 0.0. Laura Clark's anti-Cardiolipin antibody (IgM) concentration was 2.5. In the context of her dual diagnoses of SLE and Sjögren's syndrome, Pamela Green's lab work revealed a significant anti-nucleus antibody (ANA) concentration, with a measured titer four times the level of a 1:256 dilution.
+
+The patient in this case is Sarah Brooks. A test for anti-nucleus antibody (ANA) concentration was administered to Ms. Brooks.
+
+A comprehensive serological workup for Donna Jackson on April 7, 1997, confirmed her complex autoimmune profile, including SLE, SjS, and ITP. While tests for lupus anticoagulant (KCT and RVVT) were positive, her antiphospholipid antibody panel revealed varied results: an aCL IgG of 19.3, an aCL IgA of 5, and a specific anti-Cardiolipin antibody (IgM) concentration of 2.1. As part of a broader diagnostic panel for Betty Lopez on September 30, 1993, her anti-nucleus antibody (ANA) concentration was determined to be 64, a value considered positive as it exceeds the negative threshold of 40. However, specific confirmatory tests for lupus anticoagulant, such as KCT or RVVT, were not performed during this evaluation.
+
+Laura Clark's test for anti-nucleus antibody (ANA) concentration yielded a result of 0. Melissa Thompson's test for anti-Cardiolipin antibody (IgM) concentration yielded a result of 1.6. Sarah Brooks's anti-Cardiolipin antibody (IgM) concentration was 1.8. For patient Margaret Gonzalez, the anti-nucleus antibody (ANA) concentration was 16.
 
 ## PATIENT ASSESSMENT
 

@@ -11,8 +11,12 @@
         "Win_By": false
     },
     "type": {
-        "Match": "1:3",
-        "Player_Match": "1:3"
+        "Match": [
+            "1:3"
+        ],
+        "Player_Match": [
+            "1:3"
+        ]
     },
     "capability_assignments": {
         "Match": {

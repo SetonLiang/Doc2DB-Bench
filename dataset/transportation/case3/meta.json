@@ -6,7 +6,9 @@
         "routes": false
     },
     "type": {
-        "routes": "1:3"
+        "routes": [
+            "1:3"
+        ]
     },
     "capability_assignments": {
         "airlines": {
@@ -1137,9 +1139,7 @@
                 }
             },
             "29079": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "dst_ap": [],
                     "src_ap": [
@@ -1158,8 +1158,7 @@
             },
             "892": {
                 "row": [
-                    "IDR_ED",
-                    "IC_RI"
+                    "IDR_ED"
                 ],
                 "col": {
                     "dst_ap": [],

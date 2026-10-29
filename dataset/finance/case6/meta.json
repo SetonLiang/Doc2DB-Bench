@@ -6,7 +6,9 @@
         "Office_locations": false
     },
     "type": {
-        "Office_locations": "1:2"
+        "Office_locations": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "Companies": {

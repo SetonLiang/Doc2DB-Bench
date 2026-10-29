@@ -13,12 +13,24 @@
         "publisher": false
     },
     "type": {
-        "book": "1:2",
-        "book_author": "1:2",
-        "cust_order": "1:3",
-        "order_line": "1:2",
-        "order_history": "1:2",
-        "customer_address": "1:2"
+        "book": [
+            "1:2"
+        ],
+        "book_author": [
+            "1:2"
+        ],
+        "cust_order": [
+            "1:3"
+        ],
+        "order_line": [
+            "1:2"
+        ],
+        "order_history": [
+            "1:2"
+        ],
+        "customer_address": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "address": {

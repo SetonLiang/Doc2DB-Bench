@@ -7,8 +7,12 @@
         "taughtBy": false
     },
     "type": {
-        "advisedBy": "1:2",
-        "taughtBy": "1:2"
+        "advisedBy": [
+            "1:2"
+        ],
+        "taughtBy": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "advisedBy": {
@@ -1342,9 +1346,7 @@
         },
         "taughtBy": {
             "49, 64": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "course_id": [],
                     "p_id": []
@@ -1528,9 +1530,7 @@
                 }
             },
             "124, 9": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "course_id": [],
                     "p_id": []

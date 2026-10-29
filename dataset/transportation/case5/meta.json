@@ -8,7 +8,9 @@
         "truck": false
     },
     "type": {
-        "Shipment": "1:4"
+        "Shipment": [
+            "1:4"
+        ]
     },
     "capability_assignments": {
         "city": {

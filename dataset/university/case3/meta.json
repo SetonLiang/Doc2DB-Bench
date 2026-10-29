@@ -9,11 +9,21 @@
         "EMPLOYEE": false
     },
     "type": {
-        "ENROLL": "1:2",
-        "CLASS": "1:2",
-        "PROFESSOR": "1:2",
-        "STUDENT": "1:2",
-        "COURSE": "1:1"
+        "ENROLL": [
+            "1:2"
+        ],
+        "CLASS": [
+            "1:2"
+        ],
+        "PROFESSOR": [
+            "1:2"
+        ],
+        "STUDENT": [
+            "1:2"
+        ],
+        "COURSE": [
+            "1:1"
+        ]
     },
     "capability_assignments": {
         "CLASS": {

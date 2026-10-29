@@ -8,8 +8,12 @@
         "Appointment": false
     },
     "type": {
-        "Appointment": "1:3",
-        "Affiliated_With": "1:2"
+        "Appointment": [
+            "1:3"
+        ],
+        "Affiliated_With": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "Affiliated_With": {

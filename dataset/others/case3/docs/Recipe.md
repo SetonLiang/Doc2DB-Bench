@@ -159,56 +159,45 @@ Our signature house-baked treat, perfect with coffee or as a light dessert. The 
 SEASONAL SORBET - 7.50
 Ask your server about today's fresh fruit selection for this vibrant and dairy-free option. The original recipe was designed for a group of four; this particular batch, however, doubles the final amount. The total recipe yields approximately 1 quart of sorbet.
 
-History Context: two.
-The quantities can be easily doubled for a small dinner party.
-The original recipe was intended to feed a party of five.
-However, this adaptation has been scaled down by three portions.
-The total preparation time is approximately 15 minutes.
-This recipe was originally designed to serve a party of three.
-The ingredient list has been doubled for the final preparation instructions.
-The standard recipe for this dressing is typically sufficient for a group of three.
-This particular version is a double batch.
-The final dressing has a volume of approximately one cup.
-This recipe is portioned to be shared among three couples.
-The salad is constructed with 5 primary components.
-This recipe is designed to feed a family of four.
-The batch size is large enough to provide an equal amount for leftovers.
-The salad's preparation time is just under 15 minutes.
+## SERVING AND BATCH NOTES
 
-The recipe for Cayuga Cookies yields a batch of 24 cookies.
-A standard serving size is considered to be two cookies.
-The cheesecake recipe is designed to produce six large wedges.
-For smaller dessert portions, each of these wedges can be halved.
-With just 10 main ingredients, the cheesecake is remarkably simple to prepare.
-The standard preparation of this Armenian salad is designed to be shared between two people.
-However, the ingredient quantities listed here have been doubled for a larger group.
-The original Open Sesame Blueberry Pie recipe was designed to serve a party of four.
-This updated version of the recipe has been doubled.
-As a side note, the filling quantity is also sufficient to make two separate nine-inch tarts instead of a single pie.
-The base recipe for the Mesa Lamb and Bean Salad is portioned to serve a couple.
-For a small dinner party, these quantities should be doubled.
-This salad is the second course in our new three-course meal plan.
-The original recipe was designed for a group of four.
-This particular batch, however, doubles the final amount.
-The total recipe yields approximately 1 quart of sorbet.
-The base recipe is perfectly portioned for a couple.
-This version of the salad doubles that amount.
-The resulting dish provides a generous main course portion per person.
-This recipe for Broiled Marinated Beef Top Loin yields a total of two large steaks.
-Each individual steak is substantial enough to be split between a pair of diners.
-This Holiday Stuffed Pork Roast recipe is perfectly portioned for three couples.
-The full meal plan suggests preparing four side dishes to accompany the roast.
-The standard recipe makes enough for two people.
-However, the quantities are designed to be easily doubled.
-The full recipe will produce eight kabobs.
-A standard portion size is considered to be two kabobs.
-This recipe is designed as a meal for a couple.
-The portions are generous enough to satisfy another two guests as well.
-The recipe yields 6 lamb skewers in total.
-The base recipe is ideally portioned for a couple.
-The recipe is generous, yielding an extra serving for each person.
-The base recipe for the Sesame Potato Sticks with Oriental Beef and Peppers is perfectly portioned for two people.
-The instructions note that it's easy to double the ingredients, making it ideal for serving an additional two guests.
+The base recipe makes enough for two. The quantities can be easily doubled for a small dinner party.
+
+The original recipe was intended to feed a party of five. However, this adaptation has been scaled down by three portions. The total preparation time is approximately 15 minutes.
+
+This recipe was originally designed to serve a party of three. The ingredient list has been doubled for the final preparation instructions.
+
+The standard recipe for this dressing is typically sufficient for a group of three. This particular version is a double batch. The final dressing has a volume of approximately one cup.
+
+This recipe is portioned to be shared among three couples. The salad is constructed with 5 primary components.
+
+This recipe is designed to feed a family of four. The batch size is large enough to provide an equal amount for leftovers. The salad's preparation time is just under 15 minutes.
+
+The recipe for Cayuga Cookies yields a batch of 24 cookies. A standard serving size is considered to be two cookies.
+
+The cheesecake recipe is designed to produce six large wedges. For smaller dessert portions, each of these wedges can be halved. With just 10 main ingredients, the cheesecake is remarkably simple to prepare.
+
+The standard preparation of this Armenian salad is designed to be shared between two people. However, the ingredient quantities listed here have been doubled for a larger group.
+
+The original Open Sesame Blueberry Pie recipe was designed to serve a party of four. This updated version of the recipe has been doubled. As a side note, the filling quantity is also sufficient to make two separate nine-inch tarts instead of a single pie.
+
+The base recipe for the Mesa Lamb and Bean Salad is portioned to serve a couple. For a small dinner party, these quantities should be doubled. This salad is the second course in our new three-course meal plan.
+
+The original recipe was designed for a group of four. This particular batch, however, doubles the final amount. The total recipe yields approximately 1 quart of sorbet.
+
+The base recipe is perfectly portioned for a couple. This version of the salad doubles that amount. The resulting dish provides a generous main course portion per person.
+
+This recipe for Broiled Marinated Beef Top Loin yields a total of two large steaks. Each individual steak is substantial enough to be split between a pair of diners.
+
+This Holiday Stuffed Pork Roast recipe is perfectly portioned for three couples. The full meal plan suggests preparing four side dishes to accompany the roast.
+
+The standard recipe makes enough for two people. However, the quantities are designed to be easily doubled. The full recipe will produce eight kabobs. A standard portion size is considered to be two kabobs.
+
+This recipe is designed as a meal for a couple. The portions are generous enough to satisfy another two guests as well. The recipe yields 6 lamb skewers in total.
+
+The base recipe is ideally portioned for a couple. The recipe is generous, yielding an extra serving for each person.
+
+The base recipe for the Sesame Potato Sticks with Oriental Beef and Peppers is perfectly portioned for two people. The instructions note that it's easy to double the ingredients, making it ideal for serving an additional two guests.
 
 ## LARGE FORMAT & CATERING NOTES
 TANDOORI PORK SAUTE
@@ -426,49 +415,41 @@ We use crisp Granny Smith apples to provide the perfect balance of tart and swee
 SUMMER PEACHES & CREAM
 A simple yet elegant dessert featuring perfectly ripe peaches. The preparation time for the canned peaches recipe is 10 minutes. It's served with a dollop of vanilla-bean-infused sweet cream. As a no-cook item, the required cooking time is 10 minutes shorter than the preparation time.
 
-History Context: the required stove time is reduced by that full 15 minutes.
-Grill the kebabs for 14 minutes on the first side.
-Flip the kebabs and continue grilling for another fourteen minutes.
-The grill should be preheated for 15 minutes before cooking begins.
-The pasta for the salad needs to be cooked for five minutes.
-After the initial cooking period, continue to cook everything for an additional five minutes.
-Separately, the recipe requires a prep time of 15 minutes.
-The cooking duration is the sum of the two cooking steps.
+## COOKING AND PREPARATION NOTES
 
-The spiral pasta should be boiled for 10 minutes.
-Sautéing the chicken will take another half an hour.
-Note that the prep time for this salad is a separate 20 minutes.
-An early draft of the California Sunshine Salad recipe recommended a 5-minute searing stage.
-To maximize freshness, the 5-minute searing stage was later removed from the final instructions.
-The total preparation time for this salad, which involves chopping and mixing, is 15 minutes.
-Once on the stove, the applesauce mixture is brought to a boil for 6 minutes.
-Following the boil, the heat is reduced and the mixture simmers for an additional 4 minutes until tender.
-Note that the active preparation time before any heating begins is 15 minutes.
-The preparation time for the canned peaches recipe is 10 minutes.
-The required cooking time is 10 minutes shorter than the preparation time.
-The Brown Rice Chicken Bake has a preparation time of 10 minutes.
-From beginning the prep to pulling it out of the oven, the entire recipe takes half an hour.
-For the Greek-Style Lamb and Bean Skillet Dinner, the initial cook time is ten minutes.
-After the initial phase, the recipe requires an additional two minutes of cooking.
-The total preparation time, separate from cooking, is 15 minutes.
-A standard blind-baking process, which we are skipping, would typically require 15 minutes of oven time for the crust.
-This 'Freeze and Bake' method's required initial cooking time is reduced by that entire 15-minute duration.
-The recipe requires a total preparation time of 15 minutes.
-A common variant suggests a brief 3-minute warming period under a broiler.
-For this classic version, the recipe's cooking duration is shortened by exactly 3 minutes, as the warming step is skipped.
+As noted in the preceding cooking instructions, the required stove time is reduced by that full 15 minutes.
+
+Grill the kebabs for 14 minutes on the first side. Flip the kebabs and continue grilling for another fourteen minutes. The grill should be preheated for 15 minutes before cooking begins.
+
+The pasta for the salad needs to be cooked for five minutes. After the initial cooking period, continue to cook everything for an additional five minutes. Separately, the recipe requires a prep time of 15 minutes. The cooking duration is the sum of the two cooking steps.
+
+The spiral pasta should be boiled for 10 minutes. Sautéing the chicken will take another half an hour. Note that the prep time for this salad is a separate 20 minutes.
+
+An early draft of the California Sunshine Salad recipe recommended a 5-minute searing stage. To maximize freshness, the 5-minute searing stage was later removed from the final instructions. The total preparation time for this salad, which involves chopping and mixing, is 15 minutes.
+
+Once on the stove, the applesauce mixture is brought to a boil for 6 minutes. Following the boil, the heat is reduced and the mixture simmers for an additional 4 minutes until tender. Note that the active preparation time before any heating begins is 15 minutes.
+
+The preparation time for the canned peaches recipe is 10 minutes. The required cooking time is 10 minutes shorter than the preparation time.
+
+The Brown Rice Chicken Bake has a preparation time of 10 minutes. From beginning the prep to pulling it out of the oven, the entire recipe takes half an hour.
+
+For the Greek-Style Lamb and Bean Skillet Dinner, the initial cook time is ten minutes. After the initial phase, the recipe requires an additional two minutes of cooking. The total preparation time, separate from cooking, is 15 minutes.
+
+A standard blind-baking process, which we are skipping, would typically require 15 minutes of oven time for the crust. This 'Freeze and Bake' method's required initial cooking time is reduced by that entire 15-minute duration.
+
+The recipe requires a total preparation time of 15 minutes. A common variant suggests a brief 3-minute warming period under a broiler. For this classic version, the recipe's cooking duration is shortened by exactly 3 minutes, as the warming step is skipped.
+
 The recipe does not provide a specific cooking time.
-The Mushroom and Spinach Lasagne should be baked covered in the oven for 45 minutes.
-After the initial bake, it requires an additional 15 minutes of uncovered cooking time.
-Note that the preparation time for this recipe is half an hour.
-To get the Turkey Ring Meatloaf ready for the oven, you'll need around twenty minutes of prep time.
-The initial baking period for the meatloaf is a half-hour.
-After the initial bake, a glaze is applied, and it is returned to the oven for an additional quarter of an hour.
-From getting ingredients out to plating, the total time required is half an hour.
-Of that total time, the initial preparation phase takes 10 minutes.
-The total preparation time for this recipe is 15 minutes.
-The actual cooking time is 15 minutes less than the total preparation time.
-The initial simmering phase for the tomatoes and spices in the Stewed Tomatoes with Chickpeas recipe should last for a quarter of an hour.
-After the chickpeas are added to the stew, the dish requires an additional 6 minutes of cooking.
+
+The Mushroom and Spinach Lasagne should be baked covered in the oven for 45 minutes. After the initial bake, it requires an additional 15 minutes of uncovered cooking time. Note that the preparation time for this recipe is half an hour.
+
+To get the Turkey Ring Meatloaf ready for the oven, you'll need around twenty minutes of prep time. The initial baking period for the meatloaf is a half-hour. After the initial bake, a glaze is applied, and it is returned to the oven for an additional quarter of an hour.
+
+From getting ingredients out to plating, the total time required is half an hour. Of that total time, the initial preparation phase takes 10 minutes.
+
+The total preparation time for this recipe is 15 minutes. The actual cooking time is 15 minutes less than the total preparation time.
+
+The initial simmering phase for the tomatoes and spices in the Stewed Tomatoes with Chickpeas recipe should last for a quarter of an hour. After the chickpeas are added to the stew, the dish requires an additional 6 minutes of cooking.
 
 SUMMER VEGETABLE PAELLA
 A vibrant and flavorful dish perfect for a quick, satisfying meal. The total time required for the Summer Vegetable Paella, from preparation to serving, is 10 minutes. Of that total time, the initial vegetable prep accounts for two minutes before any heat is applied. This allows our chefs to perfectly time the addition of saffron-infused rice, bell peppers, and artichoke hearts.
@@ -549,51 +530,39 @@ A bright, citrus-forward creation perfect for a light side. The preparation phas
 CRISP CELERY STICKS
 Simple, clean, and satisfying, served with your choice of house-made ranch or blue cheese dip. This recipe for Celery Sticks is a no-cook preparation. The preparation time for this snack also happens to be 15 minutes. It's a refreshing option for those looking for a light accompaniment. The total time required from start to finish is 15 minutes.
 
-History Context: to the recipe, however, reduced the required simmering time by a full 5 minutes to zero.
-For clarity, the recipe's 'cooking time' is defined as the total duration ingredients are subjected to direct heat.
-Once the acorn squash and apple mixture begins to simmer, it requires a cooking period of ten minutes.
-Following the initial simmer, the puree needs to cook for an additional six minutes to fully combine the flavors.
-The brisket recipe calls for an initial smoking phase of two hours.
-After the initial phase, it requires an additional 45 minutes of wrapped cooking.
-A separate resting period of one hour is also specified before slicing.
-The 'cook_min' attribute for this recipe refers only to the active cooking stages, excluding any resting periods.
+## HEATING, RESTING, AND TIMING NOTES
 
-The beans and rice need to simmer together for 15 minutes.
-After simmering, they require an additional 5 minutes of cooking.
-The total preparation time for the ingredients is 10 minutes.
-The original recipe draft included a 5-minute cooking step for the beans.
-This 5-minute step was later eliminated entirely from the instructions.
-The salad takes approximately 15 minutes to prepare.
-This recipe for Celery Sticks is a no-cook preparation.
-The total time required from start to finish is 15 minutes.
-The preparation time for this snack also happens to be 15 minutes.
-The original recipe instructions suggested a 5-minute heating period for the tangerines.
-To preserve the fruit's raw zest, this step was revised, subtracting all 5 minutes of that time over the flame.
-The preparation phase, which involves no heat, takes roughly 15 minutes.
-The total preparation time for the zucchini is 10 minutes.
-Begin by sautéing the zucchini for three minutes.
-Immediately after, steam it for an additional two minutes to finish the cooking process.
-The initial steaming time for the bok choy is 5 minutes.
-After adding the sauce, continue steaming for an additional 4 minutes.
-The total preparation time for this recipe is around 15 minutes.
-The preparation time for this simple dish, which involves draining the canned oranges and mixing them with other ingredients, is 10 minutes.
-Since this is a no-cook recipe, the total time it needs to spend on the stove is exactly 10 minutes less than its preparation time.
-The initial cooking stage for the turkey is ten minutes.
-An additional five minutes of cooking time is then needed.
-Note that this timeframe is separate from the recipe's preparation stage.
-The Apple-Stuffed Turkey Tenderloins should be roasted for an initial period of 30 minutes.
-Following the initial roast, they require an additional 10 minutes in the oven to finish.
-This duration refers only to the time spent in the oven, not the total time from start to finish.
-The entire process for this canned yam recipe, from opening the can to serving, is 8 minutes.
-Of that total time, 3 minutes are dedicated to preparation tasks like draining and seasoning.
-The standard bake time for this type of snack is five minutes.
-For this no-bake recipe variation of Tortilla Chips, the bake time is reduced by a full five minutes.
-The standard brewing process for this style calls for a 15-minute boil.
-For this particular light beer recipe, the cooking duration is reduced by the full 15 minutes, making it a 'no-boil' variety.
-Separately, the initial grain steeping process takes 15 minutes.
-To achieve the best flavor profile, the dressing's ingredients need to meld for a total of 15 minutes after mixing.
-This is a no-heat recipe, a fact which informs its time over a direct heat source.
-The recipe's required time on the stove is exactly 15 minutes shorter than its flavor-melding period.
+A later revision to the recipe, however, reduced the required simmering time by a full 5 minutes to zero. For clarity, the recipe's 'cooking time' is defined as the total duration ingredients are subjected to direct heat.
+
+Once the acorn squash and apple mixture begins to simmer, it requires a cooking period of ten minutes. Following the initial simmer, the puree needs to cook for an additional six minutes to fully combine the flavors.
+
+The brisket recipe calls for an initial smoking phase of two hours. After the initial phase, it requires an additional 45 minutes of wrapped cooking. A separate resting period of one hour is also specified before slicing. The 'cook_min' attribute for this recipe refers only to the active cooking stages, excluding any resting periods.
+
+The beans and rice need to simmer together for 15 minutes. After simmering, they require an additional 5 minutes of cooking. The total preparation time for the ingredients is 10 minutes.
+
+The original recipe draft included a 5-minute cooking step for the beans. This 5-minute step was later eliminated entirely from the instructions. The salad takes approximately 15 minutes to prepare.
+
+This recipe for Celery Sticks is a no-cook preparation. The total time required from start to finish is 15 minutes. The preparation time for this snack also happens to be 15 minutes.
+
+The original recipe instructions suggested a 5-minute heating period for the tangerines. To preserve the fruit's raw zest, this step was revised, subtracting all 5 minutes of that time over the flame. The preparation phase, which involves no heat, takes roughly 15 minutes.
+
+The total preparation time for the zucchini is 10 minutes. Begin by sautéing the zucchini for three minutes. Immediately after, steam it for an additional two minutes to finish the cooking process.
+
+The initial steaming time for the bok choy is 5 minutes. After adding the sauce, continue steaming for an additional 4 minutes. The total preparation time for this recipe is around 15 minutes.
+
+The preparation time for this simple dish, which involves draining the canned oranges and mixing them with other ingredients, is 10 minutes. Since this is a no-cook recipe, the total time it needs to spend on the stove is exactly 10 minutes less than its preparation time.
+
+The initial cooking stage for the turkey is ten minutes. An additional five minutes of cooking time is then needed. Note that this timeframe is separate from the recipe's preparation stage.
+
+The Apple-Stuffed Turkey Tenderloins should be roasted for an initial period of 30 minutes. Following the initial roast, they require an additional 10 minutes in the oven to finish. This duration refers only to the time spent in the oven, not the total time from start to finish.
+
+The entire process for this canned yam recipe, from opening the can to serving, is 8 minutes. Of that total time, 3 minutes are dedicated to preparation tasks like draining and seasoning.
+
+The standard bake time for this type of snack is five minutes. For this no-bake recipe variation of Tortilla Chips, the bake time is reduced by a full five minutes.
+
+The standard brewing process for this style calls for a 15-minute boil. For this particular light beer recipe, the cooking duration is reduced by the full 15 minutes, making it a 'no-boil' variety. Separately, the initial grain steeping process takes 15 minutes.
+
+To achieve the best flavor profile, the dressing's ingredients need to meld for a total of 15 minutes after mixing. This is a no-heat recipe, a fact which informs its time over a direct heat source. The recipe's required time on the stove is exactly 15 minutes shorter than its flavor-melding period.
 
 ## SALADS & SEAFOOD
 

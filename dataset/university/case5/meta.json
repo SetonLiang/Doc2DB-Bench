@@ -8,9 +8,15 @@
         "ranking_criteria": false
     },
     "type": {
-        "university_ranking_year": "1:2",
-        "university": "1:1",
-        "university_year": "1:1"
+        "university_ranking_year": [
+            "1:2"
+        ],
+        "university": [
+            "1:1"
+        ],
+        "university_year": [
+            "1:1"
+        ]
     },
     "capability_assignments": {
         "Addresses": {

@@ -95,36 +95,31 @@ mg/dL, which is within the normal range. All patients with creatinine phosphokin
 
 Regarding other patients, All participants in the hospital's Preventative Cardiology Program are assigned the standard lipid panel results for baseline tracking. This is a long-standing departmental policy. An exception is made for patients currently on statin medication, who receive a specialized panel instead. Helen Torres is an active member of the Preventative Cardiology Program. Her enrollment was confirmed via the central database. Patient records confirm that Helen Torres is not prescribed any statin medication. The standard lipid panel shows a triglyceride (TG) value of 73. This is consistent with her previous visits. Triglyceride levels below 200 are considered normal.
 
-History Context: Preventative Cardiology Program.
-Patient records confirm that Helen Torres is not prescribed any statin medication.
-The standard lipid panel shows a triglyceride (TG) value of 73.
-Triglyceride levels below 200 are considered normal.
+## CONTINUED LABORATORY REVIEW
+
+The preceding laboratory notes also refer to the Preventative Cardiology Program.
+
+Patient records confirm that Helen Torres is not prescribed any statin medication. The standard lipid panel shows a triglyceride (TG) value of 73. Triglyceride levels below 200 are considered normal.
+
 A review of patient files flagged for follow-up by the attending physician, Laura Clark, was conducted. The review included the file for Sandra Wilson, a patient whose care protocol requires a medical records review by a supervising physician. In both cases, the creatinine phosphokinase (CPK) test had not been performed or results were unavailable at the time of the review.
+
 Patient Mary Smith's creatine phosphokinase levels were monitored over time. The initial reading was not recorded, but subsequent tests showed a value of 8 U/L, which then doubled to 16 U/L on the final check. All recorded values remained well within the normal range of less than 250 U/L.
+
 Dr. Smith reviewed the lab orders for Emma Rivera's case, which included a full cardiac panel. A note in the file indicated that the two scheduled draws for the creatinine phosphokinase (CPK) assay were not processed, and therefore no results were available.
+
 Patient Mary Smith's creatine phosphokinase levels were monitored over time. The initial reading was not recorded, but subsequent tests showed a value of 8 U/L, which then doubled to 16 U/L on the final check. All recorded values remained well within the normal range of less than 250 U/L.
+
 Dr. Smith reviewed the lab orders for Emma Rivera's case, which included a full cardiac panel. A note in the file indicated that the two scheduled draws for the creatinine phosphokinase (CPK) assay were not processed, and therefore no results were available.
+
 Patient Mary Smith's creatine phosphokinase levels were monitored over time. The initial reading was not recorded, but subsequent tests showed a value of 8 U/L, which then doubled to 16 U/L on the final check. All recorded values remained well within the normal range of less than 250 U/L.
-A creatinine phosphokinase (CPK) test for patient Deborah White was scheduled but not performed.
-Catherine Parker's lab results were analyzed over two consecutive visits. The initial test recorded a creatinine phosphokinase level of 7. During the follow-up, this specific test was not repeated, leaving the corresponding field in her chart blank for that visit.
-A baseline assessment for patient Mark Howard included two component CPK tests.
-The initial reading for the first component was 40 units/L.
-The second component's initial reading was 22 units/L.
-Upon review, the first component's reading was adjusted upward by 10 units/L due to a calibration update.
-The patient's final CPK level is determined by the sum of the most recent component values.
-A result below 250 units/L is considered within the normal range for creatinine phosphokinase.
-Patient Mark Howard's lab results were tracked over a two-day period.
-On the initial day of monitoring, Mr. Howard's creatinine phosphokinase (CPK) level was recorded as 190.
-A new series of CPK tests were conducted for Mr. Howard on the subsequent day to establish his current baseline.
-The first test in the new series yielded a result of 100.
-The second, and final, test from that same day's series showed a value of 65.
-A CPK level under 250 is considered to be in the normal range.
-Mark Howard's lab results showed several creatinine phosphokinase (CPK) component readings.
-An initial test for the first CPK component yielded a value of 40.
-A second, distinct CPK component was measured at 62.
-Later, the first component's test was re-run, superseding the old result with a new value of 50.
-The patient's total CPK level is determined by summing the most recent values of all components.
-This total was well within the normal range, defined as a level under 250.
+
+A creatinine phosphokinase (CPK) test for patient Deborah White was scheduled but not performed. Catherine Parker's lab results were analyzed over two consecutive visits. The initial test recorded a creatinine phosphokinase level of 7. During the follow-up, this specific test was not repeated, leaving the corresponding field in her chart blank for that visit.
+
+A baseline assessment for patient Mark Howard included two component CPK tests. The initial reading for the first component was 40 units/L. The second component's initial reading was 22 units/L. Upon review, the first component's reading was adjusted upward by 10 units/L due to a calibration update. The patient's final CPK level is determined by the sum of the most recent component values. A result below 250 units/L is considered within the normal range for creatinine phosphokinase.
+
+Patient Mark Howard's lab results were tracked over a two-day period. On the initial day of monitoring, Mr. Howard's creatinine phosphokinase (CPK) level was recorded as 190. A new series of CPK tests were conducted for Mr. Howard on the subsequent day to establish his current baseline. The first test in the new series yielded a result of 100. The second, and final, test from that same day's series showed a value of 65. A CPK level under 250 is considered to be in the normal range.
+
+Mark Howard's lab results showed several creatinine phosphokinase (CPK) component readings. An initial test for the first CPK component yielded a value of 40. A second, distinct CPK component was measured at 62. Later, the first component's test was re-run, superseding the old result with a new value of 50. The patient's total CPK level is determined by summing the most recent values of all components. This total was well within the normal range, defined as a level under 250.
 
 ## ADDITIONAL FINDINGS
 All patients admitted for suspected rhabdomyolysis undergo a standardized lab panel, which includes a CPK test. Patient Helen Torres was admitted with symptoms consistent with rhabdomyolysis. She presented to the ED late Tuesday evening with severe myalgia and dark urine. An exception to the standardized panel is made for patients with a documented history of statin intolerance; their samples are sent for specialized analysis. However, Ms. Torres's medical history shows no record of statin intolerance. Therefore, her labs were processed using the in-house automated chemistry analyzer. The creatinine phosphokinase result for the standard rhabdomyolysis panel was 1893. This was significantly elevated, as a normal CPK level is considered to be under 250. This elevated level confirmed the initial diagnosis and prompted immediate IV fluid resuscitation. In other procedural updates, a new lab processing rule was instituted for all patients. Under this directive, patients with a creatinine phosphokinase (CPK) level below the normal threshold of 250 are automatically cleared for discharge protocol. This change was implemented to streamline patient flow through the observation unit. For example, Carol Lee was cleared for discharge protocol. A review of recent charts also highlighted several instances of missing data. Due to distinct circumstances, blood glucose levels for two patients went unrecorded. As per hospital protocol, patients admitted for observation, which was the case for Sandra Wilson, are exempt from routine glucose testing. Separately, Laura Clark, who is located in Wing B, was under the care of the morning shift, and a system-wide data sync failure prevented any of that shift's lab results from being logged. IT was notified of the sync failure and a ticket was opened to resolve the data gap. Similarly, during a review of the patient panel by Nurse Practitioner Sarah Jenkins, it was noted that for the patient named Emma Rivera, two separate blood draws were scheduled, but the lab results for her blood glucose (GLU) tests were never uploaded to the system. In a final case, following her initial visit, Mary Smith was scheduled for three follow-up blood glucose checks, but records show that none of these measurements were ultimately taken. These data omissions were flagged for review by the quality assurance team.

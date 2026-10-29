@@ -6,8 +6,12 @@
         "CountryLanguage": true
     },
     "type": {
-        "City": "1:1",
-        "CountryLanguage": "1:1"
+        "City": [
+            "1:1"
+        ],
+        "CountryLanguage": [
+            "1:1"
+        ]
     },
     "capability_assignments": {
         "City": {
@@ -495,7 +499,6 @@
             },
             "1398": {
                 "row": [
-                    "IC_RI",
                     "RL_O2M"
                 ],
                 "col": {
@@ -537,7 +540,6 @@
             },
             "3143": {
                 "row": [
-                    "IC_RI",
                     "RL_MI"
                 ],
                 "col": {
@@ -621,9 +623,7 @@
                 }
             },
             "1442": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "Name": [
                         "TD_DF"
@@ -822,9 +822,7 @@
                 }
             },
             "2072": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "Name": [
                         "TD_DF"
@@ -990,9 +988,7 @@
                 }
             },
             "3241": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "Name": [],
                     "District": [
@@ -1188,9 +1184,7 @@
                 }
             },
             "3456": {
-                "row": [
-                    "IC_RI"
-                ],
+                "row": [],
                 "col": {
                     "Name": [
                         "TD_DF"

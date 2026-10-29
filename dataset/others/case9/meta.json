@@ -8,8 +8,12 @@
         "View_Unit_Status": false
     },
     "type": {
-        "Apartment_Bookings": "1:2",
-        "Apartments": "1:1",
+        "Apartment_Bookings": [
+            "1:2"
+        ],
+        "Apartments": [
+            "1:1"
+        ],
         "View_Unit_Status": [
             "1:2",
             "2-hop"

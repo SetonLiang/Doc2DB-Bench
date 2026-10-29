@@ -6,7 +6,9 @@
         "Airlines": false
     },
     "type": {
-        "Airlines": "1:2"
+        "Airlines": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "Air Carriers": {
@@ -541,8 +543,7 @@
             },
             "2": {
                 "row": [
-                    "RL_CL",
-                    "IC_RI"
+                    "RL_CL"
                 ],
                 "col": {
                     "FL_DATE": [
@@ -1937,8 +1938,7 @@
             },
             "11": {
                 "row": [
-                    "RL_MI",
-                    "IC_RI"
+                    "RL_MI"
                 ],
                 "col": {
                     "OP_CARRIER_FL_NUM": [
@@ -2466,8 +2466,7 @@
             },
             "23": {
                 "row": [
-                    "RL_MI",
-                    "IC_RI"
+                    "RL_MI"
                 ],
                 "col": {
                     "OP_CARRIER_FL_NUM": [

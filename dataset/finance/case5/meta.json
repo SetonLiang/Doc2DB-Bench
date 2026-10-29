@@ -10,11 +10,21 @@
         "region": false
     },
     "type": {
-        "supplier": "1:1",
-        "nation": "1:1",
-        "customer": "1:1",
-        "orders": "1:1",
-        "partsupp": "1:2"
+        "supplier": [
+            "1:1"
+        ],
+        "nation": [
+            "1:1"
+        ],
+        "customer": [
+            "1:1"
+        ],
+        "orders": [
+            "1:1"
+        ],
+        "partsupp": [
+            "1:2"
+        ]
     },
     "capability_assignments": {
         "customer": {
