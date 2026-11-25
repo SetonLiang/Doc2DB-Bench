@@ -3,6 +3,7 @@
 
 <div align="center">
 
+[![arXiv](https://img.shields.io/badge/arXiv-2608.08459-red)](https://arxiv.org/abs/2608.08459)
 [![Dataset](https://img.shields.io/badge/Dataset-203%20Documents-green)](./dataset)
 [![Python](https://img.shields.io/badge/Python-3.11.10-3776AB.svg?style=flat)](https://www.python.org/downloads/release/python-31110/)
 
@@ -12,7 +13,11 @@
 
 $\color{#2F5F8F}\mathbf{Doc2DB{-}Bench}$ is a benchmark for evaluating **document-to-database construction** rather than flat document-to-table extraction. It targets realistic settings where long documents must be converted into normalized relational databases with entity identities, keys, cross-table links, and integrity constraints.
 
-The benchmark is built with a controllable **DB2Doc reverse-synthesis** pipeline grounded in real relational databases, and it is organized by a two-pillar capability taxonomy covering both **intra-table extraction** and **inter-table relational reasoning**. The current release contains **42 schemas** and **seven domain groups**, with **117 entity tables**, **132 relationship tables**, **7,341 rows**, and **41,935 cells**.
+The benchmark is built with a controllable **DB2Doc reverse-synthesis** pipeline grounded in real relational databases, and it is organized by a two-pillar capability taxonomy covering both **intra-table extraction** and **inter-table relational reasoning**. The current release contains **203 long-document instances** across **42 schemas** and **7 domains**, with **110 entity tables**, **122 relationship tables**, **7,530 rows**, and **42,292 cells**.
+
+<p align="center">
+  <img src="assets/dataset.png" alt="Dataset statistics across domains and schemas." />
+</p>
 
 ### ❓Why Doc2DB-Bench
 
@@ -37,6 +42,10 @@ Doc2DB-Bench is designed to measure exactly those requirements.
 <p align="center">
   <img src="assets/comparison.png" alt="Comparison with prior benchmarks." />
 </p>
+
+## 📰News
+
+`[2026-07-28]` 🔥The code and benchmark are releasing. If you encounter any issues, please feel free to contact us.
 
 ## 🧱Capability Taxonomy
 
@@ -170,3 +179,23 @@ If you want to work from the benchmark implementation, the practical entry point
 ## 🤝Acknowledgement
 
 We thank the teams behind [Spider](https://yale-lily.github.io/spider) and [BIRD](https://bird-bench.github.io/) for providing the source datasets used in this work.
+
+## 📝Citation
+
+If you find this repository useful, please cite:
+
+```bibtex
+@article{liang2026beyond,
+  title={Beyond Tables: Doc2DB-Bench for Relationally Faithful Document-to-Database Construction},
+  author={Liang, Zhuowen and Zhang, Zhengxuan and Wang, Jiayang and Chen, Jiazhuo and Tang, Nan},
+  journal={arXiv preprint arXiv:2608.08459},
+  year={2026}
+}
+```
+
+
+<!-- ## Paper and Assets -->
+<!-- - Paper PDF: [`doc2db-bench.pdf`](./doc2db-bench.pdf) -->
+<!-- - OpenReview: <https://openreview.net/forum?id=faECRsdRav> -->
+<!-- - arXiv: <https://arxiv.org/abs/2603.29232> -->
+<!-- - Model: <https://huggingface.co/SetonLiang2/LiteCoST/> -->
