@@ -426,6 +426,5 @@
         "Stay": {},
         "Trained_In": {},
         "Undergoes": {}
-    },
-    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/hospital_1/tables"
+    }
 }

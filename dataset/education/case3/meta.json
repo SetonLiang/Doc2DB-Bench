@@ -3926,6 +3926,5 @@
         "order_status": {},
         "publisher": {},
         "shipping_method": {}
-    },
-    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/books_2/tables"
+    }
 }

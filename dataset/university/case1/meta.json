@@ -1770,6 +1770,5 @@
                 "type": []
             }
         }
-    },
-    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/BIRD/ours/cs_semester/tables"
+    }
 }

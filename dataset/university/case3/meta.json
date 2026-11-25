@@ -950,6 +950,5 @@
                 }
             }
         }
-    },
-    "capability_assignments_source": "/data/liangzhuowen/projects/doc2db/benchmark/reverse-doc-synth/dataset/spider/ours/college_1/tables"
+    }
 }
