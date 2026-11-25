@@ -12,11 +12,7 @@
 
 $\color{#2F5F8F}\mathbf{Doc2DB{-}Bench}$ is a benchmark for evaluating **document-to-database construction** rather than flat document-to-table extraction. It targets realistic settings where long documents must be converted into normalized relational databases with entity identities, keys, cross-table links, and integrity constraints.
 
-The benchmark is built with a controllable **DB2Doc reverse-synthesis** pipeline grounded in real relational databases, and it is organized by a two-pillar capability taxonomy covering both **intra-table extraction** and **inter-table relational reasoning**. The current release contains **203 long-document instances** across **42 schemas** and **7 domains**, with **110 entity tables**, **122 relationship tables**, **7,530 rows**, and **42,292 cells**.
-
-<p align="center">
-  <img src="assets/dataset.png" alt="Dataset statistics across domains and schemas." />
-</p>
+The benchmark is built with a controllable **DB2Doc reverse-synthesis** pipeline grounded in real relational databases, and it is organized by a two-pillar capability taxonomy covering both **intra-table extraction** and **inter-table relational reasoning**. The current release contains **42 schemas** and **seven domain groups**, with **117 entity tables**, **132 relationship tables**, **7,341 rows**, and **41,935 cells**.
 
 ### ❓Why Doc2DB-Bench
 
@@ -120,7 +116,6 @@ The paper evaluates a range of proprietary and open-source LLMs on Doc2DB-Bench.
 ```text
 Doc2DB-Bench/
 ├── README.md
-├── doc2db-bench.pdf
 ├── app.py
 ├── assets/
 ├── dataset/
