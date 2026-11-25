@@ -1,7 +1,13 @@
 <img src="assets/logo2-title.png" alt="Doc2DB-Bench" width="120" align="left"><div align="center"><h1>Beyond Tables: Doc2DB-Bench for Relationally Faithful Document-to-Database Construction</h1></div>
 
 
+<div align="center">
 
+[![arXiv](https://img.shields.io/badge/arXiv-2608.08459-red)](https://arxiv.org/abs/2608.08459)
+[![Dataset](https://img.shields.io/badge/Dataset-203%20Documents-green)](./dataset)
+[![Python](https://img.shields.io/badge/Python-3.11.10-3776AB.svg?style=flat)](https://www.python.org/downloads/release/python-31110/)
+
+</div>
 
 ## 👀Overview
 
@@ -37,6 +43,9 @@ Doc2DB-Bench is designed to measure exactly those requirements.
   <img src="assets/comparison.png" alt="Comparison with prior benchmarks." />
 </p>
 
+## 📰News
+
+`[2026-07-28]` 🔥The code and benchmark are releasing. If you encounter any issues, please feel free to contact us.
 
 ## 🧱Capability Taxonomy
 
@@ -172,6 +181,18 @@ If you want to work from the benchmark implementation, the practical entry point
 
 We thank the teams behind [Spider](https://yale-lily.github.io/spider) and [BIRD](https://bird-bench.github.io/) for providing the source datasets used in this work.
 
+## 📝Citation
+
+If you find this repository useful, please cite:
+
+```bibtex
+@article{liang2026beyond,
+  title={Beyond Tables: Doc2DB-Bench for Relationally Faithful Document-to-Database Construction},
+  author={Liang, Zhuowen and Zhang, Zhengxuan and Wang, Jiayang and Chen, Jiazhuo and Tang, Nan},
+  journal={arXiv preprint arXiv:2608.08459},
+  year={2026}
+}
+```
 
 
 <!-- ## Paper and Assets -->
