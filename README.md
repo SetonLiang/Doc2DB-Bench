@@ -42,10 +42,6 @@ Doc2DB-Bench is designed to measure exactly those requirements.
   <img src="assets/comparison.png" alt="Comparison with prior benchmarks." />
 </p>
 
-## 📰News
-
-`[2026-07-28]` 🔥The code and benchmark are releasing. If you encounter any issues, please feel free to contact us.
-
 ## 🧱Capability Taxonomy
 
 <p align="center">
